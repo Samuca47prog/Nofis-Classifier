@@ -61,7 +61,6 @@ Regras:
 - Apenas dados em `data/processed/` devem ser versionados.
 - Dados processados devem usar formato Parquet.
 - Arquivos processados devem seguir a convencao temporal `YYYY-MM.parquet` quando representarem um periodo mensal.
-- Nada deve sobrescrever arquivos existentes em `data/processed/`.
 - Se for necessario regenerar um arquivo processado, crie uma nova versao, use outro nome ou peca aprovacao explicita.
 - Dados fora de `data/processed/` podem ser temporarios e sobrescritos quando necessario.
 - Dados brutos, credenciais e segredos nao devem ser versionados.

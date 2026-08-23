@@ -219,4 +219,5 @@ __marimo__/
 
 # data folders
 data/raw/*
+data/raw-csv-example/
 data/interim/*
