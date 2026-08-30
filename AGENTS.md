@@ -29,12 +29,15 @@ data/
   processed/
 models/
 notebooks/
+src/
+  nofis_classifier/
 tests/
 ```
 
 Regras:
 
-- Nao introduza `src/` ou um pacote Python completo sem aprovacao do usuario.
+- Use `src/` para codigo Python reutilizavel quando a mesma logica for identificada em mais de um notebook, quando uma funcao precisar de teste automatizado, ou quando a reutilizacao tornar o fluxo mais claro.
+- Mantenha o pacote em `src/nofis_classifier/` enquanto o projeto estiver simples.
 - `tests/` pode ser criado para testes minimos com `pytest`.
 - `configs/` pode ser criado para arquivos de configuracao versionaveis, como exemplos e defaults.
 - `models/` pode ser usado para modelos treinados e artefatos relacionados.
@@ -49,7 +52,7 @@ Regras:
 - Use nomes numerados e descritivos, por exemplo `01_download_data.ipynb`, `02_train_baseline.ipynb`.
 - Evite nomes genericos como `test.ipynb` para trabalho permanente.
 - Nao e obrigatorio extrair toda logica para modulos Python agora.
-- Extraia codigo para arquivos `.py` apenas quando a logica se tornar reutilizada, dificil de testar, muito longa ou necessaria em mais de um notebook.
+- Extraia codigo para `src/nofis_classifier/` apenas quando a logica se tornar reutilizada, dificil de testar, muito longa ou necessaria em mais de um notebook.
 - Funcoes publicas em arquivos `.py` devem ter docstrings.
 
 ## Dados
@@ -129,11 +132,10 @@ uv run pytest
 Ao trabalhar neste repositorio, agentes devem:
 
 - Ler este arquivo antes de fazer alteracoes.
-- Pedir aprovacao antes de reorganizar pastas ou mudar a arquitetura.
+- Pedir aprovacao antes de reorganizar pastas ou mudar a arquitetura, exceto pelo uso incremental de `src/nofis_classifier/` para codigo reutilizavel ja identificado.
 - Pedir aprovacao antes de instalar dependencias.
 - Preservar dados locais e nunca apagar arquivos em `data/` ou `models/` sem confirmacao explicita.
 - Manter as mudancas pequenas e alinhadas ao objetivo do projeto.
 - Rodar `uv run pytest` antes de finalizar alteracoes de codigo quando houver testes disponiveis.
 - Explicar qualquer verificacao que nao tenha sido possivel executar.
 - Tratar notebooks como artefatos de pesquisa validos, nao como codigo descartavel.
-
