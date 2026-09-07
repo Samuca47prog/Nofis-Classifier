@@ -189,13 +189,13 @@ Como o projeto ainda e exploratorio, manter notebooks como artefatos principais.
 
 Sugestao de notebooks:
 
-- `01_download_and_compress_raw_data.ipynb`;
-- `02_generate_interim_filtered_datasets.ipynb`;
-- `03_interim_data_exploration.ipynb`;
-- `04_prepare_modeling_dataset.ipynb`;
-- `05_train_clustering_baseline.ipynb`;
-- `06_review_clusters_and_taxonomy.ipynb`;
-- `07_validate_classifier.ipynb`.
+- `10_download_and_compress_raw_data.ipynb`;
+- `20_generate_interim_filtered_datasets.ipynb`;
+- `30_interim_data_exploration.ipynb`;
+- `40_prepare_modeling_dataset.ipynb`;
+- `50_train_clustering_baseline.ipynb`;
+- `60_review_clusters_and_taxonomy.ipynb`;
+- `70_validate_classifier.ipynb`.
 
 Extrair codigo para arquivos `.py` apenas se alguma funcao comecar a se repetir
 muito ou ficar dificil de testar dentro dos notebooks.

@@ -126,7 +126,7 @@ Arquivos gerados:
 Abra e execute:
 
 ```text
-notebooks/05_train_clustering_baseline.ipynb
+notebooks/50_train_clustering_baseline.ipynb
 ```
 
 Ele carrega a base filtrada de `data/processed`, compara as configuracoes de

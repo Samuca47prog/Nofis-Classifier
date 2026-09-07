@@ -1,0 +1,1001 @@
+descricao_id,descricao_normalizada,frequencia,descricao_original_exemplo,descricoes_originais_distintas,primeiro_mes,ultimo_mes,meses_presentes,codigo_ncm_mais_frequente,ncm_tipo_mais_frequente,cluster,distancia_centroide
+0,000 maca vermelha importada kg,1,000-MACA VERMELHA IMPORTADA KG,1,2025-02,2025-02,1,8081000.0,Maçãs frescas,2,0.9591814898714263
+1,00000000000328 manga tommy,1,00000000000328 MANGA TOMMY,1,2025-04,2025-04,1,8045020.0,Mangas frescas ou secas,8,1.0010269642607983
+2,00000000000610 alho poro,1,00000000000610 ALHO PORO,1,2025-04,2025-04,1,7039090.0,"Alhos-porros e outros produtos hortícolas aliáceos, frescos ou refrigerados, exceto para semeadura",8,0.9982741349710369
+3,07891242010413 cera pasta ingleza amarela 400g,1,07891242010413 CERA PASTA INGLEZA AMARELA 400G,1,2025-03,2025-03,1,34052000.0,"Encáusticas e preparações semelhantes, para conservação e limpeza de móveis de madeira, soalhos e de outros artigos de madeira",8,0.9950423331661432
+4,12961 lampada pingo dagua 5w,1,12961 LAMPADA PINGO DAGUA 5W,1,2025-02,2025-02,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.8756007482400301
+5,85392910 lampada 1034 12v philips,1,85392910-LAMPADA 1034 12V PHILIPS,1,2025-04,2025-04,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.7636033886818404
+6,abacaxi in natura,93,ABACAXI IN NATURA,3,2025-01,2025-04,4,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",3,0.709090991721264
+7,abacaxi polpa,25,ABACAXI POLPA,1,2025-01,2025-04,4,20082090.0,"Abacaxis (ananases), preparados ou conservados de outro modo",8,0.9973584604542043
+8,abacaxi pred calda 400g,1,ABACAXI PRED CALDA 400G,1,2025-04,2025-04,1,20082010.0,"Abacaxis (ananases), preparados ou conservados em água edulcorada, incluindo os xaropes",8,0.9940363306550659
+9,abacaxi und perola flv un,1,Abacaxi Und Perola Flv UN,1,2025-02,2025-02,1,8043000.0,Abacaxis frescos ou secos,21,0.8872963544046398
+10,abobora in natura moranga,1,"ABOBORA IN NATURA, MORANGA",1,2025-04,2025-04,1,7099919.0,"Milho doce, frescos ou refrigerados, exceto para semeadura",3,0.6798406031104479
+11,abobora kabutia,1,ABOBORA KABUTIA,1,2025-04,2025-04,1,7099300.0,"Abóboras, abobrinhas e cabaças, fresca ou refrigerada",8,1.0010269642607983
+12,aboboras,1,ABOBORAS,1,2025-03,2025-03,1,7099300.0,"Abóboras, abobrinhas e cabaças, fresca ou refrigerada",8,0.0827716512263328
+13,abs intimus gel suave c a l16p14,1,ABS.INTIMUS GEL SUAVE C/A L16P14,1,2025-02,2025-02,1,96190000.0,"Absorventes e tampões higiênicos, cueiros e fraldas para bebês e artigos higiênicos semelhantes, de qualquer matéria",8,0.999331568473166
+14,abs intimus uf antibac c a l p,1,ABS.INTIMUS UF.ANTIBAC C/A L+P-,1,2025-01,2025-01,1,96190000.0,"Absorventes e tampões higiênicos, cueiros e fraldas para bebês e artigos higiênicos semelhantes, de qualquer matéria",8,0.9993315684731658
+15,ac bov strogonoff cx m reserva resf,1,AC.BOV.STROGONOFF CX.M.RESERVA RESF,1,2025-01,2025-01,1,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",8,0.9953871067494339
+16,acafrao da terra po emb primaria 500g a 1kg,1,ACAFRAO DA TERRA PO - EMB PRIMARIA 500G A 1KG,1,2025-04,2025-04,1,9103000.0,Açafrão-da-terra (curcuma),1,0.9336563312822512
+17,acem bovino lkj,5,ACEM BOVINO LKJ,1,2025-01,2025-03,2,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",8,0.9992908389404664
+18,acerola in natura,2,ACEROLA IN NATURA,1,2025-02,2025-03,2,8109090.0,Outras frutas frescas,3,0.7302072922689652
+19,achoc po toddy sc 1 02kg emb econ,1,"Achoc Po Toddy Sc 1,02kg Emb Econ",1,2025-04,2025-04,1,18069000.0,Outros chocolates e preparações alimentícias contendo cacau,23,0.9664448026161878
+20,achocolatado em po apti 800g,5,ACHOCOLATADO EM PO APTI 800G,1,2025-01,2025-03,3,18069000.0,Outros chocolates e preparações alimentícias contendo cacau,23,0.8729640060296381
+21,achocolatado em po embalagem 1kg muky,1,"ACHOCOLATADO EM PO EMBALAGEM 1KG, MUKY",1,2025-04,2025-04,1,18069000.0,Outros chocolates e preparações alimentícias contendo cacau,23,0.8237130408199026
+22,acucar,31,AÇUCAR,3,2025-01,2025-04,4,17019900.0,"Outros açúcares de cana, beterraba, sacarose químicamente pura, sol.",8,0.9986359246050323
+23,acucar cristal itamarati 2kg,2,ACUCAR CRISTAL ITAMARATI 2KG,1,2025-03,2025-04,2,17019900.0,"Outros açúcares de cana, beterraba, sacarose químicamente pura, sol.",8,0.996748348756976
+24,acucar de confeiteiro sc 500g,1,"Açúcar de confeiteiro, sc 500g.",1,2025-02,2025-02,1,17019900.0,"Outros açúcares de cana, beterraba, sacarose químicamente pura, sol.",1,0.8910495058368657
+25,acucar mascavo natural life 500g,4,ACUCAR MASCAVO NATURAL LIFE 500G,1,2025-02,2025-03,2,17011400.0,Outros açúcares de cana,1,0.9216647391424284
+26,acucar tipo cristal pacote com 1 kg,1,"ACUCAR TIPO CRISTAL, PACOTE COM 1 KG",1,2025-03,2025-03,1,17019900.0,"Outros açúcares de cana, beterraba, sacarose químicamente pura, sol.",0,0.9358839566381834
+27,acucar triturado 1 kg,1,ACUCAR TRITURADO 1 KG,1,2025-04,2025-04,1,17019900.0,"Outros açúcares de cana, beterraba, sacarose químicamente pura, sol.",2,0.8442398121366866
+28,adesivo epoxi polyepox 100g pulvitec,1,ADESIVO EPOXI POLYEPOX 100G PULVITEC,1,2025-04,2025-04,1,96034010.0,Rolos para pintura,8,0.9983617115430123
+29,adocante em po sachet cx c 50,2,ADOCANTE EM PO SACHET CX C/50,1,2025-02,2025-02,1,21069090.0,Outras preparações alimentícias,23,0.8466340146514955
+30,agua min cristal select s gas 6x1 5l,1,"AGUA MIN.CRISTAL SELECT S/GAS 6X1,5L",1,2025-04,2025-04,1,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",16,0.8903150789121983
+31,agua min purissima cp 300ml s,1,AGUA MIN PURISSIMA CP 300ML S,1,2025-04,2025-04,1,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",8,0.999416716452833
+32,agua min toya s g 2l,1,AGUA MIN TOYA S/G 2L,1,2025-01,2025-01,1,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",18,0.9572217666822951
+33,agua mineral 20 l,5,Agua mineral 20 L,2,2025-01,2025-04,3,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",8,0.996990795172908
+34,agua mineral com gas garrafa 500 ml,5,AGUA MINERAL COM GAS GARRAFA 500 ML,1,2025-02,2025-04,3,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",20,0.8941609430763138
+35,agua mineral embal gf 500ml seiva,5,AGUA MINERAL EMBAL.GF 500ML.SEIVA,1,2025-01,2025-04,4,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",12,0.8278611519757622
+36,agua mineral natural com gas 500ml pack c 12,1,AGUA MINERAL NATURAL COM GAS 500ML - PACK C/12,1,2025-01,2025-01,1,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",12,0.9122678238517452
+37,agua mineral sem gas 1 5 l,6,"AGUA MINERAL SEM GAS 1,5 L",1,2025-02,2025-02,1,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",8,0.9969145062521263
+38,aipim paa foz do iguacu 001 cooperados,6,AIPIM PAA FOZ DO IGUACU 001 - COOPERADOS,1,2025-01,2025-02,2,7141000.0,"Raízes de mandioca, frescas, refrigeradas, congeladas ou secas",8,0.9977320160151616
+39,aipim sem casca congelado,11,AIPIM SEM CASCA CONGELADO,2,2025-01,2025-04,4,7141000.0,"Raízes de mandioca, frescas, refrigeradas, congeladas ou secas",8,0.9980202727035086
+40,alcool 70 liquido safra 1 lt un,8,ALCOOL 70 LIQUIDO SAFRA 1 LT UN,1,2025-01,2025-03,3,38089429.0,Outros desinfetantes apresentados de outro modo,21,0.9328948844343828
+41,alcool gel 70 500ml,1,ALCOOL GEL 70% 500ML,1,2025-02,2025-02,1,38089429.0,Outros desinfetantes apresentados de outro modo,12,0.9162126133279722
+42,alface crespa ceasa in natura,6,ALFACE CRESPA- CEASA/ IN NATURA,1,2025-01,2025-04,4,7051900.0,Outras alfaces frescas ou refrigeradas,3,0.8120974954820388
+43,alface crespa in natura de marca colonial item de compra 74,5,ALFACE CRESPA IN NATURA DE MARCA COLONIAL ITEM DE COMPRA 74,1,2025-01,2025-02,2,7051900.0,Outras alfaces frescas ou refrigeradas,3,0.8882669676209225
+44,alface lisa un 1 un,17,ALFACE LISA | UN 1 UN,1,2025-02,2025-04,3,7051100.0,"Alfaces repolhudas, frescas ou refrigeradas",21,0.7536829199085173
+45,alho agranel kg,2,ALHO AGRANEL KG,1,2025-03,2025-03,1,7032090.0,"Alhos, frescos ou refrigerados, exceto para semeadura",2,0.8483759225020522
+46,alho nacional in natura,5,ALHO NACIONAL IN NATURA,1,2025-01,2025-04,3,7032090.0,"Alhos, frescos ou refrigerados, exceto para semeadura",3,0.8076706598116951
+47,almoco estudante de pos graduacao stricto sensu 50,1,ALMOÇO ESTUDANTE DE POS GRADUACAO( STRICTO-SENSU) 50%,1,2025-04,2025-04,1,21069090.0,Outras preparações alimentícias,24,0.9488727228022379
+48,almoco sobremesa,1,ALMOCO SOBREMESA,1,2025-03,2025-03,1,21069090.0,Outras preparações alimentícias,8,1.001026964260798
+49,amaciante carne 1 05kg apti,3,"AMACIANTE CARNE 1,05KG APTI",1,2025-02,2025-04,2,21039029.0,"Outros condimentos e temperos, compostos",8,0.99839779865038
+50,ameixa em calda 400 gr,17,AMEIXA EM CALDA 400 GR,1,2025-01,2025-04,4,20082090.0,"Abacaxis (ananases), preparados ou conservados de outro modo",8,0.9945066494179396
+51,ameixa importada 02113,3,AMEIXA IMPORTADA 02113,1,2025-01,2025-03,3,8094000.0,"Ameixas e abrunhos, frescos",8,1.0002069175163608
+52,ameixa nacional kg,1,AMEIXA NACIONAL KG,1,2025-04,2025-04,1,8094000.0,"Ameixas e abrunhos, frescos",2,0.9234542668840656
+53,apresuntado kg,5,APRESUNTADO KG,2,2025-02,2025-04,3,16024900.0,"Outras preparações alimentícias e conservas, de suínos e misturas",2,0.8574786645966203
+54,apresuntado ret perdigao kg,1,APRESUNTADO RET PERDIGAO KG,1,2025-03,2025-03,1,16024900.0,"Outras preparações alimentícias e conservas, de suínos e misturas",2,0.9378575207516953
+55,aquavita peixe 32 6 a 8 mm,1,AQUAVITA PEIXE 32 6 A 8 MM,1,2025-02,2025-02,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.9957706754386294
+56,ar condicionado split hi wallparede 24 000 btu h ciclo frio 60hz controle s fio cod sinapi 43192 clas lic 13 ar cond,1,"AR CONDICIONADO SPLIT HI WALLPAREDE 24.000 BTU/H,CICLO FRIO,60HZ,CONTROLE S/ FIO.COD SINAPI 43192.CLAS LIC 13 AR COND.",1,2025-04,2025-04,1,10063011.0,"Arroz semibranqueado ou branqueado, parboilizado, polido ou brunido",8,0.9969105021778063
+57,areia media cod sinapi 370 item 43 mat alvenaria,4,AREIA MEDIA. COD SINAPI 370. ITEM 43 MAT. ALVENARIA.,1,2025-01,2025-04,4,10063011.0,"Arroz semibranqueado ou branqueado, parboilizado, polido ou brunido",10,0.944586215439847
+58,aromatizante luck top cedar wood,2,AROMATIZANTE LUCK TOP CEDAR WOOD,1,2025-03,2025-03,1,33074900.0,Outras preparações para perfumar ou desodorizar ambientes,8,0.9986284695058742
+59,arroz branco tipo 1,2,ARROZ BRANCO TIPO 1,1,2025-04,2025-04,1,10063011.0,"Arroz semibranqueado ou branqueado, parboilizado, polido ou brunido",0,0.8683244420231827
+60,arroz negro c 500g,1,ARROZ NEGRO C/500G,1,2025-01,2025-01,1,10062020.0,"Arroz descascado (arroz cargo ou castanho), não parboilizado",1,0.8728677243864063
+61,arroz tipo 1 safra 2022 2023 acond p,11,ARROZ TIPO 1 - SAFRA: 2022/2023 - ACOND.: P,1,2025-03,2025-04,2,10063021.0,"Arroz semibranqueado ou branqueado, não parboilizado, polido ou brunido",0,0.9342901080381903
+62,aveia branca,2,AVEIA BRANCA,1,2025-01,2025-01,1,11041200.0,"Grãos de aveia, esmagados ou em flocos",8,0.9949216772007252
+63,aveia dular flocos,3,AVEIA DULAR FLOCOS,1,2025-01,2025-03,2,11041200.0,"Grãos de aveia, esmagados ou em flocos",8,0.9956155531318382
+64,aveia flocos finos 170g yoki,1,AVEIA FLOCOS FINOS 170G YOKI,1,2025-03,2025-03,1,11041200.0,"Grãos de aveia, esmagados ou em flocos",8,0.9943544265330284
+65,aveia flocos grossos aster 400g,1,AVEIA FLOCOS GROSSOS ASTER 400G,1,2025-03,2025-03,1,11041200.0,"Grãos de aveia, esmagados ou em flocos",8,0.9917975331801273
+66,az capellini ev 500ml,1,AZ CAPELLINI EV 500ML,1,2025-04,2025-04,1,15092000.0,,12,0.6141158784352053
+67,azeite borges 500ml extra virgem,1,Azeite Borges 500ml Extra Virgem,1,2025-02,2025-02,1,15092000.0,,12,0.9139517856319656
+68,azeite olive 450ml extra virgem chile,1,AZEITE OLIVE 450ML EXTRA VIRGEM CHILE,1,2025-04,2025-04,1,15092000.0,,8,1.0002837100638635
+69,azeitona vde del chef 500g,1,AZEITONA VDE DEL CHEF 500G .,1,2025-01,2025-01,1,20057000.0,"Azeitonas, preparadas ou conservadas, exceto em vinagre ou em ácido acético, não congeladas",1,0.9442898384727927
+70,azeitona verde em conserva 340g,1,AZEITONA VERDE EM CONSERVA 340G,1,2025-02,2025-02,1,20057000.0,"Azeitonas, preparadas ou conservadas, exceto em vinagre ou em ácido acético, não congeladas",23,0.9488023170629376
+71,azeitona verde rivoli fat sache,1,AZEITONA VERDE RIVOLI FAT.SACHE,1,2025-04,2025-04,1,20057000.0,"Azeitonas, preparadas ou conservadas, exceto em vinagre ou em ácido acético, não congeladas",8,0.9951884130011688
+72,azeitona verde s c rainha 1 8kg,2,AZEITONA VERDE S/C RAINHA 1.8KG,1,2025-04,2025-04,1,20057000.0,"Azeitonas, preparadas ou conservadas, exceto em vinagre ou em ácido acético, não congeladas",8,0.9926763466563446
+73,bacon,4,BACON,1,2025-03,2025-04,2,16025000.0,"Preparações alimentícias e conservas, da espécie bovina",8,1.0010269642607983
+74,bactericida prot ecco air marine 5l ac0008,1,BACTERICIDA PROT ECCO AIR MARINE 5L - AC0008,1,2025-03,2025-03,1,38089429.0,Outros desinfetantes apresentados de outro modo,16,0.8863747903877212
+75,bala mastigavel banze iogurte sortida 500g florestal,1,BALA MASTIGAVEL BANZE IOGURTE SORTIDA 500G FLORESTAL,1,2025-04,2025-04,1,17049020.0,"Caramelos, confeitos, dropes, pastilhas, e produtos semelhantes, sem cacau",1,0.8626130055552779
+76,balde de graxa de 20 kg,1,BALDE DE GRAXA DE 20 KG,1,2025-01,2025-01,1,34012090.0,Outros sabões,24,0.9052709684027853
+77,banana catura 1 kg real,5,BANANA CATURA 1 KG-REAL,1,2025-01,2025-03,3,8039000.0,"Bananas frescas ou secas, exceto bananas-da-terra",2,0.8370478925422455
+78,banana prata amj,3,BANANA PRATA - AMJ - .,1,2025-02,2025-04,2,8031000.0,"Bananas-da-terra, frescas ou secas",8,0.9934195362415573
+79,banana prata convencional,55,BANANA PRATA - CONVENCIONAL,4,2025-03,2025-04,2,8039000.0,"Bananas frescas ou secas, exceto bananas-da-terra",8,0.9929995740191699
+80,banana prata fruta in natura,7,BANANA PRATA FRUTA IN NATURA,1,2025-03,2025-04,2,8031000.0,"Bananas-da-terra, frescas ou secas",3,0.8305100350082377
+81,banana prata organica,16,BANANA PRATA ORGANICA,5,2025-01,2025-04,4,8039000.0,"Bananas frescas ou secas, exceto bananas-da-terra",8,0.993264910507788
+82,barra cereal parati coco choc 60gr,1,BARRA CEREAL PARATI COCO/CHOC 60GR,1,2025-02,2025-02,1,19041000.0,"Produtos à base de cereais, obtidos por expansão ou por torrefação",18,0.9535278358142988
+83,barra cereias kobber classic banana,1,BARRA CEREIAS KOBBER CLASSIC BANANA,1,2025-01,2025-01,1,19042000.0,Preparações alimentícias obtidas a partir de flocos de cereais não torrados ou de misturas de flocos de cereais não torrados com flocos de cereais torrados ou expandidos,8,0.9955751126977994
+84,barra de cereal futas seca e mel,1,BARRA DE CEREAL FUTAS SECA E MEL,1,2025-03,2025-03,1,19042000.0,Preparações alimentícias obtidas a partir de flocos de cereais não torrados ou de misturas de flocos de cereais não torrados com flocos de cereais torrados ou expandidos,24,0.9623113995850475
+85,barra de cereal sabores diversos 22g a und cx com 24 unid,3,BARRA DE CEREAL SABORES DIVERSOS 22G A UND CX COM 24 UNID,1,2025-01,2025-04,3,19042000.0,Preparações alimentícias obtidas a partir de flocos de cereais não torrados ou de misturas de flocos de cereais não torrados com flocos de cereais torrados ou expandidos,24,0.9820098438546045
+86,bataria cr 2430 litio 3 v,1,BATARIA CR-2430 LITIO 3 V,1,2025-01,2025-01,1,85065010.0,"Pilhas e baterias de pilhas, elétricas, de lítio, com volume exterior não superior a 300 cm3",8,0.9972468438003421
+87,batata doce branca granel,1,BATATA DOCE BRANCA GRANEL,1,2025-04,2025-04,1,7142000.0,"Batatas-doces, frescas, refrigeradas, congeladas ou secas",8,0.9891095548615273
+88,batata doce kg roxa feira quadri kg,1,Batata Doce Kg Roxa Feira Quadri KG,1,2025-03,2025-03,1,8071900.0,Melões frescos,2,0.8280081986928369
+89,batata palha aman pe 90010 2024,7,BATATA PALHA - AMAN PE 90010/2024,1,2025-01,2025-04,3,20052000.0,"Batatas, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",8,0.9950593209895868
+90,batata palha visconti 105g trad,1,BATATA PALHA VISCONTI 105G TRAD,1,2025-04,2025-04,1,20052000.0,"Batatas, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",8,0.9921448012647561
+91,batata palha yoki ex f ceb salsa,1,BATATA PALHA YOKI EX.F.CEB SALSA,1,2025-02,2025-02,1,20052000.0,"Batatas, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",8,0.9943971332229152
+92,batata palito pre frita congelada,6,BATATA PALITO PRE FRITA CONGELADA,1,2025-02,2025-04,3,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",8,0.9981497494667267
+93,batata pringles original 104g,2,BATATA PRINGLES ORIGINAL 104G,1,2025-01,2025-01,1,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",8,0.9966031888517272
+94,batata processada especie inglesa tipo formato palha tipo frita apresentacao pronto para consumo,1,"BATATA PROCESSADA, ESPECIE INGLESA, TIPO FORMATO PALHA, TIPO FRITA, APRESENTACAO PRONTO PARA CONSUMO",1,2025-03,2025-03,1,20052000.0,"Batatas, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",0,0.8710716115890635
+95,batente de regulagem da tampa traseira l esq dir s,1,BATENTE DE REGULAGEM DA TAMPA TRASEIRA L ESQ/DIR S,1,2025-04,2025-04,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",24,0.9697419753431048
+96,bateria 50ah moura,2,BATERIA 50AH MOURA,1,2025-02,2025-02,1,85068090.0,Outras pilhas/baterias elétricas,8,0.9998710216422625
+97,bateria alcalina 9v duracell bt 2 un,1,Bateria alcalina 9V Duracell BT 2 UN,1,2025-03,2025-03,1,85061031.0,"Baterias de pilhas, de dióxido de manganês, alcalinas, de tensão igual a 9 V",21,0.8925395264086444
+98,bateria botao lr44 atacado cartela c 10 maxprint,1,BATERIA BOTAO LR44 ATACADO - CARTELA C/10 - MAXPRINT,1,2025-04,2025-04,1,85061039.0,"Outras baterias de pilhas, de dióxido de manganês",8,0.9970775751458072
+99,bateria de 90 amp bosch,1,BATERIA DE 90 AMP (BOSCH),1,2025-03,2025-03,1,85066090.0,"Outras pilhas e baterias de pilhas, elétricas, ar-zinco",24,0.9567647424409058
+100,bateria nao recarregavel tipo button cell sistema lithim modelo cr2032,1,"BATERIA NAO RECARREGAVEL TIPO BUTTON CELL, SISTEMA LITHIM MODELO CR2032",1,2025-02,2025-02,1,85061020.0,"Outras pilhas, de dióxido de manganês",0,0.9414978601411658
+101,baton 30x16g garoto,1,BATON 30X16G GAROTO,1,2025-04,2025-04,1,18063210.0,"Chocolate não recheado, em tabletes, barras e paus",8,0.9997918452532117
+102,beb lact bonnyto morango 510g,2,BEB LACT BONNYTO MORANGO 510G,1,2025-02,2025-02,1,4039000.0,"Leitelho, leite, creme de leite, coalhados, fermentados, etc",8,0.991316441462177
+103,beb lactea 200ml morango,1,BEB LACTEA 200ML MORANGO,1,2025-01,2025-01,1,4032000.0,,8,0.9904873988459106
+104,beb lactea isis 900ml morango,1,BEB LACTEA ISIS 900ML MORANGO,1,2025-04,2025-04,1,4039000.0,"Leitelho, leite, creme de leite, coalhados, fermentados, etc",8,0.9927235580840619
+105,bebida lactea de chocolate 1000ml,1,BEBIDA LACTEA DE CHOCOLATE 1000ML,1,2025-03,2025-03,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",24,0.9700241658847646
+106,berinjela cx 13,4,BERINJELA CX 13,1,2025-01,2025-04,2,7093000.0,Berinjelas frescas ou refrigeradas,8,0.9953849487661276
+107,beterraba convencional,4,BETERRABA CONVENCIONAL,1,2025-03,2025-04,2,7069000.0,"Beterrabas, rabanetes e outras raízes, frescas, refrigeradas",8,0.9995773415983618
+108,bico injetor,1,BICO INJETOR.,1,2025-03,2025-03,1,4032000.0,,8,0.0827716512263328
+109,bisc agua e sal mira 330g,1,BISC AGUA E SAL MIRA 330G,1,2025-02,2025-02,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",1,0.9855061280954593
+110,bisc bauducco wafer morango,1,BISC.BAUDUCCO WAFER MORANGO,1,2025-02,2025-02,1,19053200.0,Waffles e wafers,8,0.9913962900077192
+111,bisc c cracker rich 350g superiore,1,BISC C CRACKER RICH 350G SUPERIORE,1,2025-03,2025-03,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",8,0.9946461172602938
+112,bisc casaredo agua e sal 400g,2,BISC CASAREDO AGUA E SAL 400G,1,2025-01,2025-01,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",1,0.9817890432289719
+113,bisc cream cracker 350g,1,BISC. CREAM CRACKER 350G,1,2025-03,2025-03,1,19059020.0,Bolachas,8,0.9937761131772203
+114,bisc nestle choco biscuit leite,2,BISC.NESTLE CHOCO BISCUIT LEITE,1,2025-02,2025-03,2,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",18,0.9490154567118035
+115,bisc piraque l maltado rech avela,1,BISC.PIRAQUE L.MALTADO RECH.AVELA,1,2025-02,2025-02,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",8,0.9954008240199337
+116,bisc zeze folhado maca canela,2,BISC.ZEZE FOLHADO MACA/CANELA,1,2025-01,2025-04,2,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",8,0.9952228653730308
+117,bisc zeze salt criker,2,BISC.ZEZE SALT CRIKER,1,2025-02,2025-04,2,19059020.0,Bolachas,8,0.9953298810484779
+118,biscoito agua e sal 200 gr,4,BISCOITO AGUA E SAL 200 GR,1,2025-01,2025-03,3,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.89378261781793
+119,biscoito apresentacao redonco co recheio sabor chocolate140g,1,BISCOITO APRESENTACAO REDONCO CO RECHEIO SABOR CHOCOLATE140G,1,2025-01,2025-01,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.7832763822188703
+120,biscoito apresentacao redondo sabor coco,9,"BISCOITO, APRESENTACAO: REDONDO, SABOR: COCO",1,2025-03,2025-04,2,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.8459619956101961
+121,biscoito caseiro,5,BISCOITO CASEIRO,1,2025-03,2025-04,2,19059020.0,Bolachas,15,0.5311178350675761
+122,biscoito cookies,2,BISCOITO COOKIES,1,2025-01,2025-04,2,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.5311178350675761
+123,biscoito doce 350g maizena ninfa un,1,Biscoito Doce 350g Maizena Ninfa UN,1,2025-04,2025-04,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.8649405733428936
+124,biscoito recheado baunilha,1,BISCOITO RECHEADO BAUNILHA,1,2025-03,2025-03,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.7569589377128241
+125,biscoito recheado sabor chocolate,5,BISCOITO RECHEADO - SABOR CHOCOLATE *,2,2025-02,2025-04,3,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.6988798589435214
+126,biscoito recheado sort iron c 60g,4,BISCOITO RECHEADO SORT IRON C/60G,1,2025-01,2025-03,3,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.7638950927494207
+127,biscoito recheio sabores,1,BISCOITO RECHEIO SABORES,1,2025-03,2025-03,1,19059020.0,Bolachas,15,0.82594925717736
+128,biscoito reecheado sabor morango cx 30 und de 140gr cada richester,1,BISCOITO REECHEADO SABOR MORANGO CX.30 UND DE 140GR CADA.RICHESTER,1,2025-04,2025-04,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.8836704139419627
+129,biscoito tipo salgado,2,"BISCOITO, TIPO SALGADO",1,2025-03,2025-03,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.8314029348500984
+130,biscoito wafer 145g chocolate,1,BISCOITO WAFER 145G CHOCOLATE,1,2025-04,2025-04,1,19053200.0,Waffles e wafers,15,0.8289591453398031
+131,biscoito waffer recheado,8,"BISCOITO WAFFER, RECHEADO",1,2025-03,2025-04,2,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",15,0.6374042304184057
+132,bl cas p banana,1,BL CAS P BANANA,1,2025-03,2025-03,1,19022000.0,Massas alimentícias recheadas (mesmo cozidas ou preparadas de outro modo),8,0.9937388778205661
+133,bolacha caseira ref bolacha caseira,2,BOLACHA CASEIRA Ref:BOLACHA CASEIRA,1,2025-02,2025-04,2,19052090.0,Outros pães de especiarias,8,0.9981288788889819
+134,bolinho ana maria 35g cen choc,1,BOLINHO ANA MARIA 35G CEN/CHOC,1,2025-03,2025-03,1,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",8,0.9970787587794696
+135,bolo bacia,1,BOLO BACIA,1,2025-01,2025-01,1,19012010.0,,8,0.9971919947211682
+136,bolo comum,1,BOLO COMUM,1,2025-01,2025-01,1,19021100.0,"Massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",8,0.9968417710442803
+137,bolo de abobora,6,BOLO DE ABOBORA,2,2025-01,2025-03,3,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",24,0.9375864646188363
+138,bolo de saia,2,BOLO DE SAIA,1,2025-04,2025-04,1,19051000.0,Pão denominado knäckebrot,24,0.8951190077938704
+139,bolo sabores maravilha de bolo cenoura,2,BOLO SABORES MARAVILHA DE BOLO CENOURA,1,2025-04,2025-04,1,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",24,0.9704100193296901
+140,bomba v link wifi,1,BOMBA V-LINK WIFI,1,2025-04,2025-04,1,2071419.0,,8,0.0827716512263328
+141,bombom chocolate preto pct,3,BOMBOM CHOCOLATE PRETO PCT,1,2025-04,2025-04,1,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",8,0.9969360816489959
+142,brazzo limpa parabrisas 100ml,1,BRAZZO LIMPA PARABRISAS 100ML,1,2025-01,2025-01,1,34029090.0,Outras preparações tensoativas e preparações para limpeza,8,0.9927577578446912
+143,brocolis americano und,1,BROCOLIS AMERICANO UND,1,2025-04,2025-04,1,7041000.0,"Couve-flor e brócolis, frescos ou refrigerados",8,0.9955159512541568
+144,brocolis kg,34,BROCOLIS - KG,5,2025-01,2025-04,4,7041000.0,"Couve-flor e brócolis, frescos ou refrigerados",2,0.8644439369539971
+145,buffet,2,BUFFET,1,2025-02,2025-03,2,21069090.0,Outras preparações alimentícias,8,0.9986284695058742
+146,buffet livre semana,1,BUFFET LIVRE SEMANA,1,2025-01,2025-01,1,21069090.0,Outras preparações alimentícias,8,0.9986284695058742
+147,c ave peito cong env friato cx c 20k,2,C AVE- PEITO CONG. ENV. FRIATO CX C 20K,1,2025-03,2025-03,1,2071411.0,,8,0.9952979754958562
+148,c bov coxao mole res s osso boibrasil,11,C BOV COXAO MOLE RES S/OSSO BOIBRASIL,1,2025-01,2025-04,4,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",8,1.0001957910273653
+149,c bovina lagarto lkj 0000000118,1,C BOVINA- LAGARTO LKJ 0000000118,1,2025-02,2025-02,1,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",8,0.9989220810422536
+150,ca543013 lampada farol neblina diant,1,"CA543013      - LAMPADA, FAROL NEBLINA DIANT",1,2025-01,2025-01,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.7726489935255999
+151,cafe a vacuo 250g,2,CAFE A VACUO 250G,1,2025-04,2025-04,1,9012100.0,"Café torrado, não descafeinado",8,0.9963196336903132
+152,cafe almof santa cla,1,CAFE ALMOF SANTA CLA,1,2025-02,2025-02,1,9012100.0,"Café torrado, não descafeinado",8,0.9965312069178814
+153,cafe apresentacao torrado moido intensidade suave tipo tradicional empacotamento vacuo,1,"CAFE, APRESENTACAO TORRADO MOIDO, INTENSIDADE SUAVE, TIPO TRADICIONAL,EMPACOTAMENTO VACUO",1,2025-01,2025-01,1,9012100.0,"Café torrado, não descafeinado",0,0.9490498384917267
+154,cafe em po torrado e moido a vacuo 250g,1,CAFE EM PO TORRADO E MOIDO A VACUO 250G,1,2025-03,2025-03,1,9012100.0,"Café torrado, não descafeinado",23,0.8998468084760538
+155,cafe extraforte torrado e moido pct 500g,4,CAFE EXTRAFORTE TORRADO E MOIDO PCT 500G,1,2025-03,2025-04,2,9012100.0,"Café torrado, não descafeinado",1,0.935655813099758
+156,cafe po 3 coracoes 250g gourmet dark roast,1,CAFE PO 3 CORACOES 250G GOURMET DARK ROAST,1,2025-04,2025-04,1,9012100.0,"Café torrado, não descafeinado",23,0.9506803972232271
+157,cafe torrado,8,CAFE TORRADO,1,2025-01,2025-03,3,21011110.0,"Café solúvel, mesmo descafeinado",8,0.9975048105618989
+158,cafe vac melitta 500g trad,1,CAFE VAC MELITTA 500G TRAD,1,2025-04,2025-04,1,9012100.0,"Café torrado, não descafeinado",1,0.895932869208507
+159,caixa organizadora 30 0l alta richiotto,1,"CAIXA ORGANIZADORA 30,0L.ALTA RICHIOTTO",1,2025-04,2025-04,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9986258429069651
+160,caixa organizadora 45l c tampa e trava transp jaguar 0621t,1,CAIXA ORGANIZADORA 45L C/TAMPA E TRAVA TRANSP - JAGUAR 0621T,1,2025-03,2025-03,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9986598917822279
+161,caixa organizadora alto 56 1l 975 pt 1 un,1,"Caixa organizadora alto 56,1L 975 PT 1 UN",1,2025-04,2025-04,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",21,0.9125595827885078
+162,caixa termica,2,CAIXA TERMICA,2,2025-01,2025-02,2,39241000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9982222720552955
+163,calda doce para sorvete cobertura,1,CALDA DOCE PARA SORVETE / COBERTURA,1,2025-01,2025-01,1,20079910.0,"Geleias e marmelades, de outras frutas",8,0.9911979448426911
+164,caldo apti galinha,1,CALDO APTI GALINHA,1,2025-01,2025-01,1,21041019.0,Outras preparações para caldos e sopas,8,0.9982484638063857
+165,caldo de carne tablete,1,CALDO DE CARNE TABLETE,1,2025-01,2025-01,1,21041011.0,"Preparações para caldos e sopas, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",24,0.9608944291620304
+166,canela em pau 100g verdfrut,1,CANELA EM PAU 100G (VERDFRUT),1,2025-02,2025-02,1,9061900.0,"Outras canela e flores de caneleira, não trituradas nem em pó",23,0.9581030663510202
+167,canela em rama 10g,1,CANELA EM RAMA 10G,1,2025-02,2025-02,1,9061100.0,"Canela (Cinnamomum zeylanicum blume) e flores de caneleira, não trituradas nem em pó",23,0.9425074533500124
+168,canjica 1kg,2,CANJICA 1KG,1,2025-03,2025-03,1,11029000.0,Farinha de outros cereais,8,0.993456748327218
+169,canjiquinha pacha 500g,2,CANJIQUINHA PACHA 500G,1,2025-04,2025-04,1,11031300.0,"Grumos e sêmolas, de milho",1,0.7184247168480953
+170,capsula cafe c 10 espresso pleno tres,1,CAPSULA CAFE C/10 ESPRESSO PLENO        TRES,1,2025-02,2025-02,1,9012100.0,"Café torrado, não descafeinado",8,0.9952891597619735
+171,caqui fuyu,1,CAQUI FUYU,1,2025-04,2025-04,1,8107000.0,"Caquis (dióspiros), frescos",8,1.0010269642607983
+172,caqui kg 1 kg,2,CAQUI | KG 1 KG,1,2025-03,2025-03,1,8023100.0,"Nozes frescas ou secas, com casca",2,0.7744079310226695
+173,car bov resf friboi acem s osso fc kg,1,CAR BOV RESF FRIBOI ACEM S/OSSO FC KG,1,2025-02,2025-02,1,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",2,0.9803971962484913
+174,car su resf bisteca reser fc,1,CAR SU RESF BISTECA RESER FC,1,2025-03,2025-03,1,2031900.0,"Outras carnes de suíno, frescas ou refrigeradas",8,0.9982638857964683
+175,car su resf excelencia pernil c o fc,1,CAR SU RESF EXCELENCIA PERNIL C/O FC,1,2025-03,2025-03,1,2032900.0,"Outras carnes de suíno, congeladas",8,0.9983194974968729
+176,carbofor 400g vitafor,1,CARBOFOR - 400G - VITAFOR,1,2025-01,2025-01,1,21069030.0,Complementos alimentares,8,0.9959390961069708
+177,carburador fs300 120,1,Carburador FS300/120,1,2025-04,2025-04,1,2071419.0,,8,0.0827716512263328
+178,cariostatic 12 10ml,1,CARIOSTATIC 12% 10ML,1,2025-02,2025-02,1,33069000.0,"Outras preparações para higiene bucal ou dentária, etc.",8,0.9973504812086302
+179,carne bov picanha kg vacuo fat,1,CARNE BOV PICANHA KG VACUO FAT,1,2025-03,2025-03,1,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",2,0.95424121642129
+180,carne bovina contra file,28,CARNE BOVINA CONTRA FILE,2,2025-01,2025-04,4,2012010.0,"Quartos dianteiros não desossadados de bovino, frescos/refrigerados",8,0.9968857499897006
+181,carne de ave in natura sobre coxa,5,CARNE DE AVE IN NATURA SOBRE COXA,1,2025-02,2025-04,3,2071423.0,,3,0.8581646461253317
+182,carne de frango coxa sobrecoxa,1,CARNE DE FRANGO - COXA SOBRECOXA,1,2025-03,2025-03,1,2071300.0,"Pedaços e miudezas, de galos/galinhas, frescos/refrigerados",24,0.9576853093461606
+183,carne defumada tipo bacon,75,CARNE DEFUMADA TIPO (BACON),1,2025-01,2025-04,4,2011000.0,"Carcaças e meias carcaças de bovino, frescas ou refrigeradas",0,0.9345718662137079
+184,carne moida 500g,4,CARNE MOIDA 500G,1,2025-02,2025-03,2,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",1,0.914025598993183
+185,carne suina lombo,8,"CARNE SUINA, LOMBO",3,2025-01,2025-04,4,2013000.0,"Carnes desossadas de bovino, frescas ou refrigeradas",8,0.9986196135930857
+186,castanha de caju kg,4,CASTANHA DE CAJU KG,1,2025-01,2025-03,3,8013200.0,"Castanha de caju, fresca ou seca, sem casca",2,0.8763767854554678
+187,castanha de caju natural kg,1,CASTANHA DE CAJU NATURAL KG,1,2025-03,2025-03,1,8012200.0,"Castanha-do-pará, fresca ou seca, sem casca",2,0.8948100356572158
+188,castanha de caju natural kg verdfrut,1,CASTANHA DE CAJU NATURAL KG (VERDFRUT),1,2025-02,2025-02,1,8012200.0,"Castanha-do-pará, fresca ou seca, sem casca",2,0.9199051139427538
+189,catchup campo belo bombona,1,CATCHUP CAMPO BELO BOMBONA,1,2025-02,2025-02,1,21032090.0,"Outros ketchup e molhos de tomate, preparados",8,0.9998537542377027
+190,ceasa chuchu,2,CEASA CHUCHU,1,2025-03,2025-04,2,7099990.0,"Outros produtos hortícolas, frescos ou refrigerados",8,0.9959887212113026
+191,cebola in natura kg roxa,2,"CEBOLA, IN NATURA, KG, ROXA",1,2025-03,2025-04,2,7031019.0,"Cebolas, frescas ou refrigeradas, exceto para semeadura",3,0.8113877695165003
+192,cebola pera,1,CEBOLA PERA,1,2025-04,2025-04,1,7031019.0,"Cebolas, frescas ou refrigeradas, exceto para semeadura",8,1.000286278757263
+193,cebolinha und,2,CEBOLINHA UND,1,2025-01,2025-01,1,7031019.0,"Cebolas, frescas ou refrigeradas, exceto para semeadura",8,0.9960686546328211
+194,ceia,87,CEIA,1,2025-01,2025-04,4,21069090.0,Outras preparações alimentícias,8,0.0827716512263328
+195,cenoura comum legume,5,CENOURA COMUM LEGUME,1,2025-01,2025-04,4,7061000.0,"Cenouras e nabos, frescos ou refrigerados",8,0.9983569681565838
+196,cera liq ingleza maxx 750 ml incolor,1,CERA LIQ. INGLEZA MAXX 750 ML INCOLOR,1,2025-03,2025-03,1,34052000.0,"Encáusticas e preparações semelhantes, para conservação e limpeza de móveis de madeira, soalhos e de outros artigos de madeira",20,0.9643485325200957
+197,cereal de milho,4,CEREAL DE MILHO*,2,2025-04,2025-04,1,11041900.0,"Grãos de outros cereais, esmagados ou em flocos",24,0.9359691908867532
+198,cerv antarctica p ga,1,CERV ANTARCTICA P GA,1,2025-04,2025-04,1,22030000.0,Cervejas de malte,8,0.0827716512263328
+199,cha camomila chileno,1,Cha Camomila Chileno,1,2025-02,2025-02,1,9021000.0,Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg,8,0.9980204976222822
+200,cha maca com canela,3,CHA - MACA COM CANELA.,2,2025-02,2025-04,2,9021000.0,Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg,8,0.9954174600029373
+201,cha marata carqueja,1,CHA MARATA CARQUEJA,1,2025-04,2025-04,1,9021000.0,Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg,8,0.9975215286453804
+202,champignon campo belo fatiado pouch,1,CHAMPIGNON CAMPO BELO FATIADO POUCH,1,2025-01,2025-01,1,20031000.0,"Cogumelos do gênero Agaricus, preparados ou conservados, exceto em vinagre ou em ácido acético",8,0.9992147613974804
+203,cheiro verde in natura regional,7,CHEIRO VERDE IN NATURA/REGIONAL,1,2025-01,2025-03,2,21039021.0,"Condimentos e temperos, compostos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",3,0.7693750352798502
+204,chicken perdigao fgo trad mini emp 1kg,2,CHICKEN PERDIGAO FGO TRAD MINI EMP 1KG,1,2025-04,2025-04,1,16023230.0,"Preparações e conservas de galos e galinhas, com conteúdo de carne ou de miudezas superior ou igual a 25 % e inferior a 57 %, em peso",8,0.9918008568030672
+205,chimichuri kg cadastrado automaticamente,4,CHIMICHURI KG (Cadastrado Automaticamente),1,2025-01,2025-03,2,21039029.0,"Outros condimentos e temperos, compostos",2,0.5924589495951111
+206,choc lacta 40 amaro 80g,1,CHOC LACTA 40%AMARO 80G,1,2025-04,2025-04,1,18063210.0,"Chocolate não recheado, em tabletes, barras e paus",8,0.9965715263863472
+207,choc nestle classic 80gr ao leite,1,CHOC NESTLE CLASSIC 80GR AO LEITE,1,2025-01,2025-01,1,18063210.0,"Chocolate não recheado, em tabletes, barras e paus",18,0.9613083959695228
+208,choc talento 75g artesao castanha para c,1,CHOC TALENTO 75G ARTESAO CASTANHA PARA/C,1,2025-04,2025-04,1,18063210.0,"Chocolate não recheado, em tabletes, barras e paus",8,0.9962878273406822
+209,choc talento garoto avela 25gr,1,CHOC TALENTO GAROTO AVELA 25GR,1,2025-03,2025-03,1,18063210.0,"Chocolate não recheado, em tabletes, barras e paus",8,0.9957623481544342
+210,chocolate em barra ao leite,2,CHOCOLATE EM BARRA AO LEITE,1,2025-02,2025-02,1,18063110.0,"Chocolate recheado, em tabletes, barras e paus",23,0.925067985082064
+211,chocolate em barra de 1kg,3,CHOCOLATE EM BARRA DE 1KG,1,2025-02,2025-04,2,18069000.0,Outros chocolates e preparações alimentícias contendo cacau,23,0.889578688261686
+212,chocolate em barra unidade,3,CHOCOLATE EM BARRA UNIDADE,1,2025-03,2025-03,1,18063110.0,"Chocolate recheado, em tabletes, barras e paus",23,0.9269476945122952
+213,chocolate recheado com flocos crovantes und,1,CHOCOLATE RECHEADO COM FLOCOS CROVANTES UND,1,2025-04,2025-04,1,18063110.0,"Chocolate recheado, em tabletes, barras e paus",8,0.99337591990427
+214,chuchu classificacao sem caracteristica,3,CHUCHU CLASSIFICACAO SEM CARACTERISTICA,2,2025-04,2025-04,1,7099990.0,"Outros produtos hortícolas, frescos ou refrigerados",8,0.9976507791383248
+215,chuchu verde,96,CHUCHU VERDE,2,2025-01,2025-04,4,7099300.0,"Abóboras, abobrinhas e cabaças, fresca ou refrigerada",8,0.9912959070811355
+216,ci copo descartavel 200ml,1,Ci - copo descartavel 200ml,1,2025-04,2025-04,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.7526099949526207
+217,cilindro roda tras,1,CILINDRO RODA TRAS,1,2025-03,2025-03,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",8,0.0827716512263328
+218,cinta air bag ford ranger f250 ew1710062,1,CINTA AIR BAG FORD RANGER/F250 EW1710062,1,2025-04,2025-04,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",8,1.0010269642607983
+219,cj pote sanremo 785ml sr165 7c,1,CJ.POTE SANREMO 785ML SR165/7C,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9956395229851747
+220,clorexidina0 2 chlorclear aquoso 100ml,1,"CLOREXIDINA0,2%(CHLORCLEAR) AQUOSO 100ML",1,2025-01,2025-01,1,34029019.0,Outras misturas de agentes orgânicos de superfície,8,0.9975913133812881
+221,cloro 2 c 5lts valenca,1,CLORO 2% C/5LTS VALENCA,1,2025-03,2025-03,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",8,0.9998957512914645
+222,coca cola 350ml lata gelado,1,COCA COLA 350ML LATA GELADO,1,2025-04,2025-04,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9934331032668312
+223,coca lata,1,COCA LATA,1,2025-01,2025-01,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9941717956247663
+224,cocada moreninha branquinha,1,COCADA MORENINHA BRANQUINHA,1,2025-02,2025-02,1,20079100.0,"Doces, geléias, 'marmelades', pures e pastas, de cítricos",8,0.9990354656234263
+225,coco ralado desidratado da te,1,COCO RALADO DESIDRATADO DA TE,1,2025-04,2025-04,1,8011100.0,"Cocos, frescos ou secos, dessecados",18,0.9097231266462624
+226,coco ralado embaalgem pacote de 1 0 kg,2,COCO RALADO EMBAALGEM PACOTE DE 1.0 KG,1,2025-02,2025-03,2,8011100.0,"Cocos, frescos ou secos, dessecados",18,0.9059840451011992
+227,coco ralado kg,78,COCO RALADO KG *,3,2025-01,2025-04,4,8011100.0,"Cocos, frescos ou secos, dessecados",18,0.8841011518996702
+228,coco seco kg,1,COCO SECO KG,1,2025-03,2025-03,1,8011900.0,Cocos frescos,18,0.9154571830913192
+229,coco seco ralado,7,COCO SECO RALADO,1,2025-01,2025-02,2,8011900.0,Cocos frescos,18,0.9015650414568012
+230,coelho sitio master 40kg,2,Coelho Sitio Master (40kg),1,2025-01,2025-02,2,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.999295358048313
+231,cofe break tipo i,4,COFE BREAK TIPO I,1,2025-01,2025-02,2,21069090.0,Outras preparações alimentícias,0,0.6492468805603188
+232,cola base de resina sintetica p chapa de laminado melaninico cod sin 1339 classe lic 01 marcenaria,1,COLA BASE DE RESINA SINTETICA P/ CHAPA DE LAMINADO MELANINICO. COD SIN 1339. CLASSE LIC 01 MARCENARIA.,1,2025-04,2025-04,1,10063011.0,"Arroz semibranqueado ou branqueado, parboilizado, polido ou brunido",24,0.9232242525195391
+233,colher descartavel plazapel pct com 50 und,2,COLHER DESCARTAVEL PLAZAPEL PCT COM 50 UND,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8165696655220951
+234,colher descartavel refeicao c 50 unidades,1,COLHER DESCARTAVEL REFEICAO C/50 UNIDADES,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8944471261489615
+235,colher refeicao cristal 50x1,1,COLHER REFEICAO CRISTAL 50X1,1,2025-04,2025-04,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9995579687099051
+236,colher silicone colore 22 5cm pt vr cx s co6969390 euroquadros co6969390,1,"COLHER SILICONE COLORE 22,5CM PT/VR (CX-S) CO6969390 EUROQUADROS CO6969390",1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9966026101181343
+237,colorifico italianinho 90g,1,COLORIFICO ITALIANINHO 90G,1,2025-04,2025-04,1,21039091.0,"Outras preparações para molhos, molhos preparados, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,1.0000224222285798
+238,cominho em po pct 100g,2,COMINHO EM PO PCT 100G,1,2025-03,2025-04,2,21039021.0,"Condimentos e temperos, compostos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",23,0.8433158537235007
+239,concha de aco inox tamanho de cabo 40cm cod gp051,1,CONCHA DE ACO INOX TAMANHO DE CABO 40CM. - COD. GP051,1,2025-01,2025-01,1,3029900.0,"Cabeças, caudas, bexigas-natatórias e outros subprodutos comestíveis de peixes",24,0.9365868775108166
+240,condimento tipo cominho em po 500gr,2,CONDIMENTO TIPO COMINHO EM PO 500GR,1,2025-01,2025-01,1,21039021.0,"Condimentos e temperos, compostos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",23,0.849965645742998
+241,conector prensa cabo 1 2 cemar,1,CONECTOR PRENSA CABO 1/2' CEMAR,1,2025-02,2025-02,1,33051000.0,Xampus para os cabelos,14,0.8251553260075374
+242,conserva de cebola 3 kg,1,CONSERVA DE CEBOLA - 3 KG,1,2025-03,2025-03,1,20019000.0,"Outros produtos hortícolas, frutas e outras partes comestíveis de plantas, preparados ou conservados em vinagre ou em ácido acético",2,0.908917052501614
+243,copo 200 ml fonplast ps br pct c 100 pt,1,COPO 200 ML FONPLAST PS BR PCT C 100 PT,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.900408014485963
+244,copo 200 ml trans 100x1 ecocoppo,1,COPO 200 ML TRANS. 100X1 ECOCOPPO,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8895736534924603
+245,copo desc 180ml cristalcopo tr abnt,3,COPO DESC.180ML CRISTALCOPO TR ABNT,1,2025-01,2025-03,2,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.938667257352522
+246,copo desc cristalcopo ps transp 150ml c 100un 200005,1,COPO DESC CRISTALCOPO PS TRANSP 150ML C/100UN 200005,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.9429654264205988
+247,copo descartavel 180ml cxa c 2500 pct 100 und,2,COPO DESCARTAVEL 180ML CXA C/2500 PCT 100 UND,1,2025-03,2025-04,2,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.7567513689037447
+248,copo descartavel 200ml cx 25 centos,5,COPO DESCARTAVEL 200ML CX 25 CENTOS,1,2025-01,2025-02,2,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8151587830440057
+249,copo descartavel capacidade 180ml pacote com 100 unidades,1,"COPO DESCARTAVEL CAPACIDADE 180ML, PACOTE COM 100 UNIDADES",1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8373231608468155
+250,copo descartavel copomais 200ml transparente c 100un,3,COPO DESCARTAVEL COPOMAIS 200ML TRANSPARENTE C/100UN,1,2025-01,2025-02,2,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.7725640489024086
+251,copo descartavel de 100ml com tampa,2,COPO DESCARTAVEL DE 100ML COM TAMPA,1,2025-02,2025-03,2,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8477814725550312
+252,copo descartavel material poliestireno capacidade 180 ml a 200 ml caixa contendo 2 500 unidades,1,"Copo descartavel, material poliestireno, capacidade 180 ml a 200 ml, caixa contendo 2.500 unidades",1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",20,0.8967534504473903
+253,copo plastico 300 ml pct c 100 unid dudigo,1,COPO PLASTICO 300 ML PCT C/100 UNID DUDIGO,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8659313637731793
+254,copo plastico descartavel com 50 ml,1,COPO PLASTICO DESCARTAVEL COM 50 ML,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.7258446888908885
+255,copos descartaveis cristalcopo tr 150ml c 100un,1,COPOS DESCARTAVEIS CRISTALCOPO TR 150ML C/100UN,1,2025-02,2025-02,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,1.001026964260798
+256,coprox 60g,1,COPROX 60G,1,2025-01,2025-01,1,23099090.0,Outras preparações dos tipos utilizados na alimentação de animais,8,1.0010269642607983
+257,costela suina defumada,4,COSTELA SUINA DEFUMADA,1,2025-02,2025-04,2,2032900.0,"Outras carnes de suíno, congeladas",8,1.000032950474268
+258,couve folha,164,COUVE FOLHA,3,2025-01,2025-04,4,7049000.0,"Couves, repolho, etc, do gênero Brassica, frescos ou refrigerados",8,0.9998077495600869
+259,coxa e sobrecoxa frango,5,COXA E SOBRECOXA FRANGO,1,2025-01,2025-02,2,2071220.0,,8,0.999608456040148
+260,coxinha da asa frango,2,COXINHA DA ASA FRANGO,1,2025-04,2025-04,1,2071413.0,,8,0.9954635656126428
+261,cr dental colgate total 12 adv free,1,CR.DENTAL COLGATE TOTAL 12 ADV.FREE,1,2025-02,2025-02,1,33061000.0,Dentifrícios,8,0.9957091845742133
+262,cr leite itambe 300g,1,CR LEITE ITAMBE 300G .,1,2025-04,2025-04,1,4012090.0,"Outros leites e cremes, com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",18,0.9633862839157618
+263,cravo da india em po pct 500g,1,CRAVO DA INDIA EM PO PCT 500G,1,2025-02,2025-02,1,9061100.0,"Canela (Cinnamomum zeylanicum blume) e flores de caneleira, não trituradas nem em pó",23,0.8979393365665286
+264,cravo da india grao 10g jordely,1,CRAVO DA INDIA GRAO 10G JORDELY,1,2025-04,2025-04,1,9071000.0,"Cravo-da-índia (frutos, flores e pedúnculos), não triturado nem em pó",8,0.9974640441510677
+265,cream cheese trad 150g,1,CREAM CHEESE TRAD 150G,1,2025-02,2025-02,1,4061090.0,"Outros queijos frescos (não curados), inclusive requeijão, etc.",8,0.9953636711204524
+266,creme de leite 200 gramas,3,CREME DE LEITE 200 GRAMAS,1,2025-04,2025-04,1,4011010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, não superior a 1 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",6,0.6208114384009618
+267,creme de leite 200g tirol,3,CREME DE LEITE 200G TIROL,2,2025-02,2025-04,2,4015021.0,"Creme de leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, superior a 10 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",6,0.8229533777192861
+268,cremor de tartaro arcolor 40g arcolor,1,CREMOR DE TARTARO ARCOLOR 40G - ARCOLOR,1,2025-04,2025-04,1,21069090.0,Outras preparações alimentícias,24,0.7015994443900865
+269,crucial bl 20l,1,CRUCIAL - BL 20L,1,2025-01,2025-01,1,38089324.0,"Herbicida à base de glifosato ou seus sais, de imazaquim ou de lactofen",8,0.9991757090220019
+270,curcuma em po dacasa 110 g,1,CURCUMA EM PO DACASA 110 G,1,2025-04,2025-04,1,9102000.0,Açafrão,23,0.5903278680580684
+271,des leite rosas,2,DES.LEITE ROSAS,1,2025-01,2025-02,2,33072010.0,"Desodorantes (desodorizantes) corporais e antiperspirantes, líquidos",18,0.9530584585271464
+272,des rajja 2l lavanda,1,DES RAJJA 2L LAVANDA,1,2025-02,2025-02,1,38089429.0,Outros desinfetantes apresentados de outro modo,18,0.938127479088773
+273,deseng mr musculo coz squeeze promo,1,DESENG.MR MUSCULO COZ.SQUEEZE PROMO,1,2025-04,2025-04,1,34025000.0,,8,0.0827716512263328
+274,desengraxante azik rx 1 20 5 litros,3,DESENGRAXANTE - AZIK RX 1/20 - 5 LITROS,1,2025-03,2025-03,1,34029031.0,"Preparações para lavagem (detergentes), à base de nonilfenol etoxilado",8,0.9972854911639701
+275,desengraxante lagos clean l 100 gl 5lts 00005,1,DESENGRAXANTE LAGOS CLEAN L.100 GL 5LTS 00005,1,2025-01,2025-01,1,34024200.0,,8,0.9975007799619255
+276,desif urca citronela 2lt,1,DESIF URCA CITRONELA 2LT,1,2025-01,2025-01,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",8,0.9993283430841878
+277,desinf bak ype lav l2000 p1800ml,2,DESINF.BAK YPE LAV.L2000 P1800ML,1,2025-01,2025-03,2,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",8,1.001026964260798
+278,desinf pinho urca 2l lavanda,1,DESINF PINHO URCA 2L LAVANDA,1,2025-04,2025-04,1,38089429.0,Outros desinfetantes apresentados de outro modo,18,0.9669444916279805
+279,desinf vorel 2l eucalipto eucalipto start un,1,Desinf.Vorel 2l Eucalipto Eucalipto Start UN,1,2025-03,2025-03,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",21,0.9504355813498347
+280,desinfetante 500 ml,1,DESINFETANTE 500 ML,1,2025-04,2025-04,1,38085910.0,"Outras mercadorias mencionadas na Nota de subposições 1 do presente Capítulo, apresentadas em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",20,0.8127450920458984
+281,desinfetante 500ml eucalipto brilha sul,1,DESINFETANTE 500ml EUCALIPTO - BRILHA SUL,1,2025-04,2025-04,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",12,0.8711524535302763
+282,desinfetante 5l violex biokriss,1,DESINFETANTE 5L VIOLEX BIOKRISS,1,2025-02,2025-02,1,38089429.0,Outros desinfetantes apresentados de outro modo,16,0.62971950042754
+283,desinfetante floral 1x2l ox,1,DESINFETANTE FLORAL 1X2L - OX,1,2025-04,2025-04,1,38089919.0,Outros rodenticidas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,16,0.9574371198168746
+284,desinfetante limpador de uso geral 5l,1,"DESINFETANTE LIMPADOR DE USO GERAL, 5L",1,2025-01,2025-01,1,38089429.0,Outros desinfetantes apresentados de outro modo,16,0.8062671764053847
+285,desinfetante marca maxbrio composicao a base de quartenario de amonio concentrado com aroma,1,"DESINFETANTE MARCA MAXBRIO- COMPOSICAO A BASE DE QUARTENARIO DE AMONIO,CONCENTRADO COM AROMA",1,2025-02,2025-02,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",24,0.9459348662126856
+286,desinfetante pinho zupp 2l,1,DESINFETANTE PINHO ZUPP 2L,1,2025-03,2025-03,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",16,0.9680548830991073
+287,desinfetante principio ativo cloreto alquil dimetil benzil amonio teor ativo 0 75 p p forma fisica solucao,3,"DESINFETANTE, PRINCIPIO ATIVO CLORETO ALQUIL DIMETIL BENZIL AMONIO, TEOR ATIVO 0,75% (P/P), FORMA FISICA SOLUCAO",1,2025-02,2025-02,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",8,0.9995966331201184
+288,desod sanit harpic c acop marine pr,1,DESOD.SANIT.HARPIC C.ACOP.MARINE PR,1,2025-04,2025-04,1,34025000.0,,8,0.9969567323924058
+289,desod sanit harpic c acop pinho,1,DESOD.SANIT.HARPIC C.ACOP.PINHO,1,2025-02,2025-02,1,34025000.0,,8,0.9978148590076716
+290,desod sanitario pedra 25g sachet floral sanilar,15,DESOD. SANITARIO PEDRA 25g SACHET FLORAL - SANILAR,1,2025-01,2025-03,3,38089999.0,Outros rodenticidas apresentados de outro modo,8,0.9967757638272029
+291,desod sanitario pedra 30g benzoquimica,1,DESOD. SANITARIO PEDRA 30g - BENZOQUIMICA,1,2025-01,2025-01,1,38089999.0,Outros rodenticidas apresentados de outro modo,8,0.9974074990557612
+292,desodorizador apres aerosol aplicacao aromatizador ambiental,2,"DESODORIZADOR, APRES. AEROSOL, APLICAÇÃO AROMATIZADOR AMBIENTAL",1,2025-01,2025-02,2,33074900.0,Outras preparações para perfumar ou desodorizar ambientes,8,1.001026964260798
+293,det liq limpol 500ml crist,2,"DET LIQ LIMPOL 500ML, CRIST, .",1,2025-03,2025-03,1,34025000.0,,12,0.8633285591967379
+294,det po ala 500g cuidado do coco ala pt,1,Det Po Ala 500g Cuidado Do Coco Ala PT,1,2025-03,2025-03,1,34025000.0,,18,0.9566906767271403
+295,deterg limpol neutro 500ml,1,DETERG LIMPOL NEUTRO 500ML,1,2025-03,2025-03,1,34025000.0,,12,0.8261660368332896
+296,deterg liq proeza 500ml neutro,1,DETERG LIQ PROEZA 500ML NEUTRO,1,2025-01,2025-01,1,34029090.0,Outras preparações tensoativas e preparações para limpeza,12,0.8023674896385181
+297,deterg minuano 500ml neutro,1,DETERG MINUANO 500ML NEUTRO,1,2025-04,2025-04,1,34025000.0,,12,0.8264190453921305
+298,detergente 05l conc neutro versatil beckplater becker pa1933,37,DETERGENTE 05L CONC. NEUTRO - VERSATIL BECKPLATER BECKER PA1933,1,2025-01,2025-04,4,34023990.0,,20,0.9455758732697827
+299,detergente 500 ml,23,DETERGENTE 500 ml,2,2025-01,2025-04,4,34029039.0,Outras preparações para lavagem (detergentes),20,0.6579405274216845
+300,detergente acido p ord 5 lt semanal,3,DETERGENTE ACIDO P-ORD- 5-LT (SEMANAL),1,2025-03,2025-03,1,34025000.0,,20,0.9189145841310351
+301,detergente bb 5l,3,Detergente BB 5L,1,2025-01,2025-02,2,34025000.0,,16,0.7916923549762177
+302,detergente desengordurante 5 litros siprolimp,1,DETERGENTE DESENGORDURANTE 5 LITROS -SIPROLIMP,1,2025-03,2025-03,1,34029039.0,Outras preparações para lavagem (detergentes),20,0.951810255048872
+303,detergente liq,4,DETERGENTE LIQ.,1,2025-01,2025-01,1,34029039.0,Outras preparações para lavagem (detergentes),20,0.9049148173221628
+304,detergente liquido limpol 500 ml neutro,1,DETERGENTE LIQUIDO LIMPOL 500 ML NEUTRO,1,2025-03,2025-03,1,34025000.0,,20,0.7705621451407947
+305,detergente minuano coco 500ml,1,DETERGENTE MINUANO COCO 500ML,1,2025-02,2025-02,1,34022000.0,"Preparações tensoativas, para lavagem e limpeza",12,0.8752391955487853
+306,detergente neutro 5 lt p resfr ord,3,DETERGENTE NEUTRO 5-LT P-RESFR--ORD-,1,2025-03,2025-03,1,34025000.0,,20,0.910802076630287
+307,detergente neutro de limpeza de piso 5 lt,1,Detergente neutro de limpeza de piso 5 lt,1,2025-01,2025-01,1,34029031.0,"Preparações para lavagem (detergentes), à base de nonilfenol etoxilado",24,0.9368103855732763
+308,detergente saneante,1,detergente saneante,1,2025-04,2025-04,1,34029039.0,Outras preparações para lavagem (detergentes),20,0.8703928726559179
+309,detergente ype capim limao 500ml fr,2,DETERGENTE YPE CAPIM LIMAO 500ML FR,1,2025-02,2025-03,2,34025000.0,,5,0.844809886675564
+310,diben 1 5 kcal hp lote 28tha680,1,DIBEN 1.5 KCAL HP (LOTE: 28THA680),1,2025-04,2025-04,1,21069090.0,Outras preparações alimentícias,10,0.8513953948472026
+311,disco limpador verde 350mm,1,DISCO LIMPADOR VERDE 350MM,1,2025-03,2025-03,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9915485866887166
+312,dispenser vde menta uz353 vem uz,1,DISPENSER VDE MENTA UZ353-VEM UZ,1,2025-02,2025-02,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,1.0010269642607983
+313,doce bananada maringa lt c 1kg,2,DOCE BANANADA MARINGA LT C/ 1KG,1,2025-04,2025-04,1,20079990.0,"Doces, pures e pastas, de outras frutas",8,0.9835167784786181
+314,doce cremoso cocaca morena 10kg,1,DOCE CREMOSO COCACA MORENA 10KG,1,2025-01,2025-01,1,20079990.0,"Doces, pures e pastas, de outras frutas",8,0.9935959397170869
+315,doce cremoso cocada branca,3,DOCE CREMOSO COCADA BRANCA,1,2025-03,2025-04,2,20079990.0,"Doces, pures e pastas, de outras frutas",8,0.9907306296464097
+316,doce de amendoin em tablete,1,DOCE DE AMENDOIN EM TABLETE,1,2025-02,2025-02,1,21069090.0,Outras preparações alimentícias,24,0.9462384646387302
+317,doce de goiaba tupy guarani,3,DOCE DE GOIABA TUPY GUARANI,1,2025-04,2025-04,1,20079924.0,Purês de goiaba (Psidium guajava),24,0.9318927233723368
+318,doce nao confeitado tipo massa goiabada,1,"DOCE NÃO CONFEITADO, TIPO MASSA - GOIABADA",1,2025-04,2025-04,1,20079924.0,Purês de goiaba (Psidium guajava),0,0.9459756003287749
+319,doce pe moleque yoki 2213,1,DOCE PE MOLEQUE YOKI-2213,1,2025-02,2025-02,1,17049090.0,"Outros produtos de confeitaria, sem cacau",8,0.9924270457291838
+320,doce soymilke lt 330g soja,1,DOCE SOYMILKE LT 330G SOJA,1,2025-04,2025-04,1,21069090.0,Outras preparações alimentícias,8,0.9916777476661206
+321,doce tipo cremoso sabor abobora com coco,11,DOCE TIPO CREMOSO SABOR ABÓBORA COM COCO,1,2025-01,2025-04,4,20079990.0,"Doces, pures e pastas, de outras frutas",0,0.9262972065776754
+322,doce tipo cremoso sabor cocada morena,8,DOCE TIPO CREMOSO SABOR COCADA MORENA,1,2025-01,2025-04,4,20079990.0,"Doces, pures e pastas, de outras frutas",0,0.9319261257796192
+323,embutido,1,EMBUTIDO,1,2025-03,2025-03,1,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",8,1.0010269642607983
+324,embutido tipo linguia paio,5,EMBUTIDO TIPO LINGUIA PAIO,1,2025-03,2025-04,2,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",0,0.8246928827864829
+325,embutido tipo linguica toscana tam grossa tipo fresca kg,2,"EMBUTIDO TIPO LINGUICA TOSCANA,TAM. GROSSA TIPO FRESCA KG.",1,2025-01,2025-02,2,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",0,0.8652803106877862
+326,embutido tipo salsicha hot dog resfriado,2,EMBUTIDO TIPO SALSICHA HOT DOG RESFRIADO,1,2025-03,2025-04,2,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",0,0.8838519831004032
+327,empada,3,EMPADA,1,2025-01,2025-03,3,19052090.0,Outros pães de especiarias,8,0.0827716512263328
+328,empadao de frango,2,EMPADAO DE FRANGO,1,2025-03,2025-04,2,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",24,0.8705381274998317
+329,energ monster jm khaos lata 473ml,2,ENERG. MONSTER JM KHAOS LATA 473ML,1,2025-01,2025-01,1,22029900.0,"Outras bebidas não-alcoólicas (exceto água, cerveja sem álcool e itens da posição 20.09)",8,0.9954888910833992
+330,equino du rancho,1,EQUINO DU RANCHO,1,2025-03,2025-03,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.0827716512263328
+331,ervas finas 500 gramas,1,ERVAS FINAS 500 GRAMAS,1,2025-01,2025-01,1,21039021.0,"Condimentos e temperos, compostos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",20,0.8782838552219905
+332,ervilha 200g,4,ERVILHA 200G,1,2025-02,2025-03,2,7081000.0,"Ervilhas (Pisum sativum), frescas ou refrigeradas",8,0.99237185944217
+333,ervilha torta,2,ERVILHA TORTA,1,2025-04,2025-04,1,21069090.0,Outras preparações alimentícias,8,0.9991405222602978
+334,escova circular latonana 100mm haste 6 mm mtx 4509,1,ESCOVA CIRCULAR LATONANA 100MM HASTE 6 MM MTX 4509,1,2025-03,2025-03,1,96035000.0,"Outras escovas que constituam partes de máquinas, aparelhos ou veículos",8,0.996022226200892
+335,escova de unha,3,ESCOVA DE UNHA,1,2025-02,2025-04,3,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",24,0.8964154351550289
+336,escova dental infantil com protetor de cerdas,1,escova dental infantil com protetor de cerdas,1,2025-01,2025-01,1,96032100.0,"Escovas de dentes, incluindo as escovas para dentaduras",24,0.9634848977330702
+337,escova esfregona superpro,1,ESCOVA ESFREGONA SUPERPRO,1,2025-03,2025-03,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9973347631049212
+338,escova lavar roupa plastica,1,Escova Lavar Roupa Plastica,1,2025-03,2025-03,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",5,0.9948378723590745
+339,escova limpeza geral,1,ESCOVA LIMPEZA GERAL,1,2025-04,2025-04,1,96035000.0,"Outras escovas que constituam partes de máquinas, aparelhos ou veículos",8,0.9964657136885546
+340,escova limpeza geral material corpo plastico material cerdas nailon,1,ESCOVA LIMPEZA GERAL MATERIAL CORPO PLASTICO MATERIAL CERDAS NAILON,1,2025-02,2025-02,1,96032900.0,"Escovas e pincéis de barba, escovas para cabelos, cílios, etc",8,0.994681150163943
+341,escova rotativa de aco diam 8 x 1 l,1,ESCOVA ROTATIVA DE ACO DIAM. 8 X 1 L,1,2025-04,2025-04,1,96035000.0,"Outras escovas que constituam partes de máquinas, aparelhos ou veículos",24,0.9414908590004083
+342,escovinha com base plastica e cerdas de nylon 14 5x6x8 2mm,2,"ESCOVINHA COM BASE PLÁSTICA E CERDAS DE NYLON 14,5X6X8,2MM",1,2025-01,2025-02,2,96031000.0,"Vassouras e escovas constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",24,0.9668432544171768
+343,espanador pena nomo n 40 color cx n 5655 0009 shangri la 5655 0009,1,ESPANADOR PENA NOMO N. 40 COLOR (CX-N) 5655/0009 SHANGRI-LA 5655/0009,1,2025-01,2025-01,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9947608924973955
+344,espanador plast 58cm color cx n ck6381 clink ck6381,1,ESPANADOR PLAST 58CM COLOR (CX-N) CK6381 CLINK CK6381,1,2025-01,2025-01,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9943125670645029
+345,essencia aromatica de baunilha,1,ESSENCIA AROMATICA DE BAUNILHA,1,2025-03,2025-03,1,20098990.0,"Sucos (sumo) de outras frutas, não fermentado, sem adição de açúcar",24,0.9226955029234492
+346,extrato alimenticio,1,EXTRATO ALIMENTICIO,1,2025-04,2025-04,1,21032090.0,"Outros ketchup e molhos de tomate, preparados",8,0.9996362088662931
+347,extrato de tomate 01 kg quero,3,EXTRATO DE TOMATE 01 KG QUERO,1,2025-01,2025-04,3,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",24,0.9358191414828714
+348,extrato de tomate bonare 300g,3,EXTRATO DE TOMATE BONARE 300G,1,2025-03,2025-03,1,20029000.0,,24,0.9550356012749047
+349,extrato de tomate julieta 2kg,3,EXTRATO DE TOMATE JULIETA 2KG,1,2025-01,2025-03,2,20029000.0,,24,0.9402409798042862
+350,extrato de tomate ole 300g sh,1,EXTRATO DE TOMATE OLE 300G SH,1,2025-04,2025-04,1,20029000.0,,24,0.965336588320211
+351,extrato de tomate tradicional,1,EXTRATO DE TOMATE TRADICIONAL,1,2025-03,2025-03,1,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",24,0.9366756274699015
+352,extrato elefante so tomate pote,1,EXTRATO ELEFANTE SO TOMATE POTE,1,2025-04,2025-04,1,20029000.0,,8,0.9946953795587065
+353,faca para carne de 8pol cod sl0415 entregue em 21 01 25,1,FACA PARA CARNE DE 8POL. - COD. SL0415 - ENTREGUE EM 21/01/25,1,2025-01,2025-01,1,3029900.0,"Cabeças, caudas, bexigas-natatórias e outros subprodutos comestíveis de peixes",24,0.9649991955824717
+354,fanta 2l,1,FANTA 2L,1,2025-04,2025-04,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",18,0.9336038036880459
+355,far milho perdiz media 1kg,1,FAR MILHO PERDIZ MEDIA 1KG,1,2025-03,2025-03,1,11022000.0,Farinha de milho,8,0.9868176775599322
+356,farelo de soja sc 40kg,1,FARELO DE SOJA SC 40KG,1,2025-02,2025-02,1,38089229.0,Outros fungicidas apresentados de outro modo,24,0.9656780840223673
+357,farinha branca,1,FARINHA BRANCA,1,2025-03,2025-03,1,11062000.0,"Farinhas, sêmolas e pós, de sagu ou das raízes ou tubérculos, da posição 07.14",8,0.9940672661649809
+358,farinha d emandioca amarela,2,FARINHA D EMANDIOCA AMARELA,1,2025-02,2025-03,2,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",8,0.9945540610341003
+359,farinha de mandioca amarela torrada 1kg,1,FARINHA DE MANDIOCA AMARELA TORRADA 1KG,1,2025-04,2025-04,1,11062000.0,"Farinhas, sêmolas e pós, de sagu ou das raízes ou tubérculos, da posição 07.14",24,0.9304343734419367
+360,farinha de mandioca esquentadinha,1,FARINHA DE MANDIOCA ESQUENTADINHA,1,2025-01,2025-01,1,11062000.0,"Farinhas, sêmolas e pós, de sagu ou das raízes ou tubérculos, da posição 07.14",24,0.9026753427147274
+361,farinha de milho flocao de milho pre cozido 500g,19,FARINHA DE MILHO - FLOCAO DE MILHO PRE COZIDO 500G,1,2025-02,2025-04,3,11041900.0,"Grãos de outros cereais, esmagados ou em flocos",1,0.9104957862915022
+362,farinha de trigo c ferm 1kg,1,FARINHA DE TRIGO C/ FERM 1KG,1,2025-04,2025-04,1,11010010.0,Farinha de trigo,24,0.9135832767814573
+363,farinha de trigo enriquecida tipo 1 acond p eantrib 7896956410948,93,FARINHA DE TRIGO ENRIQUECIDA TIPO 1 - ACOND.: P - EANTrib.: 7896956410948,1,2025-01,2025-04,4,11010010.0,Farinha de trigo,0,0.9013661891977158
+364,farinha de trigo especial,1,FARINHA DE TRIGO ESPECIAL,1,2025-03,2025-03,1,11010010.0,Farinha de trigo,24,0.9376354508112247
+365,farinha de trigo grupo domestico tipo tipo 1 e,3,"FARINHA DE TRIGO GRUPO: DOMESTICO, TIPO: TIPO 1, E",1,2025-04,2025-04,1,11010010.0,Farinha de trigo,0,0.762184992967821
+366,farinha de trigo mix sc 25 kg,15,FARINHA DE TRIGO MIX SC 25 KG,1,2025-02,2025-04,3,11010010.0,Farinha de trigo,2,0.9457093526458742
+367,farinha de trigo padaria tipo 1 emb 25kg,5,Farinha de Trigo (Padaria) Tipo 1 emb 25kg,1,2025-03,2025-04,2,11010010.0,Farinha de trigo,0,0.9107209634452221
+368,farinha de trigo regina 1kg,1,FARINHA DE TRIGO REGINA 1KG,1,2025-02,2025-02,1,11010010.0,Farinha de trigo,24,0.9135832767814573
+369,farinha de trigo sem fermento especial boa sorte 1kg,2,FARINHA DE TRIGO SEM FERMENTO ESPECIAL BOA SORTE 1KG,1,2025-01,2025-04,2,11010010.0,Farinha de trigo,24,0.9592715506459291
+370,farinha em flocos de milho sinha 500g,1,FARINHA EM FLOCOS DE MILHO SINHA 500G,1,2025-03,2025-03,1,11041900.0,"Grãos de outros cereais, esmagados ou em flocos",1,0.8918443713535616
+371,farinha mand baiana fina amarela,2,FARINHA MAND.BAIANA FINA AMARELA,1,2025-03,2025-03,1,11062000.0,"Farinhas, sêmolas e pós, de sagu ou das raízes ou tubérculos, da posição 07.14",8,0.9957088395319043
+372,farinha p empanar kenko panko 200g,2,FARINHA P/EMPANAR KENKO PANKO 200G,1,2025-02,2025-03,2,19019090.0,"Outras preparações alimentícias de farinhas, etc, cacau < 40%",8,0.989567409145319
+373,farinha trigo bp pizza 5kg,1,FARINHA TRIGO BP PIZZA 5KG,1,2025-04,2025-04,1,11010010.0,Farinha de trigo,8,0.997723751112488
+374,farofa pronta tradicional 400 gr,2,FAROFA PRONTA TRADICIONAL 400 GR,1,2025-03,2025-04,2,19019090.0,"Outras preparações alimentícias de farinhas, etc, cacau < 40%",8,0.9952765091785912
+375,feijao branco tipo 01 ideal,1,FEIJAO BRANCO TIPO 01 IDEAL,1,2025-02,2025-02,1,20055100.0,"Feijões em grãos, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",0,0.9139174476682556
+376,feijao carioca picinin premium pct 1kg,1,Feijao Carioca Picinin Premium Pct 1kg*,1,2025-04,2025-04,1,7133399.0,"Outros feijões comuns, secos, em grãos",8,0.9891026422716994
+377,feijao codil vermelho 1kg,1,FEIJAO CODIL VERMELHO 1KG,1,2025-02,2025-02,1,7133399.0,"Outros feijões comuns, secos, em grãos",8,0.9886036256499511
+378,feijao debulhada verde,2,FEIJAO DEBULHADA VERDE,1,2025-03,2025-04,2,7082000.0,"Feijões (vigna, phaseolus spp) frescos ou refrigerados",8,0.9871561173356447
+379,feijao debulhado verde,27,FEIJAO DEBULHADO VERDE,1,2025-03,2025-04,2,7082000.0,"Feijões (vigna, phaseolus spp) frescos ou refrigerados",8,0.9871561173356447
+380,feijao preto c 1kg,6,FEIJAO PRETO C/1KG,1,2025-01,2025-03,3,7133399.0,"Outros feijões comuns, secos, em grãos",8,0.9877414753047602
+381,feijao tp1 1kg carioca,2,FEIJAO TP1 1KG CARIOCA,1,2025-02,2025-02,1,7133399.0,"Outros feijões comuns, secos, em grãos",8,0.9907856080763164
+382,feijao verde tipo 1 ideal,4,FEIJAO VERDE TIPO 1 IDEAL,1,2025-01,2025-04,3,20055100.0,"Feijões em grãos, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",0,0.90053147899752
+383,feijao vermelho giselle 1kg novo,1,FEIJAO VERMELHO GISELLE 1KG NOVO,1,2025-03,2025-03,1,7133290.0,"Outros feijões adzuki (Phaseolus ou Vigna angularis), secos, em grãos",8,0.9897984700258503
+384,fermento quimico 100g,11,FERMENTO QUIMICO 100G,1,2025-02,2025-02,1,7133399.0,"Outros feijões comuns, secos, em grãos",8,0.9987145525287643
+385,file de peito de frango,42,FILE DE PEITO DE FRANGO,2,2025-01,2025-04,4,2071300.0,"Pedaços e miudezas, de galos/galinhas, frescos/refrigerados",24,0.8521944472860777
+386,file de peito de frango avenova,9,FILE DE PEITO DE FRANGO AVENOVA,1,2025-01,2025-04,4,2071421.0,,24,0.8811128266965134
+387,file de peito de frango individual avenova,5,FILE DE PEITO DE FRANGO INDIVIDUAL AVENOVA,1,2025-02,2025-04,2,2071421.0,,24,0.8811128266965134
+388,file de peito de frango rico,4,FILE DE PEITO DE FRANGO RICO,1,2025-01,2025-04,3,2071421.0,,24,0.8521944472860777
+389,file de pescada,1,FILE DE PESCADA,1,2025-02,2025-02,1,3038920.0,"Pescadas (Cynoscion spp.), congeladas",24,0.9367854465282037
+390,file de salmao chile atlantico,1,FILE DE SALMAO CHILE ATLANTICO,1,2025-03,2025-03,1,3048100.0,"Filé de salmão-do-pacífico, do-danúbio, do-atlântico, congelado",24,0.9594432927582145
+391,file peixe tilapia aurora 400g iqf,3,FILE PEIXE TILAPIA AURORA 400G IQF,1,2025-01,2025-04,2,3028932.0,"Tilápias (tilápia,sarotherodon,danakilia); seus híbridos",8,0.9935404567248562
+392,file pescada amarela,2,FILE PESCADA AMARELA,1,2025-04,2025-04,1,3048990.0,"Outros filés congelados, de peixes",8,0.9970321465701214
+393,filet peito de frango pacote cx20 1 p pc,1,FILET PEITO DE FRANGO PACOTE CX20/1 P (PC),1,2025-03,2025-03,1,2071422.0,,24,0.9449999150567282
+394,filtro ar vw polo fox 02,1,FILTRO AR VW POLO FOX 02--------------------------,1,2025-01,2025-01,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",8,0.9972824034580449
+395,filtro combustivel wega,5,Filtro Combustivel - Wega,1,2025-03,2025-04,2,2071419.0,,8,0.9997615045134133
+396,fita adesiva delfix,4,FITA ADESIVA DELFIX,1,2025-02,2025-04,3,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,1.0010269642607983
+397,fita de cetim face simples 10m x 07mm,1,FITA DE CETIM FACE SIMPLES 10M X 07MM,1,2025-04,2025-04,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",24,0.9579357483648828
+398,fl requeijao betania 200g crem light,2,FL REQUEIJAO BETANIA 200G CREM LIGHT,1,2025-03,2025-03,1,4061090.0,"Outros queijos frescos (não curados), inclusive requeijão, etc.",8,0.9946426511498041
+399,flocao de milho nutrivita 20 500g,1,FLOCAO DE MILHO NUTRIVITA 20/500G,1,2025-03,2025-03,1,11041900.0,"Grãos de outros cereais, esmagados ou em flocos",1,0.8792171029283827
+400,flocao milho bomilho 500g,2,FLOCAO MILHO BOMILHO 500G,1,2025-04,2025-04,1,11041900.0,"Grãos de outros cereais, esmagados ou em flocos",1,0.8518674089354235
+401,flocos de cereais mistural p mingau,1,FLOCOS DE CEREAIS - MISTURAL P/ MINGAU,1,2025-01,2025-01,1,19019090.0,"Outras preparações alimentícias de farinhas, etc, cacau < 40%",24,0.905592736266397
+402,flocos de milho pre cozido acond f eantrib 7898907825078,113,FLOCOS DE MILHO PRE-COZIDO - ACOND.: F - EANTrib.: 7898907825078,1,2025-01,2025-04,4,11041900.0,"Grãos de outros cereais, esmagados ou em flocos",24,0.981757363258481
+403,flv manga kg,4,FLV MANGA KG .,2,2025-01,2025-04,3,8045020.0,Mangas frescas ou secas,2,0.9202894045945311
+404,flv uva vitoria 500g,2,FLV UVA VITORIA 500G .,1,2025-01,2025-04,2,8061000.0,Uvas frescas,1,0.9189736306197782
+405,forma plastica p gelo,1,FORMA PLASTICA P/ GELO,1,2025-01,2025-01,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9996955547414605
+406,fresubin energy fibre 1000ml fresenius lote 2402251448,1,FRESUBIN ENERGY FIBRE 1000ML - FRESENIUS (LOTE: 2402251448),1,2025-03,2025-03,1,21069090.0,Outras preparações alimentícias,10,0.9070604448649175
+407,fruta morango bandeja,1,FRUTA MORANGO BANDEJA,1,2025-03,2025-03,1,8101000.0,Morangos frescos,8,0.9949641979714493
+408,fruta preta desid tipo uva passa,1,FRUTA PRETA DESID. TIPO UVA PASSA,1,2025-02,2025-02,1,8062000.0,Uvas secas (passas),0,0.9135605568639795
+409,fruta tipo uva fruta tipo uva italia,1,"FRUTA, TIPO, UVA - FRUTA TIPO: UVA ITALIA",1,2025-04,2025-04,1,8061000.0,Uvas frescas,0,0.8689897133571266
+410,fuba milho ki flor 1kg mimoso,1,FUBA MILHO KI-FLOR 1KG MIMOSO .,1,2025-03,2025-03,1,11022000.0,Farinha de milho,8,0.9889053152117054
+411,funil branco tritec tambasa un 0,1,Funil Branco Tritec Tambasa UN/0,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",21,0.8497892509747367
+412,galao de agua mineral,4,GALAO DE AGUA MINERAL,1,2025-01,2025-04,3,22019000.0,"Outras águas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas; gelo e neve",24,0.9424459960059806
+413,galinha resfriada analise,3,GALINHA RESFRIADA - ANALISE,1,2025-02,2025-04,2,2071100.0,"Carnes de galos/galinhas, não cortadas em pedaços, frescas/refrigeradas",8,0.9990947294516112
+414,garfo sobremesa descartavel pct c 50 und,1,GARFO SOBREMESA DESCARTAVEL PCT C/ 50 UND,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",17,0.8692060491581173
+415,garrafa termica personalizada,1,GARRAFA TERMICA PERSONALIZADA,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.999702965059029
+416,gaveteiro mesa 4gav plast br 225x21x18,1,Gaveteiro mesa 4gav plast br 225X21X18,1,2025-04,2025-04,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9976303829345639
+417,gelatina nutrare limao 1kg 1 kg,1,GELATINA NUTRARE LIMAO 1KG 1 KG,1,2025-01,2025-01,1,21069029.0,"Pós para preparações de cremes, sorvetes, flans, gelatinas ou preparações similares",5,0.8700779928015536
+418,gelatina pessego kg,1,GELATINA PESSEGO KG,1,2025-04,2025-04,1,21069029.0,"Pós para preparações de cremes, sorvetes, flans, gelatinas ou preparações similares",2,0.9234542668840656
+419,geleia tipo frutas sabor,1,GELEIA TIPO FRUTAS SABOR,1,2025-02,2025-02,1,20079910.0,"Geleias e marmelades, de outras frutas",0,0.9204267737962393
+420,geleia uva 440g,4,GELEIA UVA 440G,1,2025-02,2025-04,3,20079910.0,"Geleias e marmelades, de outras frutas",8,0.9998722021664266
+421,gelo material agua filtrada apresentacao cubos saco 4kgs,6,"GELO, MATERIAL AGUA FILTRADA, APRESENTACAO CUBOS SACO 4KGS",1,2025-03,2025-04,2,22019000.0,"Outras águas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas; gelo e neve",8,0.9975223581330134
+422,gl23h11 lampada iodo h11 12v 55w pgj19 2,1,GL23H11 - LAMPADA IODO H11 12V - 55W PGJ19-2,1,2025-04,2025-04,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.8181604814921064
+423,glifosato fersol 480 na bb 5l fersol,1,GLIFOSATO FERSOL 480 NA BB 5L FERSOL,1,2025-04,2025-04,1,38089324.0,"Herbicida à base de glifosato ou seus sais, de imazaquim ou de lactofen",16,0.8117065527912003
+424,glifosato quimiagri 1 lt,1,GLIFOSATO QUIMIAGRI 1 LT,1,2025-01,2025-01,1,38089327.0,Herbicida à base de imazetapir,8,0.9975182236593491
+425,goiaba comum vermelha branca kg 1 kg,28,GOIABA COMUM VERMELHA/BRANCA | KG 1 KG,1,2025-01,2025-04,4,8051000.0,"Laranjas, frescas ou secas",2,0.8751050302387734
+426,goiabada tambau 500g,1,GOIABADA TAMBAU 500G,1,2025-03,2025-03,1,20079990.0,"Doces, pures e pastas, de outras frutas",1,0.8831015005717163
+427,goma mandioca paraense 1kg,1,GOMA MANDIOCA PARAENSE 1KG,1,2025-04,2025-04,1,11062000.0,"Farinhas, sêmolas e pós, de sagu ou das raízes ou tubérculos, da posição 07.14",8,0.9925293407262726
+428,granulado,9,GRANULADO,1,2025-01,2025-04,4,18069000.0,Outros chocolates e preparações alimentícias contendo cacau,8,0.0827716512263328
+429,guard papel mili 50un 23x22 5 bistr,1,"GUARD PAPEL MILI 50UN 23X22,5 BISTR",1,2025-03,2025-03,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",13,0.8563769967984133
+430,guardanapo 20x19 5 c 50 unid,3,"GUARDANAPO 20X19,5 C/ 50 UNID",1,2025-02,2025-03,2,48183000.0,"Toalhas de mesa e guardanapos, de papel",17,0.9649185736353619
+431,guardanapo de papel dia a dia,1,GUARDANAPO DE PAPEL DIA A DIA,1,2025-01,2025-01,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",13,0.8567044980656529
+432,guardanapo maddu 20x20 50 und,1,GUARDANAPO MADDU 20X20 50 UND,1,2025-02,2025-02,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",17,0.9614211235920362
+433,h alface hidroponico,1,H ALFACE HIDROPONICO,1,2025-02,2025-02,1,7051900.0,Outras alfaces frescas ou refrigeradas,8,1.0010269642607983
+434,h vd couve,1,H VD COUVE,1,2025-03,2025-03,1,7049000.0,"Couves, repolho, etc, do gênero Brassica, frescos ou refrigerados",8,0.9976949342489965
+435,hamburguer bovino cx c 672g seara,1,HAMBURGUER BOVINO CX C/ 672G SEARA,1,2025-01,2025-01,1,16023210.0,"Preparações e conservas de galos e galinhas, com conteúdo de carne ou de miudezas superior ou igual a 57 %, em peso, não cozidas",8,0.9958616445240579
+436,hamburguer de carne 90g,1,HAMBURGUER DE CARNE 90G,1,2025-03,2025-03,1,16025000.0,"Preparações alimentícias e conservas, da espécie bovina",24,0.9627707796955464
+437,hamburguer sadia 56g frango,1,HAMBURGUER SADIA 56G FRANGO,1,2025-01,2025-01,1,16025000.0,"Preparações alimentícias e conservas, da espécie bovina",8,0.9988517895600255
+438,hf alho descascado,1,HF.ALHO DESCASCADO,1,2025-04,2025-04,1,7032090.0,"Alhos, frescos ou refrigerados, exceto para semeadura",8,0.9946787571969868
+439,hf banana nanica,2,HF.BANANA NANICA,1,2025-03,2025-03,1,8039000.0,"Bananas frescas ou secas, exceto bananas-da-terra",8,0.9912589708118924
+440,hf mamao havwai kg,7,HF.MAMAO HAVWAI KG,1,2025-01,2025-04,4,8072000.0,Mamões (papaias) frescos,2,0.8483759225020522
+441,hf pepino japones,1,HF.PEPINO JAPONES,1,2025-02,2025-02,1,7070000.0,"Pepinos e pepininhos (cornichons), frescos ou refrigerados",8,0.9935324519211183
+442,hf uva vitoria bdj,3,HF.UVA VITORIA BDJ,1,2025-01,2025-04,3,8061000.0,Uvas frescas,8,0.9963414519210154
+443,hf vagem bdj,1,HF.VAGEM BDJ,1,2025-03,2025-03,1,7089000.0,"Outros legumes de vagem, frescos ou refrigerados",8,0.9950373571636016
+444,higieniza ar condicionad,1,HIGIENIZA AR CONDICIONAD,1,2025-02,2025-02,1,34029019.0,Outras misturas de agentes orgânicos de superfície,8,0.9968588457886465
+445,higienizador limpa ar cond floral 145ml 90g,1,HIGIENIZADOR LIMPA AR COND FLORAL 145ML/90G,1,2025-03,2025-03,1,34023990.0,,8,0.9933439878735267
+446,horti pimentao verde kg,1,HORTI PIMENTAO VERDE KG,1,2025-04,2025-04,1,7096000.0,"Pimentões e pimentas dos gêneros Capsicum ou Pimenta, frescos ou refrigerados",2,0.899089711223994
+447,hth limpa bordas 1lt s,1,HTH LIMPA BORDAS 1LT (S),1,2025-01,2025-01,1,34029039.0,Outras preparações para lavagem (detergentes),8,0.9935704587803204
+448,impact banana 200ml nestle,3,IMPACT BANANA 200ML NESTLE,1,2025-02,2025-03,2,21069090.0,Outras preparações alimentícias,8,0.9902582118559076
+449,inhame ceasa,9,Inhame CEASA,1,2025-01,2025-04,4,7089000.0,"Outros legumes de vagem, frescos ou refrigerados",8,0.9979888834229534
+450,inseticida aero sbp,1,INSETICIDA AERO SBP,1,2025-02,2025-02,1,38089119.0,Outros inseticidas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,8,1.0010269642607983
+451,iog batavo cremoso nat 160g integral unidade qtd 1 00 un,2,IOG BATAVO CREMOSO NAT 160G INTEGRAL UNIDADE QTD. 1.00 UN,1,2025-03,2025-03,1,4032000.0,,21,0.9345234946117703
+452,iog des danone natural 160g,2,IOG DES DANONE NATURAL 160G,1,2025-03,2025-04,2,4032000.0,,8,0.9959943384158618
+453,iog isis 150g natural,4,IOG ISIS 150G NATURAL,1,2025-01,2025-04,2,4032000.0,,8,0.9951980726394062
+454,iog nat danone 160g int,2,IOG NAT DANONE 160G INT,1,2025-02,2025-02,1,4032000.0,,8,0.9968102289294336
+455,iog semi danone zero lac 160g nat 10g prot,1,IOG SEMI DANONE ZERO LAC 160G NAT 10G PROT,1,2025-03,2025-03,1,4032000.0,,8,0.995713036248965
+456,iog trevinho 1100g morango,1,IOG TREVINHO 1100G MORANGO,1,2025-03,2025-03,1,4032000.0,,8,0.9912215191618589
+457,iogurte com granola,1,IOGURTE COM GRANOLA,1,2025-01,2025-01,1,4032000.0,,8,0.9959361430634016
+458,iogurte com polpa de frutas contendo 6 und,1,IOGURTE COM POLPA DE FRUTAS CONTENDO 6 UND.,1,2025-02,2025-02,1,22029900.0,"Outras bebidas não-alcoólicas (exceto água, cerveja sem álcool e itens da posição 20.09)",24,0.9597015531779314
+459,iogurte de frutas cartela com 6 und,3,IOGURTE DE FRUTAS CARTELA COM 6 UND,1,2025-03,2025-04,2,22029900.0,"Outras bebidas não-alcoólicas (exceto água, cerveja sem álcool e itens da posição 20.09)",24,0.9634182341594941
+460,iogurte liquido 900g 1x900g,1,IOGURTE LIQUIDO 900G 1X900G,1,2025-01,2025-01,1,4032000.0,,8,0.9966129786658648
+461,iogurte liquido diversos sabores embalagem com 170g tirol,1,"IOGURTE LIQUIDO DIVERSOS SABORES EMBALAGEM COM 170G, TIROL",1,2025-04,2025-04,1,4032000.0,,8,0.995450335602152
+462,iogurte natural integral,1,IOGURTE NATURAL INTEGRAL,1,2025-02,2025-02,1,4032000.0,,4,0.9355886622114761
+463,isis batom liquido,1,ISIS BATOM LIQUIDO,1,2025-04,2025-04,1,33041000.0,Produtos de maquiagem para os lábios,8,0.9968844032998705
+464,isosource 1 5 1000ml,3,ISOSOURCE 1.5 1000ML,1,2025-02,2025-03,2,21069090.0,Outras preparações alimentícias,8,1.0001714676290856
+465,isosource soya fiber 1l marca nestle,2,ISOSOURCE SOYA FIBER 1L - MARCA: NESTLE,1,2025-01,2025-04,2,21069090.0,Outras preparações alimentícias,8,0.9927918643339797
+466,isotonico em po,1,ISOTONICO EM PO,1,2025-04,2025-04,1,20091900.0,"Outros sucos de laranjas, não fermentados, sem adição de álcool, com ou sem adição de açúcar ou de outros edulcorantes",23,0.5903278680580684
+467,item 160 po pudim sabor baunilha,1,"ITEM 160 - PO PUDIM, SABOR BAUNILHA",1,2025-04,2025-04,1,21069021.0,"Pós para a fabricação de pudins, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",10,0.9218046108752139
+468,item 192 doce nao confeitado pacoca,1,"ITEM 192 - DOCE NAO CONFEITADO, PACOCA",1,2025-03,2025-03,1,17049090.0,"Outros produtos de confeitaria, sem cacau",10,0.9329377480043795
+469,item 268 caneco de aluminio abc,1,ITEM 268 - CANECO DE ALUMINIO. ABC,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",10,0.8591139580601747
+470,item 35 vitafor simcaps 3 bilhoes 30caps,1,ITEM 35 - VITAFOR - SIMCAPS 3 BILHOES - 30CAPS,1,2025-02,2025-02,1,21069030.0,Complementos alimentares,10,0.8638404771950122
+471,item 40 luva p cozinha,1,ITEM 40 - LUVA P COZINHA,1,2025-04,2025-04,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",10,0.9216244299808358
+472,item compra 03 desincrostante tipo limpeza pesada gl c 5 lt lote 1454,1,ITEM COMPRA: 03 - DESINCROSTANTE TIPO LIMPEZA PESADA - GL C/ 5 LT (LOTE: 1454),1,2025-03,2025-03,1,34012090.0,Outros sabões,10,0.7916558740900658
+473,item compra 105 removedor ferrugem aplicacao remocao de crostas e manchas de oxidacao lote 2649,1,ITEM COMPRA: 105 - REMOVEDOR FERRUGEM APLICACAO REMOCAO DE CROSTAS E MANCHAS DE OXIDACAO (LOTE:2649),1,2025-03,2025-03,1,34029039.0,Outras preparações para lavagem (detergentes),10,0.7288615797769815
+474,item compra 128 desinfetante com aroma lote 5112,1,ITEM COMPRA: 128 - DESINFETANTE COM AROMA (LOTE: 5112),1,2025-02,2025-02,1,38085200.0,"DDT (ISO) (clofenotano (DCI)), acondicionado em embalagens com um conteúdo de peso líquido não superior a 300 gramas",10,0.7550944235039496
+475,item compra 15 detergente liq sanit alc clor bb c 20 lt lote 1202,1,ITEM COMPRA: 15 - DETERGENTE LIQ. SANIT. ALC. CLOR - BB C/ 20 LT (LOTE: 1202),1,2025-01,2025-01,1,34029039.0,Outras preparações para lavagem (detergentes),10,0.8148506054597543
+476,item compra 80 detergente aplicacao maq lavar louca lote 1261,1,ITEM COMPRA: 80 - DETERGENTE APLICACAO MAQ LAVAR LOUCA (LOTE: 1261),1,2025-03,2025-03,1,34029039.0,Outras preparações para lavagem (detergentes),10,0.7375128563525587
+477,jarra material plastico capacidade 4 l com tampa tritec,1,"JARRA,MATERIAL PLASTICO,CAPACIDADE 4 L,COM TAMPA, TRITEC",1,2025-02,2025-02,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9961607488840193
+478,jarra plasut graduada esprem 1l 3651,1,JARRA PLASUT GRADUADA ESPREM 1L 3651,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9951148735544552
+479,jogo de brocas para alvenaria comum 1 a 12mm,3,JOGO DE BROCAS PARA ALVENARIA COMUM 1 À 12MM,1,2025-02,2025-03,2,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),24,0.9730491160067277
+480,jogo pote plt mantimentos ret c 5pcs,1,JOGO POTE PLT MANTIMENTOS RET C 5PCS,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9975532826001163
+481,kaliber lac supreme bezerra,1,KALIBER LAC SUPREME BEZERRA,1,2025-04,2025-04,1,23099090.0,Outras preparações dos tipos utilizados na alimentação de animais,8,1.000135611138125
+482,karate zeon 50 cs 250ml,1,KARATE ZEON 50 CS 250ML,1,2025-03,2025-03,1,38089199.0,"Outros inseticidas, apresentados de outro modo",17,0.9866719309570804
+483,kit proauto auto care 4pc,1,KIT PROAUTO AUTO CARE 4PC,1,2025-04,2025-04,1,34029090.0,Outras preparações tensoativas e preparações para limpeza,8,0.9993560128615394
+484,kit reparo freio traseiro,1,KIT REPARO FREIO TRASEIRO,1,2025-04,2025-04,1,21069029.0,"Pós para preparações de cremes, sorvetes, flans, gelatinas ou preparações similares",8,1.000048477726586
+485,lamp bulbo alta potencia 50w 6500k e27,2,LAMP BULBO ALTA POTENCIA 50W 6500K E27,1,2025-04,2025-04,1,85395200.0,,8,0.9984889796395624
+486,lamp led a60 e27 9w 810lm 127 220v 3 000k 03097013 base icms st 0 00 valor icms st 0 00,1,"Lamp. LED A60 E27 - 9W 810Lm 127/220V 3.000K - (03097013) - Base Icms ST: 0,00 - Valor Icms ST: 0,00",1,2025-03,2025-03,1,85395200.0,,8,0.9982968322283727
+487,lamp led smd a60 12w 100 240v 6000k,2,LAMP. LED SMD A60 12W 100-240V 6000K,1,2025-02,2025-03,2,85395200.0,,8,0.9971969645510561
+488,lamp ledc 15w br 1311lm biv ledvance,6,Lâmp LEDC 15W Br 1311lm Biv Ledvance,1,2025-02,2025-02,1,85395200.0,,8,0.9987673083965644
+489,lampada 1 polo 21w 12v 12498,1,LAMPADA 1 POLO 21W 12V ...12498,1,2025-04,2025-04,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.8479514691961766
+490,lampada 1141 1 polo cristal 24v 21w pino encontrado,1,LAMPADA 1141 1 POLO CRISTAL 24V 21W PINO ENCONTRADO,1,2025-02,2025-02,1,85392990.0,Outras lâmpadas/tubos incandescentes,9,0.9183783256591956
+491,lampada 12v 60 55w 6005 011 062 00 0,1,LAMPADA 12V - 60/55W 6005.011.062.00.0,1,2025-02,2025-02,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8547134157598961
+492,lampada 12v freio,1,LAMPADA 12V FREIO,1,2025-04,2025-04,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.8332926986118127
+493,lampada 2 contato desigual 24v gl1034 13499,2,LAMPADA 2 CONTATO DESIGUAL 24V - GL1034 13499,1,2025-03,2025-03,1,85392990.0,Outras lâmpadas/tubos incandescentes,9,0.8182050624647867
+494,lampada 2 polo 12v215w,1,LAMPADA 2 POLO 12V215W,1,2025-02,2025-02,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.8548899303716339
+495,lampada bulbo 16w led 3000k 1521lm a65 100 240v 929002984712 philips,11,LAMPADA BULBO 16W LED 3000K 1521LM A65 100-240V 929002984712 - PHILIPS-,1,2025-02,2025-02,1,85395200.0,,9,0.9161507805148588
+496,lampada de led 10w bivolt branca formato tradicional,1,LAMPADA DE LED 10W BIVOLT BRANCA FORMATO TRADICIONAL,1,2025-01,2025-01,1,85395200.0,,9,0.9441368512139068
+497,lampada de led 12w bivolt e 27 cor branca fria 1100 1200lm vida media 40 000h,1,LAMPADA DE LED 12W BIVOLT E-27 COR BRANCA FRIA 1100-1200LM VIDA MEDIA 40.000H,1,2025-01,2025-01,1,85395200.0,,8,0.9949002099551824
+498,lampada do farolete,1,LAMPADA DO FAROLETE,1,2025-03,2025-03,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.9172117639889668
+499,lampada do farolete esq,3,LAMPADA DO FAROLETE ESQ,1,2025-02,2025-03,2,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.947429830240946
+500,lampada farol de milha,3,LAMPADA FAROL DE MILHA,1,2025-01,2025-04,3,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.7955052436628364
+501,lampada farol h4 13342 24v,1,LAMPADA FAROL H4 13342 24V,1,2025-02,2025-02,1,85392190.0,"Outras lâmpadas/tubos incandescentes halogenos, de tungstênio",9,0.8121937123952109
+502,lampada farol h7 philips,1,LAMPADA FAROL H7 PHILIPS,1,2025-03,2025-03,1,85392990.0,Outras lâmpadas/tubos incandescentes,9,0.8107583331710452
+503,lampada farol luz baixa,1,LAMPADA FAROL LUZ BAIXA,1,2025-01,2025-01,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.7726489935255999
+504,lampada h11,3,LAMPADA H11,1,2025-01,2025-04,3,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8784704572846977
+505,lampada h4 12v bosch,1,LAMPADA H4 12V BOSCH,1,2025-04,2025-04,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8374597822648843
+506,lampada h4 24v,2,LAMPADA H4 24V,1,2025-03,2025-04,2,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8381589755375308
+507,lampada h7 12v 55w gauss,3,LAMPADA H7 12V 55W GAUSS,1,2025-01,2025-01,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.820609816622675
+508,lampada h7 12v 55w px26d halogena standard,1,LAMPADA H7 12V 55W PX26D HALOGENA STANDARD,1,2025-04,2025-04,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8178801692071636
+509,lampada h7 12v farol philips,1,LAMPADA H7 12V FAROL PHILIPS,1,2025-01,2025-01,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.7547112123873583
+510,lampada h7 12v farol principal gauss,1,LAMPADA H7/12V FAROL PRINCIPAL(GAUSS),1,2025-03,2025-03,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.7979821910815312
+511,lampada h7 24v 55w,1,LAMPADA H7 24V 55W,1,2025-03,2025-03,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8354824262032366
+512,lampada halogena 70x127 tributos aprox r 6 12,1,"LAMPADA HALOGENA 70X127- TRIBUTOS APROX.(R$): 6,12",1,2025-01,2025-01,1,85395200.0,,9,0.9252088974203874
+513,lampada led 30w empalux bulbo e 27 6500k,1,LAMPADA LED 30W EMPALUX BULBO E-27 6500K,1,2025-04,2025-04,1,85395200.0,,9,0.9163158126032868
+514,lampada led bulbo 50w 6500k bivolt e27,1,LAMPADA LED BULBO 50W 6500K BIVOLT E27,1,2025-04,2025-04,1,85395200.0,,9,0.94122194744153
+515,lampada led modelo led potencia nominal 50w caracteristicas adicionais dimensao 10 a 25mm material liga de aluminio,1,"LAMPADA LED, MODELO LED, POTENCIA NOMINAL 50W, CARACTERISTICAS ADICIONAIS DIMENSAO: 10 A 25MM, MATERIAL LIGA DE ALUMINIO",1,2025-03,2025-03,1,85392190.0,"Outras lâmpadas/tubos incandescentes halogenos, de tungstênio",8,0.9967855737724995
+516,lampada led smd bivolt potencia nominal 36 w base g13 reator cor branca fria o bulbo t8 formato tubular comp,1,"LAMPADA LED, SMD, BIVOLT, POTENCIA NOMINAL 36 W, BASE G13, REATOR, COR BRANCA FRIA, O BULBO T8, FORMATO TUBULAR, COMP",1,2025-04,2025-04,1,85395200.0,,9,0.9933396111923933
+517,lampada philips h3 12336 c1,1,LAMPADA PHILIPS H3 12336 C1,1,2025-04,2025-04,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8193537396245285
+518,lampada phs h4 12v 12342c1,1,LAMPADA PHS H4 12V 12342C1,1,2025-02,2025-02,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.7637795692569436
+519,lampada tubular led t8 bf 18w biv 6500k,6,LAMPADA TUBULAR LED T8 BF 18W BIV 6500K,1,2025-02,2025-02,1,85395200.0,,9,0.9484310405254505
+520,lampada ultra led 6500k 9w tramontina,2,LAMPADA ULTRA LED 6500K 9W TRAMONTINA,1,2025-03,2025-03,1,85395200.0,,9,0.9380624781533008
+521,lampada w5w 12v 5w pingao,1,LAMPADA W5W 12V 5W PINGAO,1,2025-01,2025-01,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",9,0.8129783362290753
+522,lanche da noite,19,LANCHE DA NOITE,1,2025-01,2025-04,4,21069090.0,Outras preparações alimentícias,8,0.9962334110940293
+523,lanirat isca girassol 200g elanco,1,LANIRAT ISCA GIRASSOL 200G ELANCO,1,2025-04,2025-04,1,38089919.0,Outros rodenticidas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,8,0.9909865054390465
+524,lapiseira tecnica 0 9mm,1,"LAPISEIRA TECNICA 0,9MM",1,2025-03,2025-03,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.0827716512263328
+525,laranja amj,3,LARANJA - AMJ - .,1,2025-02,2025-04,2,8051000.0,"Laranjas, frescas ou secas",8,0.9973406405866209
+526,laranja cravo,10,LARANJA CRAVO,1,2025-03,2025-04,2,8051000.0,"Laranjas, frescas ou secas",8,0.9976528219302663
+527,laranja lima kg,1,LARANJA LIMA KG,1,2025-03,2025-03,1,8051000.0,"Laranjas, frescas ou secas",2,0.8186748038510269
+528,laranja pera kg,84,LARANJA PERA KG,3,2025-01,2025-04,4,8051000.0,"Laranjas, frescas ou secas",2,0.8949067747185855
+529,lava auto 5lt,1,LAVA AUTO 5LT,1,2025-03,2025-03,1,34029019.0,Outras misturas de agentes orgânicos de superfície,5,0.9740547139313849
+530,lava loucas ype 500ml liq capim limao,1,LAVA LOUCAS YPE 500ML LIQ. CAPIM LIMAO,1,2025-04,2025-04,1,34025000.0,,5,0.7351907381274007
+531,lava roupa liq urca maxx 5l,1,LAVA ROUPA LIQ URCA MAXX 5L,1,2025-02,2025-02,1,34025000.0,,5,0.9136923060677821
+532,lava roupa liq vida macia,2,LAVA ROUPA LIQ.VIDA MACIA,1,2025-02,2025-03,2,34025000.0,,5,0.8898197761294161
+533,lava roupa po 5 em1 surf pct 800g limao bircab,1,LAVA ROUPA PO 5 EM1 SURF PCT 800G LIMAO/BIRCAB,1,2025-03,2025-03,1,34025000.0,,5,0.7774331348584282
+534,legume batata doce rosada,1,LEGUME BATATA DOCE ROSADA,1,2025-03,2025-03,1,7142000.0,"Batatas-doces, frescas, refrigeradas, congeladas ou secas",8,0.9888290282488478
+535,legume em conserva tipo azeitona preta tamanho grande apresentacao sem caroco,1,"LEGUME EM CONSERVA, TIPO AZEITONA PRETA, TAMANHO GRANDE, APRESENTACAO SEM CAROCO",1,2025-02,2025-02,1,20057000.0,"Azeitonas, preparadas ou conservadas, exceto em vinagre ou em ácido acético, não congeladas",0,0.9541473355974972
+536,legume in natura cenoura,5,LEGUME IN NATURA CENOURA,1,2025-03,2025-04,2,7061000.0,"Cenouras e nabos, frescos ou refrigerados",3,0.7089435037044337
+537,legume in natura cenoura kg,1,LEGUME IN NATURA CENOURA KG,1,2025-04,2025-04,1,7061000.0,"Cenouras e nabos, frescos ou refrigerados",3,0.7156481846443179
+538,legume in natura nabo,6,LEGUME IN NATURA NABO,1,2025-03,2025-04,2,7061000.0,"Cenouras e nabos, frescos ou refrigerados",3,0.5910445636126246
+539,legume in natura tipo abobora cabotia japonesa,5,"LEGUME IN NATURA, TIPO ABÓBORA CABOTIÁ/ JAPONESA",1,2025-01,2025-02,2,7099300.0,"Abóboras, abobrinhas e cabaças, fresca ou refrigerada",3,0.7249186542005669
+540,legume processado tipo mandioca formato palito preparo pre cozido apres congelado,1,"LEGUME PROCESSADO, TIPO MANDIOCA, FORMATO PALITO, PREPARO PRÉ COZIDO, APRES. CONGELADO",1,2025-04,2025-04,1,7108000.0,"Outros produtos hortícolas congelados, não cozidos ou cozidos em água ou vapor, congelados",0,0.9704528207897537
+541,leite coco fredao pet 2l,1,LEITE COCO FREDAO PET 2L,1,2025-04,2025-04,1,20098990.0,"Sucos (sumo) de outras frutas, não fermentado, sem adição de açúcar",18,0.7686956023057498
+542,leite condensado cemil tp 395g,1,LEITE CONDENSADO CEMIL TP 395G,1,2025-04,2025-04,1,4029900.0,"Outros leites, cremes de leite, concentrados, adocicados",18,0.9661046418846042
+543,leite condensado integral,1,LEITE CONDENSADO INTEGRAL,1,2025-03,2025-03,1,4029900.0,"Outros leites, cremes de leite, concentrados, adocicados",4,0.8289139017450415
+544,leite condensado integral pcte,1,LEITE CONDENSADO INTEGRAL PCTE,1,2025-04,2025-04,1,19053200.0,Waffles e wafers,4,0.8289139017450415
+545,leite de cabra,5,LEITE DE CABRA,1,2025-01,2025-04,3,4011010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, não superior a 1 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",24,0.8741480470485503
+546,leite de coco sococo 200ml vd,1,LEITE DE COCO SOCOCO 200ML VD,1,2025-02,2025-02,1,20098990.0,"Sucos (sumo) de outras frutas, não fermentado, sem adição de açúcar",18,0.8956763476740096
+547,leite em po betania 200g,1,LEITE EM PO BETANIA 200G,1,2025-03,2025-03,1,4021010.0,"Leite em pó, grânulos ou outras formas sólidas, com um teor, em peso, de matérias gordas, não superior a 1,5 %, com um teor de arsênio, chumbo ou cobre, considerados isoladamente,inferior a 5 ppm, concentrados ou adicionados de açúcar/outros edulcorantes.",23,0.8403664053888854
+548,leite em po gloria desnatado 260g sachet,1,LEITE EM PO GLORIA DESNATADO 260G SACHET,1,2025-02,2025-02,1,4022110.0,"Leite integral, em pó, com um teor, em peso, de matérias gordas, superior a 1,5 %, sem adição de açúcar ou de outros edulcorantes",23,0.8435062503657632
+549,leite em po italac 1kg,1,LEITE EM PO ITALAC 1KG,1,2025-04,2025-04,1,4021010.0,"Leite em pó, grânulos ou outras formas sólidas, com um teor, em peso, de matérias gordas, não superior a 1,5 %, com um teor de arsênio, chumbo ou cobre, considerados isoladamente,inferior a 5 ppm, concentrados ou adicionados de açúcar/outros edulcorantes.",23,0.8025540884318724
+550,leite int fresco fiore 1l gfa,1,LEITE INT FRESCO FIORE 1L GFA,1,2025-02,2025-02,1,4012090.0,"Outros leites e cremes, com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",18,0.9412864811659492
+551,leite integral longa vida 1l,1,LEITE INTEGRAL LONGA VIDA 1L,1,2025-03,2025-03,1,4012010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",4,0.8620747989300656
+552,leite integral pasteurizado,8,LEITE INTEGRAL PASTEURIZADO,1,2025-01,2025-02,2,4014010.0,"Leite, com um teor, em peso, de matérias gordas, superior a 6 %, mas não superior a 10 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",4,0.7892337450733443
+553,leite leitbom l vida integral tp 1lt,1,LEITE LEITBOM L.VIDA INTEGRAL TP 1LT,1,2025-03,2025-03,1,4012010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",4,0.8824521354653615
+554,leite lv int italac 1l,5,LEITE LV INT ITALAC 1L,1,2025-01,2025-04,3,4012010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",18,0.9424676842026848
+555,leite lv nestle 1lt ninho integral,1,LEITE LV NESTLE 1LT NINHO INTEGRAL,1,2025-03,2025-03,1,4012010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",4,0.8967624248158022
+556,leite po aurora int sache 200g,1,LEITE PO AURORA INT SACHE 200G,1,2025-03,2025-03,1,4022110.0,"Leite integral, em pó, com um teor, em peso, de matérias gordas, superior a 1,5 %, sem adição de açúcar ou de outros edulcorantes",18,0.9446040263872972
+557,leite po aurora integral pct,1,LEITE PO AURORA INTEGRAL PCT.,1,2025-03,2025-03,1,4022110.0,"Leite integral, em pó, com um teor, em peso, de matérias gordas, superior a 1,5 %, sem adição de açúcar ou de outros edulcorantes",4,0.8941672277934709
+558,leite po int italac pc 200g,1,LEITE PO INT ITALAC PC 200G,1,2025-03,2025-03,1,4022110.0,"Leite integral, em pó, com um teor, em peso, de matérias gordas, superior a 1,5 %, sem adição de açúcar ou de outros edulcorantes",18,0.9358292477924192
+559,leite po itambe 500g desnatado inst,1,LEITE PO ITAMBE 500G DESNATADO INST .,1,2025-01,2025-01,1,4022110.0,"Leite integral, em pó, com um teor, em peso, de matérias gordas, superior a 1,5 %, sem adição de açúcar ou de outros edulcorantes",18,0.9492815784535688
+560,lenco descartavel fd cx 100un,1,LENCO DESCARTAVEL FD CX.100UN,1,2025-01,2025-01,1,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",17,0.9275172203547662
+561,limao classificacao sem caracteristicas,22,LIMAO (CLASSIFICACAO SEM CARACTERISTICAS),4,2025-03,2025-04,2,8055000.0,"Limões (Citrus limon, Citrus limonum) e limas (Citrus aurantifolia, Citrus latifolia), frescos ou secos",5,0.8969284237061191
+562,limao thaiti,1,LIMAO THAITI,1,2025-02,2025-02,1,8055000.0,"Limões (Citrus limon, Citrus limonum) e limas (Citrus aurantifolia, Citrus latifolia), frescos ou secos",5,0.7276913497703454
+563,limp cif profundo cremoso branco,1,LIMP.CIF.PROFUNDO CREMOSO BRANCO,1,2025-01,2025-01,1,34054000.0,"Pastas, pós e outras preparações para arear",8,0.9967179588487879
+564,limp cif vidros u rapido pulv 500ml,1,LIMP CIF VIDROS U RAPIDO PULV 500ML,1,2025-04,2025-04,1,34025000.0,,12,0.9028652758470658
+565,limp perf aromaencantos 1l doce vida,1,LIMP PERF AROMAENCANTOS 1L DOCE VIDA,1,2025-04,2025-04,1,34023100.0,,8,0.9912251035729769
+566,limp perf ype prem jardim secreto fr 2l,2,LIMP PERF YPE PREM JARDIM SECRETO FR 2L,1,2025-02,2025-02,1,34025000.0,,18,0.9744596633070177
+567,limp ype multiuso desengordurante 500ml,1,LIMP YPE MULTIUSO DESENGORDURANTE 500mL,1,2025-04,2025-04,1,34029090.0,Outras preparações tensoativas e preparações para limpeza,12,0.8980074574801747
+568,limpa ar condicionado carro novo 5977,1,LIMPA AR CONDICIONADO CARRO NOVO 5977,1,2025-03,2025-03,1,34029090.0,Outras preparações tensoativas e preparações para limpeza,8,0.9936051035765349
+569,limpa ar ions de prata,8,LIMPA AR IONS DE PRATA,1,2025-02,2025-04,3,34023990.0,,24,0.9623880822923467
+570,limpa parabrisa 100 ml,1,LIMPA PARABRISA 100 ML,1,2025-04,2025-04,1,34029039.0,Outras preparações para lavagem (detergentes),20,0.9452911347041901
+571,limpa quadro bco souza 60ml,1,LIMPA QUADRO BCO SOUZA 60ML,1,2025-04,2025-04,1,34029090.0,Outras preparações tensoativas e preparações para limpeza,8,0.9959550786852502
+572,limpa radiador 200ml 246 orbi gtin 7898314110132,2,LIMPA RADIADOR 200ML 246 ORBI - GTIN 7898314110132,1,2025-01,2025-02,2,34029090.0,Outras preparações tensoativas e preparações para limpeza,8,0.9918404454214509
+573,limpa vidro spray 500ml,1,LIMPA VIDRO SPRAY 500ML,1,2025-01,2025-01,1,34029039.0,Outras preparações para lavagem (detergentes),12,0.9109703123372778
+574,limpa vidros lavabem 24x500ml,1,LIMPA VIDROS LAVABEM 24X500ML,1,2025-03,2025-03,1,34029039.0,Outras preparações para lavagem (detergentes),8,0.9959947386389204
+575,limpador casa e perf sensualid 1l,1,LIMPADOR CASA E PERF SENSUALID 1L,1,2025-04,2025-04,1,34025000.0,,8,0.9941412664415424
+576,limpador mult 500ml trad classic,5,LIMPADOR MULT 500ML TRAD CLASSIC,1,2025-03,2025-03,1,34025000.0,,12,0.9063889414758848
+577,limpador uau mult uso original lavanda 500ml 7891242211506,1,LIMPADOR UAU MULT USO ORIGINAL LAVANDA 500ML 7891242211506,1,2025-04,2025-04,1,34025000.0,,12,0.9371008752922184
+578,limpador uau uso direto madeira tacos 750ml 7891242000124,1,LIMPADOR UAU USO DIRETO MADEIRA TACOS 750ML 7891242000124,1,2025-03,2025-03,1,34025000.0,,8,0.99951015837729
+579,limpeza rodo 30cm madeirac cabo ifrancis,1,LIMPEZA RODO 30CM MADEIRAC/CABO IFRANCIS,1,2025-01,2025-01,1,96031000.0,"Vassouras e escovas constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",14,0.9579316746395882
+580,linguica calabresa,220,LINGUICA CALABRESA,3,2025-01,2025-04,4,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",8,0.9973056739379124
+581,linguica calbresa,1,LINGUICA CALBRESA,1,2025-04,2025-04,1,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",8,0.9973056739379124
+582,linguica de pernil seara,1,LINGUIÇA DE PERNIL SEARA,1,2025-02,2025-02,1,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",24,0.9625395286732364
+583,lixeira 014lts basculante 30cm preto 7898319321847,2,LIXEIRA 014LTS BASCULANTE 30CM - Preto (7898319321847),1,2025-04,2025-04,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9965150125721557
+584,lixeira 15 litros c pedal,2,LIXEIRA - 15 LITROS C/ PEDAL,2,2025-01,2025-03,2,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9961142671520495
+585,lixeira 60l,2,LIXEIRA 60L,1,2025-03,2025-04,2,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9973997629939232
+586,lixeira cajovil basculante 50 litros vermelha,2,LIXEIRA CAJOVIL BASCULANTE 50 LITROS VERMELHA,1,2025-03,2025-03,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.9960089070541365
+587,lph412vh lampada h4 12v 60 55w p43t t4 625 amx,2,LPH412VH LAMPADA H4 12V 60/55W P43T T4.625 - AMX,1,2025-02,2025-02,1,85392110.0,"Outras lâmpadas e tubos de incandescência, exceto de raios ultravioleta ou infravermelhos, halógenos, de tungstênio, para uma tensão inferior ou igual a 15 V",9,0.8156607806659155
+588,lustra moveis 200ml lavanda butterfly audax 109035,3,LUSTRA MOVEIS 200ml LAVANDA BUTTERFLY - AUDAX 109035,1,2025-01,2025-04,3,34052000.0,"Encáusticas e preparações semelhantes, para conservação e limpeza de móveis de madeira, soalhos e de outros artigos de madeira",8,0.9977631335188623
+589,lustra moveis poliflor 200ml jasmim poliflor un,1,Lustra Moveis Poliflor 200ml Jasmim Poliflor UN,1,2025-04,2025-04,1,34052000.0,"Encáusticas e preparações semelhantes, para conservação e limpeza de móveis de madeira, soalhos e de outros artigos de madeira",21,0.8982103492191301
+590,lustrador v 30 vonixx 500 ml,1,LUSTRADOR V-30 VONIXX 500 ML,1,2025-01,2025-01,1,34053000.0,"Preparações para dar brilho a pinturas de carroçarias e produtos semelhantes, exceto preparações para dar brilho a metais",20,0.8234479909144063
+591,luva verde m,2,Luva Verde ( M ),1,2025-02,2025-03,2,34025000.0,,8,0.9940258016409814
+592,mac isabela pena ovos,1,MAC.ISABELA PENA OVOS,1,2025-03,2025-03,1,19021100.0,"Massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",8,0.995853196866953
+593,mac orsi da 1kg parafuso,1,MAC.ORSI DA 1KG PARAFUSO,1,2025-04,2025-04,1,19021100.0,"Massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",8,0.9894319161436107
+594,mac paganini g duro 500g fettucci,1,MAC PAGANINI G DURO 500G FETTUCCI,1,2025-03,2025-03,1,19021900.0,"Outras massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo",1,0.8728677243864063
+595,mac penne c ovos 500gr,1,MAC PENNE C/OVOS 500GR,1,2025-01,2025-01,1,19021100.0,"Massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",8,0.9954343967214765
+596,macar cort parafuso 500gr don sapore,1,MACAR CORT PARAFUSO 500GR DON SAPORE,1,2025-04,2025-04,1,19021100.0,"Massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",8,0.9983526387307471
+597,macarrao espaguete 500g,11,MACARRÃO ESPAGUETE 500G,3,2025-02,2025-04,3,19021900.0,"Outras massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo",1,0.910666904610482
+598,macarrao espaguete semola acond f eantrib 7896423700237,18,MACARRAO ESPAGUETE SEMOLA - ACOND.: F - EANTrib.: 7896423700237,1,2025-04,2025-04,1,19021900.0,"Outras massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo",8,1.0005123383831869
+599,macarrao galo 500g verm parafuso,2,MACARRAO GALO 500G VERM.PARAFUSO,1,2025-03,2025-03,1,19021900.0,"Outras massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo",1,0.9058413325077868
+600,macarrao parafuso bnic pe 10 2023,1,MACARRAO PARAFUSO - BNIC PE 10/2023,1,2025-02,2025-02,1,19021900.0,"Outras massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo",8,0.9962927297285816
+601,maionese hellmanns sh 1kg trad,3,MAIONESE HELLMANNS SH 1KG TRAD,1,2025-04,2025-04,1,21039011.0,"Maionese, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9910213245484979
+602,maleta p primeiros socorros c 3 bandejas,1,MALETA P/ PRIMEIROS SOCORROS C/3 BANDEJAS,1,2025-04,2025-04,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,0.0827716512263328
+603,mandioca legume in natura,2,MANDIOCA LEGUME IN NATURA,1,2025-04,2025-04,1,7143000.0,Inhames (Dioscorea spp.),3,0.7070631200865256
+604,manjericao kg 1 un,26,MANJERICAO | KG 1 UN,1,2025-01,2025-04,4,7089000.0,"Outros legumes de vagem, frescos ou refrigerados",21,0.820600933201851
+605,manteiga com sal,25,MANTEIGA COM SAL,2,2025-01,2025-04,4,4051000.0,Manteiga,1,0.9411324490377921
+606,manteiga com sal natural da vaca c 500g,3,MANTEIGA COM SAL NATURAL DA VACA C/500G,1,2025-01,2025-03,3,4051000.0,Manteiga,1,0.8640614841842624
+607,manteiga da terra 2kg,1,MANTEIGA DA TERRA 2KG,1,2025-02,2025-02,1,4051000.0,Manteiga,8,0.9960390403710195
+608,manteiga davaca 500g c sal,1,MANTEIGA DAVACA 500G C/SAL,1,2025-04,2025-04,1,4051000.0,Manteiga,1,0.8304905281731539
+609,manteiga extra s sal 500gr 32cx,1,MANTEIGA EXTRA S/ SAL 500GR (32CX),1,2025-02,2025-02,1,4051000.0,Manteiga,1,0.9723078350402848
+610,manteiga ouro de minas com sal 200 gr,7,MANTEIGA OURO DE MINAS COM SAL 200 GR.,1,2025-02,2025-04,3,4051000.0,Manteiga,1,0.9801001806101284
+611,marg doriana pote c sal 1 kg,3,MARG DORIANA POTE C/SAL 1 KG,1,2025-04,2025-04,1,15171000.0,"Margarina, exceto a margarina líquida",2,0.929473348448454
+612,marg qualy trad 1kg,1,MARG QUALY TRAD 1KG,1,2025-03,2025-03,1,15171000.0,"Margarina, exceto a margarina líquida",8,0.9919739099149687
+613,margarina becel 250g s sal original,1,MARGARINA BECEL 250G S/SAL ORIGINAL,1,2025-04,2025-04,1,15171000.0,"Margarina, exceto a margarina líquida",1,0.993141377869204
+614,margarina com sal 500 gramas,1,"MARGARINA COM SAL, 500 GRAMAS",1,2025-02,2025-02,1,15171000.0,"Margarina, exceto a margarina líquida",20,0.9223624622628503
+615,margarina deline 24 x 250g,2,MARGARINA DELINE 24 X 250G,1,2025-03,2025-03,1,15171000.0,"Margarina, exceto a margarina líquida",8,0.9991984020980628
+616,margarina deline 500g c sal cremosa,1,MARGARINA DELINE 500G C/SAL CREMOSA,1,2025-01,2025-01,1,15171000.0,"Margarina, exceto a margarina líquida",1,0.8574561136997113
+617,massa de pastel dona bia 500gr,1,MASSA DE PASTEL DONA BIA 500GR,1,2025-02,2025-02,1,20052000.0,"Batatas, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",24,0.9690453112926957
+618,massa p lasanha pct 500 gr,2,MASSA P/ LASANHA - PCT. 500 GR,2,2025-03,2025-04,2,19021900.0,"Outras massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo",20,0.9337955763386022
+619,massa para pastel 500 gramas,1,MASSA PARA PASTEL - 500 GRAMAS,1,2025-04,2025-04,1,4011010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, não superior a 1 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",20,0.9230671603934101
+620,massa para pastel pct 500g,1,MASSA PARA PASTEL PCT 500G,1,2025-03,2025-03,1,19021100.0,"Massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo, que contenham ovos",1,0.939309171148818
+621,massa polir,2,MASSA POLIR,1,2025-02,2025-02,1,34053000.0,"Preparações para dar brilho a pinturas de carroçarias e produtos semelhantes, exceto preparações para dar brilho a metais",8,0.9986284695058742
+622,masterfos caprino 70 10kg,8,MASTERFOS CAPRINO 70 10KG,1,2025-01,2025-03,3,23099090.0,Outras preparações dos tipos utilizados na alimentação de animais,8,0.9994383428185851
+623,material propagativo semente de arroz irga 409 safra 2024 2024 acond g,1,MATERIAL PROPAGATIVO SEMENTE DE ARROZ IRGA 409 - SAFRA: 2024/2024 - ACOND.: G,1,2025-01,2025-01,1,10061010.0,"Arroz com casca (arroz paddy), para semeadura",24,0.9907422992991435
+624,mentos stick morango e yogurt,1,MENTOS STICK MORANGO E YOGURT,1,2025-01,2025-01,1,17049020.0,"Caramelos, confeitos, dropes, pastilhas, e produtos semelhantes, sem cacau",8,0.9916514929509335
+625,mil ff 0357 05 mirador 250 sc 160ml,1,MIL FF 0357/05 - MIRADOR 250 SC - 160ML,1,2025-02,2025-02,1,38089299.0,Outros fungicidas apresentados de outro modo,8,0.9989121768433548
+626,milho branco p canjica cuco 500g,2,MILHO BRANCO P/CANJICA CUCO 500G,1,2025-02,2025-04,2,11042300.0,"Outros grãos trabalhados (por exemplo, descascados, em pérolas, cortados ou partidos), de milho",1,0.8979517985288468
+627,milho de pipoca g o tp1 500g,1,MILHO DE PIPOCA G.O. TP1 500G.,1,2025-04,2025-04,1,10059010.0,"Milho em grão, exceto para semeadura",1,0.9043648243509301
+628,milho desolhado und,5,MILHO DESOLHADO UND,1,2025-02,2025-04,3,11042300.0,"Outros grãos trabalhados (por exemplo, descascados, em pérolas, cortados ou partidos), de milho",8,0.9910908964770581
+629,milho espiga,1,MILHO ESPIGA,1,2025-04,2025-04,1,10063011.0,"Arroz semibranqueado ou branqueado, parboilizado, polido ou brunido",8,0.9933806810504089
+630,milho pipoca dular,1,MILHO PIPOCA DULAR,1,2025-03,2025-03,1,10059090.0,"Milho, exceto em grão",8,0.9958947196898752
+631,milho verde lata c 200gr,11,MILHO VERDE LATA C/200GR,1,2025-01,2025-04,3,20058000.0,"Milho doce (Zea mays var. saccharata), preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",8,0.986825020146484
+632,milho verde stella doro la 170g,2,MILHO VERDE STELLA DORO LA 170G,1,2025-03,2025-04,2,20058000.0,"Milho doce (Zea mays var. saccharata), preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",8,0.9897478550976283
+633,mini pizza 100 g,3,MINI PIZZA 100 G,1,2025-03,2025-04,2,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",8,0.9981899944816902
+634,mini risoles de queijo,1,MINI RISOLES DE QUEIJO,1,2025-04,2025-04,1,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",24,0.9382078263206592
+635,mist b dr oetker laranj 400g,1,MIST B DR OETKER LARANJ 400G,1,2025-02,2025-02,1,19012090.0,,8,0.9959390961069708
+636,mist pure batata kg,2,MIST PURE BATATA KG,1,2025-01,2025-01,1,11052000.0,"Flocos, grânulos e pellets, de batata",2,0.9284793140603129
+637,mistura p bolo pct 400 gr,2,MISTURA P/ BOLO PCT 400 GR,1,2025-04,2025-04,1,19012090.0,,8,0.9928939854835261
+638,mistura p bolo sabores variados 450g,2,MISTURA P.BOLO SABORES VARIADOS 450G,1,2025-01,2025-02,2,19012090.0,,8,0.9963398793886455
+639,mistura para pao de queijo,3,MISTURA PARA PAO DE QUEIJO,1,2025-01,2025-04,3,19019090.0,"Outras preparações alimentícias de farinhas, etc, cacau < 40%",4,0.9053531690102911
+640,molho barbecue val,1,MOLHO BARBECUE VAL,1,2025-02,2025-02,1,21039091.0,"Outras preparações para molhos, molhos preparados, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9942103321825126
+641,molho de alho 900ml,3,MOLHO DE ALHO 900ML,1,2025-04,2025-04,1,21039021.0,"Condimentos e temperos, compostos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",24,0.9652136872555082
+642,molho de mesa tipo catchup composicao tradicional apresentacao creme,1,"MOLHO DE MESA, TIPO CATCHUP, COMPOSIÇÃO TRADICIONAL, APRESENTAÇÃO CREME",1,2025-01,2025-01,1,21039021.0,"Condimentos e temperos, compostos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",0,0.9265655588670298
+643,molho de mesa tipo ingles composicao tradicional,5,MOLHO DE MESA TIPO INGLES COMPOSICAO TRADICIONAL,1,2025-03,2025-04,2,21031010.0,"Molho de soja, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",0,0.9262013949608837
+644,molho de tomate 340 gr,4,MOLHO DE TOMATE 340 GR,1,2025-01,2025-04,3,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",24,0.9416879796199151
+645,molho ingles 180ml,8,MOLHO INGLES 180ML,1,2025-02,2025-04,3,21039091.0,"Outras preparações para molhos, molhos preparados, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9948022408246024
+646,molho ingles 900 ml,13,MOLHO INGLES 900 ML,1,2025-01,2025-04,4,21031010.0,"Molho de soja, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",20,0.9492892126496261
+647,molho ingles ruah 1 l,4,MOLHO INGLES RUAH 1 L,1,2025-01,2025-04,3,21031010.0,"Molho de soja, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9936742273553816
+648,molho p salada kisabor caesar,1,MOLHO P/SALADA KISABOR CAESAR,1,2025-02,2025-02,1,21039091.0,"Outras preparações para molhos, molhos preparados, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9921719305710726
+649,molho shoyu 1 lt,112,MOLHO SHOYU 1 LT,1,2025-01,2025-04,4,21031010.0,"Molho de soja, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9904512856716896
+650,molho tom marata bolonhesa pouch,1,MOLHO TOM.MARATA BOLONHESA POUCH,1,2025-02,2025-02,1,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9943530670316955
+651,molho tomate bonare sch300g trad,7,MOLHO TOMATE BONARE SCH300G TRAD,1,2025-01,2025-04,3,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9922956417720689
+652,molho tomate ole tradicional sc 300g,1,MOLHO TOMATE OLE TRADICIONAL SC 300G,1,2025-01,2025-01,1,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.99422597113654
+653,morango coop chapada 250g,1,MORANGO COOP CHAPADA 250G,1,2025-03,2025-03,1,8101000.0,Morangos frescos,8,0.9923349626328861
+654,morango floralva kg,1,MORANGO FLORALVA KG,1,2025-04,2025-04,1,8101000.0,Morangos frescos,2,0.8309001426589139
+655,mortadela bologna,5,MORTADELA BOLOGNA,1,2025-01,2025-04,2,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",8,0.0827716512263328
+656,mostarda 200 g,41,MOSTARDA 200 G,1,2025-01,2025-04,4,21033021.0,"Mostarda preparada, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",6,0.874589805917963
+657,mostarda 3 kg,3,MOSTARDA 3 KG,1,2025-03,2025-03,1,21033021.0,"Mostarda preparada, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",2,0.8644439369539971
+658,mostarda 400 gr,4,MOSTARDA 400 GR,1,2025-02,2025-03,2,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9959774464619068
+659,multiuso 500ml,16,Multiuso 500ml,3,2025-01,2025-04,4,34025000.0,Outras preparações tensoativas e preparações para limpeza,12,0.8059614016183192
+660,nan comfor 1 400g emb esp l4311046041 v1 2 26,1,NAN COMFOR 1 - 400g - Emb. Esp. L4311046041 v1/2/26,1,2025-03,2025-03,1,19011010.0,"Leite modificado, para alimentação de crianças, acondicionadas para venda a retalho",8,0.9958842751732566
+661,nc crescisui master 20kg,2,NC Crescisui Master (20kg),1,2025-01,2025-01,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.999295358048313
+662,nescafe latte 270ml,1,NESCAFE LATTE 270ML,1,2025-03,2025-03,1,22029900.0,"Outras bebidas não-alcoólicas (exceto água, cerveja sem álcool e itens da posição 20.09)",8,0.0827716512263328
+663,nhoque,13,NHOQUE,1,2025-01,2025-04,3,19021900.0,"Outras massas alimentícias não cozidas, nem recheadas, nem preparadas de outro modo",8,0.0827716512263328
+664,novasource gc 1l sf marca nestle,1,NOVASOURCE GC 1L SF - MARCA: NESTLE,1,2025-04,2025-04,1,21069090.0,Outras preparações alimentícias,8,0.9935211396774424
+665,novasource ren emb especial l4313046001 v1 11 25 q240 l4271046001 v1 9 25 q10,1,NOVASOURCE REN - Emb. Especial L4313046001 V1/11/25 Q240 / L4271046001 V1/9/25 Q10,1,2025-01,2025-01,1,21069090.0,Outras preparações alimentícias,8,0.9990848204800775
+666,noz moscada campilar,1,NOZ MOSCADA CAMPILAR,1,2025-01,2025-01,1,9081200.0,"Noz-moscada, triturada ou em pó",8,0.9986284695058741
+667,noz moscada dudy 3g grao un qtd 1 00 un,2,NOZ MOSCADA DUDY 3G GRAO UN QTD. 1.00 UN,1,2025-01,2025-01,1,9081100.0,"Noz-moscada, não triturada nem em pó",21,0.788406073208904
+668,noz moscada mika 5g po un qtd 1 00 un,1,NOZ MOSCADA MIKA 5G PO UN QTD. 1.00 UN,1,2025-01,2025-01,1,9081200.0,"Noz-moscada, triturada ou em pó",21,0.7618064694913333
+669,noz moscada tropicana 7g,1,NOZ MOSCADA TROPICANA 7G,1,2025-03,2025-03,1,8023100.0,"Nozes frescas ou secas, com casca",8,0.9986284695058741
+670,nozes pecan moida kg,1,NOZES PECAN MOIDA KG,1,2025-04,2025-04,1,8023200.0,"Nozes frescas ou secas, sem casca",2,0.9264395033877405
+671,nuvilab cr 1 autocl ae7,2,NUVILAB CR-1 AUTOCL AE7,1,2025-02,2025-02,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.9972468438003421
+672,odoriz glade 360ml of esp lavanda,1,ODORIZ GLADE 360ML OF ESP LAVANDA,1,2025-04,2025-04,1,33074900.0,Outras preparações para perfumar ou desodorizar ambientes,8,0.9994089153080241
+673,odorizador de ambiente leveuze talco e carinho 400ml,6,ODORIZADOR DE AMBIENTE LEVEUZE - TALCO E CARINHO 400ML,1,2025-02,2025-03,2,38085910.0,"Outras mercadorias mencionadas na Nota de subposições 1 do presente Capítulo, apresentadas em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",24,0.9274904531970698
+674,oleo mineral fertiliza catron ad gl 5 lt,1,OLEO MINERAL FERTILIZA CATRON AD - GL 5 LT,1,2025-04,2025-04,1,38089999.0,Outros rodenticidas apresentados de outro modo,8,0.9957494490600849
+675,organizador baleiro pet 2lts transp cx s 470571 plasduran 470571,1,ORGANIZADOR BALEIRO PET 2LTS TRANSP (CX-S) 470571 PLASDURAN 470571,1,2025-02,2025-02,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",18,0.9952928128562303
+676,ovo branco bandeja com 30 unidades,14,OVO BRANCO BANDEJA COM 30 UNIDADES,1,2025-01,2025-03,3,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,11,0.7928728127676438
+677,ovo branco cartela,2,OVO BRANCO CARTELA,1,2025-03,2025-04,2,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,11,0.6528064317665527
+678,ovo branco cuba f 27 02 v 26 03,1,OVO BRANCO CUBA F:27/02 V:26/03,1,2025-03,2025-03,1,4079000.0,"Ovos de outras aves, não para incubação ou não frescos",11,0.8185681243756112
+679,ovo branco extra campo verde 20un,1,OVO BRANCO EXTRA CAMPO VERDE 20UN,1,2025-03,2025-03,1,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,11,0.756121297545481
+680,ovo caipira duzia,1,OVO CAIPIRA - DUZIA,1,2025-02,2025-02,1,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,11,0.5237181543359667
+681,ovo de cordorna,1,OVO DE CORDORNA,1,2025-04,2025-04,1,4072900.0,Ovos frescos de outras aves,11,0.5867346447400913
+682,ovo vermelho grande,1,OVO VERMELHO GRANDE,1,2025-02,2025-02,1,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,11,0.7949386774459403
+683,ovos branco 30und plast,1,Ovos Branco 30und Plast,1,2025-04,2025-04,1,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,8,0.9932974857844811
+684,ovos de galinha bc gd tamago 30x1,1,OVOS DE GALINHA BC GD TAMAGO 30X1,1,2025-01,2025-01,1,4079000.0,"Ovos de outras aves, não para incubação ou não frescos",24,0.9720101921926767
+685,ovos galinha branco,2,OVOS GALINHA BRANCO,1,2025-02,2025-02,1,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,8,0.9937099911179437
+686,ovos grande branco cartela granja saara 2 5dz,1,"Ovos Grande Branco Cartela Granja Saara 2,5dz",1,2025-02,2025-02,1,4072100.0,Outros ovos frescos de aves da espécie Gallus domesticus,8,0.9956317553484129
+687,p hig f dupla 30m sup luxo qualite c 64rl,8,P.HIG F.DUPLA 30M SUP.LUXO QUALITE C/64RL,1,2025-02,2025-02,1,48181000.0,Papel higiênico,8,1.000483724012747
+688,p toalha interf bco serra azul 1000fls,1,P.TOALHA INTERF BCO SERRA AZUL 1000FLS,1,2025-03,2025-03,1,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",8,0.9982898349817694
+689,pa coletora de lixo com cabo de madeira,1,PA COLETORA DE LIXO COM CABO DE MADEIRA,1,2025-01,2025-01,1,22011000.0,"Águas minerais e águas gaseificadas, não adicionadas de açúcar ou de outros edulcorantes nem aromatizadas",24,0.922530256085218
+690,pa p lixo novica jeitosa,1,PA P/LIXO NOVICA JEITOSA,1,2025-01,2025-01,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",8,1.0010269642607983
+691,pa plast p lixo jeitosa c cabo dalcin d220,2,PA PLAST. P/ LIXO JEITOSA C/CABO - DALCIN D220,1,2025-01,2025-01,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",14,0.9621274120114754
+692,pa sonho doce de leite,1,PA.SONHO DOCE DE LEITE,1,2025-02,2025-02,1,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",24,0.9432184105072273
+693,pacoca moreninha do rio,1,PACOCA MORENINHA DO RIO,1,2025-04,2025-04,1,19041000.0,"Produtos à base de cereais, obtidos por expansão ou por torrefação",8,0.9979372525578082
+694,paliteiro mat plastico formato cilindrico alt 8cm,1,PALITEIRO MAT PLASTICO FORMATO CILINDRICO ALT 8CM,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9996100550050788
+695,palmito conserva vd 2kg,2,PALMITO CONSERVA VD 2KG,1,2025-03,2025-03,1,20089100.0,Palmitos preparados ou conservados,8,0.9975085351460405
+696,pao de forma integral,10,PAO DE FORMA INTEGRAL,2,2025-01,2025-04,4,19059010.0,Pão de forma,4,0.7515364564245741
+697,pao de queijo com pate un,1,PAO DE QUEIJO COM PATE UN,1,2025-03,2025-03,1,21011200.0,"Preparações à base de extratos, essências ou concentrados ou à base de café",4,0.8849984702576348
+698,pao formao tradicional,1,PAO FORMÃO TRADICIONAL,1,2025-04,2025-04,1,19059010.0,Pão de forma,4,0.8600930313529618
+699,pao frances congelado 50g sao jose,3,PAO FRANCES CONGELADO 50G - SAO JOSE,1,2025-03,2025-04,2,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",4,0.9142546165350305
+700,pao int nutrella cranberry quinoa,1,PAO INT.NUTRELLA CRANBERRY/QUINOA,1,2025-04,2025-04,1,19059010.0,Pão de forma,4,0.9026662275202052
+701,pao italiano,1,PÃO ITALIANO,1,2025-04,2025-04,1,19022000.0,Massas alimentícias recheadas (mesmo cozidas ou preparadas de outro modo),4,0.766283331085773
+702,pao massa fina saraiva kg,3,PAO MASSA FINA SARAIVA KG,1,2025-01,2025-01,1,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",4,0.9201496191415476
+703,pao nutrella 350g cranberry quino,1,PAO NUTRELLA 350G CRANBERRY QUINO,1,2025-04,2025-04,1,19059010.0,Pão de forma,4,0.9044153934973789
+704,pao para rabanada un,3,PAO PARA RABANADA UN,1,2025-01,2025-01,1,19059010.0,Pão de forma,21,0.8251311162389436
+705,pao sirio,2,PÃO SÍRIO,1,2025-02,2025-04,2,19022000.0,Massas alimentícias recheadas (mesmo cozidas ou preparadas de outro modo),4,0.766283331085773
+706,papa para filhotes psitacideos 6kg,1,PAPA PARA FILHOTES PSITACIDEOS 6KG,1,2025-01,2025-01,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.9988759053746381
+707,papel h f d reale 30m l12p11und neutro,1,PAPEL H F.D REALE 30M L12P11UND NEUTRO,1,2025-02,2025-02,1,48181000.0,Papel higiênico,13,0.8393450967616585
+708,papel hig familiar soft fs 30m c 4,1,PAPEL HIG FAMILIAR SOFT FS 30M C/4,1,2025-02,2025-02,1,48181000.0,Papel higiênico,13,0.8487594511678584
+709,papel hig mimmo fd neutro 4x30m,1,PAPEL HIG MIMMO FD NEUTRO 4X30M,1,2025-04,2025-04,1,48181000.0,Papel higiênico,13,0.8759932889683039
+710,papel higi fl dupla velud vip c 16x4rl,1,PAPEL HIGI. FL DUPLA VELUD VIP C/16x4RL,1,2025-01,2025-01,1,48181000.0,Papel higiênico,13,0.909687418698012
+711,papel higienico folha simples 10cm x 30m pacote com 04 rolos,1,PAPEL HIGIENICO FOLHA SIMPLES 10CM X 30M PACOTE COM 04 ROLOS,1,2025-01,2025-01,1,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",13,0.9227706402538278
+712,papel higienico leblon sft fd 12un,1,PAPEL HIGIENICO LEBLON SFT FD 12UN,1,2025-02,2025-02,1,48181000.0,Papel higiênico,13,0.8547705324419257
+713,papel higienico max pure c 12,1,PAPEL HIGIENICO MAX PURE C/ 12,1,2025-02,2025-02,1,48181000.0,Papel higiênico,13,0.9049916133118446
+714,papel interfolha fiel ext luxo al 20x20 c 1000,1,PAPEL INTERFOLHA FIEL EXT LUXO AL 20X20 C/1000,1,2025-04,2025-04,1,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",13,0.9209766726365463
+715,papel toalha absoluto 22cm x 19cm,1,PAPEL TOALHA ABSOLUTO 22CM X 19CM,1,2025-02,2025-02,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",13,0.7459337744202148
+716,papel toalha branco pct c 1000 fls multipapeis,1,PAPEL TOALHA BRANCO PCT C/ 1000 FLS - MULTIPAPEIS,1,2025-04,2025-04,1,48181000.0,Papel higiênico,13,0.8088580037977064
+717,papel toalha interfolhado br,5,PAPEL TOALHA INTERFOLHADO BR,1,2025-01,2025-04,3,48183000.0,"Toalhas de mesa e guardanapos, de papel",13,0.7459537486432029
+718,papel toalha interfolhas 1000 fls,7,PAPEL TOALHA INTERFOLHAS 1000 FLS,1,2025-01,2025-04,3,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",13,0.7710458197045753
+719,papel toalha pct c 2rl,2,PAPEL TOALHA PCT C/2RL,1,2025-01,2025-02,2,48189090.0,"Outros artigos de papel, para uso sanitário/doméstico/hospitalar",13,0.7625268580259043
+720,paprica doce,14,PAPRICA DOCE,1,2025-01,2025-04,4,9042200.0,"Pimentões e pimentas dos gêneros Capsicum ou Pimenta, triturados ou em pó",8,0.9904499616070741
+721,passata tom ita capone 680g vd,1,PASSATA TOM ITA CAPONE 680G VD,1,2025-03,2025-03,1,20029000.0,,8,0.9980094055473577
+722,pato inteiro com miudos congelado,1,PATO INTEIRO COM MIUDOS CONGELADO,1,2025-03,2025-03,1,2074200.0,"Carnes de patos, não cortadas em pedaços, congeladas",8,0.9970650783394357
+723,pedra sanit lipex 25g,3,PEDRA SANIT LIPEX 25G,1,2025-01,2025-04,2,38089919.0,Outros rodenticidas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,8,0.9974319201706267
+724,pedra sanitaria sany 25 gr eucalipto,1,PEDRA SANITARIA SANY 25 GR EUCALIPTO,1,2025-02,2025-02,1,38089919.0,Outros rodenticidas apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias,8,0.9961452445421304
+725,peito de peru,34,PEITO DE PERU,1,2025-01,2025-04,4,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",24,0.9280317457788481
+726,peito de peru defumado kg,17,PEITO DE PERU DEFUMADO  KG*,3,2025-01,2025-04,4,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",24,0.9318343029033895
+727,peixe cong eviscerado ticado jaraqui a granel cx 15kg,3,PEIXE CONG. EVISCERADO TICADO JARAQUI A GRANEL CX 15KG,1,2025-04,2025-04,1,3038990.0,"Outros peixes congelados, exceto filés, outras carnes,etc.",8,0.9919150467491687
+728,peixe cong pintado friocenter 700g,1,PEIXE CONG PINTADO FRIOCENTER 700G,1,2025-02,2025-02,1,3038953.0,"Surubins (congelados), exceto filés, outras carnes, etc",8,0.995332114539077
+729,peixe cong tilapia copacol iqf 800g file,1,PEIXE CONG TILAPIA COPACOL IQF 800G FILE,1,2025-03,2025-03,1,3046100.0,"Filés de tilápias (Oreochromis spp.), congelados",8,0.9951639909446791
+730,peixe in natura merluza tipo corte file congelado,2,"PEIXE IN NATURA, MERLUZA, TIPO CORTE FILÉ, CONGELADO",1,2025-03,2025-04,2,3047400.0,"Filés de merluzas e abroteas, congelados",3,0.8457758740985836
+731,pepino ceasa in natura,5,PEPINO- CEASA/ IN NATURA,1,2025-01,2025-04,4,7070000.0,"Pepinos e pepininhos (cornichons), frescos ou refrigerados",3,0.7528589598820542
+732,pepino in natura unifrutas,10,PEPINO IN NATURA UNIFRUTAS,1,2025-01,2025-04,3,7095900.0,Outros cogumelos frescos ou refrigerados,3,0.6668916895430141
+733,pepino japones organico,5,PEPINO JAPONES ORGANICO,1,2025-01,2025-04,2,7070000.0,"Pepinos e pepininhos (cornichons), frescos ou refrigerados",8,0.9958094209991762
+734,pepino legume,6,PEPINO LEGUME,1,2025-04,2025-04,1,7070000.0,"Pepinos e pepininhos (cornichons), frescos ou refrigerados",8,0.9950332884714523
+735,pepino legumes,1,PEPINO LEGUMES,1,2025-04,2025-04,1,7070000.0,"Pepinos e pepininhos (cornichons), frescos ou refrigerados",8,0.9972245720399214
+736,pepino organico,17,PEPINO ORGANICO,1,2025-01,2025-03,3,7070000.0,"Pepinos e pepininhos (cornichons), frescos ou refrigerados",8,0.9961188258114111
+737,pepsi cola pet 3000 ml,4,PEPSI COLA PET 3000 ML,1,2025-01,2025-04,3,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",18,0.9749182183510703
+738,peptamen 1 5 1l sf marca nestle,3,PEPTAMEN 1.5 1L SF - MARCA: NESTLE,1,2025-02,2025-04,3,21069090.0,Outras preparações alimentícias,8,0.9931667921538111
+739,pera portuguesa in natura kg 1 kg,1,PERA PORTUGUESA IN NATURA | KG 1 KG,1,2025-03,2025-03,1,8081000.0,Maçãs frescas,3,0.7794315161134221
+740,pernil suino kg c pele center suinos kg,3,Pernil Suino Kg C/Pele Center Suinos KG,1,2025-02,2025-04,2,2031900.0,"Outras carnes de suíno, frescas ou refrigeradas",2,0.82249345293615
+741,pilha alcal 2a 1 5v c 2 pc lr6a elgin,1,PILHA ALCAL. 2A 1.5V C/2 PC  LR6A      ELGIN,1,2025-03,2025-03,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.8802541756177856
+742,pilha alcalina aa c 4 unid,1,PILHA ALCALINA AA C/4 UNID,1,2025-01,2025-01,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.7876036614842867
+743,pilha alcalina aaa 1 5v 8un duracell mn2400 8 74439,1,"PILHA ALCALINA (AAA)(1,5V)( 8UN)(DURACELL)(MN2400 8) (74439)",1,2025-04,2025-04,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.5491090154400591
+744,pilha duracell alcalina aaa cartela c 2,1,PILHA DURACELL ALCALINA AAA - CARTELA C/ 2,1,2025-03,2025-03,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.5999679904657871
+745,pilha duracell palito aaa c 4un,1,PILHA DURACELL PALITO AAA C/ 4UN,1,2025-02,2025-02,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.6519517365201621
+746,pilha palito aaa alcalina,1,PILHA PALITO AAA ALCALINA,1,2025-03,2025-03,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.5705866291596514
+747,pilha panasonic power alcaline aaa 2x1,1,PILHA PANASONIC POWER ALCALINE AAA 2X1,1,2025-03,2025-03,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.5655551624995471
+748,pilha tipo aaa com 4un,1,pilha tipo aaa com 4un,1,2025-04,2025-04,1,85061019.0,"Outras pilhas alcalinas, de dióxido de manganês",22,0.7164028776669201
+749,pimenta de cheiro in natura,1,PIMENTA DE CHEIRO IN NATURA,1,2025-04,2025-04,1,7096000.0,"Pimentões e pimentas dos gêneros Capsicum ou Pimenta, frescos ou refrigerados",3,0.8017421772841437
+750,pimenta dedo de moca ceasa,2,Pimenta dedo de moca Ceasa,1,2025-01,2025-02,2,7096000.0,"Pimentões e pimentas dos gêneros Capsicum ou Pimenta, frescos ou refrigerados",24,0.9519028988981578
+751,pimenta extra fort gallo 50ml,1,PIMENTA EXTRA FORT GALLO 50ML,1,2025-02,2025-02,1,15099010.0,"Azeite de oliva, refinado",8,1.0002837100638635
+752,pimenta geriba origens branca po 10x50,1,PIMENTA GERIBA ORIGENS BRANCA PO 10X50,1,2025-02,2025-02,1,9041200.0,"Pimenta (do gênero Piper), triturada ou em pó",23,0.9666299196199146
+753,pimentao fresco,2,PIMENTAO FRESCO,1,2025-03,2025-03,1,7096000.0,"Pimentões e pimentas dos gêneros Capsicum ou Pimenta, frescos ou refrigerados",8,1.0000525674221787
+754,pimentao verde kg 1 un,1,PIMENTAO VERDE | KG 1 UN,1,2025-02,2025-02,1,7096000.0,"Pimentões e pimentas dos gêneros Capsicum ou Pimenta, frescos ou refrigerados",21,0.8471273551593757
+755,pimentao verde quilograma,7,Pimentao Verde - Quilograma,1,2025-03,2025-04,2,7096000.0,"Pimentões e pimentas dos gêneros Capsicum ou Pimenta, frescos ou refrigerados",8,0.993181848074778
+756,pincel atlas 3 4 cabo vermelho,1,PINCEL ATLAS 3/4' CABO VERMELHO,1,2025-04,2025-04,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",14,0.9424559534704824
+757,pincel atlas 395 50 mm 2 cerdas gris,1,PINCEL ATLAS 395 - 50 MM - 2'   CERDAS GRIS,1,2025-04,2025-04,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.9932119636480711
+758,pincel cerda 700 303 2 roma,2,PINCEL CERDA 700/303 2' ROMA,1,2025-02,2025-04,2,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.994847265049328
+759,pincel chato trincha cerdas gris 1 1 2 38mm,1,"PINCEL CHATO (TRINCHA) CERDAS GRIS 1 1/2, (38MM)",1,2025-01,2025-01,1,96034010.0,Rolos para pintura,8,0.9924760264954389
+760,pincel escolar chato cerda natural condor ref 474 12 atacado ind unid condor,1,PINCEL ESCOLAR CHATO CERDA NATURAL CONDOR REF.474 12 ATACADO - IND UNID - CONDOR,1,2025-02,2025-02,1,96033000.0,"Pincéis e escovas, para artistas, pincéis de escrever e pincéis semelhantes para aplicação de produtos cosméticos",8,0.9932412233639483
+761,pincel marcador permanente cor tinta azul,1,PINCEL MARCADOR PERMANENTE COR TINTA AZUL,1,2025-01,2025-01,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.9944572740801626
+762,pincel n18,1,PINCEL N18,1,2025-03,2025-03,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.9932700993789901
+763,pincel p,1,PINCEL P,1,2025-04,2025-04,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.9932700993789901
+764,pincel pintura predial mat cerdas pelo orelha de boi tipo cabo curto tam 4pol form ret material cabo madeira caracteris,1,PINCEL PINTURA PREDIAL MAT.CERDAS PELO ORELHA DE BOI TIPO CABO CURTO TAM.4POL.FORM.RET.MATERIAL CABO MADEIRA CARACTERIS,1,2025-01,2025-01,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",0,0.9763027809994198
+765,pirarucu,5,PIRARUCU,1,2025-01,2025-02,2,3028937.0,"Pirarucu (Arapaima gigas), fresco ou refrigerado",8,0.0827716512263328
+766,po sorvete yoki morango 991,1,PO SORVETE YOKI MORANGO-991,1,2025-01,2025-01,1,21069029.0,"Pós para preparações de cremes, sorvetes, flans, gelatinas ou preparações similares",23,0.9883818037388978
+767,polpa de caju 1kg selo saf rn,2,POLPA DE CAJU 1KG(SELO SAF RN),1,2025-02,2025-02,1,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",24,0.9285787710389651
+768,polpa de fruta cupuacu embalagem com 1kg,5,"POLPA DE FRUTA CUPUACU, EMBALAGEM COM 1KG",1,2025-01,2025-04,3,8119000.0,"Outras frutas não cozidas ou cozidas em água ou vapor, congeladas, mesmo adicionadas de açúcar ou de outros edulcorantes",24,0.9513952596491766
+769,polpa de fruta maracuja,21,POLPA DE FRUTA MARACUJA,1,2025-01,2025-04,4,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",24,0.9482557210799593
+770,polpa de fruta tipo acerola apresentacao conge,4,"POLPA DE FRUTA TIPO: ACEROLA, APRESENTACAO: CONGE",1,2025-03,2025-04,2,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",0,0.883022960427095
+771,polpa de fruta tipo caja apresentacao congelada,4,"POLPA DE FRUTA TIPO: CAJA, APRESENTACAO: CONGELADA",1,2025-03,2025-04,2,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",0,0.883022960427095
+772,polpa de goiaba 1kg,2,POLPA DE GOIABA 1KG,1,2025-04,2025-04,1,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",24,0.9246067380938937
+773,polpa de graviola,24,POLPA DE GRAVIOLA,1,2025-01,2025-04,4,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",24,0.8741986974020006
+774,polpa fruta frut polpa 400g cupuacu,1,POLPA FRUTA FRUT POLPA 400G CUPUACU,1,2025-04,2025-04,1,8134090.0,Outras frutas secas,8,0.994365914997125
+775,porca com rosca do suporte do estepe automotivo si,1,PORCA COM ROSCA DO SUPORTE DO ESTEPE AUTOMOTIVO SI,1,2025-04,2025-04,1,85392910.0,"Outras lâmpadas/tubos incandescentes, para uma tensão inferior ou igual a 15 V",8,0.9961324078958903
+776,porta copo rf mes014 pvc 7898745917621,3,PORTA COPO RF:MES014 PVC - 7898745917621,1,2025-03,2025-03,1,39249000.0,"Outros artigos de higiene ou de toucador, de plástico",7,0.9413571578277949
+777,porta sabao detergente e esponja material plastico p pia de cozinha sbrissa,2,"PORTA SABAO,DETERGENTE E ESPONJA,MATERIAL PLASTICO,P/PIA DE COZINHA, SBRISSA",1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",20,0.9745307057529513
+778,pote desc prafesta quadrado 250ml 20x1,1,POTE DESC PRAFESTA QUADRADO 250ML 20X1,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9970913009177668
+779,pote redondo herm 244 plasvale,2,POTE REDONDO HERM. 244 PLASVALE,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9969406514063726
+780,potes e tampas prafesta 145ml 24un,1,POTES E TAMPAS PRAFESTA 145ML 24UN,1,2025-03,2025-03,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.9994018041489792
+781,pr pazinha pequena 01x100 colorida 8774,1,PR PAZINHA PEQUENA 01X100 COLORIDA 8774,1,2025-04,2025-04,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,1.0000240321417633
+782,prancha de alimentos,6,PRANCHA DE ALIMENTOS,1,2025-01,2025-04,3,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",24,0.7015994443900865
+783,prep beb leao drinks pessego,1,PREP.BEB.LEAO DRINKS PESSEGO,1,2025-04,2025-04,1,21069010.0,Outras preparações para elaboração de bebidas,8,0.9973097866427328
+784,preparado panificacao tipo melhorador apresentacaom pokg,3,PREPARADO PANIFICACAO TIPO MELHORADOR APRESENTACAOM POKG,1,2025-03,2025-04,2,33059000.0,Outras preparações capilares,0,0.6492468805603188
+785,presunto cozido,43,PRESUNTO COZIDO,1,2025-01,2025-04,4,16024100.0,"Preparações alimentícias em conservas, de pernas, seus pedaços, de suínos",8,1.0010269642607983
+786,presunto de pernil,102,PRESUNTO DE PERNIL,1,2025-01,2025-04,4,16024100.0,"Preparações alimentícias em conservas, de pernas, seus pedaços, de suínos",24,0.9423349968409239
+787,presunto de pernil suino,1,PRESUNTO DE PERNIL SUINO,1,2025-03,2025-03,1,2031900.0,"Outras carnes de suíno, frescas ou refrigeradas",24,0.9565868379340798
+788,primatop sc 5 l,1,PRIMATOP SC 5 L,1,2025-04,2025-04,1,38089329.0,Outros herbicidas apresentados de outro modo,8,0.9985730915540336
+789,prod limpz,1,PROD LIMPZ,1,2025-04,2025-04,1,34025000.0,,8,0.0827716512263328
+790,produto p limpeza ativado marron 1lt,1,PRODUTO P/LIMPEZA ATIVADO - MARRON 1LT,1,2025-04,2025-04,1,34029039.0,Outras preparações para lavagem (detergentes),8,0.9973867657962217
+791,proteina soja vitao 200g med,1,PROTEINA SOJA VITAO 200G MED,1,2025-02,2025-02,1,21061000.0,Concentrados de proteínas e substâncias proteicas texturizadas,8,0.9925772533568232
+792,proteina texturizada soja,4,PROTEINA TEXTURIZADA SOJA,1,2025-02,2025-04,2,21061000.0,Concentrados de proteínas e substâncias proteicas texturizadas,8,0.998078048226333
+793,protetor solar fps 60 luvex bombona de 2 litros,1,PROTETOR SOLAR FPS 60 LUVEX BOMBONA DE 2 LITROS,1,2025-02,2025-02,1,33049990.0,"Outros produtos de beleza ou de maquiagem preparados, etc",24,0.9801666940163694
+794,pudim caramelo coco apti kg,1,PUDIM CARAMELO/COCO APTI KG,1,2025-03,2025-03,1,21069021.0,"Pós para a fabricação de pudins, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",18,0.9455045196388361
+795,pudim po 30g chocolate zero,1,PUDIM PO 30G CHOCOLATE ZERO,1,2025-04,2025-04,1,21069021.0,"Pós para a fabricação de pudins, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",23,0.9870500460708329
+796,puro ar aero petalas de rosas 350ml,1,PURO AR AERO PETALAS DE ROSAS 350ML,1,2025-02,2025-02,1,38085910.0,"Outras mercadorias mencionadas na Nota de subposições 1 do presente Capítulo, apresentadas em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",24,0.9817824400110502
+797,qj prato lactolar p,2,QJ. PRATO LACTOLAR (P),1,2025-01,2025-01,1,9062000.0,"Canela e flores de caneleira, trituradas ou em pó",8,0.9989404707688407
+798,qj t azul buritis frac kg,1,QJ T AZUL BURITIS FRAC KG,1,2025-03,2025-03,1,4064000.0,Queijos de pasta mofada e outros queijos que apresentem veios obtidos utilizando Penicillium roqueforti,2,0.9313249451800152
+799,qj t minas meia cura scala frac kg,1,QJ T MINAS MEIA CURA SCALA FRAC KG,1,2025-04,2025-04,1,4069030.0,"Queijos, com um teor de umidade superior ou igual a 46,0 % e inferior a 55,0 %, em peso (massa macia)",2,0.9525741280033596
+800,qj t muss davaca ft,3,QJ T MUSS DAVACA FT,1,2025-02,2025-03,2,4061010.0,"Queijo tipo mussarela, fresco (não curado)",8,0.9983486342049609
+801,qj t muss ouro bom ft,1,QJ T MUSS OURO BOM FT,1,2025-02,2025-02,1,4061010.0,"Queijo tipo mussarela, fresco (não curado)",8,0.9984703530340524
+802,quadro de avisos a4,1,QUADRO DE AVISOS A4,1,2025-01,2025-01,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",24,0.9274904531970698
+803,queijada de coco 50 gramas,7,"QUEIJADA DE COCO, 50 GRAMAS",1,2025-01,2025-01,1,17049090.0,"Outros produtos de confeitaria, sem cacau",6,0.8943120221443922
+804,queijo cruzilia azul kg damasco nozes,1,QUEIJO CRUZILIA AZUL KG DAMASCO/NOZES,1,2025-04,2025-04,1,4069020.0,"Queijos, com um teor de umidade superior ou igual a 36,0 % e inferior a 46,0 %, em peso (massa semidura)",7,0.9436512551260735
+805,queijo de coalho convencional,10,QUEIJO DE COALHO - CONVENCIONAL,1,2025-02,2025-04,3,4061090.0,"Outros queijos frescos (não curados), inclusive requeijão, etc.",24,0.9346784144720418
+806,queijo emmental,4,QUEIJO EMMENTAL,1,2025-02,2025-03,2,4069020.0,"Queijos, com um teor de umidade superior ou igual a 36,0 % e inferior a 46,0 %, em peso (massa semidura)",7,0.7761247083507399
+807,queijo mussarela bethe kg,1,QUEIJO MUSSARELA BETHE KG,1,2025-04,2025-04,1,4061010.0,"Queijo tipo mussarela, fresco (não curado)",7,0.7352425926525205
+808,queijo mussarela fatiado 1 kg terra viva,1,QUEIJO MUSSARELA FATIADO 1 KG-TERRA VIVA,1,2025-03,2025-03,1,4061010.0,"Queijo tipo mussarela, fresco (não curado)",7,0.8491528344793543
+809,queijo mussarela mazid,1,QUEIJO MUSSARELA MAZID,1,2025-02,2025-02,1,4061010.0,"Queijo tipo mussarela, fresco (não curado)",7,0.7323400330560627
+810,queijo mussarela peca,12,QUEIJO MUSSARELA PEÇA,2,2025-01,2025-03,3,4061010.0,"Queijo tipo mussarela, fresco (não curado)",7,0.793650059821459
+811,queijo mussarela peca da nonna,4,QUEIJO MUSSARELA PECA - DA NONNA,1,2025-01,2025-04,3,2071412.0,,7,0.8242348939661477
+812,queijo origem de vaca variedade mucarela apresentacao pec,3,"QUEIJO, ORIGEM DE VACA, VARIEDADE MUCARELA, APRESENTACAO PEC",1,2025-02,2025-02,1,4061010.0,"Queijo tipo mussarela, fresco (não curado)",24,0.9590737455213048
+813,queijo ralado kg piracanjuba,1,QUEIJO RALADO KG PIRACANJUBA,1,2025-04,2025-04,1,4062000.0,"Queijos ralados ou em pó, de qualquer tipo",7,0.8461253007702036
+814,queijo ralado und,8,QUEIJO RALADO UND,1,2025-02,2025-04,3,4062000.0,"Queijos ralados ou em pó, de qualquer tipo",7,0.8871430607079611
+815,racao canina,12,RACAO CANINA,1,2025-01,2025-04,4,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.999945598218053
+816,racao concentrada suino panati sc 40kg calcio cloreto de sodio premix vit a aplicacao suino em fase inicial dosage,2,"RACAO CONCENTRADA SUINO PANATI SC 40KG CaLCIO, CLORETO DE SoDIO, PREMIX VIT A, APLICAcaO SUiNO EM FASE INICIAL, DOSAGE",1,2025-04,2025-04,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),24,0.9922900690013785
+817,racao coopardo aves postura 25kg,3,RACAO COOPARDO AVES POSTURA 25KG,1,2025-01,2025-01,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,0.9999455982180528
+818,racao de camundongo,3,RAÇÃO DE CAMUNDONGO,1,2025-01,2025-04,3,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),24,0.9048101835155008
+819,racao frango mix inicial crescimento engorda 25 kg,1,RAcaO FRANGO MIX INICIAL CRESCIMENTO ENGORDA 25 KG,1,2025-01,2025-01,1,23091000.0,"Alimentos para cães ou gatos, acondicionados para venda a retalho",2,0.9720081608571068
+820,racao para aves de postura pic 50 kg,3,RACAO PARA AVES DE POSTURA PIC 50 KG,1,2025-02,2025-04,2,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),24,0.9743597367984752
+821,racumin po 1 kg,1,RACUMIN PO 1 KG,1,2025-03,2025-03,1,38089996.0,Raticidas apresentados de outro modo,2,0.7869010317272173
+822,radan hobby rodanox intercap gl 5l,2,RADAN HOBBY RODANOX - INTERCAP GL 5L,1,2025-01,2025-02,2,34011900.0,"Outros sabões/produtos/preparações, em barras, pedaços, etc.",16,0.7943799591467589
+823,raiz de mandioca acond g,1,RAIZ DE MANDIOCA - ACOND.: G,1,2025-04,2025-04,1,7141000.0,"Raízes de mandioca, frescas, refrigeradas, congeladas ou secas",24,0.9431573771161594
+824,raiz de mandioca aipim com casca,111,RAIZ DE MANDIOCA AIPIM COM CASCA,2,2025-01,2025-04,4,7141000.0,"Raízes de mandioca, frescas, refrigeradas, congeladas ou secas",24,0.9459890948364881
+825,raiz de mandioca aipim com casca convencional,16,RAIZ DE MANDIOCA AIPIM COM CASCA - CONVENCIONAL,2,2025-03,2025-04,2,7141000.0,"Raízes de mandioca, frescas, refrigeradas, congeladas ou secas",24,0.9520922559256131
+826,raiza de mandioca aipim com casca,1,RAIZA DE MANDIOCA AIPIM COM CASCA,1,2025-04,2025-04,1,7141000.0,"Raízes de mandioca, frescas, refrigeradas, congeladas ou secas",24,0.9377040096217227
+827,ravioli massa leve,1,RAVIOLI MASSA LEVE,1,2025-02,2025-02,1,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",8,0.9986284695058742
+828,ref coca cola 2lt,1,REF COCA COLA 2LT,1,2025-03,2025-03,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9931725925152903
+829,ref dual coca fanta guarana 2lt,1,REF DUAL COCA FANTA GUARANA 2LT,1,2025-02,2025-02,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9953997267335639
+830,ref fanta uva mini pet,1,REF.FANTA UVA MINI PET,1,2025-02,2025-02,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",18,0.9852581343054564
+831,ref h2oh limao pet,1,REF.H2OH LIMAO PET,1,2025-04,2025-04,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",5,0.8614566490710718
+832,refil mop,2,REFIL MOP,1,2025-01,2025-01,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,1.0010269642607983
+833,refil rolo la 23cm anti gota,1,REFIL ROLO LA 23CM ANTI GOTA,1,2025-04,2025-04,1,96034010.0,Rolos para pintura,14,0.8591398140943964
+834,refletor material corpo aluminio formato retangular tipo rgb 200w aplicacao sistema de iluminacao,1,"REFLETOR, MATERIAL CORPO ALUMINIO, FORMATO RETANGULAR, TIPO RGB 200W, APLICACAO SISTEMA DE ILUMINACAO,",1,2025-04,2025-04,1,85395200.0,,0,0.9421448019448295
+835,refri kuat guarana pet 2l,2,REFRI KUAT GUARANA PET 2L,1,2025-04,2025-04,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",18,0.9194516159321882
+836,refrig 2l pepsi,2,REFRIG. - 2L - PEPSI,1,2025-02,2025-03,2,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",18,0.9392280883689037
+837,refrig coca cola orig 2l,1,REFRIG. COCA COLA ORIG. 2L,1,2025-01,2025-01,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",18,0.9486739358375788
+838,refrigerante 2 5 litros,7,"REFRIGERANTE 2,5 LITROS",1,2025-01,2025-03,2,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9947644245761625
+839,refrigerante a base de cola 350 ml,3,REFRIGERANTE A BASE DE COLA 350 ML,1,2025-01,2025-03,2,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",24,0.9645883342765247
+840,refrigerante lata guarana,4,REFRIGERANTE LATA GUARANA,1,2025-02,2025-03,2,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",8,0.9934915772444903
+841,refrigerante s acucar sabor cola 2lts,3,REFRIGERANTE S/ ACUCAR - SABOR COLA 2LTS,1,2025-04,2025-04,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9922476497689965
+842,refrigerante sabor cola zero 220ml,1,REFRIGERANTE SABOR COLA ZERO 220ML,1,2025-03,2025-03,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9926405798602228
+843,refrigerante sabor laranja,30,REFRIGERANTE SABOR LARANJA,2,2025-01,2025-04,4,4012010.0,"Leite UHT (Ultra High Temperature), com um teor, em peso, de matérias gordas, superior a 1 %, mas não superior a 6 %, não concentrados nem adicionados de açúcar ou de outros edulcorantes",8,0.9922925027535553
+844,refrikinho cola 200ml refriko,1,Refrikinho Cola 200ml Refriko,1,2025-04,2025-04,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",8,0.9942724084564982
+845,relogio de parede,2,RELOGIO DE PAREDE,1,2025-01,2025-02,2,48183000.0,"Toalhas de mesa e guardanapos, de papel",24,0.7015994443900865
+846,removedor 5lt magico,1,REMOVEDOR 5LT MAGICO,1,2025-01,2025-01,1,34029039.0,Outras preparações para lavagem (detergentes),8,0.9999217501823673
+847,removedor de cera p tratamento de piso,1,Removedor de cera P/ tratamento de piso,1,2025-02,2025-02,1,34025000.0,,24,0.9225670815038701
+848,removedor jl plus,1,REMOVEDOR JL PLUS,1,2025-03,2025-03,1,34029090.0,Outras preparações tensoativas e preparações para limpeza,8,0.9999217501823673
+849,repelente alg one 200 ml com 9 de deet spray,1,REPELENTE ALG ONE 200 ML COM 9% DE DEET - SPRAY,1,2025-01,2025-01,1,38089199.0,"Outros inseticidas, apresentados de outro modo",6,0.8508425780350175
+850,repolho branco ceasa inatura,2,REPOLHO (BRANCO) - CEASA INATURA,1,2025-01,2025-02,2,7049000.0,"Couves, repolho, etc, do gênero Brassica, frescos ou refrigerados",8,0.9948322817189226
+851,repolho in natura kg,13,REPOLHO IN NATURA KG,1,2025-04,2025-04,1,7049000.0,"Couves, repolho, etc, do gênero Brassica, frescos ou refrigerados",3,0.7250950081366647
+852,repolho roxo kilo,2,REPOLHO ROXO KILO,1,2025-04,2025-04,1,7049000.0,"Couves, repolho, etc, do gênero Brassica, frescos ou refrigerados",8,0.9995288211285734
+853,req crem nestle 200g,3,REQ CREM NESTLE 200G,1,2025-01,2025-04,3,4061090.0,"Outros queijos frescos (não curados), inclusive requeijão, etc.",8,0.9919939889753879
+854,requeijao crean chese blister cx,1,REQUEIJÃO CREAN CHESE BLISTER CX,1,2025-04,2025-04,1,4061090.0,"Outros queijos frescos (não curados), inclusive requeijão, etc.",8,0.9939872282859784
+855,requeijao cremoso qualy 200g,3,REQUEIJAO CREMOSO QUALY 200G,1,2025-04,2025-04,1,4061090.0,"Outros queijos frescos (não curados), inclusive requeijão, etc.",8,0.9920727631084528
+856,requeijao culinario tipo catupiry bisnaga,1,"REQUEIJAO CULINARIO, TIPO CATUPIRY, BISNAGA",1,2025-01,2025-01,1,4061090.0,"Outros queijos frescos (não curados), inclusive requeijão, etc.",0,0.8543773743758581
+857,rf cob cul sabor cheddar d quejitos,1,RF.COB.CUL.SABOR CHEDDAR D.QUEJITOS,1,2025-03,2025-03,1,4069090.0,Outros queijos,7,0.8925281769110022
+858,rf creme polpa norte cupuacu,1,RF.CREME POLPA NORTE CUPUACU,1,2025-03,2025-03,1,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",6,0.8882245509002195
+859,rf empanado sadia xtreme,1,RF.EMPANADO SADIA XTREME,1,2025-04,2025-04,1,16023230.0,"Preparações e conservas de galos e galinhas, com conteúdo de carne ou de miudezas superior ou igual a 25 % e inferior a 57 %, em peso",7,0.9194044826100445
+860,rf lombo salmao seara cong,1,RF.LOMBO SALMAO SEARA CONG.,1,2025-04,2025-04,1,3048100.0,"Filé de salmão-do-pacífico, do-danúbio, do-atlântico, congelado",7,0.9461098249301776
+861,rf mant extra c s president blist,1,RF.MANT EXTRA C/S PRESIDENT BLIST,1,2025-04,2025-04,1,4051000.0,Manteiga,7,0.9072171099107477
+862,rf panceta suina frimesa cong,1,RF.PANCETA SUINA FRIMESA CONG.,1,2025-03,2025-03,1,2032900.0,"Outras carnes de suíno, congeladas",7,0.9299518931013072
+863,rf pao queijo freskimassas coq,1,RF.PAO QUEIJO FRESKIMASSAS COQ,1,2025-03,2025-03,1,19012010.0,,7,0.7183233045543357
+864,rf queijo mussarela natville f4,7,RF.QUEIJO MUSSARELA NATVILLE F4,1,2025-02,2025-02,1,4061010.0,"Queijo tipo mussarela, fresco (não curado)",7,0.5756069708625151
+865,rf yakisoba seara,1,RF.YAKISOBA SEARA,1,2025-04,2025-04,1,19023000.0,Outras massas alimentícias,7,0.8914411951729734
+866,rnasezap 250 mlcanao rnase rnasezap 250 ml,1,RNASEZAP 250 MLCANAO RNASE RNASEZAP 250 ML,1,2025-04,2025-04,1,34025000.0,,20,0.9709180833342321
+867,rodo condor 2 borr 60cm 1128 un,1,RODO CONDOR 2 BORR 60CM 1128 UN,1,2025-04,2025-04,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",21,0.8991287412118097
+868,rodo condor plast simp s cabo 40cm,1,RODO CONDOR PLAST.SIMP.S/CABO 40CM,1,2025-04,2025-04,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",14,0.952761780398347
+869,rodo push bettanin r,1,RODO PUSH BETTANIN R,1,2025-03,2025-03,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9998745956500638
+870,rodo sao matheus plast dupla acao 60m,1,RODO SAO MATHEUS PLAST DUPLA ACAO 60M,1,2025-01,2025-01,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9974789221377164
+871,rolo antirespingo com cabo 5cm,1,ROLO ANTIRESPINGO COM CABO 5CM,1,2025-04,2025-04,1,96034010.0,Rolos para pintura,14,0.818422949379847
+872,rolo condor pinta mais 15cm 2012 15,1,ROLO CONDOR PINTA MAIS 15CM 2012/15,1,2025-04,2025-04,1,96034010.0,Rolos para pintura,14,0.9529414208663897
+873,rolo de espuma 04cm tigre,3,ROLO DE ESPUMA 04CM TIGRE,1,2025-01,2025-04,3,96034010.0,Rolos para pintura,14,0.8600441248315592
+874,rolo de espuma 09cm com cabo,1,ROLO DE ESPUMA 09CM COM CABO,1,2025-01,2025-01,1,96034010.0,Rolos para pintura,14,0.7876526509509197
+875,rolo de la sintetico c sup 23cm,1,ROLO DE LA SINTETICO C/SUP. 23CM,1,2025-01,2025-01,1,96034010.0,Rolos para pintura,14,0.8785033850426849
+876,rolo espuma c cabo 09cm 406 9a,1,ROLO ESPUMA C/CABO 09CM 406/9A,1,2025-02,2025-02,1,96034010.0,Rolos para pintura,14,0.7800822014393834
+877,rolo espuma c garfo 5cm amarela 606 5 atlas,1,ROLO ESPUMA C/GARFO 5CM AMARELA 606/5 ATLAS,1,2025-01,2025-01,1,96034010.0,Rolos para pintura,14,0.9265773888809913
+878,rolo espuma polies 15cmcinza tigre diver,1,ROLO ESPUMA POLIES 15CMCINZA TIGRE/DIVER,1,2025-02,2025-02,1,96034010.0,Rolos para pintura,14,0.8581226630200142
+879,rolo la 23cm com cabo,1,ROLO LA 23CM COM CABO,1,2025-02,2025-02,1,96034010.0,Rolos para pintura,14,0.7081216787447455
+880,rolo la antirespingo 23cm 1376 tigre,2,ROLO LA ANTIRESPINGO 23CM 1376 - TIGRE,2,2025-01,2025-02,2,96034010.0,Rolos para pintura,14,0.8227275313834167
+881,rolo la poliester 23cm 19mm c cabo,7,Rolo La Poliester 23cm -19mm C/ Cabo,1,2025-01,2025-02,2,96034010.0,Rolos para pintura,14,0.7566743356752847
+882,rolo la sint 23cm resimax atlas,1,ROLO LA SINT 23CM RESIMAX ATLAS,1,2025-03,2025-03,1,96034010.0,Rolos para pintura,14,0.8313468152711536
+883,rolo la tigre 15cm 1383 150,1,ROLO LA TIGRE 15CM 1383-150,1,2025-01,2025-01,1,96034010.0,Rolos para pintura,14,0.864861167198292
+884,rolo pintura predial comp 23 cm antirespingo,1,"ROLO PINTURA PREDIAL COMP. 23 CM, ANTIRESPINGO",1,2025-03,2025-03,1,96034010.0,Rolos para pintura,14,0.9685927954502581
+885,sab francis brasilidades laranja,1,SAB.FRANCIS BRASILIDADES LARANJA,1,2025-03,2025-03,1,34011190.0,"Outros produtos/preparações de toucador, em barras, pedaços, etc.",8,0.9973638888805665
+886,sab francis brasilidades limao,2,SAB.FRANCIS BRASILIDADES LIMAO,1,2025-01,2025-03,2,34011190.0,"Outros produtos/preparações de toucador, em barras, pedaços, etc.",5,0.8991041766663634
+887,sab liq only ervad e hor 500ml,1,SAB LIQ ONLY ERVAD E HOR 500ML,1,2025-04,2025-04,1,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",12,0.8305458343207678
+888,sab liquido p maos 1lt campinense,1,SAB. LIQUIDO P/MaOS 1LT CAMPINENSE,1,2025-01,2025-01,1,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",8,0.9949577143046121
+889,sab protex ant macadamia 85g,1,SAB PROTEX ANT MACADAMIA 85G,1,2025-02,2025-02,1,34011190.0,"Outros produtos/preparações de toucador, em barras, pedaços, etc.",8,0.9986862017033072
+890,sabao barra refinado amarelo 180g estrela economico,2,SABAO BARRA REFINADO AMARELO 180g - ESTRELA ECONOMICO,1,2025-01,2025-02,2,34011900.0,"Outros sabões/produtos/preparações, em barras, pedaços, etc.",8,1.0004127907851132
+891,sabao em barra brisa neutro 180g,1,SABAO EM BARRA BRISA NEUTRO 180G,1,2025-02,2025-02,1,34011900.0,"Outros sabões/produtos/preparações, em barras, pedaços, etc.",23,0.9158917868579612
+892,sabao em po 1 kg,2,SABAO EM PO 1 KG,1,2025-03,2025-03,1,34012090.0,Outros sabões,23,0.6986530746769223
+893,sabao em po 1kg,33,SABAO EM PO 1KG,5,2025-01,2025-04,4,34025000.0,Outros sabões,23,0.690184811131776
+894,sabao em po 500 mg,1,Sabao em po 500 mg,1,2025-01,2025-01,1,34011900.0,"Outros sabões/produtos/preparações, em barras, pedaços, etc.",23,0.7408183932375363
+895,sabao em po embalagem 1kg,2,SABAO EM PO EMBALAGEM 1KG,1,2025-01,2025-02,2,34012090.0,Outros sabões,23,0.7569909651577694
+896,sabao em po kg,1,SABAO EM PO KG,1,2025-02,2025-02,1,34012090.0,Outros sabões,23,0.6986530746769223
+897,sabao po 5kg,5,SABAO PO 5KG,1,2025-01,2025-03,3,34022000.0,"Preparações tensoativas, para lavagem e limpeza",23,0.9147679542882893
+898,sabonete liq 05l erva doce hands care marqui,4,SABONETE LIQ. 05L ERVA DOCE - HANDS CARE MARQUI,1,2025-01,2025-04,3,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",8,0.9945611100654748
+899,sabonete liq premisse 1l deoline pessego damasco,1,SABONETE LIQ PREMISSE 1L DEOLINE PESSEGO DAMASCO,1,2025-04,2025-04,1,34012010.0,"Sabões de toucador, sob outras formas",8,0.9953281071489001
+900,sabonete lux maos 1l flor cerej,1,"SABONETE LUX MAOS 1l, FLOR CEREJ",1,2025-02,2025-02,1,34013000.0,"Produtos e preparações organânicas tensoativos, para lavar pele",8,0.9946325601265424
+901,sabonete refil liquido clean 800 ml,1,SABONETE REFIL LIQUIDO CLEAN 800 ML,1,2025-04,2025-04,1,34012010.0,"Sabões de toucador, sob outras formas",20,0.9686828720841434
+902,sabor natural manjericao,1,SABOR NATURAL - MANJERICAO,1,2025-04,2025-04,1,7099990.0,"Outros produtos hortícolas, frescos ou refrigerados",8,0.9967409117190301
+903,sal refinado bom mesa 1kg,3,SAL REFINADO BOM MESA 1KG,1,2025-02,2025-04,2,25010020.0,Sal de mesa,1,0.9666046630462113
+904,sal refinado iodado,7,SAL REFINADO IODADO,1,2025-01,2025-04,3,25010011.0,"Sal marinho, a granel, sem agregados",1,0.9349613060888307
+905,sal refinado lebre 1kg,2,SAL REFINADO LEBRE 1KG,1,2025-02,2025-03,2,25010011.0,Sal de mesa,1,0.9330446352231369
+906,sal refinado saborelle 1kg,1,SAL REFINADO SABORELLE 1KG,1,2025-03,2025-03,1,25010020.0,Sal de mesa,1,0.9330446352231369
+907,salgado tipo croissant cento,4,SALGADO TIPO CROISSANT (CENTO),1,2025-02,2025-03,2,16023290.0,Outras preparações e conservas de galos e galinhas,0,0.8667037395379245
+908,salgados variados,4,SALGADOS VARIADOS,1,2025-03,2025-04,2,19059090.0,"Outros produtos de padaria, pastelaria, indústria de biscoitos, etc",8,0.9997300831868956
+909,salsa in natura,12,SALSA/ IN NATURA,2,2025-01,2025-04,4,7031019.0,"Cebolas, frescas ou refrigeradas, exceto para semeadura",3,0.7184823601659149
+910,salsao un matsusako,1,SALSAO UN MATSUSAKO,1,2025-04,2025-04,1,7099990.0,"Outros produtos hortícolas, frescos ou refrigerados",21,0.5381805847859983
+911,salsicha de frango pacote 500g,2,SALSICHA DE FRANGO PACOTE 500G,1,2025-02,2025-04,2,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",1,0.926560382145477
+912,salsicha resfriada nobre kg,1,SALSICHA RESFRIADA NOBRE KG,1,2025-04,2025-04,1,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",2,0.9234542668840656
+913,sanduicheira mallory classic gril 2 em 1 750w 127v,3,SANDUICHEIRA MALLORY CLASSIC GRIL 2 EM 1 750W 127V,1,2025-01,2025-04,3,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",23,0.9080495076489801
+914,sanitizante de vegetais em po start,1,SANITIZANTE DE VEGETAIS EM PO START,1,2025-01,2025-01,1,38089419.0,"Outros desinfetantes, apresentados em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",23,0.8499261899667577
+915,seleta em conserva fugini sh 1 7kg,1,"SELETA EM CONSERVA FUGINI SH 1,7KG",1,2025-04,2025-04,1,20059900.0,"Outros produtos hortícolas, preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados",23,0.9550750769863001
+916,semente de aveia branca saco 40 kg urs safra 2024 2024,1,SEMENTE DE AVEIA BRANCA SACO 40 KG URS SAFRA 2024/2024,1,2025-03,2025-03,1,10041000.0,"Aveia, para semeadura",24,0.9956400506709342
+917,shamp dove bond intense repair,1,SHAMP.DOVE BOND INTENSE REPAIR,1,2025-01,2025-01,1,33051000.0,Xampus para os cabelos,8,0.9986284695058742
+918,shamp seda ceramidas,1,SHAMP.SEDA CERAMIDAS,1,2025-02,2025-02,1,33051000.0,Xampus para os cabelos,8,0.9986284695058742
+919,shiitake 200g,1,SHIITAKE 200G,1,2025-03,2025-03,1,7095900.0,Outros cogumelos frescos ou refrigerados,8,0.9909865054390465
+920,shuma cebola em po 45g vidro,1,SHUMA CEBOLA EM PO 45G VIDRO,1,2025-04,2025-04,1,9041200.0,"Pimenta (do gênero Piper), triturada ou em pó",23,0.8838389135550877
+921,smh bm 163 pro4,3,SMH BM 163 PRO4,1,2025-01,2025-04,2,10051000.0,Milho para semeadura,8,0.0827716512263328
+922,socador,1,SOCADOR,1,2025-01,2025-01,1,39241000.0,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plásticos",8,0.0827716512263328
+923,solucao fisiologica 0 9 100ml lbs,1,"SOLUCAO FISIOLOGICA 0,9% 100ML LBS",1,2025-03,2025-03,1,25010090.0,"Outros tipos de sal, cloreto de sódio puro e água do mar",8,0.9973487420566104
+924,sorvete sabor chocolate balde 10l,1,SORVETE SABOR: CHOCOLATE BALDE 10L,1,2025-04,2025-04,1,21050010.0,"Sorvetes, mesmo que contenham cacau, em embalagens imediatas de conteúdo inferior ou igual a 2 kg",8,0.9957146508963446
+925,sorvete sabor napolitano,1,SORVETE SABOR NAPOLITANO,1,2025-04,2025-04,1,21050090.0,"Outros sorvetes, mesmo que contenham cacau",8,0.995620126800165
+926,standak top 1 l,1,STANDAK TOP 1 L,1,2025-02,2025-02,1,38089199.0,"Outros inseticidas, apresentados de outro modo",8,0.9986284695058742
+927,suco alianca 1 5l uva tto uva tto,1,"SUCO ALIANCA 1,5L UVA TTO UVA TTO",1,2025-03,2025-03,1,20096100.0,"Suco (sumo) de uva (incluindo os mostos de uvas), com valor Brix não superior a 30",16,0.8409554023520739
+928,suco caixa,1,SUCO CAIXA,1,2025-02,2025-02,1,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",19,0.7766490295538135
+929,suco conc dafruta 500ml uva,1,SUCO CONC DAFRUTA 500ML UVA,1,2025-02,2025-02,1,21069010.0,Outras preparações para elaboração de bebidas,19,0.8079838491899319
+930,suco conc uva palmeiron 500ml,1,SUCO CONC UVA PALMEIRON 500ML,1,2025-01,2025-01,1,21069010.0,Outras preparações para elaboração de bebidas,19,0.8079838491899319
+931,suco da fruta,1,SUCO DA FRUTA,1,2025-01,2025-01,1,21069090.0,Outras preparações alimentícias,19,0.7799469824017347
+932,suco de fruta 200 ml,1,SUCO DE FRUTA 200 ML,1,2025-02,2025-02,1,20098913.0,Suco de maracujá (Passiflora edulis) com adição de açúcar e outros edulcorantes ou não,19,0.8002700115148749
+933,suco de fruta para diluir 45g sabor variado,1,SUCO DE FRUTA PARA DILUIR 45G SABOR VARIADO,1,2025-03,2025-03,1,21069010.0,Outras preparações para elaboração de bebidas,19,0.8405502745881298
+934,suco de laranja 5l,1,SUCO DE LARANJA 5L,1,2025-03,2025-03,1,20091900.0,"Outros sucos de laranjas, não fermentados, sem adição de álcool, com ou sem adição de açúcar ou de outros edulcorantes",16,0.797583767458117
+935,suco de manga,3,SUCO DE MANGA,1,2025-02,2025-04,3,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",19,0.7931451486179256
+936,suco del valle maracuja 1 l,1,SUCO DEL VALLE MARACUJA 1 L,1,2025-04,2025-04,1,22029900.0,"Outras bebidas não-alcoólicas (exceto água, cerveja sem álcool e itens da posição 20.09)",19,0.8714682545736409
+937,suco happy fruit 200ml laranja,1,SUCO HAPPY FRUIT 200ML LARANJA,1,2025-03,2025-03,1,22029900.0,"Outras bebidas não-alcoólicas (exceto água, cerveja sem álcool e itens da posição 20.09)",19,0.7873861979706455
+938,suco life laranja pet 300ml,1,SUCO LIFE LARANJA PET 300ML,1,2025-02,2025-02,1,20091200.0,"Suco (sumo) de laranja, não fermentados, sem adição de álcool, com ou sem adição de açúcar ou de outros edulcorantes, não congelado, com valor Brix não superior a 20",19,0.8854046023202199
+939,suco liquido goiaba litro,6,SUCO LIQUIDO GOIABA LITRO,1,2025-03,2025-04,2,22021000.0,"Águas, incluindo as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas",19,0.8479031945437794
+940,suco natural de laranja garrafa 290 ml,2,SUCO NATURAL DE LARANJA GARRAFA 290 ML,1,2025-01,2025-03,2,20091900.0,"Outros sucos de laranjas, não fermentados, sem adição de álcool, com ou sem adição de açúcar ou de outros edulcorantes",19,0.8404460000272038
+941,suco panizzon maca,1,SUCO PANIZZON MACA,1,2025-03,2025-03,1,20097100.0,"Suco (sumo) de maçã, com valor Brix não superior a 20",19,0.7818283939293883
+942,suco sabor caju,3,SUCO SABOR CAJU,1,2025-01,2025-03,3,20091100.0,"Suco (sumo) de laranja, não fermentados, sem adição de álcool, com ou sem adição de açúcar ou de outros edulcorantes, congelado",19,0.8167386599200126
+943,suco sabores maguary 1l,1,SUCO SABORES MAGUARY 1L,1,2025-04,2025-04,1,22029900.0,"Outras bebidas não-alcoólicas (exceto água, cerveja sem álcool e itens da posição 20.09)",19,0.8337925179775018
+944,suino linguica toscana braconortense,3,SUINO LINGUICA TOSCANA - BRACONORTENSE,1,2025-01,2025-03,3,16010000.0,"Enchidos e produtos semelhantes, de carne, de miudezas ou de sangue; preparações alimentícias à base de tais produtos",8,0.9983859762133113
+945,super gerin fr geriatrica eg und l 2501 val 14 01 2027,1,SUPER GERIN FR GERIATRICA EG UND L : 2501 Val : 14/01/2027,1,2025-01,2025-01,1,96190000.0,"Absorventes e tampões higiênicos, cueiros e fraldas para bebês e artigos higiênicos semelhantes, de qualquer matéria",8,0.9974806562162566
+946,super led 2d h4 c reat t1001h4,1,SUPER LED 2D H4 C/REAT.T1001H4,1,2025-03,2025-03,1,85395200.0,,8,0.9983173625705306
+947,suplefrango engorda 30kg,1,SUPLEFRANGO ENGORDA 30KG,1,2025-02,2025-02,1,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),8,1.0010269642607983
+948,supra procavalo pellet mel sc 40 kg,2,SUPRA PROCAVALO PELLET MEL SC 40 KG,1,2025-01,2025-04,2,23099010.0,Preparações destinadas a fornecer ao animal a totalidade dos elementos nutritivos necessários para uma alimentação diária racional e equilibrada (alimentos compostos completos),2,0.934508733780979
+949,talisman 5 l,1,TALISMAN 5 L,1,2025-01,2025-01,1,38086290.0,"Outras mercadorias mencionadas na Nota de subposições 2 do presente Capítulo, acondicionadas em embalagens com um conteúdo de peso líquido não superior a 300 g",8,0.0827716512263328
+950,tamarindo polpa,2,TAMARINDO  POLPA,1,2025-01,2025-02,2,20089900.0,"Outras frutas, partes de plantas, preparadas/conservadas de outro modo",8,0.9978760512413395
+951,tanidil 200gr,1,TANIDIL 200GR,1,2025-02,2025-02,1,38089999.0,Outros rodenticidas apresentados de outro modo,8,0.9996209108153269
+952,tech sal vialac gold kg,3,TECH SAL VIALAC GOLD KG,1,2025-01,2025-04,3,23099090.0,Outras preparações dos tipos utilizados na alimentação de animais,2,0.900374639564774
+953,temp dyana po canela 20gr dyana un,1,Temp Dyana Po Canela 20gr Dyana UN,1,2025-03,2025-03,1,21032010.0,"Ketchup e outros molhos de tomate, preparado, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",21,0.8138574296007671
+954,tempero alho cebola e salsa 60 gr,1,"TEMPERO ALHO, CEBOLA E SALSA 60 GR",1,2025-01,2025-01,1,21039021.0,"Condimentos e temperos, compostos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",8,0.9955580758148977
+955,tijolo ceramico macico comum de 5x10x20 cmlxaxc cod sinapi 7258 clas lic 5 alvenaria,1,TIJOLO CERAMICO MACICO COMUM DE 5X10X20 CMLxAxC.COD SINAPI 7258.CLAS LIC 5 ALVENARIA.,1,2025-04,2025-04,1,10063011.0,"Arroz semibranqueado ou branqueado, parboilizado, polido ou brunido",24,0.983835631826182
+956,toalha de papel folha simples quantidade toalha 60 und comp 22cm larg 20cm cor branca pacote com 2 rolos bob,1,"TOALHA DE PAPEL FOLHA SIMPLES,QUANTIDADE TOALHA 60 UND,COMP.22CM,LARG.20CM,COR BRANCA,PACOTE COM 2 ROLOS, BOB",1,2025-01,2025-01,1,48181000.0,Papel higiênico,13,0.8844900087255072
+957,toalha inter 2d cel 20x22 1000u gr24 gold cotia,1,TOALHA INTER 2D CEL 20X22 1000U GR24 GOLD COTIA,1,2025-03,2025-03,1,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",8,0.9992882842316686
+958,toalha mesa material 100 poliester formato redonda diametro 2 70 m cor variada,1,"- TOALHA MESA, MATERIAL 100% POLIESTER FORMATO REDONDA, DIAMETRO 2,70 M, COR VARIADA",1,2025-01,2025-01,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",8,0.9958216227065136
+959,toalha papel 2db 100 celulose 21x22 c 2400fls kami,1,TOALHA PAPEL 2DB 100% CELULOSE 21x22 C/2400fls - KAMI,1,2025-03,2025-03,1,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",13,0.7212202377548119
+960,toalha papel bc dadu interfolha,1,TOALHA PAPEL BC DADU INTERFOLHA,1,2025-03,2025-03,1,48182000.0,"Lenços, incluindo os de desmaquiar, e toalhas de mão, de papel",13,0.8083544529818292
+961,toalha papel kitchen 60fls c 2rl,1,TOALHA PAPEL KITCHEN 60FLS C/2RL,1,2025-02,2025-02,1,48189090.0,"Outros artigos de papel, para uso sanitário/doméstico/hospitalar",13,0.7313576804153124
+962,toalha papel scala plus mega 360f un,1,TOALHA PAPEL SCALA PLUS MEGA 360F UN,1,2025-02,2025-02,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",13,0.8460413807089231
+963,todeschini bisc cream cracker 360g,1,TODESCHINI BISC CREAM CRACKER 360G,1,2025-04,2025-04,1,19053100.0,"Bolachas e biscoitos, adicionados de edulcorante",8,0.993788931696961
+964,tramontina vassoura grama paleta ancinho,1,TRAMONTINA-VASSOURA GRAMA PALETA ANCINHO,1,2025-02,2025-02,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9984528084049649
+965,trincha 2 12,1,TRINCHA 2 12,1,2025-04,2025-04,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.9930095570650476
+966,trincha 395 x 2 1 2,1,TRINCHA 395 X 2 1/2,1,2025-02,2025-02,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.9946573294262686
+967,trincha 519 1 tigre,1,TRINCHA 519 1 TIGRE,1,2025-03,2025-03,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.9962330125054902
+968,trincha economica media 697 1 1 2 60697,1,TRINCHA ECONOMICA MEDIA 697-1.1/2 60697,1,2025-02,2025-02,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.993639950109295
+969,trincha material cabo madeira material cerdas pelo orelha de boi tamanho 11 2 pol tipo cabo curto,2,"TRINCHA, MATERIAL CABO MADEIRA, MATERIAL CERDAS PELO ORELHA DE BOI, TAMANHO 11/2 POL, TIPO CABO CURTO",1,2025-03,2025-03,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",0,0.97038808501984
+970,trincha media 395 3 1 atlas,1,TRINCHA MEDIA 395/3 1' ATLAS . .,1,2025-04,2025-04,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",8,0.993512711880458
+971,trincha simples 500 1 1 2 cerda gris,2,TRINCHA SIMPLES 500-1.1/2 CERDA GRIS,1,2025-02,2025-02,1,96034090.0,"Escovas e pincéis para pintar, caiar, envernizar, etc, bonecas",20,0.96458846331609
+972,trophic soya 1 5 1l 1824,1,TROPHIC SOYA 1.5 1L - 1824,1,2025-03,2025-03,1,21069090.0,Outras preparações alimentícias,8,0.9949809587417131
+973,unhas posticas glitter fosca lisa,1,UNHAS POSTICAS GLITTER/FOSCA/LISA,1,2025-01,2025-01,1,33042090.0,Outros produtos de maquiagem para os olhos,8,1.0010269642607983
+974,uno guardanapo 50un,1,UNO GUARDANAPO 50UN,1,2025-04,2025-04,1,48183000.0,"Toalhas de mesa e guardanapos, de papel",8,1.0010269642607983
+975,up fresh capim limao 400ml goedert,1,UP FRESH CAPIM LIMAO 400ML GOEDERT,1,2025-04,2025-04,1,38085910.0,"Outras mercadorias mencionadas na Nota de subposições 1 do presente Capítulo, apresentadas em formas ou embalagens exclusivamente para uso direto em aplicações domissanitárias",5,0.8269107890703783
+976,uva black sem semente bj 500g,1,UVA BLACK SEM SEMENTE BJ 500G,1,2025-01,2025-01,1,8061000.0,Uvas frescas,1,0.8886756014485506
+977,uva italia in natura,3,"UVA ITALIA, IN NATURA",1,2025-04,2025-04,1,8051000.0,"Laranjas, frescas ou secas",3,0.7929270858425351
+978,uva melodia s semente 500g,2,UVA MELODIA S/SEMENTE 500G,1,2025-01,2025-04,2,8061000.0,Uvas frescas,1,0.8695647438408226
+979,uva passa preta s semente valencia 100g,1,UVA PASSA PRETA S/ SEMENTE VALENCIA 100G,1,2025-03,2025-03,1,8062000.0,Uvas secas (passas),8,0.9983297786314599
+980,uva verde s sem cumbuca 500g,1,UVA VERDE S SEM CUMBUCA 500G,1,2025-04,2025-04,1,8061000.0,Uvas frescas,1,0.8903099352419738
+981,v coentro mateus a un,1,V COENTRO MATEUS A UN,1,2025-01,2025-01,1,7099990.0,"Outros produtos hortícolas, frescos ou refrigerados",21,0.5381805847859983
+982,vagem manteiga,48,VAGEM MANTEIGA,1,2025-01,2025-04,4,7089000.0,"Outros legumes de vagem, frescos ou refrigerados",8,0.9979691052406923
+983,vagem quilograma,8,VAGEM - QUILOGRAMA,1,2025-03,2025-04,2,7089000.0,"Outros legumes de vagem, frescos ou refrigerados",8,0.9976973889320078
+984,vassoura dalcin c cabo 40ct,1,VASSOURA DALCIN C/ CABO 40CT,1,2025-03,2025-03,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",14,0.8870900193917081
+985,vassoura escovao,1,VASSOURA ESCOVAO,1,2025-01,2025-01,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",8,0.9979064518180606
+986,vassoura palha 04 fios c cabo patrulhense dalcin d001,7,VASSOURA PALHA 04 FIOS C/CABO - PATRULHENSE DALCIN D001,1,2025-01,2025-04,4,96031000.0,"Vassouras e escovas constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",14,0.9302690530363977
+987,vassoura pelo sintetico 60cm c cabo mm,1,VASSOURA PELO SINTETICO 60cm C/CABO - MM,1,2025-01,2025-01,1,96039000.0,"Outras vassouras, escovas, pincéis, espanadores, rodos, etc.",14,0.9557271500844937
+988,vassoura piacava n 6 00013,1,VASSOURA PIACAVA N.6 00013,1,2025-01,2025-01,1,96031000.0,"Vassouras e escovas constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",8,0.9984528084049649
+989,vassoura piacava rende bem c cabo metal,1,VASSOURA PIAÇAVA RENDE BEM C/CABO METAL,1,2025-03,2025-03,1,96031000.0,"Vassouras e escovas constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",14,0.9160647191119192
+990,vassourao gari c cabo madeira d077,4,VASSOURÃO GARI C/ CABO MADEIRA D077,1,2025-01,2025-02,2,96031000.0,"Vassouras e escovas constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",14,0.9144143208705751
+991,vegetais em conserva seleta em legumes,1,VEGETAIS EM CONSERVA SELETA EM LEGUMES,1,2025-04,2025-04,1,7089000.0,"Outros legumes de vagem, frescos ou refrigerados",23,0.9067076754979921
+992,verd batata monalisa kg 7,1,VERD BATATA MONALISA KG 7,1,2025-03,2025-03,1,7011000.0,"Batatas, frescas ou refrigeradas, para semeadura",2,0.8070672421408398
+993,verdura in nartura tipo repolho branco verde,10,"VERDURA IN NARTURA, TIPO: REPOLHO BRANCO / VERDE",1,2025-01,2025-04,4,7041000.0,"Couve-flor e brócolis, frescos ou refrigerados",0,0.9313872624780227
+994,verdura in natura couve for,1,VERDURA IN NATURA COUVE FOR,1,2025-04,2025-04,1,7049000.0,"Couves, repolho, etc, do gênero Brassica, frescos ou refrigerados",3,0.7969113363422387
+995,verdura in natura tipo alface americana,20,"VERDURA IN NATURA, TIPO: ALFACE AMERICANA",1,2025-01,2025-04,4,7051100.0,"Alfaces repolhudas, frescas ou refrigeradas",3,0.7801283558427078
+996,verduras brocolis,1,VERDURAS-BROCOLIS,1,2025-04,2025-04,1,7041000.0,"Couve-flor e brócolis, frescos ou refrigerados",8,0.9991345400430557
+997,vinagre senhor viccino zero ac fr 500ml maca,1,VINAGRE SENHOR VICCINO ZERO AC FR 500ML MACA,1,2025-04,2025-04,1,22090000.0,"Vinagres e seus sucedâneos obtidos a partir do ácido acético, para usos alimentares",12,0.9266793481968886
+998,vinagre virrosas 500ml,2,VINAGRE VIRROSAS -500ML,1,2025-04,2025-04,1,22090000.0,"Vinagres e seus sucedâneos obtidos a partir do ácido acético, para usos alimentares",12,0.8083612115528025
+999,xarope de guarana garrafa,6,XAROPE DE GUARANA GARRAFA,1,2025-03,2025-03,1,21069010.0,Outras preparações para elaboração de bebidas,24,0.9543379964743284
