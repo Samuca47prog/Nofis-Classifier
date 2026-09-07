@@ -1,0 +1,471 @@
+config_name,sample_type,description,frequency,rank,term,value
+word_unigram_min_df_2,vocabulary_sample,,,1,00,
+word_unigram_min_df_2,vocabulary_sample,,,2,000,
+word_unigram_min_df_2,vocabulary_sample,,,3,000000000000414408,
+word_unigram_min_df_2,vocabulary_sample,,,4,00000000000051,
+word_unigram_min_df_2,vocabulary_sample,,,5,00000000000121,
+word_unigram_min_df_2,vocabulary_sample,,,6,00000000000125,
+word_unigram_min_df_2,vocabulary_sample,,,7,00000000000129,
+word_unigram_min_df_2,vocabulary_sample,,,8,00000000000140,
+word_unigram_min_df_2,vocabulary_sample,,,9,00000000000158,
+word_unigram_min_df_2,vocabulary_sample,,,10,00000000000166,
+word_unigram_min_df_2,vocabulary_sample,,,11,00000000109776,
+word_unigram_min_df_2,vocabulary_sample,,,12,00000000537836,
+word_unigram_min_df_2,vocabulary_sample,,,13,0000000201540,
+word_unigram_min_df_2,vocabulary_sample,,,14,00004,
+word_unigram_min_df_2,vocabulary_sample,,,15,00005,
+word_unigram_min_df_2,vocabulary_sample,,,16,00007,
+word_unigram_min_df_2,vocabulary_sample,,,17,0001,
+word_unigram_min_df_2,vocabulary_sample,,,18,00011,
+word_unigram_min_df_2,vocabulary_sample,,,19,00012,
+word_unigram_min_df_2,vocabulary_sample,,,20,00013,
+word_unigram_min_df_2,highest_idf,,,1,000000000000414408,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,2,00013,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,3,00015,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,4,00022,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,5,00027,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,6,005,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,7,00es12,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,8,010,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,9,yantra,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,10,yara,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,11,yogurte,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,12,york,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,13,zapp,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,14,zartan,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,15,015,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,16,01g,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,17,01lt,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,18,024,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,19,0246,10.134214981586691
+word_unigram_min_df_2,highest_idf,,,20,028,10.134214981586691
+word_unigram_min_df_2,top_terms_frequent_description,cenoura,1533.0,1,cenoura,1.0
+word_unigram_min_df_2,top_terms_frequent_description,beterraba,1397.0,1,beterraba,1.0
+word_unigram_min_df_2,top_terms_frequent_description,melancia,1282.0,1,melancia,1.0
+word_unigram_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,1,inglesa,0.802346592852903
+word_unigram_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,2,batata,0.5968583960516411
+word_unigram_min_df_2,top_terms_frequent_description,batata doce,967.0,1,batata,0.7539149688335032
+word_unigram_min_df_2,top_terms_frequent_description,batata doce,967.0,2,doce,0.6569720083601568
+word_unigram_min_df_2,top_terms_frequent_description,banana prata,962.0,1,prata,0.7681036634356354
+word_unigram_min_df_2,top_terms_frequent_description,banana prata,962.0,2,banana,0.6403255127017479
+word_unigram_min_df_2,top_terms_frequent_description,pimentao verde,869.0,1,pimentao,0.7918418106256921
+word_unigram_min_df_2,top_terms_frequent_description,pimentao verde,869.0,2,verde,0.6107262455020461
+word_unigram_min_df_2,top_terms_frequent_description,alface crespa,761.0,1,crespa,0.7665989287569407
+word_unigram_min_df_2,top_terms_frequent_description,alface crespa,761.0,2,alface,0.6421262200134105
+word_unigram_min_df_2,top_terms_frequent_description,pepino,665.0,1,pepino,1.0
+word_unigram_min_df_2,top_terms_frequent_description,cebola,648.0,1,cebola,1.0
+word_unigram_bigram_min_df_2,vocabulary_sample,,,1,00,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,2,00 00,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,3,00 cofins,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,4,00 pis,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,5,00 un,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,6,000,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,7,000 btu,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,8,001,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,9,001 cooperados,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,10,0013,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,11,002,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,12,003,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,13,004,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,14,01,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,15,01 071,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,16,01 09,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,17,01 10,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,18,01 2026,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,19,01 25,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,20,01 kg,
+word_unigram_bigram_min_df_2,highest_idf,,,1,028,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,2,024,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,3,superled 9w,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,4,frances branco,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,5,105 024,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,6,boju,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,7,frison,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,8,01 09,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,9,2201,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,10,10 25,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,11,329,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,12,souto,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,13,enz,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,14,sas un,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,15,012 058,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,16,5106,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,17,igg,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,18,ab1,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,19,976,10.134214981586691
+word_unigram_bigram_min_df_2,highest_idf,,,20,guanabara,10.134214981586691
+word_unigram_bigram_min_df_2,top_terms_frequent_description,cenoura,1533.0,1,cenoura,1.0
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beterraba,1397.0,1,beterraba,1.0
+word_unigram_bigram_min_df_2,top_terms_frequent_description,melancia,1282.0,1,melancia,1.0
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,1,batata inglesa,0.6326383201983256
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,2,inglesa,0.6213752226065867
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,3,batata,0.46223542545682905
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata doce,967.0,1,batata doce,0.6990366541109841
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata doce,967.0,2,batata,0.539113917533235
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata doce,967.0,3,doce,0.46979137937098064
+word_unigram_bigram_min_df_2,top_terms_frequent_description,banana prata,962.0,1,banana prata,0.6280932271974092
+word_unigram_bigram_min_df_2,top_terms_frequent_description,banana prata,962.0,2,prata,0.5976907229378633
+word_unigram_bigram_min_df_2,top_terms_frequent_description,banana prata,962.0,3,banana,0.4982616758920537
+word_unigram_bigram_min_df_2,top_terms_frequent_description,pimentao verde,869.0,1,pimentao verde,0.6741776081517473
+word_unigram_bigram_min_df_2,top_terms_frequent_description,pimentao verde,869.0,2,pimentao,0.5848300205664476
+word_unigram_bigram_min_df_2,top_terms_frequent_description,pimentao verde,869.0,3,verde,0.45106363155439344
+word_unigram_bigram_min_df_2,top_terms_frequent_description,alface crespa,761.0,1,alface crespa,0.6122484579967983
+word_unigram_bigram_min_df_2,top_terms_frequent_description,alface crespa,761.0,2,crespa,0.6061232733318596
+word_unigram_bigram_min_df_2,top_terms_frequent_description,alface crespa,761.0,3,alface,0.5077070052756949
+word_unigram_bigram_min_df_2,top_terms_frequent_description,pepino,665.0,1,pepino,1.0
+word_unigram_bigram_min_df_2,top_terms_frequent_description,cebola,648.0,1,cebola,1.0
+char_wb_3_5_min_df_2,vocabulary_sample,,,1, 0 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,2, 00,
+char_wb_3_5_min_df_2,vocabulary_sample,,,3, 00 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,4, 000,
+char_wb_3_5_min_df_2,vocabulary_sample,,,5, 000 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,6, 0000,
+char_wb_3_5_min_df_2,vocabulary_sample,,,7, 0001,
+char_wb_3_5_min_df_2,vocabulary_sample,,,8, 0002,
+char_wb_3_5_min_df_2,vocabulary_sample,,,9, 0005,
+char_wb_3_5_min_df_2,vocabulary_sample,,,10, 000x,
+char_wb_3_5_min_df_2,vocabulary_sample,,,11, 001,
+char_wb_3_5_min_df_2,vocabulary_sample,,,12, 001 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,13, 0012,
+char_wb_3_5_min_df_2,vocabulary_sample,,,14, 0013,
+char_wb_3_5_min_df_2,vocabulary_sample,,,15, 002,
+char_wb_3_5_min_df_2,vocabulary_sample,,,16, 002 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,17, 003,
+char_wb_3_5_min_df_2,vocabulary_sample,,,18, 003 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,19, 004,
+char_wb_3_5_min_df_2,vocabulary_sample,,,20, 004 ,
+char_wb_3_5_min_df_2,highest_idf,,,1,2333,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,2,2750,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,3,273,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,4,ab1 ,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,5,l1513,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,6,23330,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,7,4028 ,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,8, ab1 ,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,9,anaba,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,10, ck1,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,11,guana,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,12,13961,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,13, boju,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,14,icmss,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,15,7006 ,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,16,7006,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,17, boj,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,18,2x90,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,19,2x9,10.134214981586691
+char_wb_3_5_min_df_2,highest_idf,,,20,1383,10.134214981586691
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,1,noura,0.272435621872634
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,2,enour,0.272435621872634
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,3,ceno,0.27197550349613975
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,4,cenou,0.27197550349613975
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,5, ceno,0.27197550349613975
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,6,nour,0.27197550349613975
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,7,enou,0.27197550349613975
+char_wb_3_5_min_df_2,top_terms_frequent_description,cenoura,1533.0,8,nou,0.2710707481233995
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,1,raba ,0.2381111709668184
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,2,rraba,0.2381111709668184
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,3,errab,0.2381111709668184
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,4,rrab,0.2381111709668184
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,5, bete,0.2373785245176304
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,6,beter,0.2373785245176304
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,7,bete,0.2373785245176304
+char_wb_3_5_min_df_2,top_terms_frequent_description,beterraba,1397.0,8,eterr,0.2373785245176304
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,1,lanci,0.25959533211938
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,2,melan,0.25897662083110884
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,3,elanc,0.2577700514703941
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,4,ancia,0.256602410566233
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,5,elan,0.25077774048330037
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,6,anci,0.24492003788097025
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,7, mela,0.23545611248027942
+char_wb_3_5_min_df_2,top_terms_frequent_description,melancia,1282.0,8,mela,0.2351372229373183
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,1,lesa ,0.22379111116679354
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,2,glesa,0.22379111116679354
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,3,lesa,0.22379111116679354
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,4,ata,0.2204122822261887
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,5,gles,0.2044572764159187
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,6,ngles,0.2044572764159187
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,7, ingl,0.20406567118507626
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata inglesa,1022.0,8,ingle,0.20041093029800178
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,1,ata,0.30243506800353115
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,2,tata ,0.22842755071882884
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,3,atata,0.22783313462910026
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,4,tata,0.22768588157330352
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,5,atat,0.22739296930924388
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,6,batat,0.22739296930924388
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,7,tat,0.224168239730683
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata doce,967.0,8, bata,0.22336752612552147
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,1,ana,0.2703155497720937
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,2,prata,0.2530929066562921
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,3,rata ,0.22037049478584356
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,4, prat,0.21453806166208766
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,5,prat,0.21336265942955654
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,6,nana ,0.2102295559311068
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,7,rata,0.2097042912107056
+char_wb_3_5_min_df_2,top_terms_frequent_description,banana prata,962.0,8,anana,0.20901582841093652
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,1,ntao ,0.22832239329651213
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,2,ntao,0.22832239329651213
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,3,entao,0.22832239329651213
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,4,tao,0.2149709430879019
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,5,tao ,0.2149709430879019
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,6, pime,0.19106826377010958
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,7,pimen,0.19106826377010958
+char_wb_3_5_min_df_2,top_terms_frequent_description,pimentao verde,869.0,8,pime,0.19094658345232948
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,1,espa ,0.22814787940173836
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,2,respa,0.22814787940173836
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,3,spa ,0.2260052139684963
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,4,cresp,0.22532334664680637
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,5, cres,0.21148694968197493
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,6,cres,0.21148694968197493
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,7,resp,0.2042920004460053
+char_wb_3_5_min_df_2,top_terms_frequent_description,alface crespa,761.0,8,lfac,0.1902426775626784
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,1,epino,0.2961602933126254
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,2,pepin,0.2961602933126254
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,3, pepi,0.29548411356863963
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,4,pepi,0.29548411356863963
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,5,epin,0.29416387131640714
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,6,epi,0.2922589212480792
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,7,pino ,0.2751916309188882
+char_wb_3_5_min_df_2,top_terms_frequent_description,pepino,665.0,8,pino,0.2705230919442911
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,1,ebola,0.29822199447751246
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,2,bola ,0.2945225608988011
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,3,bola,0.27924816718038864
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,4,cebol,0.2784100688591127
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,5, cebo,0.2784100688591127
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,6,cebo,0.2784100688591127
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,7,ebol,0.27813410628895996
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola,648.0,8, ceb,0.27677891004041233
+word_unigram_min_df_5,vocabulary_sample,,,1,00,
+word_unigram_min_df_5,vocabulary_sample,,,2,000,
+word_unigram_min_df_5,vocabulary_sample,,,3,001,
+word_unigram_min_df_5,vocabulary_sample,,,4,002,
+word_unigram_min_df_5,vocabulary_sample,,,5,003,
+word_unigram_min_df_5,vocabulary_sample,,,6,01,
+word_unigram_min_df_5,vocabulary_sample,,,7,012,
+word_unigram_min_df_5,vocabulary_sample,,,8,01kg,
+word_unigram_min_df_5,vocabulary_sample,,,9,01l,
+word_unigram_min_df_5,vocabulary_sample,,,10,02,
+word_unigram_min_df_5,vocabulary_sample,,,11,02kg,
+word_unigram_min_df_5,vocabulary_sample,,,12,03,
+word_unigram_min_df_5,vocabulary_sample,,,13,04,
+word_unigram_min_df_5,vocabulary_sample,,,14,04x30m,
+word_unigram_min_df_5,vocabulary_sample,,,15,05,
+word_unigram_min_df_5,vocabulary_sample,,,16,05cm,
+word_unigram_min_df_5,vocabulary_sample,,,17,05kg,
+word_unigram_min_df_5,vocabulary_sample,,,18,05l,
+word_unigram_min_df_5,vocabulary_sample,,,19,06,
+word_unigram_min_df_5,vocabulary_sample,,,20,07,
+word_unigram_min_df_5,highest_idf,,,1,pirac,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,2,pis,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,3,pleion,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,4,pleno,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,5,pluron,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,6,05kg,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,7,071,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,8,whiskas,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,9,zennith,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,10,1199,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,11,125,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,12,127v,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,13,12g,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,14,virg,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,15,12v55w,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,16,1376,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,17,1377,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,18,137g,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,19,137gr,9.441067801026746
+word_unigram_min_df_5,highest_idf,,,20,145ml,9.441067801026746
+word_unigram_min_df_5,top_terms_frequent_description,cenoura,1533.0,1,cenoura,1.0
+word_unigram_min_df_5,top_terms_frequent_description,beterraba,1397.0,1,beterraba,1.0
+word_unigram_min_df_5,top_terms_frequent_description,melancia,1282.0,1,melancia,1.0
+word_unigram_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,1,inglesa,0.802346592852903
+word_unigram_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,2,batata,0.5968583960516411
+word_unigram_min_df_5,top_terms_frequent_description,batata doce,967.0,1,batata,0.7539149688335032
+word_unigram_min_df_5,top_terms_frequent_description,batata doce,967.0,2,doce,0.6569720083601568
+word_unigram_min_df_5,top_terms_frequent_description,banana prata,962.0,1,prata,0.7681036634356354
+word_unigram_min_df_5,top_terms_frequent_description,banana prata,962.0,2,banana,0.6403255127017479
+word_unigram_min_df_5,top_terms_frequent_description,pimentao verde,869.0,1,pimentao,0.7918418106256921
+word_unigram_min_df_5,top_terms_frequent_description,pimentao verde,869.0,2,verde,0.6107262455020461
+word_unigram_min_df_5,top_terms_frequent_description,alface crespa,761.0,1,crespa,0.7665989287569407
+word_unigram_min_df_5,top_terms_frequent_description,alface crespa,761.0,2,alface,0.6421262200134105
+word_unigram_min_df_5,top_terms_frequent_description,pepino,665.0,1,pepino,1.0
+word_unigram_min_df_5,top_terms_frequent_description,cebola,648.0,1,cebola,1.0
+word_unigram_bigram_min_df_5,vocabulary_sample,,,1,00,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,2,00 00,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,3,00 cofins,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,4,00 pis,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,5,00 un,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,6,000,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,7,001,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,8,001 cooperados,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,9,002,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,10,003,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,11,01,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,12,01 071,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,13,01 2026,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,14,01 25,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,15,01 kg,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,16,012,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,17,01kg,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,18,01l,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,19,02,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,20,02 kg,
+word_unigram_bigram_min_df_5,highest_idf,,,1,zulu,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,2,zero lac,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,3,02 litros,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,4,00 pis,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,5,00 cofins,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,6,nutella,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,7,nutrare,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,8,nutribras,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,9,bovina ind,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,10,borrifador,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,11,bovina alcatra,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,12,nutriex,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,13,nutrison,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,14,nutritivo,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,15,nutry,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,16,dv,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,17,waffer sabor,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,18,071,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,19,071 00,9.441067801026746
+word_unigram_bigram_min_df_5,highest_idf,,,20,08 desincrostante,9.441067801026746
+word_unigram_bigram_min_df_5,top_terms_frequent_description,cenoura,1533.0,1,cenoura,1.0
+word_unigram_bigram_min_df_5,top_terms_frequent_description,beterraba,1397.0,1,beterraba,1.0
+word_unigram_bigram_min_df_5,top_terms_frequent_description,melancia,1282.0,1,melancia,1.0
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,1,batata inglesa,0.6326383201983256
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,2,inglesa,0.6213752226065867
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,3,batata,0.46223542545682905
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata doce,967.0,1,batata doce,0.6990366541109841
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata doce,967.0,2,batata,0.539113917533235
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata doce,967.0,3,doce,0.46979137937098064
+word_unigram_bigram_min_df_5,top_terms_frequent_description,banana prata,962.0,1,banana prata,0.6280932271974092
+word_unigram_bigram_min_df_5,top_terms_frequent_description,banana prata,962.0,2,prata,0.5976907229378633
+word_unigram_bigram_min_df_5,top_terms_frequent_description,banana prata,962.0,3,banana,0.4982616758920537
+word_unigram_bigram_min_df_5,top_terms_frequent_description,pimentao verde,869.0,1,pimentao verde,0.6741776081517473
+word_unigram_bigram_min_df_5,top_terms_frequent_description,pimentao verde,869.0,2,pimentao,0.5848300205664476
+word_unigram_bigram_min_df_5,top_terms_frequent_description,pimentao verde,869.0,3,verde,0.45106363155439344
+word_unigram_bigram_min_df_5,top_terms_frequent_description,alface crespa,761.0,1,alface crespa,0.6122484579967983
+word_unigram_bigram_min_df_5,top_terms_frequent_description,alface crespa,761.0,2,crespa,0.6061232733318596
+word_unigram_bigram_min_df_5,top_terms_frequent_description,alface crespa,761.0,3,alface,0.5077070052756949
+word_unigram_bigram_min_df_5,top_terms_frequent_description,pepino,665.0,1,pepino,1.0
+word_unigram_bigram_min_df_5,top_terms_frequent_description,cebola,648.0,1,cebola,1.0
+char_wb_3_5_min_df_5,vocabulary_sample,,,1, 0 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,2, 00,
+char_wb_3_5_min_df_5,vocabulary_sample,,,3, 00 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,4, 000,
+char_wb_3_5_min_df_5,vocabulary_sample,,,5, 000 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,6, 0000,
+char_wb_3_5_min_df_5,vocabulary_sample,,,7, 0001,
+char_wb_3_5_min_df_5,vocabulary_sample,,,8, 0002,
+char_wb_3_5_min_df_5,vocabulary_sample,,,9, 001,
+char_wb_3_5_min_df_5,vocabulary_sample,,,10, 001 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,11, 0012,
+char_wb_3_5_min_df_5,vocabulary_sample,,,12, 002,
+char_wb_3_5_min_df_5,vocabulary_sample,,,13, 002 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,14, 003,
+char_wb_3_5_min_df_5,vocabulary_sample,,,15, 003 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,16, 004,
+char_wb_3_5_min_df_5,vocabulary_sample,,,17, 01,
+char_wb_3_5_min_df_5,vocabulary_sample,,,18, 01 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,19, 010,
+char_wb_3_5_min_df_5,vocabulary_sample,,,20, 010k,
+char_wb_3_5_min_df_5,highest_idf,,,1, 010k,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,2, 011,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,3, 014,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,4, 01lt,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,5,chinh,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,6,ovel,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,7,chul,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,8,chule,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,9,loss,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,10,losso,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,11,zeno ,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,12, 05k,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,13, 05kg,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,14, 071,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,15, 071 ,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,16, 100f,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,17,zu ,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,18,chw,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,19,cifi,9.441067801026746
+char_wb_3_5_min_df_5,highest_idf,,,20,cific,9.441067801026746
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,1,noura,0.272435621872634
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,2,enour,0.272435621872634
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,3,ceno,0.27197550349613975
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,4,cenou,0.27197550349613975
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,5, ceno,0.27197550349613975
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,6,nour,0.27197550349613975
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,7,enou,0.27197550349613975
+char_wb_3_5_min_df_5,top_terms_frequent_description,cenoura,1533.0,8,nou,0.2710707481233995
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,1,raba ,0.2381111709668184
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,2,rraba,0.2381111709668184
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,3,errab,0.2381111709668184
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,4,rrab,0.2381111709668184
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,5, bete,0.2373785245176304
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,6,beter,0.2373785245176304
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,7,bete,0.2373785245176304
+char_wb_3_5_min_df_5,top_terms_frequent_description,beterraba,1397.0,8,eterr,0.2373785245176304
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,1,lanci,0.25959533211938
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,2,melan,0.25897662083110884
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,3,elanc,0.2577700514703941
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,4,ancia,0.256602410566233
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,5,elan,0.25077774048330037
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,6,anci,0.24492003788097025
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,7, mela,0.23545611248027942
+char_wb_3_5_min_df_5,top_terms_frequent_description,melancia,1282.0,8,mela,0.2351372229373183
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,1,lesa ,0.22379111116679354
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,2,glesa,0.22379111116679354
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,3,lesa,0.22379111116679354
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,4,ata,0.2204122822261887
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,5,gles,0.2044572764159187
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,6,ngles,0.2044572764159187
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,7, ingl,0.20406567118507626
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata inglesa,1022.0,8,ingle,0.20041093029800178
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,1,ata,0.30243506800353115
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,2,tata ,0.22842755071882884
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,3,atata,0.22783313462910026
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,4,tata,0.22768588157330352
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,5,atat,0.22739296930924388
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,6,batat,0.22739296930924388
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,7,tat,0.224168239730683
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata doce,967.0,8, bata,0.22336752612552147
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,1,ana,0.2703155497720937
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,2,prata,0.2530929066562921
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,3,rata ,0.22037049478584356
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,4, prat,0.21453806166208766
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,5,prat,0.21336265942955654
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,6,nana ,0.2102295559311068
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,7,rata,0.2097042912107056
+char_wb_3_5_min_df_5,top_terms_frequent_description,banana prata,962.0,8,anana,0.20901582841093652
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,1,ntao ,0.22832239329651213
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,2,ntao,0.22832239329651213
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,3,entao,0.22832239329651213
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,4,tao,0.2149709430879019
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,5,tao ,0.2149709430879019
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,6, pime,0.19106826377010958
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,7,pimen,0.19106826377010958
+char_wb_3_5_min_df_5,top_terms_frequent_description,pimentao verde,869.0,8,pime,0.19094658345232948
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,1,espa ,0.22814787940173836
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,2,respa,0.22814787940173836
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,3,spa ,0.2260052139684963
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,4,cresp,0.22532334664680637
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,5, cres,0.21148694968197493
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,6,cres,0.21148694968197493
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,7,resp,0.2042920004460053
+char_wb_3_5_min_df_5,top_terms_frequent_description,alface crespa,761.0,8,lfac,0.1902426775626784
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,1,epino,0.2961602933126254
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,2,pepin,0.2961602933126254
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,3, pepi,0.29548411356863963
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,4,pepi,0.29548411356863963
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,5,epin,0.29416387131640714
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,6,epi,0.2922589212480792
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,7,pino ,0.2751916309188882
+char_wb_3_5_min_df_5,top_terms_frequent_description,pepino,665.0,8,pino,0.2705230919442911
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,1,ebola,0.29822199447751246
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,2,bola ,0.2945225608988011
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,3,bola,0.27924816718038864
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,4,cebol,0.2784100688591127
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,5, cebo,0.2784100688591127
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,6,cebo,0.2784100688591127
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,7,ebol,0.27813410628895996
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola,648.0,8, ceb,0.27677891004041233
