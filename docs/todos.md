@@ -1,4 +1,9 @@
 
+2026.09.07 
+- [] Reestruturar os arquivos do projeto
+- [] Comentar cada passo da análise de dados
+- [] Definir os filtros e preprocessamento para diminuir a base em torno de 15mil linhas
+
 
 - [X] find_project_root can be reusable
 
