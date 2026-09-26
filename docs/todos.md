@@ -1,8 +1,8 @@
 
 2026.09.07 
-- [] Reestruturar os arquivos do projeto
-- [] Comentar cada passo da análise de dados
-- [] Definir os filtros e preprocessamento para diminuir a base em torno de 15mil linhas
+- [X] Reestruturar os arquivos do projeto
+- [X] Comentar cada passo da análise de dados
+- [X] Definir os filtros e preprocessamento para diminuir a base em torno de 15mil linhas
 
 
 - [X] find_project_root can be reusable
@@ -13,5 +13,5 @@
 - [X] renomear o dataset-name para items-notas-fiscais
 
 próximo passo:
-- realizar análise exploratória no dataset.
-- tem muito dado de hortifruti
+- explorar o TF-IDF para achar uma configuração apropriada
+- Testar a criação dos clusters
