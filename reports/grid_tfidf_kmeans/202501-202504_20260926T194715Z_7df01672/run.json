@@ -1,0 +1,9 @@
+{
+  "run_id": "20260926T194715Z_7df01672",
+  "dataset": "items-notas-fiscais-filtros-combinados",
+  "period": "202501-202504",
+  "dataset_sha256": "e017c58a8d3b82b6f618159f4ea116f880efc42ac5f93e57e31ee320ea6e951a",
+  "validation_count": 300,
+  "split_seed": 42,
+  "max_descriptions": null
+}

@@ -221,3 +221,6 @@ __marimo__/
 data/raw/*
 data/raw-csv-example/
 data/interim/*
+
+# Local model artifacts from the notebook 70 experiment grid
+/models/grid_tfidf_kmeans/
