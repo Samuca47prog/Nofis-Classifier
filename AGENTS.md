@@ -36,7 +36,7 @@ tests/
 
 Regras:
 
-- Use `src/` para codigo Python reutilizavel quando a mesma logica for identificada em mais de um notebook, quando uma funcao precisar de teste automatizado, ou quando a reutilizacao tornar o fluxo mais claro.
+- Prefira manter a logica junto da analise no notebook. Uma necessidade de teste, por si so, nao exige extrair uma funcao especifica da analise: use `src/` quando a implementacao for realmente compartilhada entre analises ou tiver responsabilidade independente do fluxo de um notebook.
 - Mantenha o pacote em `src/nofis_classifier/` enquanto o projeto estiver simples.
 - `tests/` pode ser criado para testes minimos com `pytest`.
 - `configs/` pode ser criado para arquivos de configuracao versionaveis, como exemplos e defaults.
@@ -44,15 +44,26 @@ Regras:
 
 ## Notebooks
 
-Os notebooks podem continuar sendo o lugar principal de exploracao e desenvolvimento neste momento.
+Os notebooks sao o lugar principal de exploracao, analise e desenvolvimento neste momento. Priorize a clareza e a rastreabilidade de cada analise no proprio notebook, em vez de reutilizar ou centralizar codigo por conveniencia.
 
 Regras:
 
 - Notebooks podem conter exploracao livre.
+- Cada notebook deve ter um objetivo ou pergunta de analise bem delimitado e documentado no inicio.
 - Use nomes numerados e descritivos, por exemplo `01_download_data.ipynb`, `02_train_baseline.ipynb`.
 - Evite nomes genericos como `test.ipynb` para trabalho permanente.
-- Nao e obrigatorio extrair toda logica para modulos Python agora.
-- Extraia codigo para `src/nofis_classifier/` apenas quando a logica se tornar reutilizada, dificil de testar, muito longa ou necessaria em mais de um notebook.
+- Mantenha no proprio notebook de analise as configuracoes e funcoes usadas por aquela analise, evitando dependencias de nomes definidos em outros arquivos.
+- Agrupe no inicio do notebook todas as configuracoes da analise, incluindo caminhos relativos, periodo analisado, colunas, filtros, parametros e sementes aleatorias.
+- Depois das configuracoes, defina todas as funcoes especificas da analise antes de qualquer celula que as execute.
+- Deixe a execucao do fluxo nas celulas finais, em uma secao equivalente a `main`, organizada em etapas claras como carregamento, preparacao, analise ou treinamento, avaliacao e persistencia.
+- Escreva caminhos como strings relativas ao repositorio diretamente no notebook, sem depender de variaveis de caminho definidas em outros arquivos.
+- Notebooks podem importar bibliotecas e funcoes consolidadas de terceiros, mas nao devem depender de modulos proprios para obter configuracoes ou funcoes especificas da analise.
+- Use `src/nofis_classifier/` somente para codigo realmente compartilhado entre analises ou quando houver uma necessidade clara que nao seja atendida mantendo a logica no notebook; nao extraia funcoes de uma analise apenas para centraliza-las.
+- Prefira clareza local a abstracoes genericas: uma funcao usada somente por uma analise deve permanecer no notebook correspondente.
+- O notebook deve executar de cima para baixo em uma sessao limpa, sem depender de variaveis, imports ou resultados mantidos por execucoes anteriores.
+- Documente a origem dos dados, os filtros, as exclusoes, as transformacoes e as decisoes relevantes para interpretar os resultados.
+- Identifique claramente as celulas que gravam arquivos e use caminhos relativos para todas as saidas.
+- Preserve artefatos existentes: nao sobrescreva dados processados ou modelos sem seguir as regras das secoes `Dados` e `Modelos`.
 - Funcoes publicas em arquivos `.py` devem ter docstrings.
 
 ## Dados
@@ -76,13 +87,14 @@ Regras:
 
 ## Configuracao E Segredos
 
-Use `.env` para configuracoes locais e integracao futura com ambientes de nuvem.
+Use `.env` apenas para configuracoes sensiveis ou especificas do ambiente e para integracao futura com ambientes de nuvem. Parametros da analise devem permanecer visiveis no proprio notebook.
 
 Regras:
 
 - `.env` nunca deve ser versionado.
-- Quando uma configuracao for necessaria para rodar o projeto, prefira documentar a variavel esperada em `.env.example` ou no README.
-- Devem sair do codigo valores que mudam entre ambientes, como caminhos locais, URLs, periodos de coleta, tokens, credenciais e parametros que precisam ser ajustados com frequencia.
+- Quando uma configuracao de ambiente for necessaria para rodar o projeto, prefira documentar a variavel esperada em `.env.example` ou no README.
+- Mantenha no notebook os parametros ajustaveis da analise, como periodos, filtros, colunas, sementes e hiperparametros, agrupados nas celulas iniciais.
+- Devem sair do codigo valores sensiveis ou especificos do ambiente, como URLs privadas, tokens e credenciais. Caminhos usados por uma analise devem ser strings relativas definidas diretamente no notebook, conforme as regras de notebooks.
 - Nunca exponha chaves, tokens ou credenciais em notebooks, commits, logs ou exemplos reais.
 
 ## Logging

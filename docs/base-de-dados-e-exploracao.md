@@ -1,5 +1,14 @@
 # Base de dados e exploração inicial
 
+
+---
+Minhas notas:
+- 
+---
+
+
+
+
 ## Objetivo desta etapa
 
 Esta etapa caracteriza os dados disponíveis e investiga se as descrições de itens fiscais oferecem informação suficiente para agrupamento e categorização. A unidade de análise adotada no fluxo de modelagem é o item da nota fiscal; o campo textual principal é `DESCRIÇÃO DO PRODUTO/SERVIÇO`. Os notebooks de exploração também examinam NCM e campos de contexto fiscal para compreender a heterogeneidade dos registros.
@@ -86,3 +95,18 @@ Os resultados numéricos aqui registrados são contagens dos artefatos atualment
 - Exploração dos dados intermediários: [`30_interim_data_exploration.ipynb`](../notebooks/30_interim_data_exploration.ipynb)
 - Preparação da base de modelagem: [`40_prepare_modeling_dataset.ipynb`](../notebooks/40_prepare_modeling_dataset.ipynb)
 - Dados processados: `data/processed/items-notas-fiscais-filtros-combinados/`
+
+
+# Pré-processamento textual
+
+# Representação textual
+
+# Clusterização
+
+# Seleção de exemplos representativos dos clusters
+
+#  Nomenclatura de clusters com apoio de LLM
+
+# Construção e refinamento da taxonomia
+
+# Avaliação dos resultados
