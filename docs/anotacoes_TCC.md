@@ -3,7 +3,14 @@
 
 ---
 Minhas notas:
-- 
+- Iniciei com a base de dados do governo brasileiro de Janeiro de 2025 a abril de 2025.
+  - [] Por que esse período?
+- Fiz uma análise de dados para entender os dados preserntes
+  - Descobri que haviam muitos tipos de produtos e muitos produtos.
+- Fiz um filtro por tipo de NCM focado em mercado
+  - [] Usei IA para definir os NCMs
+    - Usei o schema do site oficial dos NCMs, com um prompt pedindo quais daqueles eram mais comuns no dia a dia do cidadão brasileiro
+- No final fique com um dataset de 27800 items únicos
 ---
 
 
@@ -29,7 +36,7 @@ O pipeline importa tanto registros de notas quanto de itens. Por isso, o total d
 
 Essas contagens descrevem as linhas com descrição nos arquivos intermediários. A preparação posterior remove valores nulos ou vazios e pode consolidar várias ocorrências em uma descrição normalizada.
 
-## Recorte temático da base
+## Recorte filtrado por NCM da base
 
 O notebook [`20_generate_interim_filtered_datasets.ipynb`](../notebooks/20_generate_interim_filtered_datasets.ipynb) permite gerar recortes por prefixos do código NCM, emitente, condição de consumidor final e presença do comprador. A configuração atualmente registrada para a base de filtros combinados usa:
 
@@ -49,6 +56,11 @@ As contagens conferidas nos Parquets intermediários filtrados foram:
 | 2025-03 | 37.932 |
 | 2025-04 | 41.614 |
 | **Total** | **134.625** |
+
+### Definição dos NCMs
+A definição dos NCMs foi feita buscando items de ntoas fiscais de supermercados no dataset. O método usado foi passar a lista completa de NCSm, disponível em https://portalunico.siscomex.gov.br/classif/#/sumario?perfil=publico para uma LLM com o seguinte prompt ```de todos os items NCM presentes neste json, quais voce considera mais comuns no dia dia de consumidores finais que fazem compras em supermercados?```
+Com isso a lista de NCMs foi obtida.
+
 
 ## Preparação e consolidação das descrições
 
@@ -98,6 +110,11 @@ Os resultados numéricos aqui registrados são contagens dos artefatos atualment
 
 
 # Pré-processamento textual
+
+---
+Minhas notas:
+- Iniciei aplicando os filtros simples, remove nulos e vazios, normaliza texto, consolida duplicatas preservando frequencia, agrega metadados e valida o resultado
+---
 
 # Representação textual
 
