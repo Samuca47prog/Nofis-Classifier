@@ -1,0 +1,5 @@
+name,analyzer,ngram_range,min_df,max_features,max_df,sublinear_tf,norm,k,seed,n_init
+word_1_1_min5_maxdf0.7_features10000,word,"(1, 1)",5,10000,0.7,True,l2,500,42,10
+word_1_1_min5_maxdf0.7_features10000,word,"(1, 1)",5,10000,0.7,True,l2,500,123,10
+char_wb_3_5_min5_maxdf0.7_features30000,char_wb,"(3, 5)",5,30000,0.7,True,l2,500,42,10
+char_wb_3_5_min5_maxdf0.7_features30000,char_wb,"(3, 5)",5,30000,0.7,True,l2,500,123,10

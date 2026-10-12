@@ -1,0 +1,22 @@
+{
+  "run_id": "20261010T124411Z_01ecdc1e",
+  "dataset": "items-notas-fiscais-filtros-combinados-experimentos-texto",
+  "period": "202501-202504",
+  "dataset_sha256": "32ab2f71723fbce5665cd838358cdce081f950eeb566195042f3f7e80dc4a4ac",
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "validation_count": 300,
+  "split_seed": 42,
+  "k_values": [
+    10,
+    20,
+    30,
+    40,
+    2000,
+    3000
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ]
+}

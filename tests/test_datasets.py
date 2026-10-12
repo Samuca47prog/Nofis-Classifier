@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pandas as pd
-import pytest
 
 from nofis_classifier.datasets import (
     DEFAULT_PERIOD_LABEL,
@@ -49,12 +48,15 @@ def test_prepare_modeling_items_preserves_frequency_and_adds_stable_id() -> None
     assert prepared["descricao_id"].tolist() == list(range(len(prepared)))
 
 
-def test_prepare_modeling_items_rejects_duplicates() -> None:
+def test_prepare_modeling_items_aggregates_duplicate_frequencies() -> None:
     frame = processed_frame()
     frame.loc[1, "descricao_normalizada"] = frame.loc[0, "descricao_normalizada"]
 
-    with pytest.raises(ValueError, match="duplicadas"):
-        prepare_modeling_items(frame)
+    prepared = prepare_modeling_items(frame)
+
+    assert prepared["descricao_normalizada"].is_unique
+    assert prepared["frequencia"].sum() == 18
+    assert prepared.set_index("descricao_normalizada").loc["arroz branco", "frequencia"] == 15
 
 
 def test_most_frequent_by_description_returns_modal_value() -> None:

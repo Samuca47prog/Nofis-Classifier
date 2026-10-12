@@ -68,8 +68,9 @@ def run_clustering_grid(
 ):
     """Fit each grid cell, checkpoint results, and resume identical runs safely.
 
-    All training rows are used without frequency weights. Metrics use a fixed
-    training sample; the held-out validation set must not be passed here.
+    Unique training descriptions are weighted by their item frequency. Metrics
+    use a fixed unweighted description sample; the held-out validation set must
+    not be passed here.
     Configurations are processed sequentially to bound memory consumption.
     """
     report_dir, model_dir = Path(report_dir), Path(model_dir)
@@ -88,6 +89,7 @@ def run_clustering_grid(
     model_dir.mkdir(parents=True, exist_ok=True)
     manifest = {
         "format_version": 1,
+        "frequency_weighted": True,
         "train_sha256": sha256(pd.util.hash_pandas_object(train, index=True).values.tobytes()).hexdigest(),
         "configs": [asdict(c) for c in configs], "k_values": k_values, "seeds": seeds,
         "sample_size": sample_size, "sample_seed": sample_seed, "n_init": n_init,
@@ -142,6 +144,7 @@ def run_clustering_grid(
                         continue
                 record = {
                     "experiment_id": experiment_id, "config_name": config.name,
+                    "frequency_weighted": True,
                     "k": k, "seed": seed, "n_init": n_init,
                     "document_count": len(train), "sample_size": len(sample_indexes),
                     "model_path": str(model_path.resolve()),
@@ -159,7 +162,7 @@ def run_clustering_grid(
                         else:
                             model = KMeans(n_clusters=k, random_state=seed, n_init=n_init,
                                            max_iter=max_iter, algorithm="lloyd")
-                            model.fit(matrix)
+                            model.fit(matrix, sample_weight=train[FREQUENCY].to_numpy(dtype=float))
                             _save_model(model_path, model)
                         labels = model.labels_
                         counts = np.bincount(labels, minlength=k)

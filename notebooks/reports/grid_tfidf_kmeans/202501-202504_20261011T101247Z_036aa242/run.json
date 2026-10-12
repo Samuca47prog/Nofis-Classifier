@@ -1,0 +1,10 @@
+{
+  "run_id": "20261011T101247Z_036aa242",
+  "dataset": "items-notas-fiscais-ncms-supermercados-com-duplicatas",
+  "period": "202501-202504",
+  "frequency_weighted": true,
+  "dataset_sha256": "2280eb5c806a6057b48db2bc9660dd2b5e9765a21cbd52e44725075b1c510353",
+  "validation_count": 300,
+  "split_seed": 42,
+  "max_descriptions": null
+}

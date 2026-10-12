@@ -59,9 +59,10 @@ def prepare_modeling_items(frame: pd.DataFrame) -> pd.DataFrame:
     prepared = prepared[prepared[DESCRIPTION_NORMALIZED] != ""]
     prepared = prepared[prepared[FREQUENCY] >= 1]
 
-    if prepared[DESCRIPTION_NORMALIZED].duplicated().any():
-        duplicated_count = int(prepared[DESCRIPTION_NORMALIZED].duplicated().sum())
-        raise ValueError(f"A base possui {duplicated_count} descricoes normalizadas duplicadas")
+    prepared = (
+        prepared.groupby(DESCRIPTION_NORMALIZED, as_index=False, sort=False)[FREQUENCY]
+        .sum()
+    )
 
     if prepared[FREQUENCY].sum() != initial_frequency_sum:
         raise ValueError("A preparacao alterou a soma de frequencia")

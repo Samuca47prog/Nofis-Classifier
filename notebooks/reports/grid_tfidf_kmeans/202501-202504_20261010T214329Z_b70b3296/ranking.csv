@@ -1,0 +1,3 @@
+config_name,k,seed_count,silhouette_median,silhouette_std,ch_median,db_median,inertia_median,largest_cluster_fraction,zero_vector_fraction,reached_max_iter,representative_id
+char_wb_3_5_min5_maxdf0.7_features30000,500,2,0.0967897447549725,0.0020392995013518017,2.2827722188062607,1.681690379524432,16614.04279242053,0.07169090909090906,0.0,False,char_wb_3_5_min5_maxdf0.7_features30000_k500_seed42
+word_1_1_min5_maxdf0.7_features10000,500,2,0.07472246811502015,0.01183549874774105,2.1336718769854346,1.667954670347668,17446.64096147089,0.11636363636363635,0.0072727272727272,False,word_1_1_min5_maxdf0.7_features10000_k500_seed42
