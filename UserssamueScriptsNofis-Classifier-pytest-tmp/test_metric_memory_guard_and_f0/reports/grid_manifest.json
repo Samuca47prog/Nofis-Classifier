@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "frequency_weighted": false,
+  "train_sha256": "078a2fb3a94f33dcb96df058db43913c6ef4804789a20d3da92a92022b113122",
+  "configs": [
+    {
+      "name": "empty",
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 1000,
+      "max_features": 100,
+      "max_df": 0.95,
+      "sublinear_tf": true,
+      "norm": "l2"
+    },
+    {
+      "name": "words",
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 1,
+      "max_features": 100,
+      "max_df": 0.95,
+      "sublinear_tf": true,
+      "norm": "l2"
+    }
+  ],
+  "k_values": [
+    3
+  ],
+  "seeds": [
+    42
+  ],
+  "sample_size": 1000,
+  "sample_seed": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "dense_limit_mb": 1e-06,
+  "model_dir": "C:\\Users\\samue\\Scripts\\Nofis-Classifier\\UserssamueScriptsNofis-Classifier-pytest-tmp\\test_metric_memory_guard_and_f0\\models",
+  "python": "3.12.11",
+  "sklearn": "1.9.0",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5"
+}

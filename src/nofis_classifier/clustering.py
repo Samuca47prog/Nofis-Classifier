@@ -64,13 +64,13 @@ def split_descriptions(frame, validation_count=300, random_state=42):
 def run_clustering_grid(
     train, configs, k_values, seeds, report_dir, model_dir, *,
     sample_size=1000, sample_seed=42, n_init=10, max_iter=300,
-    dense_limit_mb=512,
+    dense_limit_mb=512, frequency_weighted=False,
 ):
     """Fit each grid cell, checkpoint results, and resume identical runs safely.
 
-    Unique training descriptions are weighted by their item frequency. Metrics
-    use a fixed unweighted description sample; the held-out validation set must
-    not be passed here.
+    Metrics use a fixed unweighted description sample; the held-out validation
+    set must not be passed here. Frequency weighting is optional and disabled by
+    default so each unique description contributes once to the fit.
     Configurations are processed sequentially to bound memory consumption.
     """
     report_dir, model_dir = Path(report_dir), Path(model_dir)
@@ -89,7 +89,7 @@ def run_clustering_grid(
     model_dir.mkdir(parents=True, exist_ok=True)
     manifest = {
         "format_version": 1,
-        "frequency_weighted": True,
+        "frequency_weighted": bool(frequency_weighted),
         "train_sha256": sha256(pd.util.hash_pandas_object(train, index=True).values.tobytes()).hexdigest(),
         "configs": [asdict(c) for c in configs], "k_values": k_values, "seeds": seeds,
         "sample_size": sample_size, "sample_seed": sample_seed, "n_init": n_init,
@@ -144,7 +144,7 @@ def run_clustering_grid(
                         continue
                 record = {
                     "experiment_id": experiment_id, "config_name": config.name,
-                    "frequency_weighted": True,
+                    "frequency_weighted": bool(frequency_weighted),
                     "k": k, "seed": seed, "n_init": n_init,
                     "document_count": len(train), "sample_size": len(sample_indexes),
                     "model_path": str(model_path.resolve()),
@@ -162,7 +162,11 @@ def run_clustering_grid(
                         else:
                             model = KMeans(n_clusters=k, random_state=seed, n_init=n_init,
                                            max_iter=max_iter, algorithm="lloyd")
-                            model.fit(matrix, sample_weight=train[FREQUENCY].to_numpy(dtype=float))
+                            sample_weight = (
+                                train[FREQUENCY].to_numpy(dtype=float)
+                                if frequency_weighted else None
+                            )
+                            model.fit(matrix, sample_weight=sample_weight)
                             _save_model(model_path, model)
                         labels = model.labels_
                         counts = np.bincount(labels, minlength=k)

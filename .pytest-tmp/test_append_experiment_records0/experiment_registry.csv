@@ -1,0 +1,3 @@
+experiment_id,created_at,stage,dataset_name,period_label,document_count,config_name,parameters_json,metrics_json,artifacts_json,notes
+tfidf-items-202501-word-20261015T132032Z,2026-10-15T13:20:32Z,tfidf,items,202501,3,word,{},"{""sparsity"": 0.9}",{},
+tfidf-items-202501-word-20261015T132032Z,2026-10-15T13:20:32Z,tfidf,items,202501,4,word,{},"{""sparsity"": 0.8}",{},

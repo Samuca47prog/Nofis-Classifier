@@ -1,0 +1,10 @@
+run_id,sample_seed,representation,analyzer,ngram_range,eps,min_samples,frequency_weighted,cluster_count_excluding_noise,noise_count,noise_fraction,silhouette_cosine_without_noise
+seed42_word_1_2_eps0.03_min_samples30,42,word_1_2,word,"(1, 2)",0.03,30,False,16,148512,0.9957291031116534,0.9980209401971608
+seed42_word_1_2_eps0.03_min_samples10,42,word_1_2,word,"(1, 2)",0.03,10,False,226,145343,0.9744818939449812,0.9907813763660533
+seed42_word_1_2_eps0.03_min_samples5,42,word_1_2,word,"(1, 2)",0.03,5,False,929,141048,0.9456851872959255,0.9903396307150203
+seed42_word_1_3_eps0.03_min_samples10,42,word_1_3,word,"(1, 3)",0.03,10,False,238,144993,0.9721352473030326,0.9864925506451503
+seed42_word_1_3_eps0.03_min_samples5,42,word_1_3,word,"(1, 3)",0.03,5,False,1005,140266,0.9404421082273431,0.9853872926340421
+seed42_word_1_3_eps0.03_min_samples30,42,word_1_3,word,"(1, 3)",0.03,30,False,23,148252,0.9939858798919201,0.9783047999315642
+seed42_char_wb_3_5_eps0.03_min_samples10,42,char_wb_3_5,char_wb,"(3, 5)",0.03,10,False,16,148919,0.9984579179210051,0.9512003512664692
+seed42_char_wb_3_5_eps0.03_min_samples5,42,char_wb_3_5,char_wb,"(3, 5)",0.03,5,False,312,147152,0.9866107047315101,0.8959640671038628
+seed42_char_wb_3_5_eps0.03_min_samples30,42,char_wb_3_5,char_wb,"(3, 5)",0.03,30,False,1,149104,0.9996982882888923,
