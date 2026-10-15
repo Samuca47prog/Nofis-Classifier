@@ -1,0 +1,76 @@
+{
+  "dataset_name": "2025_NCMs_filtrados-sem-duplicatas",
+  "period": "202501-202512",
+  "dataset_path": "c:\\Users\\samue\\Scripts\\Nofis-Classifier\\data\\processed\\2025_NCMs_filtrados-sem-duplicatas\\2025_NCMs_filtrados-sem-duplicatas-202501-202512.parquet",
+  "max_descriptions": 2000,
+  "sample_seeds": [
+    42
+  ],
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "embedding_normalized": true,
+  "frequency_weighted": false,
+  "selected_run_id": "seed42_eps0.03_min_samples3",
+  "eps_values": [
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25
+  ],
+  "min_samples_values": [
+    3,
+    5,
+    10,
+    20,
+    30
+  ],
+  "tsne": {
+    "max_points": 5000,
+    "perplexity": 30,
+    "max_iter": 1000,
+    "random_state": 42,
+    "artifacts": {
+      "seed42": {
+        "coordinates_file": "tsne_coordinates/seed42_coordinates.csv",
+        "sample_size": 2000
+      },
+      "plot:seed42_eps0.01_min_samples3": "tsne_plots\\seed42_eps0.01_min_samples3.png",
+      "plot:seed42_eps0.01_min_samples5": "tsne_plots\\seed42_eps0.01_min_samples5.png",
+      "plot:seed42_eps0.01_min_samples10": "tsne_plots\\seed42_eps0.01_min_samples10.png",
+      "plot:seed42_eps0.01_min_samples20": "tsne_plots\\seed42_eps0.01_min_samples20.png",
+      "plot:seed42_eps0.01_min_samples30": "tsne_plots\\seed42_eps0.01_min_samples30.png",
+      "plot:seed42_eps0.03_min_samples3": "tsne_plots\\seed42_eps0.03_min_samples3.png",
+      "plot:seed42_eps0.03_min_samples5": "tsne_plots\\seed42_eps0.03_min_samples5.png",
+      "plot:seed42_eps0.03_min_samples10": "tsne_plots\\seed42_eps0.03_min_samples10.png",
+      "plot:seed42_eps0.03_min_samples20": "tsne_plots\\seed42_eps0.03_min_samples20.png",
+      "plot:seed42_eps0.03_min_samples30": "tsne_plots\\seed42_eps0.03_min_samples30.png",
+      "plot:seed42_eps0.05_min_samples3": "tsne_plots\\seed42_eps0.05_min_samples3.png",
+      "plot:seed42_eps0.05_min_samples5": "tsne_plots\\seed42_eps0.05_min_samples5.png",
+      "plot:seed42_eps0.05_min_samples10": "tsne_plots\\seed42_eps0.05_min_samples10.png",
+      "plot:seed42_eps0.05_min_samples20": "tsne_plots\\seed42_eps0.05_min_samples20.png",
+      "plot:seed42_eps0.05_min_samples30": "tsne_plots\\seed42_eps0.05_min_samples30.png",
+      "plot:seed42_eps0.1_min_samples3": "tsne_plots\\seed42_eps0.1_min_samples3.png",
+      "plot:seed42_eps0.1_min_samples5": "tsne_plots\\seed42_eps0.1_min_samples5.png",
+      "plot:seed42_eps0.1_min_samples10": "tsne_plots\\seed42_eps0.1_min_samples10.png",
+      "plot:seed42_eps0.1_min_samples20": "tsne_plots\\seed42_eps0.1_min_samples20.png",
+      "plot:seed42_eps0.1_min_samples30": "tsne_plots\\seed42_eps0.1_min_samples30.png",
+      "plot:seed42_eps0.15_min_samples3": "tsne_plots\\seed42_eps0.15_min_samples3.png",
+      "plot:seed42_eps0.15_min_samples5": "tsne_plots\\seed42_eps0.15_min_samples5.png",
+      "plot:seed42_eps0.15_min_samples10": "tsne_plots\\seed42_eps0.15_min_samples10.png",
+      "plot:seed42_eps0.15_min_samples20": "tsne_plots\\seed42_eps0.15_min_samples20.png",
+      "plot:seed42_eps0.15_min_samples30": "tsne_plots\\seed42_eps0.15_min_samples30.png",
+      "plot:seed42_eps0.2_min_samples3": "tsne_plots\\seed42_eps0.2_min_samples3.png",
+      "plot:seed42_eps0.2_min_samples5": "tsne_plots\\seed42_eps0.2_min_samples5.png",
+      "plot:seed42_eps0.2_min_samples10": "tsne_plots\\seed42_eps0.2_min_samples10.png",
+      "plot:seed42_eps0.2_min_samples20": "tsne_plots\\seed42_eps0.2_min_samples20.png",
+      "plot:seed42_eps0.2_min_samples30": "tsne_plots\\seed42_eps0.2_min_samples30.png",
+      "plot:seed42_eps0.25_min_samples3": "tsne_plots\\seed42_eps0.25_min_samples3.png",
+      "plot:seed42_eps0.25_min_samples5": "tsne_plots\\seed42_eps0.25_min_samples5.png",
+      "plot:seed42_eps0.25_min_samples10": "tsne_plots\\seed42_eps0.25_min_samples10.png",
+      "plot:seed42_eps0.25_min_samples20": "tsne_plots\\seed42_eps0.25_min_samples20.png",
+      "plot:seed42_eps0.25_min_samples30": "tsne_plots\\seed42_eps0.25_min_samples30.png"
+    }
+  }
+}
