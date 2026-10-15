@@ -1,0 +1,38 @@
+{
+  "dataset_name": "2025_NCMs-sem-duplicatas",
+  "period": "202501-202512",
+  "dataset_path": "c:\\Users\\samue\\Scripts\\Nofis-Classifier\\data\\processed\\2025_NCMs-sem-duplicatas\\2025_NCMs-sem-duplicatas-202501-202512.parquet",
+  "max_descriptions": null,
+  "sample_seeds": [
+    42
+  ],
+  "analyzer_configs": {
+    "char_wb_3_5": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        3,
+        5
+      ]
+    },
+    "word_1_2": {
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        2
+      ]
+    }
+  },
+  "min_df": 10,
+  "max_features": 100000,
+  "selected_run_id": "seed42_word_1_2_eps0.01_min_samples100",
+  "eps_values": [
+    0.01,
+    0.1,
+    0.3,
+    0.5
+  ],
+  "min_samples_values": [
+    20,
+    100
+  ]
+}

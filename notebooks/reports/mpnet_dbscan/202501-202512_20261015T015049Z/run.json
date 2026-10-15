@@ -1,0 +1,26 @@
+{
+  "dataset_name": "2025_NCMs-sem-duplicatas",
+  "period": "202501-202512",
+  "dataset_path": "c:\\Users\\samue\\Scripts\\Nofis-Classifier\\data\\processed\\2025_NCMs-sem-duplicatas\\2025_NCMs-sem-duplicatas-202501-202512.parquet",
+  "max_descriptions": null,
+  "sample_seeds": [
+    42
+  ],
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "embedding_normalized": true,
+  "frequency_weighted": true,
+  "selected_run_id": "seed42_eps0.01_min_samples100",
+  "eps_values": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05
+  ],
+  "min_samples_values": [
+    10,
+    20,
+    30,
+    100
+  ]
+}

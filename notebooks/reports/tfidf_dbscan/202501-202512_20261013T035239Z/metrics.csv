@@ -1,0 +1,17 @@
+run_id,sample_seed,representation,analyzer,ngram_range,eps,min_samples,frequency_weighted,cluster_count_excluding_noise,noise_count,noise_fraction,silhouette_cosine_without_noise
+seed42_word_1_2_eps0.01_min_samples100,42,word_1_2,word,"(1, 2)",0.01,100,True,1413,253048,0.9812664078889712,0.8312545553844566
+seed42_word_1_2_eps0.1_min_samples100,42,word_1_2,word,"(1, 2)",0.1,100,True,1469,249860,0.9689040208780086,0.7956191036554635
+seed42_word_1_2_eps0.1_min_samples20,42,word_1_2,word,"(1, 2)",0.1,20,True,8309,230438,0.8935896292447233,0.6860781977135432
+seed42_word_1_2_eps0.01_min_samples20,42,word_1_2,word,"(1, 2)",0.01,20,True,8115,241408,0.9361289597059086,0.6434706440935173
+seed42_char_wb_3_5_eps0.1_min_samples100,42,char_wb_3_5,char_wb,"(3, 5)",0.1,100,True,1409,246732,0.9567743011257217,0.5944033610204159
+seed42_char_wb_3_5_eps0.1_min_samples20,42,char_wb_3_5,char_wb,"(3, 5)",0.1,20,True,7608,224394,0.8701522807208032,0.5273786980376458
+seed42_char_wb_3_5_eps0.01_min_samples100,42,char_wb_3_5,char_wb,"(3, 5)",0.01,100,True,1384,256002,0.9927213925910989,0.40372460266684135
+seed42_char_wb_3_5_eps0.01_min_samples20,42,char_wb_3_5,char_wb,"(3, 5)",0.01,20,True,8119,247765,0.9607800557625863,0.30558270061125303
+seed42_word_1_2_eps0.3_min_samples100,42,word_1_2,word,"(1, 2)",0.3,100,True,1123,204337,0.7923754939332013,0.18626785168659044
+seed42_word_1_2_eps0.3_min_samples20,42,word_1_2,word,"(1, 2)",0.3,20,True,4567,136453,0.5291357574676495,0.059325741673887336
+seed42_word_1_2_eps0.5_min_samples100,42,word_1_2,word,"(1, 2)",0.5,100,True,114,79368,0.30777224977605777,-0.030630129706089252
+seed42_char_wb_3_5_eps0.3_min_samples100,42,char_wb_3_5,char_wb,"(3, 5)",0.3,100,True,532,154138,0.5977144319622769,-0.03741994263461384
+seed42_char_wb_3_5_eps0.5_min_samples100,42,char_wb_3_5,char_wb,"(3, 5)",0.5,100,True,72,42628,0.1653023317137107,-0.04853161659371481
+seed42_word_1_2_eps0.5_min_samples20,42,word_1_2,word,"(1, 2)",0.5,20,True,276,22559,0.08747901147437365,-0.08714079465280337
+seed42_char_wb_3_5_eps0.5_min_samples20,42,char_wb_3_5,char_wb,"(3, 5)",0.5,20,True,298,20832,0.08078207221216152,-0.11350710250198418
+seed42_char_wb_3_5_eps0.3_min_samples20,42,char_wb_3_5,char_wb,"(3, 5)",0.3,20,True,2417,104329,0.4045657071727438,-0.1767149666949192
