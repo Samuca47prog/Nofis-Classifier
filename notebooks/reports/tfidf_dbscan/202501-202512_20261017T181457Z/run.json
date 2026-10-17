@@ -1,0 +1,120 @@
+{
+  "dataset_name": "2025_NCMs_filtrados-sem-duplicatas",
+  "period": "202501-202512",
+  "frequency_weighted": false,
+  "dataset_path": "c:\\Users\\samue\\Scripts\\Nofis-Classifier\\data\\processed\\2025_NCMs_filtrados-sem-duplicatas\\2025_NCMs_filtrados-sem-duplicatas-202501-202512.parquet",
+  "max_descriptions": 5000,
+  "sample_seeds": [
+    42
+  ],
+  "analyzer_configs": {
+    "char_wb_3_5": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        3,
+        5
+      ]
+    },
+    "word_1_2": {
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        2
+      ]
+    },
+    "word_1_3": {
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        3
+      ]
+    }
+  },
+  "min_df": 20,
+  "max_features": 100000,
+  "selected_run_id": "seed42_word_1_3_eps0.07_min_samples5",
+  "eps_values": [
+    0.03,
+    0.04,
+    0.05,
+    0.07
+  ],
+  "min_samples_values": [
+    2,
+    3,
+    5,
+    10
+  ],
+  "tsne": {
+    "max_points": 5000,
+    "perplexity": 30,
+    "max_iter": 1000,
+    "random_state": 42,
+    "svd_components": 50,
+    "artifacts": {
+      "seed42_char_wb_3_5": {
+        "coordinates_file": "tsne_coordinates/seed42_char_wb_3_5_coordinates.csv",
+        "sample_size": 5000,
+        "reduced_dimensions": 50
+      },
+      "seed42_word_1_2": {
+        "coordinates_file": "tsne_coordinates/seed42_word_1_2_coordinates.csv",
+        "sample_size": 5000,
+        "reduced_dimensions": 50
+      },
+      "seed42_word_1_3": {
+        "coordinates_file": "tsne_coordinates/seed42_word_1_3_coordinates.csv",
+        "sample_size": 5000,
+        "reduced_dimensions": 50
+      },
+      "plot:seed42_char_wb_3_5_eps0.03_min_samples2": "tsne_plots\\seed42_char_wb_3_5_eps0.03_min_samples2.png",
+      "plot:seed42_char_wb_3_5_eps0.03_min_samples3": "tsne_plots\\seed42_char_wb_3_5_eps0.03_min_samples3.png",
+      "plot:seed42_char_wb_3_5_eps0.03_min_samples5": "tsne_plots\\seed42_char_wb_3_5_eps0.03_min_samples5.png",
+      "plot:seed42_char_wb_3_5_eps0.03_min_samples10": "tsne_plots\\seed42_char_wb_3_5_eps0.03_min_samples10.png",
+      "plot:seed42_char_wb_3_5_eps0.04_min_samples2": "tsne_plots\\seed42_char_wb_3_5_eps0.04_min_samples2.png",
+      "plot:seed42_char_wb_3_5_eps0.04_min_samples3": "tsne_plots\\seed42_char_wb_3_5_eps0.04_min_samples3.png",
+      "plot:seed42_char_wb_3_5_eps0.04_min_samples5": "tsne_plots\\seed42_char_wb_3_5_eps0.04_min_samples5.png",
+      "plot:seed42_char_wb_3_5_eps0.04_min_samples10": "tsne_plots\\seed42_char_wb_3_5_eps0.04_min_samples10.png",
+      "plot:seed42_char_wb_3_5_eps0.05_min_samples2": "tsne_plots\\seed42_char_wb_3_5_eps0.05_min_samples2.png",
+      "plot:seed42_char_wb_3_5_eps0.05_min_samples3": "tsne_plots\\seed42_char_wb_3_5_eps0.05_min_samples3.png",
+      "plot:seed42_char_wb_3_5_eps0.05_min_samples5": "tsne_plots\\seed42_char_wb_3_5_eps0.05_min_samples5.png",
+      "plot:seed42_char_wb_3_5_eps0.05_min_samples10": "tsne_plots\\seed42_char_wb_3_5_eps0.05_min_samples10.png",
+      "plot:seed42_char_wb_3_5_eps0.07_min_samples2": "tsne_plots\\seed42_char_wb_3_5_eps0.07_min_samples2.png",
+      "plot:seed42_char_wb_3_5_eps0.07_min_samples3": "tsne_plots\\seed42_char_wb_3_5_eps0.07_min_samples3.png",
+      "plot:seed42_char_wb_3_5_eps0.07_min_samples5": "tsne_plots\\seed42_char_wb_3_5_eps0.07_min_samples5.png",
+      "plot:seed42_char_wb_3_5_eps0.07_min_samples10": "tsne_plots\\seed42_char_wb_3_5_eps0.07_min_samples10.png",
+      "plot:seed42_word_1_2_eps0.03_min_samples2": "tsne_plots\\seed42_word_1_2_eps0.03_min_samples2.png",
+      "plot:seed42_word_1_2_eps0.03_min_samples3": "tsne_plots\\seed42_word_1_2_eps0.03_min_samples3.png",
+      "plot:seed42_word_1_2_eps0.03_min_samples5": "tsne_plots\\seed42_word_1_2_eps0.03_min_samples5.png",
+      "plot:seed42_word_1_2_eps0.03_min_samples10": "tsne_plots\\seed42_word_1_2_eps0.03_min_samples10.png",
+      "plot:seed42_word_1_2_eps0.04_min_samples2": "tsne_plots\\seed42_word_1_2_eps0.04_min_samples2.png",
+      "plot:seed42_word_1_2_eps0.04_min_samples3": "tsne_plots\\seed42_word_1_2_eps0.04_min_samples3.png",
+      "plot:seed42_word_1_2_eps0.04_min_samples5": "tsne_plots\\seed42_word_1_2_eps0.04_min_samples5.png",
+      "plot:seed42_word_1_2_eps0.04_min_samples10": "tsne_plots\\seed42_word_1_2_eps0.04_min_samples10.png",
+      "plot:seed42_word_1_2_eps0.05_min_samples2": "tsne_plots\\seed42_word_1_2_eps0.05_min_samples2.png",
+      "plot:seed42_word_1_2_eps0.05_min_samples3": "tsne_plots\\seed42_word_1_2_eps0.05_min_samples3.png",
+      "plot:seed42_word_1_2_eps0.05_min_samples5": "tsne_plots\\seed42_word_1_2_eps0.05_min_samples5.png",
+      "plot:seed42_word_1_2_eps0.05_min_samples10": "tsne_plots\\seed42_word_1_2_eps0.05_min_samples10.png",
+      "plot:seed42_word_1_2_eps0.07_min_samples2": "tsne_plots\\seed42_word_1_2_eps0.07_min_samples2.png",
+      "plot:seed42_word_1_2_eps0.07_min_samples3": "tsne_plots\\seed42_word_1_2_eps0.07_min_samples3.png",
+      "plot:seed42_word_1_2_eps0.07_min_samples5": "tsne_plots\\seed42_word_1_2_eps0.07_min_samples5.png",
+      "plot:seed42_word_1_2_eps0.07_min_samples10": "tsne_plots\\seed42_word_1_2_eps0.07_min_samples10.png",
+      "plot:seed42_word_1_3_eps0.03_min_samples2": "tsne_plots\\seed42_word_1_3_eps0.03_min_samples2.png",
+      "plot:seed42_word_1_3_eps0.03_min_samples3": "tsne_plots\\seed42_word_1_3_eps0.03_min_samples3.png",
+      "plot:seed42_word_1_3_eps0.03_min_samples5": "tsne_plots\\seed42_word_1_3_eps0.03_min_samples5.png",
+      "plot:seed42_word_1_3_eps0.03_min_samples10": "tsne_plots\\seed42_word_1_3_eps0.03_min_samples10.png",
+      "plot:seed42_word_1_3_eps0.04_min_samples2": "tsne_plots\\seed42_word_1_3_eps0.04_min_samples2.png",
+      "plot:seed42_word_1_3_eps0.04_min_samples3": "tsne_plots\\seed42_word_1_3_eps0.04_min_samples3.png",
+      "plot:seed42_word_1_3_eps0.04_min_samples5": "tsne_plots\\seed42_word_1_3_eps0.04_min_samples5.png",
+      "plot:seed42_word_1_3_eps0.04_min_samples10": "tsne_plots\\seed42_word_1_3_eps0.04_min_samples10.png",
+      "plot:seed42_word_1_3_eps0.05_min_samples2": "tsne_plots\\seed42_word_1_3_eps0.05_min_samples2.png",
+      "plot:seed42_word_1_3_eps0.05_min_samples3": "tsne_plots\\seed42_word_1_3_eps0.05_min_samples3.png",
+      "plot:seed42_word_1_3_eps0.05_min_samples5": "tsne_plots\\seed42_word_1_3_eps0.05_min_samples5.png",
+      "plot:seed42_word_1_3_eps0.05_min_samples10": "tsne_plots\\seed42_word_1_3_eps0.05_min_samples10.png",
+      "plot:seed42_word_1_3_eps0.07_min_samples2": "tsne_plots\\seed42_word_1_3_eps0.07_min_samples2.png",
+      "plot:seed42_word_1_3_eps0.07_min_samples3": "tsne_plots\\seed42_word_1_3_eps0.07_min_samples3.png",
+      "plot:seed42_word_1_3_eps0.07_min_samples5": "tsne_plots\\seed42_word_1_3_eps0.07_min_samples5.png",
+      "plot:seed42_word_1_3_eps0.07_min_samples10": "tsne_plots\\seed42_word_1_3_eps0.07_min_samples10.png"
+    }
+  }
+}

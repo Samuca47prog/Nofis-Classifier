@@ -1,0 +1,10 @@
+{
+  "run_id": "20261017T181059Z_16956af6",
+  "dataset": "2025_NCMs_filtrados-sem-duplicatas",
+  "period": "202501-202512",
+  "frequency_weighted": false,
+  "dataset_sha256": "31cf3b8e3ff7ecd8cf77147900fbb6689379bd94947468fa2c49cdfedf8aec4d",
+  "validation_count": 300,
+  "split_seed": 42,
+  "max_descriptions": 5000
+}

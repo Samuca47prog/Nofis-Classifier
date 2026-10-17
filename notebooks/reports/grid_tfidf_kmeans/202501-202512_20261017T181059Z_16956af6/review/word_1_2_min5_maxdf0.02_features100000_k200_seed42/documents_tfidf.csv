@@ -1,0 +1,11 @@
+﻿descricao_id,descricao_normalizada,frequencia,termos_tfidf,sem_vocabulario
+99620,nutricao or ent nutren 1 5 morango cx c 24 fr 200ml nestle tetra pak,1,ent: 0.422 | cx 24: 0.422 | nestle: 0.359 | morango: 0.341 | 24: 0.341 | fr: 0.337 | 200ml: 0.296 | cx: 0.282,False
+32923,caixa c 12 alcool etilico 70 uzuclean 1lt,1,etilico 70: 0.447 | 1lt: 0.408 | alcool etilico: 0.387 | etilico: 0.384 | 70: 0.349 | 12: 0.331 | alcool: 0.323,False
+111231,pegador de alimentos,4,pegador de: 0.608 | pegador: 0.586 | alimentos: 0.536,False
+1952,abracadeira de nylon para amarracao de cabos comp de 390 x 4 6 mm,1,de cabos: 0.381 | cabos: 0.366 | amarracao: 0.355 | abracadeira de: 0.355 | comp: 0.342 | de nylon: 0.339 | mm: 0.294 | abracadeira: 0.278 | nylon: 0.270,False
+1202,abaixador de lingua embalagem individual theoto l 013 val 27 03 2030,1,27: 0.573 | 03: 0.532 | embalagem: 0.442 | val: 0.440,False
+19815,bandeira institucional tipo 2 medindo 90x128cm,7,institucional: 0.771 | bandeira: 0.637,False
+91737,margarina qualy s sal 250g,1,margarina: 0.613 | 250g: 0.589 | sal: 0.527,False
+40741,clorin 10 000l 25 pastilhas de 20g acuapura,1,20g: 0.684 | 25: 0.540 | 10: 0.490,False
+118565,pro plan kitten 7 5kg n2,1,pro: 0.757 | 5kg: 0.654,False
+122497,refri conti cola 1 5lt,1,5lt: 0.644 | refri: 0.610 | cola: 0.463,False

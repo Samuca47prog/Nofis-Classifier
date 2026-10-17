@@ -1,0 +1,13 @@
+name,analyzer,ngram_range,min_df,max_features,max_df,sublinear_tf,norm,k,seed,n_init
+word_1_1_min5_maxdf0.02_features100000,word,"(1, 1)",5,100000,0.02,True,l2,20,42,10
+word_1_1_min5_maxdf0.02_features100000,word,"(1, 1)",5,100000,0.02,True,l2,50,42,10
+word_1_1_min5_maxdf0.02_features100000,word,"(1, 1)",5,100000,0.02,True,l2,100,42,10
+word_1_1_min5_maxdf0.02_features100000,word,"(1, 1)",5,100000,0.02,True,l2,200,42,10
+word_1_2_min5_maxdf0.02_features100000,word,"(1, 2)",5,100000,0.02,True,l2,20,42,10
+word_1_2_min5_maxdf0.02_features100000,word,"(1, 2)",5,100000,0.02,True,l2,50,42,10
+word_1_2_min5_maxdf0.02_features100000,word,"(1, 2)",5,100000,0.02,True,l2,100,42,10
+word_1_2_min5_maxdf0.02_features100000,word,"(1, 2)",5,100000,0.02,True,l2,200,42,10
+char_wb_3_5_min5_maxdf0.02_features100000,char_wb,"(3, 5)",5,100000,0.02,True,l2,20,42,10
+char_wb_3_5_min5_maxdf0.02_features100000,char_wb,"(3, 5)",5,100000,0.02,True,l2,50,42,10
+char_wb_3_5_min5_maxdf0.02_features100000,char_wb,"(3, 5)",5,100000,0.02,True,l2,100,42,10
+char_wb_3_5_min5_maxdf0.02_features100000,char_wb,"(3, 5)",5,100000,0.02,True,l2,200,42,10

@@ -1,0 +1,11 @@
+﻿descricao_id,descricao_normalizada,frequencia,termos_tfidf,sem_vocabulario
+99620,nutricao or ent nutren 1 5 morango cx c 24 fr 200ml nestle tetra pak,1,nutr: 0.190 |  nutr: 0.190 |  nut: 0.186 | nut: 0.185 |  nu: 0.176 | utr: 0.158 | etra: 0.138 |  ent : 0.138 |  tetr: 0.138 | tetr: 0.138,False
+32923,caixa c 12 alcool etilico 70 uzuclean 1lt,1,ucle: 0.200 | ucl: 0.200 |  1lt: 0.173 |  1lt : 0.173 | lean : 0.172 | ean : 0.169 | 1lt : 0.168 | 1lt: 0.168 | lean: 0.165 | clean: 0.165,False
+111231,pegador de alimentos,4,pegad: 0.244 | egado: 0.244 | peg: 0.240 |  pega: 0.240 |  peg: 0.240 | pega: 0.240 | egad: 0.240 | gador: 0.235 | entos: 0.214 | ntos : 0.212,False
+1952,abracadeira de nylon para amarracao de cabos comp de 390 x 4 6 mm,1, 390: 0.175 | 390: 0.172 | abos: 0.166 | abos : 0.166 | cabos: 0.166 | marra: 0.164 | arrac: 0.164 | rraca: 0.161 | amarr: 0.161 | bos: 0.158,False
+1202,abaixador de lingua embalagem individual theoto l 013 val 27 03 2030,1,vidua: 0.137 | vidu: 0.137 | the: 0.137 | ndivi: 0.137 |  the: 0.137 | idual: 0.137 | idua: 0.137 | divid: 0.137 | indiv: 0.137 | ividu: 0.137,False
+19815,bandeira institucional tipo 2 medindo 90x128cm,7, 90x: 0.156 | 28cm : 0.156 | ucion: 0.153 | nstit: 0.153 | nsti: 0.153 | ucio: 0.153 | tucio: 0.153 | insti: 0.153 | indo : 0.153 | 128: 0.153,False
+91737,margarina qualy s sal 250g,1,ly : 0.206 | qual: 0.198 |  qual: 0.198 | marga: 0.196 | garin: 0.196 | rgar: 0.196 | rgari: 0.196 | argar: 0.196 | gari: 0.193 | arina: 0.191,False
+40741,clorin 10 000l 25 pastilhas de 20g acuapura,1,stilh: 0.196 | tilha: 0.194 | tilh: 0.194 | pasti: 0.194 |  20g : 0.194 |  20g: 0.191 | astil: 0.191 | stil: 0.186 | pur: 0.178 | 20g : 0.176,False
+118565,pro plan kitten 7 5kg n2,1, n2: 0.274 | ten : 0.269 | itt: 0.256 | tte: 0.256 |  pro : 0.250 | lan : 0.247 | pro : 0.242 |  5kg : 0.216 |  5k: 0.216 |  5kg: 0.216,False
+122497,refri conti cola 1 5lt,1,onti: 0.263 |  5lt : 0.251 | nti : 0.248 | 5lt : 0.248 |  5lt: 0.240 | efri : 0.238 | 5lt: 0.236 | fri : 0.234 |  cont: 0.228 | cont: 0.225,False

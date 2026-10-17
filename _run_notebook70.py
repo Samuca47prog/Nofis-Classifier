@@ -12,10 +12,10 @@ from nbclient import NotebookClient
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
 root = Path(__file__).resolve().parent
 run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "_" + uuid4().hex[:8]
-run_dir = root / "reports" / "grid_tfidf_kmeans" / f"202501-202504_{run_id}"
+run_dir = root / "reports" / "tfidf_kmeans" / f"202501-202504_{run_id}"
 run_dir.mkdir(parents=True, exist_ok=False)
-output = run_dir / "70_matriz_tfidf_kmeans_executado.ipynb"
-notebook = nbformat.read(root / "notebooks" / "70_matriz_tfidf_kmeans_e_validacao.ipynb", as_version=4)
+output = run_dir / "70_tfidf_kmeans_executado.ipynb"
+notebook = nbformat.read(root / "notebooks" / "70_tfidf_kmeans.ipynb", as_version=4)
 for cell in notebook.cells:
     if cell.get("id") == "parameters":
         cell.source = cell.source.replace("RUN_ID = None", f"RUN_ID = {run_id!r}", 1)
