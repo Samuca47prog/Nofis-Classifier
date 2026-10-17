@@ -226,7 +226,7 @@ data/interim/*
 /models/grid_tfidf_kmeans/
 
 # Generated model artifacts and embeddings from notebook experiments
-/notebooks/models/
+#/notebooks/models/
 
 # Large CSV generated for text experiments (processed Parquet files remain versioned)
 /data/processed/items-notas-fiscais-ncms-supermercados-com-duplicatas-experimentos-texto/items-notas-fiscais-ncms-supermercados-com-duplicatas-experimentos-texto-202501-202504.csv

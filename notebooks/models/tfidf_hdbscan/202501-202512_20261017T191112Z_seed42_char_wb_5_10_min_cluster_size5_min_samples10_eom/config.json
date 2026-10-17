@@ -1,0 +1,31 @@
+{
+  "run_id": "seed42_char_wb_5_10_min_cluster_size5_min_samples10_eom",
+  "period": "202501-202512",
+  "dataset_name": "2025_NCMs_filtrados-sem-duplicatas",
+  "sample_seed": 42,
+  "representation": "char_wb_5_10",
+  "analyzer": "char_wb",
+  "ngram_range": [
+    5,
+    10
+  ],
+  "tfidf": {
+    "min_df": 10,
+    "max_features": 100000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "hdbscan": {
+    "min_cluster_size": 5,
+    "min_samples": 10,
+    "metric": "cosine",
+    "algorithm": "brute",
+    "cluster_selection_method": "eom"
+  },
+  "frequency_weighted": false,
+  "artifacts": {
+    "vectorizer": "tfidf_vectorizer.pkl",
+    "model": "hdbscan_model.pkl",
+    "training_assignments": "training_assignments.csv"
+  }
+}
