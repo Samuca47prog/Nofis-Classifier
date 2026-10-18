@@ -1,0 +1,15 @@
+{
+  "experiment_id": "empty_k3_seed42",
+  "config_name": "empty",
+  "frequency_weighted": false,
+  "k": 3,
+  "seed": 42,
+  "n_init": 10,
+  "document_count": 18,
+  "sample_size": 18,
+  "model_path": "C:\\Users\\samue\\Scripts\\Nofis-Classifier\\.pytest-tmp\\codex-verification-20261018\\test_metric_memory_guard_and_f0\\models\\empty_k3_seed42.pkl",
+  "vectorizer_path": "C:\\Users\\samue\\Scripts\\Nofis-Classifier\\.pytest-tmp\\codex-verification-20261018\\test_metric_memory_guard_and_f0\\models\\empty_tfidf.pkl",
+  "status": "error",
+  "error": "ValueError: ValueError: max_df corresponds to < documents than min_df",
+  "elapsed_seconds": 0.00028389999988576164
+}

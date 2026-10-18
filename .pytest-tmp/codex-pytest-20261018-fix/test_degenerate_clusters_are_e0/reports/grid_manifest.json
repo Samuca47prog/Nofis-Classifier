@@ -1,0 +1,36 @@
+{
+  "format_version": 1,
+  "frequency_weighted": false,
+  "train_sha256": "395f8a1053cf0cdba97b219d53555b80be5feb0eecbda3a0aa1fbf80c8a44e44",
+  "configs": [
+    {
+      "name": "identical",
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        1
+      ],
+      "min_df": 1,
+      "max_features": 100,
+      "max_df": 1.0,
+      "sublinear_tf": true,
+      "norm": "l2"
+    }
+  ],
+  "k_values": [
+    3
+  ],
+  "seeds": [
+    42
+  ],
+  "sample_size": 1000,
+  "sample_seed": 42,
+  "n_init": 10,
+  "max_iter": 300,
+  "dense_limit_mb": 512,
+  "model_dir": "C:\\Users\\samue\\Scripts\\Nofis-Classifier\\.pytest-tmp\\codex-pytest-20261018-fix\\test_degenerate_clusters_are_e0\\models",
+  "python": "3.12.11",
+  "sklearn": "1.9.0",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5"
+}
