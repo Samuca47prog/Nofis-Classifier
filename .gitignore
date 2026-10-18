@@ -230,3 +230,6 @@ data/interim/*
 
 # Large CSV generated for text experiments (processed Parquet files remain versioned)
 /data/processed/items-notas-fiscais-ncms-supermercados-com-duplicatas-experimentos-texto/items-notas-fiscais-ncms-supermercados-com-duplicatas-experimentos-texto-202501-202504.csv
+
+# Keep SentenceTransformer weight files local; GitHub rejects files over 100 MB
+**/sentence_transformer/model.safetensors
