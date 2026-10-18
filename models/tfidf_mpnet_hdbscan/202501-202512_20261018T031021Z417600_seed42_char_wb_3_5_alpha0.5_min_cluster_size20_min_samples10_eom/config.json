@@ -1,0 +1,43 @@
+{
+  "run_id": "seed42_char_wb_3_5_alpha0.5_min_cluster_size20_min_samples10_eom",
+  "period": "202501-202512",
+  "dataset_name": "2025_NCMs_filtrados-sem-duplicatas",
+  "sample_seed": 42,
+  "representation": "tfidf_mpnet_hybrid",
+  "tfidf": {
+    "config_name": "char_wb_3_5",
+    "analyzer": "char_wb",
+    "ngram_range": "(3, 5)",
+    "min_df": 5,
+    "max_features": 30000,
+    "sublinear_tf": true,
+    "norm": null,
+    "vectorizer_artifact": "tfidf_vectorizer.pkl"
+  },
+  "encoder": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "artifact": "sentence_transformer/",
+    "encode_batch_size": 64,
+    "normalize_embeddings_before_combination": true,
+    "embedding_dimension": 768
+  },
+  "combination": {
+    "alpha": 0.5,
+    "normalization": "l2 per block",
+    "weights": {
+      "tfidf": 0.7071067811865476,
+      "mpnet": 0.7071067811865476
+    }
+  },
+  "hdbscan": {
+    "min_cluster_size": 20,
+    "min_samples": 10,
+    "metric": "cosine",
+    "algorithm": "brute",
+    "cluster_selection_method": "eom",
+    "artifact": "hdbscan_model.pkl"
+  },
+  "frequency_weighted": false,
+  "training_assignments": "training_assignments.csv",
+  "prediction_note": "HDBSCAN foi ajustado sem prediction_data; o artifacto nao fornece atribuicao direta de novos itens a clusters."
+}
