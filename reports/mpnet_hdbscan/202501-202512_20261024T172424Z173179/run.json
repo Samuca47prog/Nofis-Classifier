@@ -1,0 +1,74 @@
+{
+  "dataset_name": "2025_NCMs_filtrados_semstopwords-amostra10000-seed42",
+  "period": "202501-202512",
+  "frequency_weighted": false,
+  "dataset_path": "data\\processed\\2025_NCMs_filtrados_semstopwords-amostra10000-seed42\\2025_NCMs_filtrados_semstopwords-amostra10000-seed42-202501-202512.parquet",
+  "max_descriptions": null,
+  "sample_seeds": [
+    42
+  ],
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "encode_batch_size": 64,
+  "selected_run_id": "seed42_mpnet_min_cluster_size10_min_samples2_eom",
+  "min_cluster_size_values": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "min_samples_values": [
+    null,
+    2,
+    5,
+    10
+  ],
+  "cluster_selection_method": "eom",
+  "silhouette_sample_size": 10000,
+  "tsne": {
+    "max_points": 5000,
+    "perplexity": 30,
+    "max_iter": 1000,
+    "random_state": 42,
+    "pca_components": 50,
+    "three_dimensional_components": 3,
+    "artifacts": {
+      "seed42_mpnet": {
+        "coordinates_file": "tsne_coordinates/seed42_mpnet_coordinates.csv",
+        "sample_size": 5000,
+        "reduced_dimensions": 50
+      },
+      "plot:seed42_mpnet_min_cluster_size2_min_samplesdefault_eom": "tsne_plots\\seed42_mpnet_min_cluster_size2_min_samplesdefault_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size2_min_samplesdefault_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size2_min_samplesdefault_eom.html",
+      "plot:seed42_mpnet_min_cluster_size2_min_samples2_eom": "tsne_plots\\seed42_mpnet_min_cluster_size2_min_samples2_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size2_min_samples2_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size2_min_samples2_eom.html",
+      "plot:seed42_mpnet_min_cluster_size2_min_samples5_eom": "tsne_plots\\seed42_mpnet_min_cluster_size2_min_samples5_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size2_min_samples5_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size2_min_samples5_eom.html",
+      "plot:seed42_mpnet_min_cluster_size2_min_samples10_eom": "tsne_plots\\seed42_mpnet_min_cluster_size2_min_samples10_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size2_min_samples10_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size2_min_samples10_eom.html",
+      "plot:seed42_mpnet_min_cluster_size5_min_samplesdefault_eom": "tsne_plots\\seed42_mpnet_min_cluster_size5_min_samplesdefault_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size5_min_samplesdefault_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size5_min_samplesdefault_eom.html",
+      "plot:seed42_mpnet_min_cluster_size5_min_samples2_eom": "tsne_plots\\seed42_mpnet_min_cluster_size5_min_samples2_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size5_min_samples2_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size5_min_samples2_eom.html",
+      "plot:seed42_mpnet_min_cluster_size5_min_samples5_eom": "tsne_plots\\seed42_mpnet_min_cluster_size5_min_samples5_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size5_min_samples5_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size5_min_samples5_eom.html",
+      "plot:seed42_mpnet_min_cluster_size5_min_samples10_eom": "tsne_plots\\seed42_mpnet_min_cluster_size5_min_samples10_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size5_min_samples10_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size5_min_samples10_eom.html",
+      "plot:seed42_mpnet_min_cluster_size10_min_samplesdefault_eom": "tsne_plots\\seed42_mpnet_min_cluster_size10_min_samplesdefault_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size10_min_samplesdefault_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size10_min_samplesdefault_eom.html",
+      "plot:seed42_mpnet_min_cluster_size10_min_samples2_eom": "tsne_plots\\seed42_mpnet_min_cluster_size10_min_samples2_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size10_min_samples2_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size10_min_samples2_eom.html",
+      "plot:seed42_mpnet_min_cluster_size10_min_samples5_eom": "tsne_plots\\seed42_mpnet_min_cluster_size10_min_samples5_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size10_min_samples5_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size10_min_samples5_eom.html",
+      "plot:seed42_mpnet_min_cluster_size10_min_samples10_eom": "tsne_plots\\seed42_mpnet_min_cluster_size10_min_samples10_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size10_min_samples10_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size10_min_samples10_eom.html",
+      "plot:seed42_mpnet_min_cluster_size20_min_samplesdefault_eom": "tsne_plots\\seed42_mpnet_min_cluster_size20_min_samplesdefault_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size20_min_samplesdefault_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size20_min_samplesdefault_eom.html",
+      "plot:seed42_mpnet_min_cluster_size20_min_samples2_eom": "tsne_plots\\seed42_mpnet_min_cluster_size20_min_samples2_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size20_min_samples2_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size20_min_samples2_eom.html",
+      "plot:seed42_mpnet_min_cluster_size20_min_samples5_eom": "tsne_plots\\seed42_mpnet_min_cluster_size20_min_samples5_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size20_min_samples5_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size20_min_samples5_eom.html",
+      "plot:seed42_mpnet_min_cluster_size20_min_samples10_eom": "tsne_plots\\seed42_mpnet_min_cluster_size20_min_samples10_eom.png",
+      "plot_3d:seed42_mpnet_min_cluster_size20_min_samples10_eom": "tsne_3d_html\\seed42_mpnet_min_cluster_size20_min_samples10_eom.html"
+    }
+  }
+}
