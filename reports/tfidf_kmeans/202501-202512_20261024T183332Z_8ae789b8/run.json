@@ -1,0 +1,172 @@
+{
+  "comparison": {
+    "dataset_name": "2025_NCMs_filtrados_semstopwords",
+    "training_description_count": 20000,
+    "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7",
+    "max_descriptions": 20000,
+    "sample_seed": 42,
+    "frequency_weighted": false,
+    "silhouette_metric": "cosine",
+    "silhouette_sample_size": 20000,
+    "metric_random_state": 42,
+    "metric_sampling": "fixed rows, then exclude algorithmic noise",
+    "min_cluster_for_ranking": 10,
+    "max_clusters_for_ranking": 1000,
+    "silhouette_weight": 0.75,
+    "noise_weight": 0.25,
+    "tsne": {
+      "max_points": 5000,
+      "perplexity": 30,
+      "max_iter": 1000,
+      "random_state": 42,
+      "reduction": "TruncatedSVD",
+      "svd_components": 50,
+      "dimensions": [
+        2,
+        3
+      ],
+      "init": "pca",
+      "learning_rate": "auto",
+      "method": "barnes_hut"
+    }
+  },
+  "run_id": "20261024T183332Z_8ae789b8",
+  "dataset": "2025_NCMs_filtrados_semstopwords",
+  "period": "202501-202512",
+  "frequency_weighted": false,
+  "dataset_sha256": "758adeea3ebcee75991e347b4fc5bd3bdbe761c5876ec5eddd6a4ce8acd47286",
+  "validation_count": 300,
+  "split_seed": 42,
+  "max_descriptions": 20000,
+  "dataset_path": "C:\\Users\\samuel.simao\\Sources\\Nofis-Classifier\\data\\processed\\2025_NCMs_filtrados_semstopwords\\2025_NCMs_filtrados_semstopwords-202501-202512.parquet",
+  "sample_count": 20000,
+  "training_count": 20000,
+  "k_values": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "seeds": [
+    42
+  ],
+  "representations": [
+    [
+      "char_wb",
+      [
+        2,
+        4
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "char_wb",
+      [
+        2,
+        10
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "char_wb",
+      [
+        3,
+        5
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "char_wb",
+      [
+        3,
+        10
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "char_wb",
+      [
+        4,
+        8
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "char_wb",
+      [
+        4,
+        10
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "char_wb",
+      [
+        5,
+        10
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "word",
+      [
+        1,
+        3
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "word",
+      [
+        1,
+        5
+      ],
+      [
+        100000
+      ]
+    ],
+    [
+      "word",
+      [
+        2,
+        5
+      ],
+      [
+        100000
+      ]
+    ]
+  ],
+  "min_df_values": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "max_df_values": [
+    1.0
+  ],
+  "n_init": 10,
+  "max_iter": 300,
+  "metric_sample_size": 20000,
+  "pairwise_working_memory_mib": 64,
+  "max_clusters_for_ranking": 1000,
+  "min_cluster_for_ranking": 10,
+  "silhouette_weight": 0.75,
+  "noise_weight": 0.25
+}

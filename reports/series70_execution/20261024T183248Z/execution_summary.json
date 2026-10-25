@@ -1,0 +1,135 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-24T18:33:28.794023+00:00",
+  "finished_utc": "2026-10-25T13:59:45.632149+00:00",
+  "elapsed_hours": 19.438,
+  "total_fits": 5068,
+  "total_ranked_configurations": 2423,
+  "comparison": {
+    "dataset_name": "2025_NCMs_filtrados_semstopwords",
+    "training_description_count": 20000,
+    "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7",
+    "max_descriptions": 20000,
+    "sample_seed": 42,
+    "frequency_weighted": false,
+    "silhouette_metric": "cosine",
+    "silhouette_sample_size": 20000,
+    "metric_random_state": 42,
+    "metric_sampling": "fixed rows, then exclude algorithmic noise",
+    "min_cluster_for_ranking": 10,
+    "max_clusters_for_ranking": 1000,
+    "silhouette_weight": 0.75,
+    "noise_weight": 0.25,
+    "tsne": {
+      "max_points": 5000,
+      "perplexity": 30,
+      "max_iter": 1000,
+      "random_state": 42,
+      "reduction": "TruncatedSVD",
+      "svd_components": 50,
+      "dimensions": [
+        2,
+        3
+      ],
+      "init": "pca",
+      "learning_rate": "auto",
+      "method": "barnes_hut"
+    }
+  },
+  "notebooks": [
+    {
+      "notebook": "notebooks\\70_tfidf_kmeans.ipynb",
+      "status": "completed",
+      "fits": 160,
+      "ranked_configurations": 160,
+      "elapsed_minutes": 162.36,
+      "report_dir": "reports\\tfidf_kmeans\\202501-202512_20261024T183332Z_8ae789b8",
+      "executed_notebook": "reports\\series70_execution\\20261024T183248Z\\70_tfidf_kmeans\\executed.ipynb",
+      "manual_review_pending": true,
+      "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7"
+    },
+    {
+      "notebook": "notebooks\\71_embeddings_mpnet_kmeans_e_validacao.ipynb",
+      "status": "completed",
+      "fits": 4,
+      "ranked_configurations": 4,
+      "elapsed_minutes": 9.81,
+      "report_dir": "reports\\mpnet_kmeans\\202501-202512_20261024T211600Z_cb2c9e42",
+      "executed_notebook": "reports\\series70_execution\\20261024T183248Z\\71_embeddings_mpnet_kmeans_e_validacao\\executed.ipynb",
+      "manual_review_pending": true,
+      "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7"
+    },
+    {
+      "notebook": "notebooks\\72_tfidf_dbscan.ipynb",
+      "status": "completed",
+      "fits": 3520,
+      "ranked_configurations": 1285,
+      "elapsed_minutes": 390.32,
+      "report_dir": "reports\\tfidf_dbscan\\202501-202512_20261025T031512Z159795",
+      "executed_notebook": "reports\\series70_execution\\20261024T183248Z\\72_tfidf_dbscan\\executed.ipynb",
+      "manual_review_pending": false,
+      "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7"
+    },
+    {
+      "notebook": "notebooks\\73_mpnet_dbscan.ipynb",
+      "status": "completed",
+      "fits": 88,
+      "ranked_configurations": 36,
+      "elapsed_minutes": 15.03,
+      "report_dir": "reports\\mpnet_dbscan\\202501-202512_20261025T041045Z274853",
+      "executed_notebook": "reports\\series70_execution\\20261024T183248Z\\73_mpnet_dbscan\\executed.ipynb",
+      "manual_review_pending": false,
+      "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7"
+    },
+    {
+      "notebook": "notebooks\\74_tfidf_hdbscan.ipynb",
+      "status": "completed",
+      "fits": 640,
+      "ranked_configurations": 409,
+      "elapsed_minutes": 127.3,
+      "report_dir": "reports\\tfidf_hdbscan\\202501-202512_20261025T055138Z",
+      "executed_notebook": "reports\\series70_execution\\20261024T183248Z\\74_tfidf_hdbscan\\executed.ipynb",
+      "manual_review_pending": false,
+      "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7"
+    },
+    {
+      "notebook": "notebooks\\75_mpnet_hdbscan.ipynb",
+      "status": "completed",
+      "fits": 16,
+      "ranked_configurations": 14,
+      "elapsed_minutes": 7.83,
+      "report_dir": "reports\\mpnet_hdbscan\\202501-202512_20261025T061828Z036879",
+      "executed_notebook": "reports\\series70_execution\\20261024T183248Z\\75_mpnet_hdbscan\\executed.ipynb",
+      "manual_review_pending": false,
+      "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7"
+    },
+    {
+      "notebook": "notebooks\\76_tfidf_mpnet_hdbscan.ipynb",
+      "status": "completed",
+      "fits": 640,
+      "ranked_configurations": 515,
+      "elapsed_minutes": 453.59,
+      "report_dir": "reports\\tfidf_mpnet_hdbscan\\202501-202512_20261025T062616Z172896",
+      "executed_notebook": "reports\\series70_execution\\20261024T183248Z\\76_tfidf_mpnet_hdbscan\\executed.ipynb",
+      "manual_review_pending": false,
+      "training_sample_sha256": "d2bbde012c3e1f6b5d5f51882c85b701a3df931d1a3720e36f32290cf5c1cbf7"
+    }
+  ],
+  "validation": {
+    "all_completed": true,
+    "notebook_error_outputs": 0,
+    "original_sources_match_executed_sources": true,
+    "all_training_samples_match": true,
+    "notebook76_export_refit_labels_match": true,
+    "pytest": {
+      "passed": 25,
+      "command": ".venv/Scripts/python.exe -m pytest --basetemp <fresh temporary directory> -q",
+      "uv_unavailable": true
+    }
+  },
+  "notes": [
+    "A revisao humana de taxonomia e rotulos dos notebooks70/71 continua pendente, conforme previsto no fluxo.",
+    "O notebook76 reutiliza distancias cosseno exatas por representacao, mantendo refit nas features originais e verificacao exata dos labels para exportacao.",
+    "Silhouette e cobertura descrevem o agrupamento; nao sao uma medida de acuracia de classificacao."
+  ]
+}

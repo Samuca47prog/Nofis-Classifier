@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "synthetic_rows": 80,
+  "exact_label_checks": 64,
+  "silhouette_equivalence_checks": 64,
+  "model_roundtrip": true,
+  "read_only_features": true,
+  "temporary_distances_removed": true,
+  "output_dir": "reports\\series70_execution\\20261024T183248Z\\76_smoke_0adxzu8x"
+}

@@ -1,0 +1,11 @@
+﻿descricao_id,descricao_normalizada,frequencia,termos_tfidf,sem_vocabulario
+79101,jogo xicaras cha vdr cristal 6pcs 165ml,1,,True
+15866,at esp pl 152 2,1,,True
+64711,fita adesiva acrilico alta resistencia dupla face 24mm x 2 m cap 5 kgs,1,fita adesiva: 0.780 | dupla face: 0.626,False
+8827,agua sanitaria asa leste super forte 5l,1,agua sanitaria: 1.000,False
+103136,pao artesanal pao caseiro doce,9,,True
+88905,macarrao tipo lasanha 500g,3,macarrao tipo: 1.000,False
+82093,limpa acd granada 200ml 12,1,,True
+23164,biofor 1000ml desinfetante composicao base iodoformio,1,,True
+145470,vela cilindro 2,1,,True
+60742,far trigo d benta cfer 1kg,1,far trigo: 1.000,False

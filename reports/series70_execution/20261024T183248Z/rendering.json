@@ -1,0 +1,10 @@
+{
+  "70": {
+    "embedded_plot": "reports\\tfidf_kmeans\\202501-202512_20261024T183332Z_8ae789b8\\ranking_metrics.png",
+    "sha256": "9f40777bd73bc8b994fb2e8eafe0aab5ce3eab25474613e93f140d88302dcd58"
+  },
+  "71": {
+    "plot": "reports\\mpnet_kmeans\\202501-202512_20261024T211600Z_cb2c9e42\\silhouette_by_k.png",
+    "sha256": "78dd14f328902948baea6ce2b98a5c0019f88403a4804f6a74f427eeed8c7dcf"
+  }
+}

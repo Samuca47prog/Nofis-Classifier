@@ -1,0 +1,9 @@
+{
+  "hybrid_rows": 2048,
+  "hybrid_columns": 37649,
+  "hybrid_distance_seconds": 2.854019700000208,
+  "estimated_distance_seconds_at_20000_rows": 272.1805286407669,
+  "hdbscan_exact_label_checks": 16,
+  "dbscan_exact_label_checks": 88,
+  "note": "Diagnostic only; no experiment configuration changed."
+}

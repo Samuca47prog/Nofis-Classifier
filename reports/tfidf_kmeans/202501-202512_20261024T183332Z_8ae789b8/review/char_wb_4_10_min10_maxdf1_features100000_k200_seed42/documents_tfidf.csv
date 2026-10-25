@@ -1,0 +1,11 @@
+﻿descricao_id,descricao_normalizada,frequencia,termos_tfidf,sem_vocabulario
+79101,jogo xicaras cha vdr cristal 6pcs 165ml,1,xicara: 0.205 | xicar: 0.205 | aras: 0.203 | icara: 0.200 |  165: 0.190 | xica: 0.189 | jogo : 0.183 |  jogo : 0.183 |  jogo: 0.182 | jogo: 0.182,False
+15866,at esp pl 152 2,1, pl : 0.575 |  esp : 0.493 | esp : 0.485 |  esp: 0.315 |  2 : 0.302,False
+64711,fita adesiva acrilico alta resistencia dupla face 24mm x 2 m cap 5 kgs,1,stenc: 0.119 | stenci: 0.119 | tencia: 0.118 | tencia : 0.118 | tenci: 0.115 | 4mm : 0.115 |  cap : 0.105 |  adesiva : 0.105 | esiva : 0.105 | adesiva : 0.105,False
+8827,agua sanitaria asa leste super forte 5l,1,este : 0.159 |  forte : 0.151 |  forte: 0.149 | forte : 0.148 |  super : 0.147 | uper : 0.146 | super : 0.146 | forte: 0.146 | ste : 0.145 | asa : 0.140,False
+103136,pao artesanal pao caseiro doce,9, pao : 0.150 |  pao: 0.150 | pao : 0.150 | tesanal : 0.139 | tesanal: 0.139 | rtesanal: 0.139 | esanal: 0.139 | rtesanal : 0.139 | sanal : 0.139 | artesanal : 0.139,False
+88905,macarrao tipo lasanha 500g,3,sanha : 0.152 | sanh: 0.152 | sanha: 0.152 | lasanha : 0.152 | asanha : 0.152 | asan: 0.152 | asanh: 0.152 | asanha: 0.152 | lasa: 0.152 | lasanh: 0.152,False
+82093,limpa acd granada 200ml 12,1,ranada : 0.204 | ranada: 0.204 |  granada: 0.204 |  granada : 0.204 | granada : 0.204 | granada: 0.204 | ranad: 0.198 | grana: 0.198 |  granad: 0.198 |  grana: 0.198,False
+23164,biofor 1000ml desinfetante composicao base iodoformio,1,ofor: 0.199 | ormi: 0.125 | oform: 0.119 | for : 0.115 |  iod: 0.113 |  1000ml: 0.101 |  1000ml : 0.101 | 1000ml : 0.100 | 1000ml: 0.100 |  1000m: 0.100,False
+145470,vela cilindro 2,1, vela : 0.239 |  vela: 0.233 | vela : 0.220 | ilind: 0.216 | ilindr: 0.216 | lindr: 0.216 | indr: 0.216 |  cili: 0.216 |  cilin: 0.216 | cilind: 0.216,False
+60742,far trigo d benta cfer 1kg,1,benta : 0.243 |  benta : 0.243 |  benta: 0.243 | benta: 0.243 | bent: 0.241 |  bent: 0.241 |  far : 0.218 | far : 0.218 |  ben: 0.210 | fer : 0.192,False

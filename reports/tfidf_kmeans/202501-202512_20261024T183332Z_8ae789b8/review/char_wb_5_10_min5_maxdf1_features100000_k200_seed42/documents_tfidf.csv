@@ -1,0 +1,11 @@
+﻿descricao_id,descricao_normalizada,frequencia,termos_tfidf,sem_vocabulario
+79101,jogo xicaras cha vdr cristal 6pcs 165ml,1,65ml : 0.239 | caras : 0.231 | aras : 0.228 | caras: 0.228 |  xicar: 0.226 |  xicara: 0.226 |  xica: 0.226 | xicar: 0.223 | xicara: 0.223 | icara: 0.217,False
+15866,at esp pl 152 2,1, pl : 0.705 |  esp : 0.604 |  2 : 0.371,False
+64711,fita adesiva acrilico alta resistencia dupla face 24mm x 2 m cap 5 kgs,1,resistenci: 0.127 | resistenc: 0.127 | esistencia: 0.127 |  resistenc: 0.127 | esistenc: 0.127 | esistenci: 0.127 | stencia : 0.125 | istencia : 0.125 | istenc: 0.125 | istenci: 0.125,False
+8827,agua sanitaria asa leste super forte 5l,1, asa : 0.207 | leste : 0.204 | leste: 0.201 | este : 0.178 |  forte : 0.169 |  forte: 0.166 | forte : 0.166 |  super : 0.165 | uper : 0.164 | super : 0.164,False
+103136,pao artesanal pao caseiro doce,9, pao : 0.173 | tesanal : 0.160 | rtesanal: 0.160 | rtesanal : 0.160 | sanal: 0.160 | tesanal: 0.160 | esanal : 0.160 | artesanal: 0.160 | esanal: 0.160 |  artesanal: 0.160,False
+88905,macarrao tipo lasanha 500g,3,sanha : 0.176 | sanha: 0.176 | lasanha : 0.176 |  lasanh: 0.176 | asanh: 0.176 | asanha : 0.176 | asanha: 0.176 | lasan: 0.176 | lasanh: 0.176 | lasanha: 0.176,False
+82093,limpa acd granada 200ml 12,1,ranada : 0.231 | ranada: 0.231 | granada: 0.231 | granada : 0.231 |  granada: 0.231 |  granada : 0.231 | granad: 0.224 | ranad: 0.224 |  grana: 0.224 |  granad: 0.224,False
+23164,biofor 1000ml desinfetante composicao base iodoformio,1, biof: 0.152 | formi: 0.144 | oform: 0.136 |  1000ml : 0.116 |  1000ml: 0.116 | 1000ml : 0.115 | 1000ml: 0.114 |  1000m: 0.114 | 000ml : 0.113 | 000ml: 0.113,False
+145470,vela cilindro 2,1,ndro : 0.217 | ilindro : 0.217 | lindro : 0.217 | lindro: 0.217 | indro : 0.217 | ilindro: 0.217 | indro: 0.217 | cilindro : 0.217 | cilindro: 0.217 |  cilindro: 0.217,False
+60742,far trigo d benta cfer 1kg,1,benta : 0.313 | benta: 0.313 |  benta: 0.313 |  benta : 0.313 |  bent: 0.310 |  far : 0.280 | enta : 0.241 |  d : 0.235 | trigo : 0.221 |  trigo : 0.221,False
