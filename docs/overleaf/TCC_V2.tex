@@ -1,0 +1,690 @@
+%
+% Exemplo LaTeX de monografia UNISINOS
+%
+% Elaborado com base nas orientações dadas no documento
+% ``GUIA PARA ELABORAÇÃO DE TRABALHOS ACADÊMICOS''
+% disponível no site da biblioteca da Unisinos.
+% http://www.unisinos.br/biblioteca
+%
+% Os elementos textuais abaixo são apresentados na ordem em que devem
+% aparecer no documento.  Repare que nem todos são obrigatórios - isso
+% é devidamente indicado em cada caso.
+%
+% Comentários abaixo colocados entre aspas (`` '') foram
+% extraídos diretamente do documento da biblioteca.
+%
+% Este documento é de domínio público.
+%
+
+%=======================================================================
+% Declarações iniciais identificando a classe de documento e
+% selecionando alguns pacotes adicionais.
+%
+% As opções disponíveis (separe-as com vírgulas, sem espaço) são:
+% - twoside: Formata o documento para impressão frente-e-verso
+%   (o default é somente-frente)
+% - english,brazilian,french,german,etc.: idiomas usados no documento.
+%   Deve ser colocado por último o idioma principal.
+%=======================================================================
+\documentclass[english,brazilian]{UNISINOSmonografia}
+\usepackage[utf8]{inputenc} % charset do texto (utf8, latin1, etc.)
+\usepackage[T1]{fontenc} % encoding da fonte (afeta a sep. de sílabas)
+\usepackage{graphicx} % comandos para gráficos e inclusão de figuras
+\usepackage{bibentry} % para inserir refs. bib. no meio do texto
+\usepackage{hyperref}
+
+%=======================================================================
+% Escolha do sistema para geração de referências bibliográficas.
+%
+% O default é usar o estilo unisinos.bst.  Comente a definição abaixo
+% e descomente a linha seguinte para usar o estilo do ABNTeX (é
+% necessário ter esse pacote instalado).
+%
+% A vantagem do unisinos.bst é que ele permite o uso de um arquivo .bib
+% seguindo as orientações tradicionais do BibTeX (veja essas orientações
+% em http://ctan.tug.org/tex-archive/biblio/bibtex/contrib/doc/btxdoc.pdf).
+% Entretanto, o estilo não suporta algumas citações mais exóticas como
+% apud.  Para isso, use o ABNTeX, mas esteja ciente de que muitas de
+% suas referências serão incompatíveis com os estilos tradicionais do
+% BibTeX como plain, alpha, ieeetr, entre outros.
+%=======================================================================
+\unisinosbst
+%\usepackage[alf]{abntcite}
+
+%=======================================================================
+% Dados gerais sobre o trabalho.
+%=======================================================================
+\autor{Simão}{Samuel}
+\titulo{NO-FIS}
+\subtitulo{Categorização automática de itens de notas fiscais de consumidor}
+\orientador[Prof.]{Chagas Kurtz}{Guilherme}
+
+\unidade{Unidade Acadêmica de Graduação ou Unidade Acadêmica de Educação Online}
+\curso{Bacharelado em Sistemas de Informação}
+\nivel{Graduação}
+\natureza{Trabalho de Conclusão de Curso apresentado como requisito parcial para a obtenção do título de Bacharel em Sistemas de Informação, pelo Curso de Sistemas de Informação da Universidade do Vale do Rio dos Sinos --- UNISINOS}
+\local{São Leopoldo}
+\ano{2026}
+
+% cada palavra-chave deve ser fornecida duas vezes, uma em português e
+% outra no idioma estrangeiro (na verdade, em tantos idiomas quantos se
+% desejar).
+\palavrachave{brazilian}{Notas fiscais}
+\palavrachave{brazilian}{Processamento de Linguagem Natural}
+\palavrachave{brazilian}{Aprendizado de máquina não supervisionado}
+\palavrachave{brazilian}{Clusterização}
+\palavrachave{brazilian}{Taxonomia de produtos}
+
+\palavrachave{english}{Electronic invoices}
+\palavrachave{english}{Natural Language Processing}
+\palavrachave{english}{Unsupervised machine learning}
+\palavrachave{english}{Clustering}
+\palavrachave{english}{Product taxonomy}
+
+
+%=======================================================================
+% Início do documento.
+%=======================================================================
+\begin{document}
+\capa
+\folhaderosto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%=======================================================================
+% Resumo em Português.
+%
+% A recomendação é para 150 a 500 palavras.
+%=======================================================================
+% TODO: substituir resumo genérico do template pelo resumo do trabalho.
+\begin{abstract}
+A descrição dos produtos presentes em notas fiscais eletrônicas de consumidor constitui uma fonte relevante para aplicações de análise de consumo, organização de despesas e estruturação de bases de dados. Entretanto, esse campo costuma ser registrado em formato livre pelos estabelecimentos comerciais, resultando em textos curtos, ruidosos, abreviados e pouco padronizados. Essa característica dificulta a identificação automática de produtos semelhantes e a associação desses itens a categorias interpretáveis. Diante desse problema, este trabalho propõe uma abordagem para apoiar a construção de uma taxonomia plana de categorias de produtos a partir de descrições extraídas de notas fiscais eletrônicas, utilizando técnicas de Processamento de Linguagem Natural, Aprendizado de Máquina não supervisionado e Modelos de Linguagem de Grande Escala. A metodologia prevê a coleta e estruturação de dados de itens fiscais, o pré-processamento das descrições textuais, a representação dos textos por meio de TF-IDF com \textit{n-grams} de palavras e caracteres e a aplicação do algoritmo K-Means para formação de agrupamentos de descrições semelhantes. Após a clusterização, serão selecionados exemplos representativos de cada agrupamento, os quais servirão de insumo para a sugestão de rótulos com apoio de Modelos de Linguagem de Grande Escala. Esses rótulos serão avaliados e ajustados por meio de validação humana, considerando critérios como coerência interna dos clusters, clareza dos nomes sugeridos e adequação das categorias à taxonomia proposta. A avaliação dos resultados combinará métricas internas de clusterização, como coeficiente de silhueta, índice Calinski-Harabasz e índice Davies-Bouldin, com análise qualitativa da interpretabilidade dos agrupamentos. Como resultado esperado, busca-se obter uma taxonomia inicial de categorias de produtos e um protótipo capaz de realizar a categorização inicial de novas descrições, contribuindo para a organização automática de itens de notas fiscais eletrônicas.
+\end{abstract}
+
+
+%=======================================================================
+% Resumo em língua estrangeira (obrigatório somente para teses e
+% dissertações).
+%
+% O idioma usado aqui deve necessariamente aparecer nos parâmetros do
+% \documentclass, no início do documento.
+%=======================================================================
+\begin{otherlanguage}{english}
+\begin{abstract}
+Product descriptions found in electronic consumer invoices represent a relevant source of data for applications such as consumption analysis, expense organization and database structuring. However, this field is usually recorded in free-text format by commercial establishments, resulting in short, noisy, abbreviated and poorly standardized descriptions. This characteristic makes it difficult to automatically identify similar products and associate these items with interpretable categories. Given this problem, this work proposes an approach to support the construction of a flat taxonomy of product categories from descriptions extracted from electronic invoices, using Natural Language Processing techniques, unsupervised Machine Learning and Large Language Models. The proposed methodology includes the collection and structuring of invoice item data, textual preprocessing of product descriptions, text representation through TF-IDF with word and character \textit{n-grams}, and the application of the K-Means algorithm to form groups of similar descriptions. After clustering, representative examples from each group will be selected and used as input for label suggestions supported by Large Language Models. These labels will be evaluated and adjusted through human validation, considering criteria such as internal coherence of the clusters, clarity of the suggested names and suitability of the categories for the proposed taxonomy. The evaluation of the results will combine internal clustering metrics, such as the silhouette coefficient, the Calinski-Harabasz index and the Davies-Bouldin index, with a qualitative analysis of the interpretability of the groups. As an expected result, this work aims to obtain an initial taxonomy of product categories and a prototype capable of performing the initial categorization of new descriptions, contributing to the automatic organization of items from electronic invoices.
+\end{abstract}
+\end{otherlanguage}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%=======================================================================
+% Lista de Figuras (opcional).
+%=======================================================================
+\listoffigures
+
+%=======================================================================
+% Lista de Tabelas (opcional).
+%=======================================================================
+%\listoftables
+
+
+
+
+
+
+
+%=======================================================================
+% Sumário
+%=======================================================================
+\tableofcontents
+
+
+
+
+
+
+
+
+
+
+
+
+%=======================================================================
+% Introdução
+%=======================================================================
+
+\chapter{Introdução}
+
+A digitalização dos documentos fiscais no Brasil possibilitou a geração, o armazenamento e a consulta eletrônica de informações relacionadas a operações comerciais. Segundo \cite{sefazrsnfe}, a Nota Fiscal Eletrônica (NF-e) foi criada com o objetivo de substituir documentos fiscais em papel por documentos digitais com validade jurídica, trazendo benefícios como redução de custos, simplificação de obrigações acessórias e maior agilidade no acesso às informações fiscais. De modo geral, os documentos fiscais eletrônicos registram dados como informações do estabelecimento emissor, valores da compra, tributos, forma de pagamento e relação dos produtos adquiridos.
+
+As informações presentes nesses documentos representam uma fonte de dados com potencial para diferentes aplicações, como controle financeiro pessoal, análise de consumo, organização de despesas e estruturação de bases de dados a partir de documentos fiscais. Em especial, os itens das notas fiscais permitem identificar os produtos adquiridos por meio de suas descrições textuais. Contudo, embora esses documentos possuam diversos campos estruturados, a descrição dos produtos é registrada em formato livre, de acordo com os padrões adotados por cada estabelecimento comercial. Como destacado por \cite{santos2023classificacao}, essas descrições podem ser consideradas textos não estruturados, pois apresentam variações de escrita, abreviações e ausência de padronização.
+
+Essa falta de padronização faz com que produtos semelhantes sejam descritos de formas distintas. Um mesmo produto pode aparecer com variações relacionadas à marca, quantidade, unidade de medida, abreviações, pontuação ou termos específicos utilizados pelo varejo. Por exemplo, descrições como ``REFRI COCA 2L'', ``COCA COLA PET 2LT'', ``COCA-COLA 2 LITROS'' e ``REFRIG COCA 2L'' podem se referir a produtos semelhantes, embora apresentem diferenças textuais relevantes. Essas variações dificultam o processamento automático e tornam mais complexa a identificação de padrões entre os itens.
+
+Além disso, a descrição textual do produto não indica diretamente uma categoria de produto. Dessa forma, há uma dificuldade em utilizar essas informações em aplicações que dependem da organização dos itens em grupos interpretáveis, como alimentos, bebidas, higiene, limpeza, vestuário ou outras categorias de produtos. A ausência de categorias padronizadas impede que essas descrições sejam diretamente utilizadas em análises agregadas de consumo, organização de despesas ou estruturação de bases categorizadas. Como consequência, a organização desses dados tende a passar por processos manuais, regras específicas ou classificações construídas caso a caso, que podem ser difíceis de manter diante da grande variedade de descrições existentes.
+
+Esse processo é desafiador porque as descrições dos produtos são curtas, ruidosas, pouco padronizadas e, na maioria dos casos, não possuem categorias previamente atribuídas. Assim, para categorizar ou organizar automaticamente esses itens em grupos compreensíveis, torna-se necessário investigar formas de descobrir padrões entre descrições semelhantes e transformá-los em categorias interpretáveis.
+
+Nesse contexto, técnicas de Processamento de Linguagem Natural podem ser utilizadas para apoiar o tratamento dessas descrições. Por meio de etapas de pré-processamento textual e representação numérica, descrições de produtos podem ser convertidas em vetores capazes de representar padrões textuais relevantes. Essas representações tornam possível a aplicação de técnicas computacionais voltadas à análise de similaridade entre descrições, permitindo explorar relações que não são evidentes quando os textos são observados apenas em sua forma original.
+
+A utilização de técnicas não supervisionadas torna-se adequada nesse cenário porque permite explorar padrões presentes nos dados sem depender de categorias previamente definidas. Em vez de partir de uma estrutura classificatória pronta, a análise dos agrupamentos pode revelar aproximações entre descrições de produtos e indicar possíveis formas de organização dos itens. Assim, a clusterização aparece como uma estratégia de apoio à investigação inicial das categorias, contribuindo para transformar um conjunto amplo de descrições livres em grupos mais interpretáveis.
+
+Entretanto, a formação automática de agrupamentos não resolve integralmente o problema da categorização. Embora algoritmos de clusterização possam aproximar descrições textualmente semelhantes, os grupos resultantes ainda precisam ser interpretados para que façam sentido no domínio analisado. Essa etapa exige compreender o conteúdo predominante de cada agrupamento e relacioná-lo a categorias úteis para a organização dos produtos. Nesse ponto, os Modelos de Linguagem de Grande Escala podem atuar como apoio à interpretação dos grupos, auxiliando na sugestão de nomes mais compreensíveis e próximos da linguagem utilizada por humanos.
+
+Dessa forma, a taxonomia de categorias de produtos é compreendida, neste trabalho, como uma estrutura de organização capaz de tornar as descrições dos itens fiscais mais interpretáveis e úteis para análises posteriores. Considerando que os documentos fiscais eletrônicos não fornecem, de forma padronizada, uma categoria associada a cada produto descrito, torna-se necessário investigar alternativas que apoiem a organização dessas descrições em grupos compreensíveis. 
+
+Diante disso, este trabalho é motivado pela necessidade de investigar uma abordagem capaz de apoiar a construção de uma taxonomia plana de categorias de produtos a partir de descrições curtas, ruidosas e não padronizadas extraídas de documentos fiscais eletrônicos. A pesquisa busca responder à seguinte questão: como técnicas de Processamento de Linguagem Natural, Aprendizado de Máquina não supervisionado e Modelos de Linguagem de Grande Escala podem apoiar a construção de uma taxonomia plana de categorias de produtos a partir de descrições curtas e não padronizadas extraídas de documentos fiscais eletrônicos?
+
+
+
+\section{Objetivos}
+
+Este trabalho tem como objetivo geral propor e avaliar uma abordagem para apoiar a construção de uma taxonomia de categorias de produtos a partir de descrições curtas e não padronizadas extraídas de notas fiscais eletrônicas, utilizando técnicas de Processamento de Linguagem Natural, Aprendizado de Máquina não supervisionado e Modelos de Linguagem de Grande Escala.
+
+\subsection{Objetivos específicos}
+
+\begin{alineas}
+    \item coletar e estruturar dados de itens de notas fiscais eletrônicas, considerando como foco principal a descrição textual dos produtos;
+    \item aplicar técnicas de pré-processamento textual nas descrições dos produtos, incluindo normalização de texto, remoção de acentos e tratamento de espaços excedentes;
+    \item avaliar formas de representação textual baseadas em TF-IDF, considerando n-gramas de palavras e n-gramas de caracteres;
+    \item investigar o uso do algoritmo de clusterização K-Means para agrupar descrições de produtos com características textuais semelhantes;
+    \item utilizar Modelos de Linguagem de Grande Escala para apoiar a interpretação e a nomeação dos clusters encontrados;
+    \item analisar os agrupamentos obtidos com o objetivo de apoiar a definição e o refinamento de uma taxonomia de categorias de produtos;
+    \item desenvolver um protótipo computacional capaz de realizar a categorização inicial de novas descrições de produtos, a partir do pré-processamento textual, da representação vetorial, da atribuição ao cluster mais próximo e da associação à categoria definida na taxonomia proposta;
+    \item avaliar e comparar diferentes configurações de representação textual e diferentes valores de $k$ no modelo de clusterização utilizado, considerando a coerência dos agrupamentos e sua utilidade para a construção da taxonomia proposta.
+\end{alineas}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%=======================================================================
+% Referencial Teórico
+%=======================================================================
+\chapter{Referencial Teórico}
+
+Este capítulo apresenta os principais conceitos que fundamentam o desenvolvimento deste trabalho. Inicialmente, são abordados aspectos relacionados aos documentos fiscais eletrônicos e às descrições textuais de produtos presentes nesses documentos. Em seguida, são discutidos conceitos de Processamento de Linguagem Natural aplicados à preparação e representação de textos curtos, bem como técnicas de aprendizado de máquina não supervisionado utilizadas para agrupamento de dados. Por fim, são apresentados conceitos relacionados à construção de taxonomias e ao uso de modelos de linguagem como apoio à interpretação e nomeação de agrupamentos, formando a base teórica necessária para a metodologia proposta.
+
+\section{Notas fiscais de consumidor eletrônicas no Brasil}
+
+A Nota Fiscal Eletrônica (NF-e) é um documento fiscal digital, gerado e armazenado eletronicamente, utilizado para registrar operações comerciais. No Brasil, sua implantação foi iniciada em 2005 com o objetivo de modernizar os documentos fiscais e substituir gradualmente os registros em papel por documentos eletrônicos com validade jurídica. Segundo a \cite{sefazrsnfe}, a adoção da NF-e traz diversos benefícios como a redução de custos com impressão e armazenagem de documentos, a simplificação de obrigações acessórias e a maior agilidade no acesso às informações fiscais.
+
+Além da NF-e tradicional, existem diferentes modelos de documentos fiscais eletrônicos destinados a finalidades específicas. Entre eles, destacam-se a NF-e modelo 55 e a Nota Fiscal de Consumidor Eletrônica (NFC-e) modelo 65, conforme apresentada na Figura~\ref{fig:DANFE}. Enquanto a NF-e é utilizada em diversas operações de circulação de mercadorias, a NFC-e é voltada às vendas realizadas diretamente ao consumidor final, conforme aponta \cite{contabilizei2024tiposnotas}. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/DANFE-exemplo.png}
+    \caption{Exemplo de DANFE}
+    \fonte{O Autor}
+    \label{fig:DANFE}
+\end{figure}
+
+De acordo com as especificações técnicas do DANFE NFC-e \cite{danfenfce}, a área destinada ao detalhamento dos produtos ou serviços adquiridos deve apresentar, no mínimo, os seguintes campos: código, descrição, quantidade, unidade de medida, valor unitário e valor total. Esses campos permitem identificar os itens adquiridos, suas quantidades e os valores correspondentes, constituindo uma fonte estruturada de dados sobre as compras realizadas pelo consumidor. Contudo, o campo descrição é em formato livre, o que permite que cada estabelecimento nomine produtos iguais de formas diferentes.
+
+
+
+\section{Processamento de Linguagem Natural}
+
+O Processamento de Linguagem Natural (PLN) é uma área da ciência da computação voltada ao tratamento computacional da linguagem humana. Como os computadores não operam diretamente sobre o significado das palavras da mesma forma que os seres humanos, os textos precisam ser processados e representados de modo que seus padrões possam ser analisados por algoritmos. Segundo a \cite{ibm2024pln}, o PLN é um subcampo da ciência da computação que utiliza técnicas de aprendizado de máquina para permitir que computadores interpretem e se comuniquem por meio da linguagem humana.
+
+No contexto deste trabalho, o PLN é relevante porque as descrições dos itens presentes em notas fiscais são formadas por textos em linguagem natural, frequentemente curtos, abreviados e pouco padronizados. Para que essas descrições possam ser utilizadas na organização automática e na categorização inicial de produtos, é necessário submetê-las a etapas de tratamento e transformação que permitam aos modelos identificar padrões textuais associados a grupos de itens semelhantes.
+
+Dessa forma, o PLN se insere neste trabalho como a base para transformar descrições livres de produtos em representações estruturadas e processáveis computacionalmente. Essas representações serão utilizadas posteriormente pelos algoritmos de aprendizado não supervisionado, especialmente na etapa de clusterização, permitindo agrupar descrições textualmente semelhantes e apoiar a construção da taxonomia proposta.
+
+\subsection{Representação de textos para modelos de aprendizado de máquina}
+
+
+Para que textos possam ser utilizados como entrada em modelos de aprendizado de máquina, é necessário transformá-los em uma representação estruturada e processável computacionalmente. Isso ocorre porque algoritmos de aprendizado de máquina não operam diretamente sobre o texto em sua forma bruta, mas sobre atributos numéricos extraídos desses textos. Segundo \cite{manning2008informationretrieval}, o processamento textual envolve etapas como a definição da unidade documental, a tokenização, o pré-processamento linguístico dos tokens e a construção de um vocabulário de termos.
+
+No contexto deste trabalho, cada descrição de produto extraída da nota fiscal pode ser tratada como um documento textual. Assim, uma descrição como ``COCA COLA PET 2L'' é considerada uma unidade de análise que precisa ser convertida em uma representação numérica. A tokenização consiste em dividir essa sequência de caracteres em unidades menores, chamadas tokens, que podem corresponder a palavras, partes de palavras, números ou sequências de caracteres, dependendo da estratégia adotada. Após essa etapa, os tokens podem ser normalizados e utilizados para formar um vocabulário, isto é, o conjunto de termos considerados relevantes no corpus analisado.
+
+Existem diferentes formas de representar textos numericamente, variando desde modelos mais simples, baseados na ocorrência de palavras, até estratégias que consideram combinações de termos ou sequências de caracteres. Entre essas formas, destacam-se o modelo \textit{bag-of-words}, a representação por \textit{n-grams} e a ponderação TF-IDF (\textit{Term Frequency-Inverse Document Frequency}). Essas técnicas são relevantes para este trabalho porque permitem transformar descrições curtas e não padronizadas de produtos em vetores numéricos que poderão ser utilizados posteriormente pelos algoritmos de clusterização.
+
+\subsubsection{Modelo Bag-of-Words}
+
+Uma das formas tradicionais de representação textual é o modelo \textit{bag-of-words}. Nesse modelo, cada documento é representado a partir dos termos que aparecem nele, desconsiderando, em geral, a ordem original das palavras. O resultado é uma matriz documento-termo, na qual as linhas representam os documentos e as colunas representam os termos do vocabulário. Cada célula dessa matriz indica a presença, a frequência ou o peso de determinado termo em determinado documento. Essa forma de representação está relacionada ao modelo vetorial de recuperação da informação, no qual documentos são representados como vetores em um espaço definido pelos termos do vocabulário \cite{manning2008informationretrieval}. Por exemplo, em uma base de descrições de produtos, termos como ``coca'', ``leite'', ``sabao'', ``arroz'' e ``500ml'' podem se tornar atributos numéricos utilizados pelos algoritmos. 
+
+\subsubsection{Representação por N-grams}
+
+O modelo \textit{bag of words} trabalha com palavras isoladas, entretanto, considerar somente isso pode ser insuficiente em alguns contextos, especialmente quando a combinação entre termos possui significado relevante. Para lidar com isso, podem ser utilizados \textit{n-grams}, que são sequências contínuas de $n$ elementos extraídos de um texto. De acordo com \cite{jurafsky2025speech}, modelos baseados em \textit{n-grams} consideram sequências de unidades linguísticas, como palavras ou caracteres, permitindo representar padrões locais de ocorrência em um texto.
+
+Quando $n=1$, tem-se um unigrama; quando $n=2$, tem-se um bigrama; e quando $n=3$, tem-se um trigrama. Considerando a descrição ``coca cola pet 2l'', os unigramas seriam ``coca'', ``cola'', ``pet'' e ``2l'', enquanto os bigramas seriam ``coca cola'', ``cola pet'' e ``pet 2l''. Dessa forma, os \textit{n-grams} permitem capturar combinações frequentes de termos que podem ser importantes para identificar produtos semelhantes.
+
+Além dos \textit{n-grams} de palavras, também podem ser utilizados \textit{n-grams} de caracteres. Nesse caso, as sequências são formadas a partir dos caracteres do texto, e não das palavras completas. Essa abordagem pode ser útil em descrições curtas, abreviadas e pouco padronizadas, como ocorre em itens de notas fiscais. Por exemplo, variações como ``refrigerante'', ``refri'', ``refrig'' e ``refr'' podem compartilhar sequências de caracteres semelhantes, o que ajuda o modelo a identificar proximidade textual mesmo quando as palavras não aparecem exatamente da mesma forma.
+
+Da mesma forma, marcas, unidades de medida e abreviações, como ``500ml'', ``2lt'', ``1kg'' e ``pct'', podem ser parcialmente capturadas por esse tipo de representação. Em bases de notas fiscais, onde há grande variedade de abreviações e inconsistências na escrita dos produtos, os \textit{n-grams} de caracteres podem contribuir significativamente para a identificação de padrões textuais semelhantes.
+
+\subsubsection{Ponderação TF-IDF}
+
+Após a definição dos termos ou \textit{n-grams}, é necessário atribuir valores numéricos a eles. Uma alternativa simples seria utilizar apenas a frequência absoluta dos termos em cada documento. No entanto, essa estratégia pode atribuir muita importância a termos que aparecem com frequência em vários documentos, mas que possuem baixo poder discriminativo. Para reduzir esse problema, pode-se utilizar a ponderação TF-IDF, do inglês \textit{Term Frequency-Inverse Document Frequency}. Segundo \cite{ramos2003tfidf}, a combinação entre frequência do termo e frequência inversa nos documentos permite estimar a importância de um termo para a representação de um documento dentro de uma coleção.
+
+O TF-IDF combina duas informações principais. A primeira é a frequência do termo no documento, chamada de TF (\textit{Term Frequency}), que indica o quanto determinado termo aparece em uma descrição. A segunda é a frequência inversa nos documentos, chamada de IDF (\textit{Inverse Document Frequency}), que reduz o peso de termos muito frequentes no conjunto total de documentos e aumenta o peso de termos mais específicos. Assim, o peso TF-IDF de um termo tende a ser maior quando ele aparece com frequência em um documento específico, mas não aparece em muitos documentos da coleção.
+
+Assim, um termo que aparece muitas vezes em uma descrição, mas também aparece em grande parte da base, tende a receber um peso menor. Por outro lado, um termo que aparece em menos documentos, mas é relevante para identificar um grupo específico de produtos, tende a receber um peso maior.
+
+De forma geral, a ponderação TF-IDF pode ser compreendida como uma medida que valoriza termos frequentes em um documento, mas que não são comuns em todos os documentos da coleção. No contexto das descrições de produtos, isso é importante porque termos genéricos ou recorrentes podem contribuir pouco para diferenciar categorias, enquanto termos mais específicos, como marcas, tipos de produto, unidades de medida ou combinações características, podem ajudar os algoritmos a identificar similaridades entre itens.
+
+Dessa forma, a combinação entre \textit{bag-of-words}, \textit{n-grams} e TF-IDF permite transformar descrições textuais curtas em vetores numéricos que preservam parte das características relevantes dos produtos. Esses vetores podem então ser utilizados por algoritmos de aprendizado de máquina, especialmente em tarefas de agrupamento, nas quais o objetivo é identificar descrições textualmente semelhantes e organizá-las em grupos interpretáveis.
+
+\subsection{Modelos de Linguagem de Grande Escala}
+
+Os Modelos de Linguagem de Grande Escala, ou \textit{Large Language Models} (LLMs), são modelos computacionais treinados a partir de grandes volumes de dados textuais com o objetivo de aprender padrões linguísticos e gerar ou interpretar textos em linguagem natural. Esses modelos fazem parte do campo do Processamento de Linguagem Natural e têm sido utilizados em tarefas como geração de texto, sumarização, tradução, extração de informações, resposta a perguntas e apoio à interpretação de documentos textuais. Segundo \cite{zhao2023survey}, os LLMs representam uma evolução importante dos modelos de linguagem, impulsionada pelo aumento da escala dos modelos, dos dados de treinamento e da capacidade computacional, permitindo avanços significativos em diferentes tarefas de linguagem natural.
+
+De modo geral, os LLMs são capazes de produzir respostas textuais a partir de instruções fornecidas em linguagem natural, conhecidas como \textit{prompts}. Essa característica permite que sejam utilizados como ferramentas auxiliares em tarefas nas quais é necessário sintetizar informações, identificar temas predominantes ou sugerir descrições compreensíveis para conjuntos de textos. No entanto, as respostas geradas por esses modelos dependem da qualidade das instruções fornecidas, dos dados apresentados no \textit{prompt} e da validação humana dos resultados.
+
+No contexto deste trabalho, os LLMs são relevantes porque podem apoiar a interpretação dos agrupamentos formados por algoritmos de clusterização. Como os clusters gerados a partir de descrições de produtos não recebem automaticamente um nome semântico, os LLMs podem ser utilizados para sugerir rótulos com base em exemplos representativos, termos frequentes ou descrições próximas ao centroide de cada grupo. Assim, esses modelos não substituem a etapa de clusterização nem a validação humana, mas atuam como apoio à nomenclatura e à interpretação dos agrupamentos obtidos.
+
+
+
+
+
+
+
+
+
+
+
+\section{Aprendizado não supervisionado e clusterização}
+
+Métodos de aprendizado de máquina podem ser classificados de acordo com a forma como os dados são utilizados durante o processo de aprendizagem. No aprendizado supervisionado, os exemplos utilizados no treinamento possuem rótulos ou valores-alvo previamente conhecidos. Nesse caso, o objetivo do algoritmo é aprender uma relação entre as entradas e as saídas esperadas, permitindo classificar ou prever novos exemplos. No aprendizado não supervisionado, por outro lado, os dados não possuem rótulos previamente atribuídos, e o objetivo é identificar estruturas, padrões ou relações existentes na própria distribuição dos dados.
+
+No contexto deste trabalho, o aprendizado não supervisionado é especialmente relevante porque as descrições dos produtos extraídas das notas fiscais não possuem, inicialmente, categorias previamente definidas. Dessa forma, não há uma base rotulada que permita treinar diretamente um classificador supervisionado. Em vez disso, busca-se explorar as descrições disponíveis para identificar grupos de itens semelhantes, que possam servir como apoio à descoberta de categorias e à construção de uma taxonomia de produtos.
+
+Uma das principais técnicas associadas ao aprendizado não supervisionado é a clusterização. Segundo \cite{tan2005introduction}, a análise de clusters tem como objetivo dividir os dados em grupos, chamados \textit{clusters}, que sejam significativos, úteis ou ambos. Quando o objetivo é identificar grupos significativos, espera-se que os clusters capturem estruturas naturais presentes nos dados. Em outras situações, a clusterização pode ser utilizada como ponto de partida para outras tarefas, como sumarização dos dados, organização de documentos ou apoio à análise exploratória.
+
+De modo geral, uma boa clusterização busca formar grupos em que os objetos pertencentes ao mesmo cluster sejam semelhantes ou relacionados entre si, enquanto objetos pertencentes a clusters diferentes sejam menos semelhantes ou não relacionados. Assim, quanto maior a homogeneidade interna dos grupos e maior a separação entre grupos distintos, mais clara tende a ser a estrutura de clusterização obtida. 
+
+De forma complementar, essa relação entre homogeneidade interna e separação entre grupos pode ser observada visualmente por meio de projeções em duas dimensões. Técnicas de redução de dimensionalidade, como PCA (\textit{Principal Component Analysis}), permitem representar dados originalmente descritos por múltiplos atributos em um espaço bidimensional, facilitando a visualização da distribuição dos objetos e da separação entre agrupamentos.
+
+A Figura~\ref{fig:pca-clusterizacao} apresenta um exemplo ilustrativo dessa diferença. No primeiro caso, os objetos formam grupos mais compactos e visualmente separados, indicando uma estrutura de clusterização mais clara. No segundo caso, há maior sobreposição entre os pontos, o que dificulta a identificação de fronteiras entre os agrupamentos e sugere uma estrutura de clusterização menos definida.
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/pca-clusterizacao.png}
+    \caption{Exemplo ilustrativo de projeção em duas dimensões por PCA}
+    \label{fig:pca-clusterizacao}
+    \fonte{O Autor}
+\end{figure}
+
+No entanto, a definição de um cluster nem sempre é precisa. Um mesmo conjunto de dados pode ser dividido de diferentes formas, dependendo do algoritmo utilizado, da medida de similaridade adotada, dos parâmetros escolhidos e do objetivo da análise. Por esse motivo, a clusterização deve ser entendida como uma técnica exploratória, cuja interpretação depende tanto dos resultados computacionais quanto da análise do contexto do problema.
+
+No caso deste trabalho, cada descrição de produto será representada numericamente por meio de técnicas de Processamento de Linguagem Natural, como TF-IDF e \textit{n-grams}. A partir dessas representações vetoriais, algoritmos de clusterização poderão agrupar descrições textualmente semelhantes. Por exemplo, descrições como ``coca cola pet 2l'', ``refrigerante cola 2lt'' e ``guarana lata 350ml'' podem ser aproximadas caso compartilhem padrões textuais relevantes. Por outro lado, descrições como ``sabao po 1kg'', ``arroz branco 5kg'' e ``creme dental 90g'' tendem a pertencer a agrupamentos diferentes, caso a representação textual e o algoritmo utilizado consigam capturar tais diferenças.
+
+
+
+
+\subsection{Algoritmos de clusterização}
+
+Existem diferentes algoritmos de clusterização, cada um baseado em uma forma particular de definir o que é um cluster e como os objetos devem ser agrupados. Segundo \cite{tan2005introduction}, técnicas de análise de clusters podem ser utilizadas para identificar agrupamentos significativos nos dados ou apoiar tarefas exploratórias, como sumarização, organização e interpretação de conjuntos de objetos.
+
+No contexto deste trabalho, será adotado o algoritmo K-Means, por se tratar de um método particional amplamente utilizado em tarefas de agrupamento e adequado ao objetivo de organizar descrições de produtos em uma quantidade previamente definida de clusters. A escolha do K-Means também se relaciona à possibilidade de analisar os centroides dos agrupamentos e selecionar exemplos representativos, o que contribui para a interpretação dos clusters e para sua posterior associação a categorias de produtos.
+
+\subsubsection{K-Means}
+
+O K-Means é um algoritmo de clusterização particional baseado em protótipos. Em uma clusterização particional, o conjunto de dados é dividido em subconjuntos não sobrepostos, de modo que cada objeto pertence a um único cluster. No K-Means, cada cluster é representado por um centroide, que corresponde ao ponto médio dos objetos pertencentes ao agrupamento. Segundo \cite{tan2005introduction}, o algoritmo busca encontrar um número de clusters definido previamente pelo usuário, representados por seus respectivos centroides.
+
+O funcionamento básico do K-Means ocorre de forma iterativa, como mostrado na Figura~\ref{fig:kmeans}. Inicialmente, são escolhidos $k$ centroides, em que $k$ corresponde ao número de clusters desejado. Em seguida, cada objeto é atribuído ao centroide mais próximo, formando $k$ agrupamentos. Após essa atribuição, os centroides são recalculados com base nos objetos pertencentes a cada cluster. O processo de atribuição dos objetos e atualização dos centroides é repetido até que não ocorram mudanças relevantes nos agrupamentos ou até que os centroides se estabilizem \cite{tan2005introduction}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{images/kmeans.png}
+    \caption{Iterações do K-Means}
+    \label{fig:kmeans}
+    \fonte{\cite{tan2005introduction}}
+\end{figure}
+
+No caso de dados textuais, os objetos agrupados pelo K-Means não são os textos em sua forma original, mas suas representações vetoriais. Assim, descrições de produtos transformadas em vetores por técnicas como TF-IDF podem ser agrupadas de acordo com sua proximidade no espaço vetorial. Dessa forma, descrições que compartilham termos, combinações de termos ou padrões textuais semelhantes tendem a ser aproximadas pelo algoritmo.
+
+Uma característica importante do K-Means é a necessidade de definir previamente o valor de $k$. Essa escolha influencia diretamente os agrupamentos obtidos. Um valor muito baixo pode gerar clusters excessivamente amplos e heterogêneos, reunindo descrições de produtos diferentes em um mesmo grupo. Por outro lado, um valor muito alto pode fragmentar grupos semanticamente próximos em muitos clusters pequenos, dificultando a interpretação dos resultados.
+
+Outra característica relevante é que o K-Means tende a funcionar melhor quando os grupos são relativamente compactos e bem separados. Como o algoritmo utiliza centroides como representantes dos clusters, ele está associado a uma noção de agrupamento baseada em centro. Segundo \cite{tan2005introduction}, clusters baseados em protótipos são aqueles em que cada objeto está mais próximo do protótipo de seu próprio cluster do que dos protótipos dos demais clusters.
+
+No contexto deste trabalho, o K-Means será utilizado para organizar descrições de produtos em uma quantidade previamente definida de agrupamentos. Além disso, os itens mais próximos ao centroide de cada cluster poderão ser analisados como exemplos representativos do grupo, auxiliando na interpretação e na nomeação dos agrupamentos. Uma vez treinado, o modelo também poderá atribuir novas descrições ao centroide mais próximo, permitindo uma categorização inicial a partir da categoria associada ao cluster durante a etapa de validação humana.
+
+No entanto, seus resultados deverão ser avaliados cuidadosamente, pois a qualidade dos clusters depende da representação textual utilizada, da medida de distância ou similaridade adotada e da escolha do número de clusters.
+
+
+
+\subsection{Redução de dimensionalidade e PCA}
+
+Em tarefas de mineração de textos, a representação vetorial dos documentos pode resultar em matrizes com grande número de atributos, especialmente quando são utilizadas técnicas como TF-IDF com diferentes combinações de termos e \textit{n-grams}. Esse aumento de dimensionalidade pode elevar o custo computacional dos algoritmos e dificultar a identificação de padrões relevantes nos dados.
+
+A redução de dimensionalidade consiste em transformar uma representação original com muitos atributos em uma representação menor, buscando preservar parte relevante da estrutura dos dados. No contexto de aprendizado não supervisionado, essa técnica pode ser utilizada de forma complementar à clusterização, seja para reduzir a complexidade da representação, seja para apoiar a análise exploratória dos agrupamentos obtidos.
+
+Uma técnica clássica de redução de dimensionalidade é a Análise de Componentes Principais, ou PCA. Essa técnica projeta os dados em novos eixos, chamados componentes principais, que buscam concentrar a maior parte da variância presente na representação original. Dessa forma, torna-se possível representar os dados em um espaço de menor dimensão, preservando parte das relações estruturais existentes entre as observações \cite{jolliffe2016pca}.
+
+Neste trabalho, a redução de dimensionalidade poderá ser avaliada como etapa complementar à representação textual, com o objetivo de verificar seu impacto na clusterização das descrições de produtos. Além disso, técnicas como PCA podem apoiar a visualização exploratória dos agrupamentos, permitindo observar, de forma aproximada, a separação ou sobreposição entre clusters em um espaço bidimensional.
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Avaliação dos agrupamentos}
+
+A avaliação de algoritmos de clusterização apresenta particularidades em relação aos métodos supervisionados, pois, em muitos casos, não há rótulos previamente definidos que possam ser utilizados como referência para verificar a qualidade dos agrupamentos obtidos. Segundo a documentação do Scikit-learn \cite{scikit-learn-clustering}, quando os rótulos reais das classes não são conhecidos, a avaliação deve ser realizada a partir do próprio modelo e da estrutura dos dados agrupados. Nesse contexto, métricas internas de validação são utilizadas para analisar propriedades como coesão intra-cluster e separação inter-cluster.
+
+Uma das métricas internas mais utilizadas é o coeficiente de silhueta (\textit{Silhouette Coefficient}). Essa métrica considera, para cada amostra, a distância média em relação aos demais elementos do mesmo cluster e a distância média em relação aos elementos do cluster mais próximo. O valor da silhueta varia de -1 a 1, sendo que valores próximos de 1 indicam clusters mais densos e bem separados, valores próximos de 0 indicam sobreposição entre clusters e valores negativos podem indicar que amostras foram atribuídas a clusters inadequados. Dessa forma, o coeficiente de silhueta pode ser utilizado para comparar diferentes configurações de agrupamento, como diferentes valores de $k$ no algoritmo K-Means.
+
+Outra métrica relevante é o índice Calinski-Harabasz, também chamado de critério da razão de variância. Esse índice avalia a razão entre a dispersão entre os clusters e a dispersão dentro dos clusters. De acordo com \cite{scikit-learn-clustering}, valores mais altos do índice Calinski-Harabasz estão associados a agrupamentos mais bem definidos, nos quais os clusters são densos internamente e separados entre si . Além disso, essa métrica possui a vantagem de ser computacionalmente eficiente, o que a torna adequada para experimentos com diferentes configurações de representação textual e diferentes valores de $k$.
+
+O índice Davies-Bouldin também pode ser utilizado na avaliação interna dos agrupamentos. Diferentemente das métricas anteriores, nesse índice valores menores indicam melhores resultados. Ele mede a similaridade média entre os clusters, considerando a relação entre a distância entre os centroides e o tamanho dos próprios clusters. Assim, valores próximos de zero indicam partições com melhor separação entre os grupos.
+
+Apesar da utilidade dessas métricas, é importante destacar que elas não devem ser interpretadas de forma isolada. Métricas internas, como o coeficiente de silhueta, o índice Calinski-Harabasz e o índice Davies-Bouldin, avaliam propriedades matemáticas dos agrupamentos, mas não garantem, por si só, que os clusters sejam semanticamente coerentes ou úteis para a construção de uma taxonomia. Portanto, no contexto deste trabalho, a avaliação dos agrupamentos deve combinar indicadores quantitativos com uma análise qualitativa dos resultados obtidos.
+
+Dessa forma, a avaliação será realizada considerando tanto métricas internas quanto a interpretabilidade dos clusters. Para o K-Means, serão analisadas diferentes quantidades de clusters e comparados os valores obtidos nas métricas internas. Além disso, serão observados aspectos como a distribuição dos itens entre os clusters, a existência de agrupamentos excessivamente grandes ou pequenos e a coerência semântica dos itens agrupados. Essa combinação é especialmente importante neste trabalho, pois o objetivo da clusterização não é apenas otimizar uma métrica matemática, mas apoiar a construção de uma taxonomia plana de categorias de produtos a partir de descrições curtas e não padronizadas.
+
+
+
+
+
+
+
+
+
+\subsection{Uso de LLMs para a nomenclatura dos clusters}
+
+A nomeação dos clusters é uma etapa importante em tarefas de agrupamento textual, pois permite transformar grupos obtidos por métodos não supervisionados em categorias compreensíveis para análise humana. Embora algoritmos de clusterização sejam capazes de reunir itens semelhantes com base em suas características textuais ou vetoriais, eles não atribuem, por si só, um significado semântico explícito aos grupos formados. Dessa forma, após a formação dos agrupamentos, torna-se necessário interpretar seus elementos e atribuir nomes que representem adequadamente o conteúdo predominante de cada cluster.
+
+Tradicionalmente, a nomenclatura de clusters pode ser realizada a partir da seleção de termos distintivos, palavras-chave ou expressões estatisticamente relevantes presentes nos documentos de cada grupo. No entanto, esse tipo de abordagem tende a gerar rótulos curtos, fragmentados ou pouco interpretáveis, especialmente quando os dados textuais são compostos por descrições curtas, ruidosas e não padronizadas. \cite{murray2025using} destacam que rótulos formados apenas pela concatenação de características distintivas dos documentos podem ser difíceis de interpretar, ainda que sejam úteis para indicar termos frequentes ou relevantes dentro do cluster.
+
+Com o avanço dos Modelos de Linguagem de Grande Escala, tornou-se possível utilizar esses modelos como apoio à geração de rótulos mais descritivos e próximos da linguagem natural. Segundo \cite{murray2025using}, modelos de linguagem generativos podem produzir rótulos legíveis e semanticamente informativos para clusters de documentos, aproximando-se dos nomes que seriam atribuídos por avaliadores humanos. Além disso, os autores propõem uma distinção entre rótulos característicos, baseados em termos distintivos dos documentos, e rótulos descritivos, que buscam sintetizar semanticamente o conteúdo do agrupamento.
+
+No contexto deste trabalho, os LLMs serão utilizados como mecanismo auxiliar para a nomenclatura dos clusters gerados a partir das descrições de produtos. Assim, o modelo de linguagem não será responsável pela etapa de clusterização, mas pela interpretação dos grupos formados. Para isso, poderão ser fornecidas ao modelo informações representativas de cada cluster, como amostras de descrições de produtos, termos mais frequentes ou itens mais próximos do centroide do agrupamento. A partir dessas informações, o LLM poderá sugerir nomes candidatos para os clusters, que posteriormente poderão ser analisados e ajustados manualmente.
+
+Essa abordagem contribui para a construção de uma taxonomia mais interpretável, pois combina a capacidade dos algoritmos não supervisionados de identificar padrões nos dados com a capacidade dos LLMs de sintetizar semanticamente o conteúdo dos grupos. Dessa forma, a nomenclatura dos clusters atua como uma etapa intermediária entre a descoberta automática de padrões e a definição humana das categorias finais da taxonomia.
+
+
+
+
+
+
+
+
+
+\section{Taxonomia}
+
+Uma taxonomia pode ser compreendida como uma estrutura utilizada para organizar conceitos, objetos ou informações em categorias. Em muitos contextos, taxonomias são organizadas de forma hierárquica, estabelecendo relações entre categorias mais gerais e categorias mais específicas. Essa organização facilita a navegação, a recuperação e a interpretação de informações em determinado domínio.
+
+Segundo \cite{souza2010taxonomy}, as taxonomias fazem parte dos Sistemas de Organização do Conhecimento, ou \textit{Knowledge Organization Systems} (KOS), juntamente com outros instrumentos como ontologias, vocabulários controlados e esquemas de classificação. Esses sistemas têm como objetivo apoiar a representação e a organização de conceitos, permitindo que informações sejam estruturadas de maneira mais consistente e compreensível.
+
+Embora taxonomias sejam frequentemente associadas a estruturas hierárquicas, neste trabalho o termo será utilizado para representar uma estrutura categorial plana. Isso significa que a taxonomia proposta será composta por uma lista de categorias de produtos, sem a definição de níveis formais de categoria e subcategoria. Essa escolha está relacionada ao caráter exploratório da pesquisa, à ausência de categorias previamente atribuídas na base de dados e ao objetivo de apoiar uma categorização inicial das descrições de produtos.
+
+No contexto deste trabalho, a taxonomia é entendida como uma estrutura de categorias destinada a organizar descrições curtas e não padronizadas de produtos extraídas de notas fiscais eletrônicas. Dessa forma, itens descritos de maneiras distintas, mas semanticamente relacionados, podem ser associados a uma mesma categoria interpretável. Por exemplo, descrições como ``REFRIG COCA COLA 2L'', ```COCA COLA PET 2LT'' e ``REFRIGERANTE COCA-COLA'' podem ser associadas à categoria ``Refrigerantes''.
+
+Assim, a taxonomia exerce um papel importante na organização dos dados, pois transforma descrições textuais livres em uma estrutura categórica mais compreensível e útil para análise. Neste trabalho, essa estrutura será construída de forma exploratória, a partir dos agrupamentos obtidos por clusterização, dos exemplos representativos de cada cluster, das sugestões de nomenclatura geradas por Modelos de Linguagem de Grande Escala e da validação humana dos rótulos propostos.
+
+
+
+
+
+%=======================================================================
+
+
+
+
+
+
+
+
+
+
+%=======================================================================
+% Trabalhos Relacionados
+%=======================================================================
+\chapter{Trabalhos Relacionados}
+
+Os trabalhos relacionados a esta pesquisa envolvem abordagens de Processamento de Linguagem Natural, Aprendizado de Máquina não supervisionado, categorização de descrições fiscais e uso de Modelos de Linguagem de Grande Escala para apoiar a interpretação de agrupamentos textuais. Embora os estudos analisados tratem de problemas próximos, como classificação de textos, extração de informações em notas fiscais e rotulação automática de clusters, esta pesquisa se diferencia por investigar uma abordagem exploratória para apoiar a construção de uma taxonomia plana de categorias de produtos a partir de descrições curtas e não padronizadas de itens fiscais.
+
+\cite{hajyahia2019unsupervised} apresentam uma abordagem de classificação não supervisionada de textos baseada no uso de conhecimento de especialistas e \textit{word embeddings}. O estudo parte de um cenário em que documentos bancários relacionados a incidentes de risco operacional precisavam ser organizados em uma nova taxonomia, sem que houvesse uma base previamente rotulada. Para isso, os autores modelam a tarefa como um problema de similaridade textual entre documentos e categorias previamente definidas, enriquecendo as categorias com palavras indicadas por especialistas, sinônimos e termos semanticamente próximos. Esse trabalho se relaciona com a presente pesquisa por abordar um contexto em que há textos não rotulados e necessidade de organização em categorias. No entanto, diferencia-se por partir de uma taxonomia previamente conhecida, enquanto a presente pesquisa busca apoiar a própria construção da taxonomia a partir dos agrupamentos encontrados nos dados.
+
+No contexto de notas fiscais, \cite{martins2025extracao}, no trabalho ``Extração de Informação de Notas Fiscais apoiada em Conhecimento'', investiga o uso de técnicas de PLN, bases de conhecimento e Grandes Modelos de Linguagem para associar descrições presentes em notas fiscais a registros oficiais de medicamentos da Anvisa e da CMED. O estudo demonstra que descrições fiscais, embora sejam textos curtos, não estruturados e frequentemente inconsistentes, podem ser interpretadas com apoio de técnicas como reconhecimento e ligação de entidades, expressões regulares, filtragem de candidatos e LLMs. Uma contribuição relevante desse trabalho para a presente pesquisa é a constatação de que o uso isolado de Modelos de Linguagem de Grande Escala pode não ser suficiente para resolver todos os casos, reforçando a importância de combinar diferentes técnicas computacionais com etapas de validação e interpretação humana.
+
+\cite{santos2023classificacao} propõe a classificação de produtos em Notas Fiscais Eletrônicas a partir de descrições textuais não estruturadas. O trabalho utiliza uma base de NF-e disponibilizada pelo Ministério Público do Estado da Paraíba e realiza a rotulação manual de uma amostra dos dados quanto à unidade de medida dos produtos. Em seguida, são comparadas duas abordagens: TF-IDF com SVM linear e o modelo \textit{tweet2vec}, baseado em redes neurais recorrentes em nível de caracteres. Os resultados indicam melhor desempenho da abordagem TF-IDF com SVM, evidenciando que métodos tradicionais de representação textual ainda podem ser eficazes em textos curtos e ruidosos. Esse estudo se aproxima da presente pesquisa por utilizar descrições de produtos em notas fiscais e por lidar com textos não padronizados. Contudo, diferencia-se por adotar uma abordagem supervisionada, dependente de rótulos manuais, enquanto esta pesquisa trabalha com um cenário exploratório, sem categorias previamente atribuídas aos itens.
+
+A etapa de nomenclatura dos agrupamentos também se relaciona com o trabalho de \cite{murray2025using}, que discute o uso de modelos de linguagem para gerar rótulos descritivos para clusters de documentos. Os autores destacam que métodos tradicionais baseados apenas em termos distintivos podem gerar rótulos curtos ou pouco interpretáveis, enquanto modelos de linguagem podem produzir nomes mais próximos daqueles atribuídos por avaliadores humanos. Esse trabalho se aproxima diretamente da presente pesquisa no uso de LLMs como apoio à interpretação de clusters. Entretanto, enquanto \cite{murray2025using} trata da rotulação de clusters de documentos científicos, esta pesquisa aplica a ideia ao domínio de descrições curtas de produtos extraídos de notas fiscais eletrônicas, que apresentam características próprias, como abreviações, marcas, unidades de medida, números e variações de escrita.
+
+De modo geral, os estudos analisados demonstram diferentes estratégias para lidar com textos curtos, não estruturados ou sem rotulação prévia. \cite{hajyahia2019unsupervised} exploram a classificação não supervisionada a partir de similaridade semântica com categorias previamente definidas; \cite{martins2025extracao} investigam a extração e ligação de informações em notas fiscais com apoio de conhecimento externo e LLMs; \cite{santos2023classificacao} avalia métodos supervisionados para classificação de descrições fiscais; e \cite{murray2025using} aborda o uso de modelos de linguagem na geração de rótulos para clusters textuais.
+
+A presente pesquisa se diferencia desses trabalhos ao propor uma abordagem voltada à construção exploratória de uma taxonomia plana de categorias de produtos, partindo de descrições fiscais sem rótulos prévios. Para isso, combina técnicas de pré-processamento textual, representações TF-IDF com \textit{n-grams} de palavras e caracteres, clusterização com K-Means, seleção de exemplos representativos, apoio de LLMs para nomeação dos agrupamentos e validação humana dos rótulos propostos. Dessa forma, o foco não está apenas em classificar itens em categorias já existentes, mas em apoiar a descoberta, interpretação e organização inicial das categorias a partir dos próprios dados.
+
+
+
+
+
+
+%=======================================================================
+% Metodologia
+%=======================================================================
+\chapter{Metodologia}
+
+Este capítulo apresenta os procedimentos metodológicos propostos para o desenvolvimento da pesquisa. O trabalho está sendo conduzido como uma pesquisa aplicada, pois busca investigar uma solução computacional para um problema prático relacionado à organização de descrições curtas, ruidosas e não padronizadas de produtos extraídos de Notas Fiscais de Consumidor Eletrônicas. Quanto aos procedimentos, a pesquisa terá caráter experimental, uma vez que serão avaliadas diferentes configurações de representação textual e parametrização do algoritmo K-Means para agrupar descrições textuais de produtos.
+
+A abordagem proposta será implementada por meio de um protótipo computacional em notebooks Python. Esse protótipo terá como finalidade executar as etapas de leitura e seleção dos dados, pré-processamento textual, representação numérica das descrições, aplicação do algoritmo K-Means, análise dos agrupamentos, nomeação dos clusters com apoio de Modelos de Linguagem de Grande Escala e construção ou refinamento de uma taxonomia de categorias de produtos. Ao final, espera-se obter uma taxonomia plana de categorias de produtos e um protótipo computacional capaz de realizar a categorização inicial de novas descrições. Para isso, as novas descrições deverão passar pelo mesmo fluxo utilizado na construção do modelo, incluindo pré-processamento textual, representação vetorial por TF-IDF, atribuição ao cluster mais próximo pelo K-Means e associação à categoria definida na taxonomia durante a etapa de validação humana.
+
+
+
+\section{Base de dados}
+
+A pesquisa utilizará como fonte de dados a base de Notas Fiscais Eletrônicas disponibilizada pela Controladoria-Geral da União no Portal da Transparência do Governo Federal \cite{brasil2026notasfiscais}. Essa base de dados é atualizada e organizada mensalmente. A base é organizada por exercício e mês, sendo disponibilizados arquivos em formato CSV. Para essa pesquisa o arquivo de \texttt{NotaFiscalItem} será particularmente importante. Ele traz as informações de cada item de notas fiscais já em estrutura tabular, como mostrado na Figura~\ref{fig:basedados}. Isso simplificará a etapa de ingestão de dados deste trabalho, visto que a unidade de análise será cada item individual da nota fiscal, e não a nota fiscal como um todo.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{images/base_dados.png}
+    \caption{Exemplo base de dados}
+    \label{fig:basedados}
+    \fonte{O Autor}
+\end{figure}
+
+Inicialmente, será considerada a base referente ao ano de 2025, a partir da qual será extraída uma amostra aleatória simples de itens de notas fiscais. Serão realizados experimentos com amostras de diferentes tamanhos, iniciando a partir de 50.000 itens, observando viabilidade computacional, diversidade das descrições e estabilidade dos agrupamentos. A amostragem será realizada com semente fixa, de modo a permitir a reprodutibilidade dos experimentos. Não haverá restrição prévia por tipo de estabelecimento ou categoria de produto, permitindo que a amostra represente a variabilidade naturalmente presente na base analisada. O tamanho da amostra será definido considerando a viabilidade computacional dos experimentos e a necessidade de obter quantidade suficiente de descrições para análise dos agrupamentos.
+
+
+\section{Pré-processamento textual}
+
+Antes da aplicação dos modelos, as descrições dos produtos passarão por uma etapa de pré-processamento textual. Essa etapa terá como objetivo reduzir inconsistências, padronizar parcialmente os textos e preparar as descrições para a representação vetorial, sem remover informações que possam ser relevantes para a formação dos agrupamentos.
+
+Inicialmente, serão removidos registros com descrições vazias ou compostas apenas por caracteres inválidos. Descrições duplicadas exatas serão consolidadas para reduzir redundância computacional, mantendo-se a frequência de ocorrência de cada descrição para posterior análise descritiva dos agrupamentos. Descrições semelhantes, mas não idênticas, serão mantidas, pois representam variações reais de escrita presentes nas notas fiscais.
+
+Será realizada uma etapa de normalização textual para converter as descrições para letras minúsculas, remover acentos, padronizar espaços excedentes e tratar caracteres inconsistentes. Também serão avaliadas diferentes configurações de pré-processamento, incluindo o uso ou não de remoção de stop words e de lematização, de forma a verificar o impacto dessas escolhas na qualidade dos agrupamentos obtidos.
+
+Como as descrições de itens fiscais costumam ser curtas, abreviadas e pouco padronizadas, a aplicação dessas técnicas será analisada de forma empírica. Em alguns casos, palavras frequentemente classificadas como stop words podem fazer parte de expressões relevantes para a identificação de produtos, como em `leite em pó'' ou ``creme de leite''. Da mesma forma, a lematização pode apresentar ganhos limitados em descrições muito curtas ou interferir em marcas, siglas e nomes comerciais. Por esse motivo, diferentes combinações de pré-processamento serão comparadas durante os experimentos.
+
+Além dessas técnicas, serão aplicados procedimentos específicos de padronização das descrições, como normalização de separadores, remoção de espaços excedentes, tratamento de pontuações recorrentes e padronização parcial de combinações frequentes de unidades de medida. No entanto, serão preservados números, unidades de medida, marcas e abreviações presentes nas descrições. Essa decisão se justifica porque elementos como ``2l'', ``500ml'', ``1kg'', ``coca'', ``dove'', ``omo'' ou ``nescau'' podem conter informações relevantes para a identificação de similaridade entre produtos.
+
+A proposta inicial é utilizar um pré-processamento geral, evitando inserir conhecimento manual excessivo no processo. Dessa forma, busca-se preservar o caráter exploratório da abordagem e avaliar se as técnicas de representação textual e clusterização são capazes de identificar padrões relevantes mesmo diante da variabilidade das descrições. As variações de pré-processamento efetivamente testadas serão documentadas durante os experimentos e aplicadas de forma consistente em cada configuração avaliada.
+
+
+\section{Representação textual}
+
+Após o pré-processamento, as descrições dos produtos serão transformadas em representações numéricas, de modo que possam ser utilizadas pelos algoritmos de clusterização. O resultado dessa etapa será uma matriz de atributos textuais, na qual cada linha representa uma descrição de produto e cada coluna representa um termo ou \textit{n-gram} ponderado por TF-IDF.
+
+Como as descrições dos itens de notas fiscais tendem a ser curtas, abreviadas e pouco padronizadas, serão avaliadas diferentes configurações de representação textual, combinando variações de pré-processamento e parâmetros de TF-IDF. Entre essas variações, poderão ser considerados o uso ou não de remoção de stop words, a aplicação ou não de lematização, o tipo de \textit{n-gram}, o tamanho dos \textit{n-grams}, a frequência mínima dos termos e a quantidade máxima de atributos. Essa comparação terá como objetivo verificar quais configurações favorecem a formação de agrupamentos mais coerentes e interpretáveis.
+
+Serão consideradas representações com \textit{n-grams} de palavras e \textit{n-grams} de caracteres. Os \textit{n-grams} de palavras podem capturar combinações frequentes de termos, como nomes compostos de produtos ou expressões recorrentes nas descrições. Já os \textit{n-grams} de caracteres podem ser úteis para lidar com abreviações, erros de digitação, marcas abreviadas, variações de escrita e descrições parcialmente truncadas. Dessa forma, será possível comparar qual tipo de representação se mostra mais adequada ao contexto das descrições de itens fiscais.
+
+Como a representação por TF-IDF pode gerar matrizes de alta dimensionalidade, especialmente quando são utilizados \textit{n-grams} de palavras e caracteres, poderá ser avaliada a aplicação de técnicas de redução de dimensionalidade. Essa etapa terá como objetivo verificar se a redução do número de atributos contribui para diminuir a complexidade computacional, reduzir ruídos da representação textual e favorecer a formação de agrupamentos mais interpretáveis.
+
+Entre as possibilidades, poderá ser avaliada a aplicação de Análise de Componentes Principais, ou PCA, sobre a matriz vetorial obtida. Caso utilizada, essa técnica será aplicada como uma etapa experimental, comparando-se os resultados da clusterização com e sem redução de dimensionalidade. A decisão sobre sua adoção no protótipo final considerará o impacto nas métricas internas de clusterização, na distribuição dos clusters e na avaliação qualitativa da interpretabilidade dos agrupamentos.
+
+As configurações testadas serão posteriormente comparadas a partir dos resultados obtidos na etapa de clusterização, considerando métricas internas e análise qualitativa dos agrupamentos gerados. A representação textual utilizada na melhor configuração será mantida no protótipo final, de modo que novas descrições possam ser submetidas ao mesmo pré-processamento e transformadas para o mesmo espaço vetorial utilizado pelo modelo de clusterização.
+
+
+
+
+\section{Clusterização}
+
+A etapa de clusterização será responsável por agrupar descrições de produtos com características textuais semelhantes, sem a utilização de rótulos previamente definidos. O objetivo dessa etapa é apoiar a descoberta de padrões nos dados e fornecer insumos para a construção e o refinamento de uma taxonomia plana de categorias de produtos.
+
+A clusterização será aplicada sobre as matrizes TF-IDF geradas na etapa de representação textual, considerando diferentes configurações de \textit{n-grams} de palavras e de caracteres. Será utilizado o algoritmo K-Means, por se tratar de uma técnica amplamente empregada em tarefas de agrupamento e por permitir a organização dos dados em uma quantidade previamente definida de clusters.
+
+Como o K-Means depende da definição prévia do número de clusters, serão avaliados diferentes valores de $k$. Inicialmente, será considerada uma faixa exploratória de valores, como de 10 a 40 clusters, podendo ser ampliada conforme os resultados observados durante os experimentos. A definição da faixa de valores testados considerará a granularidade desejada para a taxonomia, a quantidade de itens analisados, a viabilidade computacional e a possibilidade de interpretação manual dos agrupamentos.
+
+A escolha da configuração mais adequada não será baseada apenas em um valor pré-definido de $k$, mas em uma análise comparativa entre diferentes execuções do algoritmo. Para isso, poderão ser utilizadas técnicas como o método do cotovelo (\textit{Elbow Method}), que analisa a redução da soma dos erros quadráticos intra-cluster à medida que o número de clusters aumenta, e a análise do coeficiente de silhueta, que permite observar indícios de coesão interna e separação entre agrupamentos. Além disso, serão consideradas métricas internas complementares, como o índice Calinski-Harabasz e o índice Davies-Bouldin, de modo a apoiar a comparação entre diferentes valores de $k$ e diferentes configurações de representação textual.
+
+Essas métricas serão utilizadas como instrumentos de apoio à decisão, e não como critério único de escolha. Como o objetivo do trabalho envolve a construção de uma taxonomia interpretável de categorias de produtos, a seleção do valor de $k$ também considerará a distribuição dos itens entre os clusters, a existência de agrupamentos excessivamente grandes ou pequenos, a coerência semântica dos exemplos representativos e a possibilidade de atribuir rótulos claros e úteis aos agrupamentos obtidos.
+
+
+Além de apoiar a construção da taxonomia, o modelo K-Means treinado também será utilizado como base para a categorização inicial de novas descrições. Para isso, novas descrições serão submetidas ao mesmo pré-processamento textual e à mesma representação TF-IDF utilizada no treinamento. Em seguida, serão atribuídas ao cluster mais próximo pelo modelo treinado. A categoria inicial do item será definida a partir da categoria associada ao cluster durante a etapa de validação e refinamento da taxonomia.
+
+
+
+
+
+\section{Seleção de exemplos representativos dos clusters}
+
+Após a geração dos clusters, serão selecionados exemplos de cada agrupamento para apoiar a interpretação dos resultados e a posterior nomeação dos grupos. Essa etapa tem como objetivo produzir um resumo do conteúdo de cada cluster, destacando não apenas o padrão textual predominante, mas também possíveis variações internas presentes no agrupamento.
+
+No caso do K-Means, serão considerados inicialmente os itens mais próximos ao centroide de cada cluster, uma vez que esses elementos tendem a expressar o padrão central do agrupamento. No entanto, a seleção baseada apenas nesses itens pode gerar uma visão limitada do cluster, pois tende a privilegiar descrições muito semelhantes entre si e pode deixar de representar itens localizados em regiões mais afastadas do centroide. Esses itens de borda podem indicar variações relevantes, ambiguidades ou até mesmo mistura de produtos semanticamente distintos dentro do mesmo agrupamento.
+
+Por esse motivo, a seleção de exemplos será composta por diferentes tipos de itens pertencentes ao cluster. Serão considerados exemplos centrais, definidos pela proximidade ao centroide, exemplos de borda, definidos pela maior distância em relação ao centroide dentro do próprio cluster, e uma amostra aleatória de descrições do agrupamento. Essa combinação busca reduzir o viés de interpretação causado pela análise exclusiva dos itens centrais e permitir uma avaliação mais abrangente da composição interna de cada cluster.
+
+Além dos exemplos de descrições, poderão ser analisados os termos ou \textit{n-grams} com maior peso médio na representação TF-IDF dos itens pertencentes ao cluster, a fim de identificar palavras, combinações de palavras ou sequências de caracteres relevantes para sua interpretação. Esses elementos serão utilizados tanto para apoiar a nomeação dos clusters quanto para verificar se o agrupamento pode ser associado a uma categoria plana da taxonomia.
+
+Para cada cluster, será produzido um resumo contendo exemplos centrais, exemplos de borda, exemplos selecionados aleatoriamente, termos ou \textit{n-grams} relevantes e indicadores quantitativos do agrupamento, como tamanho do cluster e proporção em relação à base analisada. Esse resumo servirá como insumo para a etapa de nomenclatura dos clusters com apoio de Modelos de Linguagem de Grande Escala e para a posterior validação humana dos rótulos sugeridos.
+
+
+
+\section{Nomenclatura de clusters com apoio de LLM}
+
+A nomeação dos clusters será realizada com apoio de Modelos de Linguagem de Grande Escala. A LLM será utilizada como ferramenta auxiliar para sugerir rótulos interpretáveis para os agrupamentos gerados pelo algoritmo K-Means, a partir dos resumos produzidos na etapa anterior.
+
+Será utilizado um prompt padronizado para todos os clusters, contendo exemplos centrais, exemplos de borda, exemplos aleatórios, termos ou \textit{n-grams} relevantes e indicadores quantitativos do agrupamento. O uso de um prompt padronizado busca reduzir variações na forma de nomeação e permitir maior consistência entre os rótulos sugeridos. A partir dessas informações, a LLM deverá sugerir um rótulo curto e interpretável para o cluster, correspondente a uma possível categoria plana de produto. A saída esperada deverá conter o rótulo sugerido, uma breve justificativa e, quando necessário, uma indicação de possíveis problemas no agrupamento, como mistura de produtos distintos ou predominância de marcas em vez de categorias. Por exemplo, um agrupamento contendo descrições como ``coca cola 2l'', ``refrigerante cola pet'', ``fanta laranja 2l'' e ``guarana lata'' poderia receber uma sugestão de rótulo como ``Refrigerantes''. Esse tipo de sugestão poderá apoiar a organização dos agrupamentos dentro da taxonomia proposta.
+
+As sugestões geradas pela LLM não serão aceitas automaticamente. Elas serão utilizadas como apoio à interpretação dos agrupamentos e submetidas à validação humana realizada pelo autor. Essa validação terá como objetivo verificar se o nome sugerido representa adequadamente os itens do cluster, se o nível de generalidade é apropriado para uma taxonomia plana e se há problemas como rótulos excessivamente genéricos, rótulos específicos demais, confusão entre marca e categoria ou mistura de produtos diferentes em um mesmo agrupamento.
+
+
+
+\section{Construção e refinamento da taxonomia}
+
+A taxonomia de categorias de produtos será construída de forma exploratória a partir dos clusters analisados e nomeados nas etapas anteriores. Como os dados utilizados não possuem categorias previamente atribuídas, a definição das categorias será resultado da combinação entre os agrupamentos obtidos, os exemplos representativos, as sugestões de nomenclatura geradas pela LLM e a validação humana realizada pelo autor.
+
+A taxonomia proposta será organizada como uma lista plana de categorias de produtos, sem definição de níveis hierárquicos de categoria e subcategoria. Essa escolha está relacionada ao caráter exploratório da pesquisa e ao objetivo de apoiar uma categorização inicial das descrições de produtos. Cada categoria será derivada da análise dos clusters obtidos, considerando o conteúdo predominante dos agrupamentos, os exemplos mais representativos, os termos ou \textit{n-grams} relevantes e os rótulos sugeridos pela LLM.
+
+Durante essa etapa, os clusters nomeados serão analisados quanto à sua relação com as categorias propostas. Clusters semanticamente semelhantes poderão ser reunidos em uma mesma categoria, desde que apresentem nível de generalidade compatível com a taxonomia plana. Por outro lado, clusters muito heterogêneos poderão indicar a necessidade de revisar o valor de $k$, alterar a configuração de representação textual, ajustar o rótulo atribuído ou classificar o agrupamento como residual.
+
+Para reduzir a subjetividade da análise, cada cluster considerado na construção da taxonomia será avaliado a partir de critérios previamente definidos. Serão considerados aspectos como coerência interna do agrupamento, clareza do rótulo sugerido, adequação do nível de generalidade da categoria, presença de produtos semanticamente distintos em um mesmo cluster e utilidade da categoria para a organização da taxonomia. A partir desses critérios, os clusters poderão ser classificados como adequados, parcialmente adequados ou inadequados para compor a taxonomia proposta.
+
+Clusters classificados como adequados serão incorporados à taxonomia com o rótulo validado ou ajustado pelo autor. Clusters parcialmente adequados poderão ser incorporados após ajustes no rótulo, união com outros clusters semanticamente próximos ou revisão de sua categoria associada. Já clusters inadequados, compostos por descrições muito ambíguas, genéricas, pouco informativas ou semanticamente misturadas, poderão ser classificados em categorias residuais, como ``Outros'' ou ``Não identificado'', desde que essa decisão seja justificada e registrada.
+
+Ao final dessa etapa, espera-se obter uma taxonomia inicial de categorias de produtos similar à apresentada na Figura~\ref{fig:taxonomia}, construída a partir da análise dos agrupamentos gerados. Essa taxonomia deverá consolidar os rótulos considerados mais adequados, organizar categorias semanticamente próximas e registrar decisões de refinamento tomadas durante a análise.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/taxonomia.png}
+    \caption{Exemplo ilustrativo de taxonomia plana de categorias de produtos}
+    \label{fig:taxonomia}
+    \fonte{O Autor}
+\end{figure}
+
+
+
+\section{Avaliação dos resultados}
+
+A avaliação dos resultados tem como objetivo verificar se a abordagem proposta gera agrupamentos coerentes, apoia a construção de uma taxonomia plana de categorias de produtos e permite a categorização inicial de novas descrições. Para isso, serão considerados aspectos quantitativos e qualitativos dos clusters, da taxonomia construída e do protótipo desenvolvido.
+
+Na avaliação quantitativa dos agrupamentos, serão utilizadas métricas internas de clusterização, como coeficiente de silhueta, índice Calinski-Harabasz e índice Davies-Bouldin, além de informações como quantidade de clusters, distribuição de itens e tamanho dos agrupamentos. Essas métricas serão usadas como apoio na comparação de diferentes configurações de representação textual e valores de $k$ no algoritmo K-Means.
+
+Essas métricas não serão utilizadas de forma isolada para definir a melhor configuração, pois a finalidade do trabalho não se limita à separação matemática dos agrupamentos, mas também à sua interpretabilidade e utilidade para a construção da taxonomia.
+
+
+A avaliação qualitativa será realizada pelo autor, considerando critérios como coerência interna dos clusters, interpretabilidade dos agrupamentos, adequação dos exemplos representativos e utilidade dos rótulos sugeridos para a construção da taxonomia. As sugestões de nomenclatura geradas pela LLM serão analisadas quanto à clareza dos rótulos, adequação ao conteúdo predominante do cluster, nível de generalidade da categoria e possíveis inconsistências, como rótulos excessivamente genéricos, específicos demais ou influenciados por marcas.
+
+Durante o desenvolvimento do protótipo, poderá ser avaliado o uso de diferentes Modelos de Linguagem de Grande Escala para a nomeação dos clusters. Nesse caso, as respostas geradas pelos modelos serão comparadas a partir de critérios qualitativos previamente definidos, observando a convergência entre os rótulos sugeridos, a coerência das justificativas apresentadas e a adequação dos nomes em relação aos exemplos centrais, exemplos de borda e exemplos aleatórios de cada agrupamento.
+
+Como a base utilizada não possui rótulos previamente definidos, a avaliação das sugestões de nomenclatura terá caráter exploratório e será utilizada como apoio à validação humana. Caso sejam utilizados diferentes modelos, os resultados poderão ser organizados de forma comparativa, permitindo identificar situações em que há concordância entre os modelos e casos em que a divergência indica ambiguidade, heterogeneidade do cluster ou necessidade de refinamento da taxonomia.
+
+A taxonomia final será avaliada considerando a clareza dos rótulos, a distribuição dos itens entre as categorias, a presença de categorias excessivamente genéricas e a quantidade de itens classificados em categorias residuais, como ``Outros'' ou ``Não identificado''.
+
+O protótipo de categorização inicial será avaliado por meio da submissão de descrições não utilizadas na etapa de construção e refinamento da taxonomia ao fluxo completo da abordagem. Essas descrições passarão pelo mesmo pré-processamento textual, pela mesma representação vetorial e pela atribuição ao cluster mais próximo pelo modelo K-Means treinado. Em seguida, será analisado se a categoria associada ao cluster representa adequadamente a descrição do produto. Como a base utilizada não possui rótulos previamente definidos, essa avaliação terá caráter qualitativo, considerando a coerência entre a descrição analisada, o cluster atribuído e a categoria final da taxonomia.
+
+
+
+
+
+
+
+
+
+%=======================================================================
+% Considerações Finais
+%=======================================================================
+\chapter{Considerações Finais}
+
+Este trabalho apresentou uma proposta de pesquisa para criar uma taxonomia plana de categorias de produtos a partir de descrições de itens presentes em notas fiscais eletrônicas. O desafio está em organizar automaticamente essas descrições, que costumam apresentar variações de escrita, abreviações, marcas e falta de padronização.
+
+Para lidar com esse problema, foi proposta uma abordagem que combina técnicas de Processamento de Linguagem Natural, representação textual com TF-IDF, uso de \textit{n-grams}, agrupamento com K-Means e apoio de Modelos de Linguagem de Grande Escala para interpretar e nomear os grupos encontrados. A proposta também inclui uma etapa de validação humana para verificar a qualidade dos agrupamentos e ajustar os rótulos sugeridos.
+
+A principal contribuição esperada é a definição de um método para descobrir e organizar categorias de produtos sem a necessidade de dados previamente classificados. Em vez de depender de categorias já existentes, a abordagem busca identificar padrões diretamente nas descrições dos itens fiscais.
+
+Como limitação, a qualidade dos agrupamentos pode variar de acordo com o pré-processamento realizado, a forma de representação dos textos e o valor de $k$ utilizado no K-Means. Além disso, os rótulos sugeridos pelos modelos de linguagem precisam ser revisados por especialistas para garantir sua adequação ao contexto.
+
+No TCC II, pretende-se implementar o protótipo proposto, realizar experimentos com diferentes configurações, avaliar os resultados obtidos e construir uma taxonomia inicial de categorias de produtos. Espera-se que a pesquisa contribua para a organização de descrições fiscais e sirva como base para futuras aplicações de categorização automática de itens de notas fiscais eletrônicas.
+
+
+
+
+
+
+
+
+
+
+
+
+%=======================================================================
+% Referências
+%=======================================================================
+\bibliography{referencias}
+\end{document}
