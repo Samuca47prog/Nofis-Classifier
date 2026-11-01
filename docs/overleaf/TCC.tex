@@ -19,7 +19,20 @@
 \usepackage{bibentry} % para inserir refs. bib. no meio do texto
 \usepackage{amsmath} % equações (silhueta, K-Means, HDBSCAN)
 \usepackage{tabularx} % tabelas com largura do texto
+\usepackage{xurl} % permite quebrar URLs e nomes longos em qualquer caractere
 \usepackage{hyperref}
+\usepackage{tikz} % figura do pipeline
+\usetikzlibrary{positioning}
+
+% Espaçamento de figuras e tabelas: reduz o espaço entre floats e texto
+% e evita páginas com apenas um float e muito espaço em branco.
+\setlength{\textfloatsep}{10pt plus 2pt minus 4pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}
 
 \unisinosbst
 
@@ -28,7 +41,7 @@
 %=======================================================================
 \autor{Simão}{Samuel}
 \titulo{NO-FIS}
-\subtitulo{Categorização automática de itens de notas fiscais de consumidor}
+\subtitulo{Agrupamento não supervisionado de descrições de produtos em notas fiscais eletrônicas}
 \orientador[Prof.]{Chagas Kurtz}{Guilherme}
 
 \unidade{Unidade Acadêmica de Graduação ou Unidade Acadêmica de Educação Online}
@@ -42,13 +55,13 @@
 \palavrachave{brazilian}{Processamento de Linguagem Natural}
 \palavrachave{brazilian}{Aprendizado de máquina não supervisionado}
 \palavrachave{brazilian}{Clusterização}
-\palavrachave{brazilian}{Categorização de produtos}
+\palavrachave{brazilian}{Agrupamento de textos curtos}
 
 \palavrachave{english}{Electronic invoices}
 \palavrachave{english}{Natural Language Processing}
 \palavrachave{english}{Unsupervised machine learning}
 \palavrachave{english}{Clustering}
-\palavrachave{english}{Product categorization}
+\palavrachave{english}{Short text clustering}
 
 
 %=======================================================================
@@ -63,7 +76,7 @@
 % Resumo em Português.
 %=======================================================================
 \begin{abstract}
-As descrições de produtos presentes em notas fiscais eletrônicas são registradas em formato livre, resultando em textos curtos, abreviados e pouco padronizados que não indicam a categoria de cada item. Este trabalho desenvolveu e avaliou uma abordagem não supervisionada para agrupar essas descrições e apoiar sua categorização automática. Foram utilizados os registros de notas fiscais de 2025 do Portal da Transparência, restritos por códigos NCM a mercadorias próximas do domínio de supermercados, que resultaram em 146.999 descrições distintas após normalização, remoção de \textit{stopwords} e consolidação. Sobre uma amostra de 20.000 descrições, foram comparadas representações TF-IDF com n-gramas de palavras e de caracteres, \textit{embeddings} de sentenças de um modelo multilíngue e uma representação híbrida, combinadas com os algoritmos K-Means, DBSCAN e HDBSCAN, em 5.068 configurações. A avaliação considerou o coeficiente de silhueta, a cobertura, a quantidade de clusters e a revisão manual de 179 clusters. O K-Means atribuiu todas as descrições, mas com silhueta máxima de 0,21; o DBSCAN formou grupos bem separados, deixando a maior parte das descrições como ruído; e o HDBSCAN apresentou os melhores compromissos entre separação e cobertura, com até 48,8\% das descrições em clusters avaliados como coerentes. Os resultados indicam que nenhuma métrica isolada é suficiente para escolher a configuração e que a coerência dos grupos precisa ser analisada junto com a cobertura. Também foi desenvolvido um protótipo que associa novas descrições aos clusters existentes por busca de vizinhos mais próximos.
+As descrições de produtos presentes em notas fiscais eletrônicas são registradas em formato livre, resultando em textos curtos, abreviados e pouco padronizados que não indicam a categoria de cada item. Este trabalho desenvolveu e avaliou uma abordagem não supervisionada de agrupamento dessas descrições como apoio à construção de categorias de produtos, buscando identificar qual combinação de representação textual e algoritmo reúne a maior parcela de descrições em grupos coerentes, e com que cobertura. Foram utilizadas as NF-e de 2025 do Portal da Transparência, restritas por códigos NCM a mercadorias próximas do domínio de supermercados, que resultaram em 146.999 descrições distintas após normalização, remoção de \textit{stopwords} e consolidação. Sobre uma amostra de 20.000 descrições, foram comparadas representações TF-IDF com n-gramas de palavras e de caracteres, \textit{embeddings} de sentenças de um modelo multilíngue e uma representação híbrida, combinadas com os algoritmos K-Means, DBSCAN e HDBSCAN, em 5.068 configurações. A avaliação considerou o coeficiente de silhueta, a cobertura, a quantidade de clusters e a revisão manual de 179 clusters. O K-Means atribuiu todas as descrições, mas com silhueta máxima de 0,21 e no máximo 24,4\% delas em clusters coerentes; o DBSCAN reuniu principalmente quase-duplicatas, com no máximo 36,1\% das descrições em clusters coerentes e a maior parte como ruído; e o HDBSCAN com TF-IDF de caracteres reuniu a maior parcela estimada de descrições em clusters coerentes, 48,8\%, com cobertura de 50,9\%. Os resultados indicam que nenhuma métrica isolada é suficiente para escolher a configuração e que a coerência dos grupos precisa ser analisada junto com a cobertura. Também foi desenvolvido um protótipo de consulta que indica o cluster mais próximo de uma descrição avulsa, para conferência dos agrupamentos.
 \end{abstract}
 
 
@@ -72,7 +85,7 @@ As descrições de produtos presentes em notas fiscais eletrônicas são registr
 %=======================================================================
 \begin{otherlanguage}{english}
 \begin{abstract}
-Product descriptions in Brazilian electronic invoices are recorded as free text, resulting in short, abbreviated and poorly standardized descriptions that do not indicate the category of each item. This work developed and evaluated an unsupervised approach to cluster these descriptions and support their automatic categorization. The data consisted of 2025 invoice records from the Brazilian Transparency Portal, restricted by NCM codes to goods close to the supermarket domain, which yielded 146,999 distinct descriptions after normalization, stopword removal and consolidation. On a sample of 20,000 descriptions, TF-IDF representations with word and character n-grams, sentence embeddings from a multilingual model and a hybrid representation were compared with the K-Means, DBSCAN and HDBSCAN algorithms, in 5,068 configurations. The evaluation considered the silhouette coefficient, coverage, number of clusters and the manual review of 179 clusters. K-Means assigned every description but reached a maximum silhouette of 0.21; DBSCAN formed well-separated groups while leaving most descriptions as noise; and HDBSCAN offered the best trade-offs between separation and coverage, with up to 48.8\% of the descriptions in clusters judged coherent. The results indicate that no single metric is sufficient to select a configuration and that cluster coherence must be analyzed together with coverage. A prototype that assigns new descriptions to existing clusters through nearest-neighbor search was also developed.
+Product descriptions in Brazilian electronic invoices are recorded as free text, resulting in short, abbreviated and poorly standardized descriptions that do not indicate the category of each item. This work developed and evaluated an unsupervised approach to cluster these descriptions as support for building product categories, seeking to identify which combination of text representation and algorithm gathers the largest share of descriptions into coherent groups, and with what coverage. The data consisted of 2025 electronic invoices (NF-e) from the Brazilian Transparency Portal, restricted by NCM codes to goods close to the supermarket domain, which yielded 146,999 distinct descriptions after normalization, stopword removal and consolidation. On a sample of 20,000 descriptions, TF-IDF representations with word and character n-grams, sentence embeddings from a multilingual model and a hybrid representation were compared with the K-Means, DBSCAN and HDBSCAN algorithms, in 5,068 configurations. The evaluation considered the silhouette coefficient, coverage, number of clusters and the manual review of 179 clusters. K-Means assigned every description but reached a maximum silhouette of 0.21, with at most 24.4\% of them in coherent clusters; DBSCAN mostly gathered near-duplicates, with at most 36.1\% of the descriptions in coherent clusters and most of them left as noise; and HDBSCAN with character TF-IDF gathered the largest estimated share of descriptions in coherent clusters, 48.8\%, with 50.9\% coverage. The results indicate that no single metric is sufficient to select a configuration and that cluster coherence must be analyzed together with coverage. A query prototype that indicates the closest cluster for a standalone description was also developed to support the inspection of the clusters.
 \end{abstract}
 \end{otherlanguage}
 
@@ -98,33 +111,30 @@ Product descriptions in Brazilian electronic invoices are recorded as free text,
 %=======================================================================
 \chapter{Introdução}
 
-A digitalização dos documentos fiscais no Brasil possibilitou a geração, o armazenamento e a consulta eletrônica de informações sobre operações comerciais. Segundo \cite{sefazrsnfe}, a Nota Fiscal Eletrônica (NF-e) foi criada para substituir documentos em papel por documentos digitais com validade jurídica, trazendo redução de custos, simplificação de obrigações acessórias e maior agilidade no acesso às informações. Esses documentos registram dados do emissor, valores, tributos, forma de pagamento e a relação dos produtos adquiridos, o que os torna uma fonte com potencial para aplicações como análise de consumo, organização de despesas e estruturação de bases de dados.
+A digitalização dos documentos fiscais no Brasil possibilitou a geração, o armazenamento e a consulta eletrônica de informações sobre operações comerciais. Segundo \cite{sefazrsnfe}, a Nota Fiscal Eletrônica (NF-e) foi criada para substituir documentos em papel por documentos digitais com validade jurídica, trazendo redução de custos, simplificação de obrigações acessórias e maior agilidade no acesso às informações. Esses documentos registram dados do emissor, valores, tributos e a relação dos produtos adquiridos.
 
-Embora possuam diversos campos estruturados, a descrição dos produtos é registrada em formato livre, de acordo com os padrões de cada estabelecimento. Como destaca \citetexto{santos2023classificacao}, essas descrições são textos não estruturados, com variações de escrita, abreviações e ausência de padronização. Descrições como ``REFRI COCA 2L'', ``COCA COLA PET 2LT'' e ``COCA-COLA 2 LITROS'' podem se referir ao mesmo produto, enquanto descrições parecidas podem corresponder a mercadorias distintas.
+Embora possuam diversos campos estruturados, a descrição dos produtos é registrada em formato livre, de acordo com os padrões de cada estabelecimento. Como destaca \citetexto{santos2023classificacao}, essas descrições são textos não estruturados, com variações de escrita, abreviações e ausência de padronização. Descrições como ``REFRI COCA 2L'', ``COCA COLA PET 2LT'' e ``COCA-COLA 2 LITROS'' podem se referir ao mesmo produto, enquanto descrições parecidas podem corresponder a mercadorias distintas: na base utilizada neste trabalho, ``PAO DE HAMBURGUER'' e ``HAMBURGUER'' compartilham a maior parte de seus caracteres, mas designam um pão e uma preparação de carne.
 
-Além disso, a descrição não indica uma categoria de produto, como alimentos, bebidas, higiene ou limpeza. Sem categorias padronizadas, os itens não podem ser utilizados diretamente em análises agregadas, e sua organização tende a depender de processos manuais ou de regras construídas caso a caso, difíceis de manter diante da variedade de descrições. Como não há uma base rotulada disponível, também não é possível treinar diretamente um classificador supervisionado.
+A descrição também não indica uma categoria de produto, como alimentos, bebidas, higiene ou limpeza. Essa lacuna motiva a visão de longo prazo deste projeto, que parte de um interesse do autor: usar as próprias notas fiscais para acompanhar em detalhe os gastos com compras de supermercado e a variação de preços da sua cesta de consumo. Gerar listas de compras a partir do padrão de consumo, calcular uma inflação pessoal de supermercado e analisar a distribuição dos gastos são aplicações que dependem de saber a que categoria pertence cada item comprado. Este trabalho não entrega essas aplicações; ele investiga a etapa que as antecede, a organização das descrições em grupos que possam servir de base para essas categorias.
 
-Nesse contexto, técnicas de Processamento de Linguagem Natural permitem converter as descrições em representações numéricas, e técnicas de aprendizado de máquina não supervisionado permitem explorar padrões nos dados sem depender de categorias previamente definidas. A clusterização pode aproximar descrições semelhantes e indicar possíveis formas de organização dos itens. Os resultados, porém, dependem da forma de representação dos textos e da definição de cluster adotada por cada algoritmo: representações baseadas na ocorrência de termos e representações semânticas, assim como algoritmos baseados em centroides e em densidade, podem produzir agrupamentos muito diferentes para as mesmas descrições.
+Não foi identificada uma base pública rotulada com categorias de consumo que permitisse treinar diretamente um classificador supervisionado. O código NCM, presente nas notas fiscais eletrônicas, foi descartado como rótulo por ter finalidade fiscal \cite{brasil2024ncm} e ser inconsistente entre emissores: na base utilizada, variantes como ``FERMENTO QUIMICO'', ``FERMENTO Po QUIMICO'' e ``FERMENTO EM PO QUIMICO 250G'' aparecem com NCMs de três capítulos diferentes, e ``CORACAO DE FRANGO'' tem como NCM mais frequente um código de arroz. Nesse contexto, técnicas de Processamento de Linguagem Natural permitem converter as descrições em representações numéricas \cite{manning2008informationretrieval}, e a clusterização permite aproximar descrições semelhantes sem depender de categorias previamente definidas \cite{tan2005introduction}. Os resultados, porém, dependem da representação dos textos e da definição de cluster adotada por cada algoritmo \cite{tan2005introduction}.
 
-Diante disso, este trabalho investiga a categorização automática de descrições de produtos de notas fiscais eletrônicas por meio da comparação de representações textuais TF-IDF, \textit{embeddings} de sentenças e uma combinação híbrida das duas, com os algoritmos K-Means, DBSCAN e HDBSCAN. A pesquisa busca responder à seguinte questão: como diferentes representações textuais e algoritmos de clusterização podem apoiar a organização de descrições curtas e não padronizadas de produtos em categorias interpretáveis?
+Diante disso, este trabalho compara representações textuais TF-IDF, \textit{embeddings} de sentenças e uma combinação híbrida das duas, com os algoritmos K-Means, DBSCAN e HDBSCAN, para agrupar descrições de produtos de notas fiscais eletrônicas como apoio à construção de categorias. A pesquisa busca responder à seguinte questão: qual combinação de representação e algoritmo reúne a maior parcela de descrições em grupos coerentes, e com que cobertura?
 
 O trabalho está organizado da seguinte forma. O Capítulo~\ref{cap:referencial} apresenta os conceitos que fundamentam a pesquisa, e o Capítulo~\ref{cap:trabalhos} discute os trabalhos relacionados. O Capítulo~\ref{cap:metodologia} descreve a base de dados, o pré-processamento, as representações, os experimentos e os critérios de avaliação. O Capítulo~\ref{cap:resultados} apresenta e discute os resultados, e o Capítulo~\ref{cap:consideracoes} traz as considerações finais.
 
-\section{Objetivos}
+\section{Objetivo geral}
 
-\subsection{Objetivo geral}
+Desenvolver e avaliar uma abordagem não supervisionada de agrupamento de descrições de produtos presentes em notas fiscais eletrônicas, utilizando técnicas de Processamento de Linguagem Natural e clusterização, como apoio à construção de categorias de produtos.
 
-Desenvolver e avaliar uma abordagem para a categorização automática de descrições de produtos presentes em notas fiscais eletrônicas, utilizando técnicas de Processamento de Linguagem Natural e Aprendizado de Máquina não supervisionado para identificar agrupamentos de produtos semelhantes e associar novas descrições a categorias de produtos.
-
-\subsection{Objetivos específicos}
+\section{Objetivos específicos}
 
 \begin{alineas}
-    \item coletar, explorar e preparar descrições de produtos extraídas de notas fiscais eletrônicas, com foco em produtos comercializados em supermercados;
-    \item investigar e comparar diferentes técnicas de representação textual, como TF-IDF e \textit{embeddings} semânticos;
-    \item avaliar algoritmos de clusterização para identificar agrupamentos de descrições de produtos semelhantes;
-    \item analisar e interpretar os agrupamentos identificados, estabelecendo sua associação a categorias de produtos;
-    \item desenvolver um protótipo capaz de categorizar novas descrições de produtos a partir dos agrupamentos identificados, apresentando a categoria atribuída e exemplos representativos;
-    \item avaliar a qualidade dos agrupamentos e da categorização de novas descrições, considerando métricas quantitativas e a coerência semântica dos resultados.
+    \item coletar, explorar e preparar descrições de produtos de notas fiscais eletrônicas, restritas por códigos NCM a mercadorias próximas do domínio de supermercados;
+    \item comparar representações textuais TF-IDF, \textit{embeddings} de sentenças e uma combinação híbrida das duas;
+    \item comparar os algoritmos K-Means, DBSCAN e HDBSCAN quanto à separação, à cobertura e à quantidade de clusters formados;
+    \item avaliar a coerência dos agrupamentos por revisão manual e estimar a parcela de descrições reunidas em grupos coerentes;
+    \item desenvolver um protótipo de consulta que indique o cluster mais próximo de uma descrição avulsa, para conferência dos agrupamentos.
 \end{alineas}
 
 
@@ -136,52 +146,38 @@ Desenvolver e avaliar uma abordagem para a categorização automática de descri
 \chapter{Referencial Teórico}
 \label{cap:referencial}
 
-Este capítulo apresenta os conceitos que fundamentam a análise de descrições de produtos em documentos fiscais: os documentos fiscais eletrônicos e a NCM, o Processamento de Linguagem Natural e as representações textuais, o aprendizado não supervisionado, os algoritmos de clusterização utilizados e os critérios para avaliar seus resultados.
+Este capítulo apresenta os conceitos que fundamentam a análise de descrições de produtos em documentos fiscais: as notas fiscais eletrônicas e o NCM, o Processamento de Linguagem Natural e as representações textuais, as técnicas de agrupamento de textos, dos algoritmos utilizados às particularidades dos textos curtos, e os critérios para avaliar seus resultados.
 
-\section{Notas fiscais de consumidor eletrônicas no Brasil}
+\section{Notas fiscais eletrônicas e NCM}
 
-A Nota Fiscal Eletrônica (NF-e), modelo 55, e a Nota Fiscal de Consumidor Eletrônica (NFC-e), modelo 65, voltada às vendas ao consumidor final, são documentos fiscais digitais utilizados para registrar operações com mercadorias. Ambos organizam as informações dos itens em campos como código, descrição, quantidade, unidade de medida e valor, como ilustra a Figura~\ref{fig:DANFE}. Essa estrutura permite identificar os produtos de uma operação, mas não torna uniforme a forma como eles são descritos \cite{sefazsp-nfe,encat2025manual}.
+A Nota Fiscal Eletrônica (NF-e) é o documento fiscal digital utilizado para registrar operações com mercadorias. Seu leiaute organiza cada item em campos como código, descrição, NCM, quantidade, unidade de medida e valor \cite{portalnfe-moc}. A descrição é preenchida pelo emissor a partir de seu próprio cadastro de produtos e reúne, em poucas palavras, abreviações, marcas, medidas e características de apresentação. Por isso, a análise automática dos itens depende de técnicas capazes de comparar textos curtos e pouco padronizados.
 
-% Imagem extraída do TCC II.docx.
-\begin{figure}[htbp]
-    \caption{Exemplo de DANFE NFC-e}
-    \label{fig:DANFE}
-    \centering
-    \includegraphics[width=0.35\linewidth]{images/danfe-nfce.png}
-    \fonte{O Autor}
-\end{figure}
+A Nomenclatura Comum do Mercosul (NCM) é o sistema de classificação de mercadorias adotado por Brasil, Argentina, Paraguai e Uruguai desde 1995, com base no Sistema Harmonizado (SH) mantido pela Organização Mundial das Alfândegas \cite{brasil2024ncm}. Seus códigos têm oito dígitos e estrutura hierárquica: os seis primeiros seguem o SH, e os dois últimos são desdobramentos definidos no Mercosul, distribuídos nos níveis de posição, subposição, item e subitem. Códigos que compartilham os dígitos iniciais pertencem a agrupamentos mais amplos, e os níveis finais aumentam a especificidade. A nomenclatura pode ser consultada no Sistema Classif, que permite pesquisar mercadorias por código ou por palavras e obter a tabela vigente em formatos estruturados \cite{brasil2025classif}.
 
-O campo de descrição reúne informações relevantes em poucas palavras, frequentemente com abreviações, marcas, medidas e características de apresentação. Uma mesma mercadoria pode aparecer sob nomes diferentes, enquanto descrições parecidas podem corresponder a produtos distintos. Por isso, a análise automática dos itens depende de técnicas capazes de comparar textos curtos e pouco padronizados.
-
-\section{Nomenclatura Comum do Mercosul (NCM)}
-
-A NCM é o sistema de classificação de mercadorias adotado por Brasil, Argentina, Paraguai e Uruguai desde 1995, com base no Sistema Harmonizado (SH) mantido pela Organização Mundial das Alfândegas \cite{brasil2024ncm}. Seus códigos têm oito dígitos e estrutura hierárquica: os seis primeiros seguem o SH, e os dois últimos são desdobramentos definidos no Mercosul, distribuídos nos níveis de posição, subposição, item e subitem. Códigos que compartilham os dígitos iniciais pertencem a agrupamentos mais amplos, e os níveis finais aumentam a especificidade. A nomenclatura pode ser consultada no Sistema Classif, que permite pesquisar mercadorias por código ou por palavras e obter a tabela vigente em formatos estruturados \cite{brasil2025classif}.
-
-A finalidade da NCM é a classificação fiscal, que considera regras próprias, composição, finalidade e notas legais da mercadoria, e não apenas a comparação textual entre nomes de produtos \cite{brasil2024ncm}. Neste trabalho, o NCM é tratado como informação auxiliar para a seleção inicial dos itens, e não como rótulo de similaridade: os agrupamentos são formados a partir das descrições.
+A finalidade do NCM é a classificação fiscal, que considera regras próprias, composição, finalidade e notas legais da mercadoria, e não apenas a comparação textual entre nomes de produtos \cite{brasil2024ncm}. Neste trabalho, o NCM é tratado como informação auxiliar para a seleção inicial dos itens, e não como rótulo de similaridade: os agrupamentos são formados a partir das descrições.
 
 \section{Processamento de Linguagem Natural e representação de textos}
 
-O Processamento de Linguagem Natural (PLN) é um subcampo da ciência da computação que utiliza técnicas de aprendizado de máquina para permitir que computadores interpretem a linguagem humana \cite{ibm2024pln}. Como os algoritmos operam sobre atributos numéricos, e não sobre o texto bruto, as descrições precisam ser convertidas em representações estruturadas. Segundo \citetexto{manning2008informationretrieval}, esse processamento envolve a definição da unidade documental, a tokenização, o pré-processamento dos tokens e a construção de um vocabulário. Neste trabalho, cada descrição de produto, como ``COCA COLA PET 2L'', é tratada como um documento, dividido em tokens que podem corresponder a palavras, números ou sequências de caracteres.
+O Processamento de Linguagem Natural (PLN) é a área da computação que estuda métodos para processar e analisar a linguagem humana, combinando abordagens baseadas em regras, estatísticas e de aprendizado de máquina \cite{jurafsky2025speech}. Como os algoritmos operam sobre atributos numéricos, e não sobre o texto bruto, as descrições precisam ser convertidas em representações estruturadas. Segundo \citetexto{manning2008informationretrieval}, esse processamento envolve a definição da unidade documental, a tokenização, o pré-processamento dos tokens e a construção de um vocabulário. Neste trabalho, cada descrição de produto, como ``COCA COLA PET 2L'', é tratada como um documento, dividido em tokens que podem corresponder a palavras, números ou sequências de caracteres.
 
 \subsection{N-gramas e ponderação TF-IDF}
 
 Um n-grama é uma sequência contígua de $n$ unidades de texto. N-gramas de palavras registram expressões como ``leite integral'' e preservam associações entre termos vizinhos; n-gramas de caracteres representam partes de palavras e permitem reconhecer sobreposição entre abreviações, variantes de escrita e pequenas diferenças de grafia. Em contrapartida, sequências compartilhadas podem aproximar termos de significado diferente, e o número de atributos cresce com a variedade de sequências \cite{manning2008informationretrieval}.
 
-A ponderação TF-IDF (\textit{Term Frequency-Inverse Document Frequency}) atribui a cada termo um peso que combina sua frequência no documento (TF) com o inverso de sua frequência na coleção (IDF). Assim, termos presentes em grande parte das descrições recebem peso menor, enquanto termos mais específicos, como marcas, unidades e combinações características, recebem peso maior \cite{ramos2003tfidf}. A combinação de n-gramas e TF-IDF transforma descrições curtas em vetores que preservam parte de suas características, embora a semelhança obtida permaneça ligada à forma escrita dos textos.
+A ponderação TF-IDF (\textit{Term Frequency-Inverse Document Frequency}) atribui a cada termo um peso que combina sua frequência no documento (TF) com o inverso de sua frequência na coleção (IDF). Assim, termos presentes em grande parte das descrições recebem peso menor, enquanto termos mais específicos, como marcas, unidades e combinações características, recebem peso maior \cite{salton1988term,manning2008informationretrieval}. A combinação de n-gramas e TF-IDF transforma descrições curtas em vetores que preservam parte de suas características, embora a semelhança obtida permaneça ligada à forma escrita dos textos.
+
+A semelhança entre dois vetores $u$ e $v$ é medida pela similaridade cosseno, $\cos(u,v)=u\cdot v/(\lVert u\rVert\,\lVert v\rVert)$, e a distância cosseno corresponde a $1-\cos(u,v)$. Para vetores com normalização L2, $\lVert u-v\rVert_2^2=2\,(1-\cos(u,v))$, de modo que a distância euclidiana e a distância cosseno ordenam os pares da mesma forma \cite{manning2008informationretrieval}. Um vetor nulo, sem nenhum termo do vocabulário, não tem similaridade cosseno definida com os demais.
 
 \subsection{Embeddings de sentenças e modelo multilíngue}
 
-\textit{Embeddings} de sentenças representam textos por vetores densos. Em modelos voltados à similaridade de sentenças, o treinamento aproxima textos semanticamente relacionados, permitindo investigar semelhanças que não dependem apenas da coincidência literal das palavras \cite{reimers2019sentencebert}. O modelo \texttt{sentence-transformers/paraphrase-multilingual-mpnet-base-v2} produz vetores de 768 dimensões e oferece suporte multilíngue. Embora seu identificador contenha ``mpnet'', a arquitetura publicada utiliza um codificador XLM-RoBERTa com agregação pela média dos tokens \cite{sentencetransformers-mpnet,conneau2020xlmr}; neste trabalho, MPNet é apenas a denominação abreviada desse modelo. A semelhança entre \textit{embeddings} precisa ser interpretada no domínio dos produtos, pois marca, medida e apresentação podem ser relevantes para distinguir mercadorias.
+\textit{Embeddings} de sentenças representam textos por vetores densos. Em modelos voltados à similaridade de sentenças, o treinamento aproxima textos semanticamente relacionados, permitindo investigar semelhanças que não dependem apenas da coincidência literal das palavras \cite{reimers2019sentencebert}. O modelo \nolinkurl{sentence-transformers/paraphrase-multilingual-mpnet-base-v2} produz vetores de 768 dimensões e foi obtido por destilação de conhecimento: um codificador multilíngue XLM-RoBERTa, com agregação pela média dos tokens, é treinado para reproduzir em diversas línguas os vetores de um modelo professor monolíngue baseado em MPNet \cite{reimers2020multilingual,conneau2020xlmr,song2020mpnet,sentencetransformers-mpnet}. Por isso o identificador contém ``mpnet''; neste trabalho, MPNet é apenas a denominação abreviada desse modelo. A semelhança entre \textit{embeddings} precisa ser interpretada no domínio dos produtos, pois marca, medida e apresentação podem ser relevantes para distinguir mercadorias.
 
-\section{Aprendizado não supervisionado e clusterização}
+\section{Técnicas para agrupamento de textos}
+\label{sec:agrupamento}
 
 No aprendizado supervisionado, os exemplos de treinamento possuem rótulos conhecidos; no não supervisionado, os dados não têm rótulos, e o objetivo é identificar estruturas na própria distribuição dos dados. Essa abordagem é adequada a este trabalho porque as descrições extraídas das notas fiscais não possuem categorias previamente definidas. A clusterização divide os dados em grupos significativos, úteis ou ambos, buscando homogeneidade interna e separação entre grupos \cite{tan2005introduction}. Como um mesmo conjunto pode ser dividido de formas diferentes conforme a representação, a medida de similaridade, o algoritmo e seus parâmetros, a clusterização deve ser entendida como técnica exploratória.
 
-Neste trabalho, as descrições foram representadas por TF-IDF, por \textit{embeddings} e por uma combinação das duas, e os algoritmos de clusterização foram aplicados sobre esses vetores. Descrições como ``coca cola pet 2l'' e ``refrigerante cola 2lt'' podem ser aproximadas se compartilharem padrões relevantes na representação, enquanto ``sabao po 1kg'' e ``arroz branco 5kg'' tendem a ficar em grupos diferentes.
-
-\section{Algoritmos de clusterização}
-
-O significado de ``semelhança'' depende da representação dos dados, da medida de distância e da definição de cluster adotada pelo algoritmo. Este trabalho utiliza um método baseado em centroides, o K-Means, e dois métodos baseados em densidade, o DBSCAN e o HDBSCAN \cite{tan2005introduction}.
+As subseções a seguir partem dos algoritmos utilizados neste trabalho, um método baseado em centroides, o K-Means, e dois métodos baseados em densidade, o DBSCAN e o HDBSCAN \cite{tan2005introduction}, e terminam nas dificuldades específicas do agrupamento de textos curtos.
 
 \subsection{K-Means}
 
@@ -196,15 +192,15 @@ Para isso, alterna a atribuição de cada vetor ao centroide mais próximo e o r
 
 O DBSCAN define clusters como regiões de alta densidade separadas por regiões menos densas \cite{ester1996dbscan}. Uma observação é central quando sua vizinhança de raio $\varepsilon$ contém pelo menos \textit{MinPts} pontos; a partir dela, o grupo é expandido para outros pontos centrais alcançáveis. Pontos próximos de um grupo, mas sem vizinhos suficientes, são pontos de borda, e os que não são incorporados a nenhum grupo são identificados como ruído. Essa definição permite clusters de formato irregular e dispensa a escolha prévia de sua quantidade, como ilustra a Figura~\ref{fig:dbscan}.
 
-\begin{figure}[htbp]
+\begin{figure}[!htb]
     \caption{Agrupamentos de formatos irregulares identificados pelo DBSCAN}
     \label{fig:dbscan}
     \centering
-    \includegraphics[width=0.45\linewidth]{images/dbscan-ester1996.png}
+    \includegraphics[width=0.35\linewidth]{images/dbscan-ester1996.png}
     \fonte{\citetexto{ester1996dbscan}}
 \end{figure}
 
-O resultado depende da escala definida por $\varepsilon$ e por \textit{MinPts}: um raio pequeno pode fragmentar grupos e aumentar o ruído, e um raio grande pode unir regiões distintas. Como o limiar é o mesmo para todo o conjunto, grupos com densidades muito diferentes são difíceis de recuperar simultaneamente, dificuldade que cresce quando as distâncias se tornam pouco discriminativas em espaços de alta dimensionalidade.
+O resultado depende da escala definida por $\varepsilon$ e por \textit{MinPts}: um raio pequeno pode fragmentar grupos e aumentar o ruído, e um raio grande pode unir regiões distintas. Como o limiar é o mesmo para todo o conjunto, grupos com densidades muito diferentes são difíceis de recuperar simultaneamente, dificuldade que cresce quando as distâncias se tornam pouco discriminativas em espaços de alta dimensionalidade \cite{beyer1999nearest}.
 
 \subsection{HDBSCAN}
 
@@ -215,6 +211,12 @@ d_{\mathrm{mr}}(x,y)=\max\{d_{\mathrm{core}}(x),\, d_{\mathrm{core}}(y),\, d(x,y
 \end{equation}
 A partir dessas distâncias, o algoritmo constrói uma hierarquia em que grupos surgem, dividem-se ou desaparecem conforme a densidade varia. A hierarquia é condensada para descartar grupos menores que um tamanho mínimo, e uma medida de estabilidade seleciona os clusters que persistem em diferentes níveis \cite{campello2013hdbscan}. O tamanho mínimo do cluster e o número de vizinhos usado na estimativa da densidade influenciam a estrutura obtida, e, como no DBSCAN, parte das observações pode permanecer como ruído.
 
+\subsection{Agrupamento de textos curtos}
+
+Textos curtos, como títulos, mensagens e descrições de produtos, contêm poucos termos. Em representações baseadas em termos, isso produz vetores muito esparsos, nos quais a maior parte dos pares de documentos não compartilha nenhum atributo e tem similaridade nula, o que enfraquece as medidas de semelhança em que os algoritmos de clusterização se apoiam \cite{aggarwal2012survey,yin2014dirichlet}. Essa esparsidade é o problema central das descrições fiscais: com cerca de cinco palavras por descrição, pequenas variações de escrita bastam para que dois textos sobre o mesmo produto não tenham termos em comum.
+
+A literatura propõe diferentes formas de contornar o problema. Modelos probabilísticos específicos para textos curtos assumem um único tópico por documento \cite{yin2014dirichlet}; representações densas aprendidas por redes neurais aproximam textos sem termos em comum \cite{xu2017selftaught}; e abordagens como o BERTopic combinam \textit{embeddings} de sentenças, redução de dimensionalidade e HDBSCAN para formar grupos e descrevê-los por seus termos característicos \cite{grootendorst2022bertopic}. Neste trabalho, a esparsidade foi tratada de duas formas: pelos n-gramas de caracteres, que reconhecem sobreposições parciais entre abreviações e grafias, e pelos \textit{embeddings} de sentenças, que não dependem da coincidência literal dos termos.
+
 \section{Avaliação dos agrupamentos}
 
 Na ausência de rótulos de referência, a avaliação interna examina a relação entre os vetores e as atribuições produzidas. O coeficiente de silhueta \cite{rousseeuw1987silhouettes} considera, para cada observação $i$, a distância média $a_i$ aos elementos de seu cluster e a menor distância média $b_i$ aos elementos de outro cluster:
@@ -224,11 +226,21 @@ s_i=\frac{b_i-a_i}{\max\{a_i,\, b_i\}}.
 \end{equation}
 Seu valor varia de menos um a um; valores positivos elevados indicam maior separação segundo a distância adotada, e valores próximos de zero indicam menor distinção entre grupos \cite{sklearn-silhouette}.
 
-Nos métodos que identificam ruído, a silhueta calculada entre as observações agrupadas descreve apenas essa parcela, e por isso deve ser interpretada junto com a cobertura, isto é, a fração de observações incluídas nos grupos. A quantidade de clusters também deve ser relacionada ao nível de organização pretendido. Como as métricas internas descrevem a geometria da representação, a coerência semântica exige examinar os produtos reunidos, e a associação entre um identificador de cluster e um nome de categoria depende de interpretação e validação.
+Nos métodos que identificam ruído, a silhueta calculada entre as observações agrupadas descreve apenas essa parcela, e por isso deve ser interpretada junto com a cobertura, isto é, a fração de observações incluídas nos grupos. Para esses métodos existem índices próprios, como o DBCV, que avalia a densidade dentro e entre os clusters e considera o ruído \cite{moulavi2014dbcv}; ele não foi utilizado neste trabalho, que adotou a silhueta acompanhada da cobertura. Como as métricas internas descrevem a geometria da representação, a coerência semântica exige examinar os itens reunidos. Avaliações humanas desse tipo são usadas, por exemplo, para verificar se os grupos produzidos por modelos de tópicos são interpretáveis, e podem divergir das métricas automáticas \cite{chang2009readingtealeaves}.
 
-\subsection{Visualização dos clusters com t-SNE}
+\subsection{Visualização dos agrupamentos}
 
-O t-SNE representa observações de alta dimensionalidade em duas ou três dimensões, preservando principalmente as relações locais de vizinhança \cite{vandermaaten2008tsne}. Ao colorir os pontos pelos rótulos de um algoritmo, a projeção permite inspecionar as atribuições obtidas. A técnica não define os clusters nem comprova sua qualidade, pois distâncias entre regiões afastadas e espaços vazios na projeção não reproduzem necessariamente a estrutura global do espaço original.
+Como os vetores das descrições têm centenas ou milhares de dimensões, a inspeção visual dos agrupamentos depende de técnicas de redução de dimensionalidade. A Análise de Componentes Principais (PCA) projeta os dados nas direções lineares de maior variância e preserva sobretudo a estrutura global \cite{jolliffe2016pca}, mas tende a sobrepor grupos que não são separáveis linearmente. O t-SNE, por sua vez, representa observações de alta dimensionalidade em duas ou três dimensões preservando principalmente as relações locais de vizinhança \cite{vandermaaten2008tsne}. Ao colorir os pontos por rótulos conhecidos ou pelas atribuições de um algoritmo, a projeção permite inspecionar os grupos obtidos, como ilustra a Figura~\ref{fig:tsne-exemplo}, na qual imagens de algarismos manuscritos formam regiões distintas conforme o algarismo representado.
+
+\begin{figure}[!htb]
+    \caption{Projeção t-SNE de imagens de algarismos manuscritos}
+    \label{fig:tsne-exemplo}
+    \centering
+    \includegraphics[width=0.45\linewidth]{images/tsne-exemplo-digits.png}
+    \fonte{Elaborado pelo autor com o conjunto \textit{digits} do scikit-learn (1.797 imagens de 8$\times$8 pixels), perplexidade 30. As cores e os números indicam o algarismo de cada imagem.}
+\end{figure}
+
+A técnica não define os clusters nem comprova sua qualidade, pois o tamanho aparente dos grupos, as distâncias entre regiões afastadas e os espaços vazios na projeção não reproduzem necessariamente a estrutura do espaço original \cite{wattenberg2016tsne}.
 
 
 
@@ -260,16 +272,50 @@ A presente pesquisa se diferencia desses trabalhos ao investigar, sem rótulos p
 \chapter{Metodologia}
 \label{cap:metodologia}
 
-Este capítulo apresenta os procedimentos utilizados para preparar as descrições de produtos e investigar a formação de agrupamentos. A pesquisa é de natureza aplicada e de caráter experimental: foram comparadas representações textuais TF-IDF, \textit{embeddings} semânticos e uma combinação híbrida das duas, com os algoritmos K-Means, DBSCAN e HDBSCAN. A implementação foi realizada em notebooks Python, organizados em etapas de coleta, seleção dos dados, pré-processamento, representação vetorial, agrupamento e análise.
+Este capítulo apresenta os procedimentos utilizados para preparar as descrições de produtos e investigar a formação de agrupamentos. A pesquisa é de natureza aplicada e de caráter experimental \cite{wazlawick2014metodologia}: foram comparadas representações textuais TF-IDF, \textit{embeddings} semânticos e uma combinação híbrida das duas, com os algoritmos K-Means, DBSCAN e HDBSCAN. A implementação foi realizada em notebooks Python. A Figura~\ref{fig:pipeline} apresenta as etapas do trabalho e os objetivos específicos a que cada uma atende.
+
+\begin{figure}[!htb]
+    \caption{Etapas do trabalho e objetivos específicos atendidos}
+    \label{fig:pipeline}
+    \centering
+    \small
+    \begin{tikzpicture}[
+        etapa/.style={draw, rounded corners, align=center, text width=2.15cm, minimum height=1.25cm, font=\footnotesize},
+        obj/.style={font=\footnotesize\itshape},
+        seta/.style={->, >=stealth, thick},
+        node distance=0.3cm
+    ]
+        \node[etapa] (e1) {Coleta e seleção por NCM};
+        \node[etapa, right=of e1] (e2) {Pré-proces\-samento};
+        \node[etapa, right=of e2] (e3) {Representação textual};
+        \node[etapa, right=of e3] (e4) {Agrupamento};
+        \node[etapa, right=of e4] (e5) {Avaliação e revisão manual};
+        \node[etapa, below=0.9cm of e5] (e6) {Protótipo de consulta};
+        \draw[seta] (e1) -- (e2);
+        \draw[seta] (e2) -- (e3);
+        \draw[seta] (e3) -- (e4);
+        \draw[seta] (e4) -- (e5);
+        \draw[seta] (e5) -- (e6);
+        \node[obj, above=0.15cm of e1] {objetivo a};
+        \node[obj, above=0.15cm of e2] {objetivo a};
+        \node[obj, above=0.15cm of e3] {objetivo b};
+        \node[obj, above=0.15cm of e4] {objetivo c};
+        \node[obj, above=0.15cm of e5] {objetivos c e d};
+        \node[obj, left=0.15cm of e6] {objetivo e};
+    \end{tikzpicture}
+    \fonte{Elaborado pelo autor.}
+\end{figure}
 
 \section{Base de dados}
 \label{sec:base-dados}
 
-A pesquisa utilizou os registros de notas fiscais disponibilizados pela Controladoria-Geral da União no Portal da Transparência \cite{brasil2026notasfiscais}, que reúnem aquisições de produtos e serviços pela Administração Pública Federal \cite{brasil2026entendanotas}. Foram considerados os arquivos dos doze meses de 2025, convertidos de CSV para Parquet. A unidade inicial de análise foi o item da nota fiscal, e o campo textual utilizado foi ``DESCRIÇÃO DO PRODUTO/SERVIÇO''. Foram contabilizados 7.639.476 registros, dos quais 5.979.164 continham descrição não vazia.
+A pesquisa utilizou os registros de notas fiscais disponibilizados pela Controladoria-Geral da União no Portal da Transparência \cite{brasil2026notasfiscais}, que reúnem aquisições de produtos e serviços pela Administração Pública Federal \cite{brasil2026entendanotas}. Foram considerados os arquivos dos doze meses de 2025, convertidos de CSV para Parquet. A unidade inicial de análise foi o item da nota fiscal, e o campo textual utilizado foi ``DESCRIÇÃO DO PRODUTO/SERVIÇO''. Foram contabilizados 7.639.476 registros, dos quais 5.979.164 continham descrição não vazia. Todos os documentos da base são NF-e modelo 55.
+
+Por serem compras públicas, essas notas não representam diretamente as compras de consumidores em supermercados. Elas foram adotadas como aproximação por três motivos: a descrição do item é preenchida pelo emissor a partir de seu próprio cadastro de produtos, independentemente de quem compra; o campo de descrição segue o mesmo leiaute nas notas fiscais eletrônicas emitidas no varejo \cite{portalnfe-moc}; e, no recorte utilizado, 82,2\% das linhas estavam marcadas como operação com consumidor final e 36,4\% como operação presencial. Além disso, a base é pública e não contém dados pessoais de compradores.
 
 Como a fonte inclui produtos de diferentes finalidades, foi construído um recorte por códigos NCM para aproximar as mercadorias analisadas do domínio de supermercados. Uma análise exploratória identificou 397 emissores candidatos por padrões textuais associados a supermercados e redes varejistas. Nos itens dos dez emissores com mais linhas, foram observados 453 NCMs distintos, dos quais foram mantidos os 241 códigos de oito dígitos com pelo menos cinco ocorrências. A Tabela~\ref{tab:ncm} apresenta os quinze mais frequentes nessa etapa.
 
-\begin{table}[htbp]
+\begin{table}[!htb]
     \caption{NCMs mais frequentes entre os emissores de referência}
     \label{tab:ncm}
     \centering
@@ -298,7 +344,7 @@ Como a fonte inclui produtos de diferentes finalidades, foi construído um recor
     \fonte{Elaborado pelo autor com base na etapa exploratória de seleção dos NCMs. As contagens referem-se aos itens dos dez emissores de referência, e não à base anual completa.}
 \end{table}
 
-Os 241 códigos foram aplicados, por correspondência exata, aos registros de todos os emissores dos doze meses, resultando em 868.292 linhas de itens. A seleção dos emissores serviu, portanto, apenas para identificar códigos de produtos. Esse recorte é uma aproximação do domínio pretendido: ele não identifica o canal de venda nem transforma a fonte em uma amostra de compras de consumidores em supermercados. As linhas filtradas continham 158.293 descrições distintas, com média de 30,53 caracteres e 5,11 palavras; 59,30\% continham algarismos e 38,47\% continham caracteres não alfanuméricos.
+Os 241 códigos foram aplicados, por correspondência exata, aos registros de todos os emissores dos doze meses, resultando em 868.292 linhas de itens. A seleção dos emissores serviu, portanto, apenas para identificar códigos de produtos. Esse recorte é uma aproximação do domínio pretendido: ele não identifica o canal de venda nem transforma a fonte em uma amostra de compras de consumidores em supermercados. As linhas filtradas continham 158.293 descrições distintas, com média de 30,5 caracteres e 5,1 palavras; 59,3\% continham algarismos e 38,5\% continham caracteres não alfanuméricos.
 
 \section{Pré-processamento textual}
 \label{sec:preprocessamento}
@@ -307,7 +353,7 @@ O pré-processamento buscou reduzir variações de escrita sem eliminar informa�
 
 Foi aplicada uma lista local de \textit{stopwords} com artigos, preposições e conectivos, como ``de'', ``da'', ``do'', ``e'', ``em'' e ``um'', removidos apenas como palavras completas. Termos como ``com'', ``sem'', ``nao'' e ``para'' foram preservados por poderem expressar características do produto, e não foi aplicada lematização. Descrições que resultaram no mesmo texto foram consolidadas em um único registro, que preservou sua frequência, um exemplo do texto de origem, os meses de ocorrência e, quando disponíveis, o NCM mais frequente. A Tabela~\ref{tab:preparacao} resume as etapas de preparação.
 
-\begin{table}[htbp]
+\begin{table}[!htb]
     \caption{Etapas de preparação do conjunto textual de 2025}
     \label{tab:preparacao}
     \centering
@@ -319,12 +365,9 @@ Foi aplicada uma lista local de \textit{stopwords} com artigos, preposições e 
         Linhas após o filtro por NCM & 868.292\\
         Descrições originais distintas antes da normalização & 158.293\\
         Sequências com seis ou mais algarismos removidas do texto & 28.213\\
-        Linhas excluídas por descrição nula ou vazia na preparação inicial & 4\\
-        Ocorrências válidas antes da remoção de \textit{stopwords} & 868.288\\
+        Linhas excluídas por texto vazio (antes e após a remoção de \textit{stopwords}) & 4 e 1\\
         Descrições normalizadas distintas antes da remoção de \textit{stopwords} & 149.149\\
-        Itens alterados pela remoção de \textit{stopwords} na descrição normalizada & 236.147\\
-        Tokens removidos da descrição normalizada pela lista de \textit{stopwords} & 271.051\\
-        Linhas excluídas por texto vazio após a remoção de \textit{stopwords} & 1\\
+        Tokens removidos pela lista de \textit{stopwords} & 271.051\\
         Ocorrências válidas após a remoção de \textit{stopwords} & 868.287\\
         Descrições distintas após a normalização, remoção de \textit{stopwords} e consolidação & 146.999\\
         \hline
@@ -332,33 +375,27 @@ Foi aplicada uma lista local de \textit{stopwords} com artigos, preposições e 
     \fonte{Elaborado pelo autor com base na preparação dos dados e nos arquivos Parquet utilizados.}
 \end{table}
 
-Também foram preparadas variantes com tratamento de abreviações, padronização de unidades e mascaramento de números, mas os experimentos aqui comparados utilizaram a descrição normalizada com remoção de \textit{stopwords}. A adoção dessa lista foi uma decisão de preparação da base, e não um fator controlado da comparação.
+A adoção da lista de \textit{stopwords} foi uma decisão de preparação da base, e não um fator controlado da comparação.
 
 \section{Representação textual}
 \label{sec:representacao}
 
 Cada descrição normalizada distinta foi convertida em uma representação numérica. A frequência das descrições foi preservada para consulta, mas não foi utilizada como peso no ajuste dos modelos.
 
-\subsection{Representação por TF-IDF}
-
 A representação TF-IDF foi produzida com o \texttt{TfidfVectorizer} do scikit-learn \cite{sklearn-tfidf}. Foram utilizados n-gramas de palavras nas faixas (1,3), (1,5) e (2,5) e n-gramas de caracteres com o analisador \texttt{char\_wb} nas faixas (2,4), (2,10), (3,5), (3,10), (4,8), (4,10) e (5,10). As dez segmentações foram combinadas com frequências mínimas (\texttt{min\_df}) de uma, duas, cinco e dez descrições, totalizando quarenta representações. O limite foi de 100.000 atributos, com ponderação sublinear da frequência dos termos e normalização L2.
 
-Também foi registrada a quantidade de vetores nulos, que ocorrem quando nenhum termo da descrição é mantido no vocabulário, especialmente com n-gramas longos ou maior frequência mínima. Esses vetores permaneceram no fluxo, e sua ocorrência foi tratada como diagnóstico da representação, separado do rótulo de ruído dos algoritmos baseados em densidade.
+Também foi registrada a quantidade de vetores nulos, que ocorrem quando nenhum termo da descrição é mantido no vocabulário. Esses vetores permaneceram no fluxo, e sua ocorrência foi tratada como diagnóstico da representação.
 
-\subsection{Representação por embeddings de sentenças}
+Para os \textit{embeddings}, foi utilizado o modelo pré-treinado \nolinkurl{sentence-transformers/paraphrase-multilingual-mpnet-base-v2}, denominado MPNet neste trabalho \cite{sentencetransformers-mpnet}. Cada descrição foi convertida em um vetor de 768 dimensões com normalização L2, em lotes de 64 descrições e sem ajuste fino com os dados fiscais.
 
-Foi utilizado o modelo pré-treinado \texttt{sentence-transformers/paraphrase-multilingual-mpnet-base-v2}, denominado MPNet neste trabalho \cite{sentencetransformers-mpnet}. Cada descrição foi convertida em um vetor de 768 dimensões com normalização L2, em lotes de 64 descrições e sem ajuste fino com os dados fiscais.
-
-\subsection{Representação híbrida}
-
-A representação híbrida buscou combinar a coincidência de termos capturada pelo TF-IDF com as relações semânticas dos \textit{embeddings}. Os vetores de cada representação foram normalizados separadamente; o bloco TF-IDF foi multiplicado por $\sqrt{\alpha}$ e o bloco dos \textit{embeddings} por $\sqrt{1-\alpha}$, e ambos foram concatenados. Assim, a similaridade cosseno entre duas descrições corresponde a uma média ponderada das similaridades em cada representação. Com $\alpha$ igual a 0,2, 20\% da similaridade provém do TF-IDF e 80\% dos \textit{embeddings}; quando uma descrição não possui atributos TF-IDF, sua similaridade depende somente dos \textit{embeddings}. As quarenta configurações TF-IDF foram combinadas com os \textit{embeddings} e avaliadas com HDBSCAN.
+A representação híbrida buscou combinar a coincidência de termos capturada pelo TF-IDF com as relações semânticas dos \textit{embeddings}, ideia semelhante à combinação de sinais lexicais e semânticos em sistemas de busca \cite{kuzi2020hybrid}. Os vetores de cada representação foram normalizados separadamente; o bloco TF-IDF foi multiplicado por $\sqrt{\alpha}$ e o bloco dos \textit{embeddings} por $\sqrt{1-\alpha}$, e ambos foram concatenados. Assim, quando as duas descrições possuem atributos TF-IDF, a similaridade cosseno entre elas corresponde a uma média ponderada das similaridades em cada representação: com $\alpha$ igual a 0,2, 20\% provém do TF-IDF e 80\% dos \textit{embeddings}. Quando uma descrição não possui atributos TF-IDF, apenas o bloco dos \textit{embeddings} contribui, e sua similaridade com descrições que possuem esses atributos equivale à dos \textit{embeddings} multiplicada por $\sqrt{1-\alpha}\approx 0{,}89$. As quarenta configurações TF-IDF foram combinadas com os \textit{embeddings} e avaliadas com HDBSCAN.
 
 \section{Organização dos experimentos e configuração dos algoritmos}
 \label{sec:organizacao-experimentos}
 
-Cada combinação de representação e algoritmo foi executada em um notebook próprio, com o mesmo conjunto de 20.000 descrições distintas, sorteadas com semente 42 e ordenadas antes do ajuste. A Tabela~\ref{tab:execucoes} resume os parâmetros avaliados e a quantidade de combinações de cada experimento.
+Cada combinação de representação e algoritmo foi executada em um notebook próprio, com o mesmo conjunto de 20.000 descrições distintas, sorteadas com semente 42 e ordenadas antes do ajuste. O tamanho da amostra, cerca de 13,6\% das 146.999 descrições, foi definido pela limitação de memória e de processamento dos dois computadores pessoais utilizados, já que o cálculo da silhueta e a busca por força bruta crescem com o quadrado da quantidade de descrições. A Tabela~\ref{tab:execucoes} resume os parâmetros avaliados e a quantidade de combinações de cada experimento.
 
-\begin{table}[htbp]
+\begin{table}[!htb]
     \caption{Parâmetros e combinações avaliadas nos experimentos de agrupamento}
     \label{tab:execucoes}
     \centering
@@ -383,22 +420,34 @@ Cada combinação de representação e algoritmo foi executada em um notebook pr
     \fonte{Elaborado pelo autor com base nos registros das execuções. Nota: no HDBSCAN, o valor padrão de \texttt{min\_samples} assume o valor de \texttt{min\_cluster\_size} \cite{sklearn-hdbscan}; por isso, algumas combinações produzem soluções equivalentes.}
 \end{table}
 
-O K-Means ajusta os centroides com distâncias euclidianas quadráticas e atribui todas as observações a algum grupo, de modo que sua cobertura é sempre completa e não indica, por si, adequação semântica. No DBSCAN e no HDBSCAN, foi utilizada distância cosseno com busca por força bruta; na execução híbrida, as distâncias foram pré-calculadas e reutilizadas entre as configurações. Para cada execução, foram preservados os parâmetros, as métricas e os arquivos de atribuições (\textit{assignments}), que relacionam cada descrição a um cluster ou à indicação de ruído.
+No K-Means, a cobertura é sempre completa e não indica, por si, adequação semântica. No DBSCAN e no HDBSCAN, foi utilizada distância cosseno com busca por força bruta; na execução híbrida, as distâncias foram pré-calculadas. Para cada execução, foram preservados os parâmetros, as métricas e os arquivos de atribuições (\textit{assignments}), que relacionam cada descrição a um cluster ou à indicação de ruído.
 
 \section{Critérios de avaliação e inspeção dos agrupamentos}
 \label{sec:criterios}
 
 A avaliação quantitativa considerou o coeficiente de silhueta com distância cosseno, a proporção de ruído, a cobertura e a quantidade de clusters formados, todos calculados sobre as 20.000 descrições distintas, sem ponderação pela frequência. Nos métodos de densidade, a silhueta foi calculada somente entre as descrições agrupadas e apenas quando havia pelo menos dois clusters.
 
-Para organizar a inspeção, foi definido um ranking restrito a configurações com silhueta calculável e entre dez e mil clusters. O limite mínimo foi adotado como critério operacional, pois menos de dez grupos foi considerado excessivamente abrangente para o nível de organização pretendido. A pontuação combinou a silhueta reescalada para o intervalo de zero a um, com peso 0,75, e a cobertura, com peso 0,25, priorizando a separação dos grupos. O ranking organizou os resultados, sem determinar automaticamente a configuração de interesse; a quantidade de clusters e sua possibilidade de interpretação também foram consideradas, com inspeção das atribuições em tabelas dinâmicas do Microsoft Excel.
+O autor definiu como nível de organização pretendido uma taxonomia final de 40 a 100 categorias de produtos. Os clusters são tratados como unidades intermediárias: uma solução com algumas centenas de grupos coerentes ainda pode ser agregada nessa faixa, enquanto uma solução com poucos grupos tende a misturar produtos de categorias diferentes. Por isso, a faixa de quantidade de clusters aceita nos experimentos foi mais ampla, de dez a mil, para observar como silhueta e ruído variam com a granularidade.
 
-A inspeção foi apoiada por projeções t-SNE \cite{vandermaaten2008tsne} de uma amostra de 5.000 descrições, sorteada com semente 42. Os vetores foram reduzidos a 50 dimensões com TruncatedSVD e projetados com perplexidade 30. Os modelos foram ajustados sobre as representações originais, e não sobre as coordenadas t-SNE, de modo que as projeções serviram apenas à interpretação. Nas figuras do Capítulo~\ref{cap:resultados}, o ruído aparece em cinza, as cores se repetem a cada 20 clusters e as quantidades visíveis podem diferir das calculadas sobre 20.000 descrições.
+Para organizar a inspeção, foi definido um ranking restrito a configurações com silhueta calculável e entre dez e mil clusters. A pontuação $P$ de cada configuração combinou a silhueta $s$, reescalada para o intervalo de zero a um, e a cobertura $c$:
+\begin{equation}
+P = 0{,}75\cdot\frac{s+1}{2} + 0{,}25\cdot c.
+\label{eq:pontuacao}
+\end{equation}
+Os pesos foram escolhidos pelo autor para priorizar a separação dos grupos sem desconsiderar a cobertura. O ranking organizou os resultados, sem determinar automaticamente a configuração de interesse; a quantidade de clusters também foi considerada, com inspeção das atribuições em tabelas dinâmicas do Microsoft Excel.
+
+A inspeção foi apoiada por projeções t-SNE \cite{vandermaaten2008tsne} de uma amostra de 5.000 descrições, sorteada com semente 42. Os vetores foram reduzidos a 50 dimensões com TruncatedSVD e projetados com perplexidade 30; os modelos foram ajustados sobre as representações originais. Nas figuras do Capítulo~\ref{cap:resultados}, o ruído aparece em cinza, as cores se repetem a cada 20 clusters e as quantidades visíveis podem diferir das calculadas sobre 20.000 descrições.
 
 Para avaliar a coerência dos agrupamentos de forma sistemática, foi revisada manualmente uma amostra de clusters das nove configurações da Tabela~\ref{tab:indicadores}. Em cada configuração, os clusters foram divididos em tercis de tamanho e foram sorteados sete clusters por faixa, com semente 42; os onze clusters de MPNet com DBSCAN foram incluídos integralmente, totalizando 179 clusters. Para cada cluster, foram apresentadas as cinco descrições mais frequentes e até cinco sorteadas entre as demais, com códigos aleatórios que não identificavam a configuração de origem.
 
-Cada cluster foi classificado como coerente, quando as descrições correspondiam a um mesmo tipo de produto; parcialmente coerente, quando a maioria correspondia a um mesmo tipo, com exceções, ou reunia produtos relacionados em formatos diferentes; ou incoerente, quando não formava um tipo de produto reconhecível ou se apoiava em termos genéricos, como unidades de medida. Todas as classificações foram feitas ou conferidas pelo autor; para 150 clusters, uma classificação preliminar foi elaborada com apoio de uma ferramenta de inteligência artificial generativa (Claude, da Anthropic), a partir dos critérios definidos e de 25 classificações iniciais do autor.
+Cada cluster foi classificado como coerente, quando as descrições correspondiam a um mesmo tipo de produto; parcialmente coerente, quando a maioria correspondia a um mesmo tipo, com exceções, ou reunia produtos relacionados em formatos diferentes; ou incoerente, quando não formava um tipo de produto reconhecível ou se apoiava em termos genéricos, como unidades de medida. Todas as classificações foram feitas ou conferidas pelo autor; para 150 clusters, uma classificação preliminar foi elaborada com apoio de uma ferramenta de inteligência artificial generativa (Claude, da Anthropic), a partir dos critérios definidos e de 25 classificações iniciais do autor. O uso de modelos de linguagem como apoio à anotação de textos tem sido estudado como alternativa à anotação manual, mas exige conferência humana \cite{gilardi2023chatgpt}.
 
-Por fim, foi estimada a parcela das 20.000 descrições em clusters coerentes: em cada faixa de tamanho, a proporção de descrições em clusters coerentes na amostra foi aplicada ao total da faixa, o que incorpora a cobertura. Clusters não sorteados que reuniam pelo menos 20\% das descrições agrupadas de uma configuração foram classificados individualmente.
+Por fim, foi estimada a parcela das 20.000 descrições em clusters coerentes: em cada faixa de tamanho, a proporção de descrições em clusters coerentes na amostra foi aplicada ao total da faixa, o que incorpora a cobertura. Clusters parcialmente coerentes não foram contados nessa estimativa. Clusters não sorteados que reuniam pelo menos 20\% das descrições agrupadas de uma configuração foram classificados individualmente.
+
+\section{Protótipo de consulta}
+\label{sec:prototipo}
+
+Para conferir os agrupamentos com descrições avulsas, foi desenvolvido um notebook de consulta. Ele carrega uma configuração TF-IDF com HDBSCAN salva, aplica à nova descrição a mesma normalização e o mesmo vetorizador e indica o cluster com maior soma de similaridade cosseno entre as dez descrições agrupadas mais semelhantes, exibindo exemplos desse cluster. Como a implementação do HDBSCAN no scikit-learn não oferece predição para novos itens \cite{sklearn-hdbscan}, essa indicação é uma aproximação baseada nas atribuições existentes. O protótipo foi usado como teste qualitativo, sem avaliação quantitativa: o autor digitou descrições de itens comuns em suas próprias compras de supermercado, escritas de forma livre, como poderiam aparecer em uma nota, e verificou se os exemplos do cluster indicado correspondiam ao mesmo tipo de produto. Essas descrições não foram sorteadas nem rotuladas previamente.
 
 
 
@@ -409,73 +458,61 @@ Por fim, foi estimada a parcela das 20.000 descrições em clusters coerentes: e
 \chapter{Resultados e Discussão}
 \label{cap:resultados}
 
-Este capítulo apresenta os resultados dos experimentos realizados sobre a amostra comum de 20.000 descrições. São discutidas as métricas dos agrupamentos, as configurações de interesse para aprofundamento e as observações obtidas na inspeção exploratória, além da revisão manual de uma amostra de clusters.
+Este capítulo apresenta os resultados dos experimentos sobre a amostra comum de 20.000 descrições, a revisão manual dos clusters e a discussão à luz da questão de pesquisa. A Tabela~\ref{tab:indicadores} reúne a primeira configuração do ranking de cada combinação de representação e algoritmo, além das duas configurações TF-IDF com HDBSCAN selecionadas pelo autor para aprofundamento.
 
-\section{Visão geral dos resultados}
-\label{sec:visao-geral}
-
-A Tabela~\ref{tab:indicadores} reúne a primeira configuração do ranking de cada combinação de representação e algoritmo, além das duas configurações TF-IDF com HDBSCAN selecionadas pelo autor para aprofundamento. Essa distinção permite observar que a pontuação mais alta não foi o único critério utilizado na análise.
-
-\begin{table}[htbp]
+\begin{table}[!htb]
     \caption{Indicadores das configurações destacadas}
     \label{tab:indicadores}
     \centering
     \small
-    \setlength{\tabcolsep}{4pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+    \begin{tabularx}{\textwidth}{Xrrrrr}
         \hline
-        \textbf{Configuração} & \textbf{Clusters} & \textbf{Silhueta} & \textbf{Ruído (\%)} & \textbf{Cobertura (\%)} & \textbf{Escore}\
+        \textbf{Representação e algoritmo} & \textbf{Clusters} & \textbf{Silhueta} & \textbf{Ruído (\%)} & \textbf{Cobertura (\%)} & \textbf{Escore}\\
         \hline
-        TF-IDF + K-Means & 200 & 0,210 & 0,0 & 100,0 & 0,704\
-        MPNet + K-Means & 200 & 0,117 & 0,0 & 100,0 & 0,669\
-        TF-IDF + DBSCAN & 734 & 1,000 & 63,9 & 36,1 & 0,840\
-        MPNet + DBSCAN & 11 & 0,975 & 99,3 & 0,7 & 0,742\
-        TF-IDF + HDBSCAN (1.ª do ranking) & 736 & 0,519 & 49,1 & 50,9 & 0,697\
-        TF-IDF + HDBSCAN (candidata A) & 101 & 0,713 & 80,0 & 20,0 & 0,692\
-        TF-IDF + HDBSCAN (candidata B) & 381 & 0,566 & 60,3 & 39,7 & 0,687\
-        MPNet + HDBSCAN & 123 & 0,471 & 83,1 & 16,9 & 0,594\
-        Híbrida + HDBSCAN & 982 & 0,349 & 51,6 & 48,4 & 0,627\
+        TF-IDF e K-Means & 200 & 0,2099 & 0,0 & 100,0 & 0,7037\\
+        MPNet e K-Means & 200 & 0,1165 & 0,0 & 100,0 & 0,6687\\
+        TF-IDF e DBSCAN & 734 & 0,9996 & 63,9 & 36,1 & 0,8401\\
+        MPNet e DBSCAN & 11 & 0,9753 & 99,3 & 0,7 & 0,7424\\
+        TF-IDF e HDBSCAN (primeira do ranking) & 736 & 0,5189 & 49,1 & 50,9 & 0,6969\\
+        TF-IDF e HDBSCAN (candidata A) & 101 & 0,7127 & 80,0 & 20,0 & 0,6923\\
+        TF-IDF e HDBSCAN (candidata B) & 381 & 0,5656 & 60,3 & 39,7 & 0,6865\\
+        MPNet e HDBSCAN & 123 & 0,4710 & 83,1 & 16,9 & 0,5939\\
+        TF-IDF e MPNet com HDBSCAN & 982 & 0,3487 & 51,6 & 48,4 & 0,6266\\
         \hline
-    \end{tabular*}
-    \fonte{Elaborado pelo autor com base nos arquivos de métricas e rankings das execuções. Nota: nos métodos de densidade, a silhueta foi calculada somente entre as descrições agrupadas. As candidatas A e B correspondem às configurações detalhadas na Seção~\ref{sec:res-hdbscan}. As demais linhas representam a primeira posição de cada ranking, sem pressupor escolha de um classificador final. Híbrida: combinação de TF-IDF e MPNet.}
+    \end{tabularx}
+    \fonte{Elaborado pelo autor com base nos arquivos de métricas e rankings das execuções. Nota: nos métodos de densidade, a silhueta foi calculada somente entre as descrições agrupadas. As candidatas A e B correspondem às configurações detalhadas na Seção~\ref{sec:res-hdbscan-candidatas}. As demais linhas representam a primeira posição de cada ranking, sem pressupor a escolha de uma configuração final.}
 \end{table}
 
-A comparação exige considerar simultaneamente os indicadores. Uma silhueta alta pode estar associada a uma parcela pequena das descrições, enquanto uma cobertura maior pode incluir grupos menos separados. Além disso, cada representação define um espaço de distâncias próprio. Assim, a utilização da mesma amostra e da distância cosseno padroniza parte do protocolo, mas não torna os valores uma medida direta da correção semântica das categorias.
+Uma silhueta alta pode estar associada a uma parcela pequena das descrições, e cada representação define um espaço de distâncias próprio; por isso, os valores não são uma medida direta da coerência semântica dos grupos.
 
-\begin{figure}[htbp]
+\begin{figure}[!htb]
     \caption{Relação entre cobertura e silhueta das configurações destacadas}
     \label{fig:cobertura-silhueta}
     \centering
-    \includegraphics[width=0.7\linewidth]{images/cobertura-silhueta.png}
+    \includegraphics[width=0.6\linewidth]{images/cobertura-silhueta.png}
     \fonte{Elaborado pelo autor com base nos dados da Tabela~\ref{tab:indicadores}. KM: K-Means; DB: DBSCAN; H: HDBSCAN.}
 \end{figure}
 
-A Figura~\ref{fig:cobertura-silhueta} evidencia esse compromisso: as configurações DBSCAN destacadas alcançaram valores elevados de silhueta com cobertura restrita. As soluções HDBSCAN ocuparam posições intermediárias, com diferenças relevantes de cobertura e quantidade de grupos. O gráfico resume os indicadores e não representa uma ordenação definitiva da qualidade semântica dos agrupamentos.
+A Figura~\ref{fig:cobertura-silhueta} evidencia esse compromisso: as configurações DBSCAN alcançaram silhuetas elevadas com cobertura restrita, e as soluções HDBSCAN ocuparam posições intermediárias.
 
 \section{Resultados com K-Means}
 \label{sec:res-kmeans}
 
-Com TF-IDF, a maior silhueta observada foi 0,2099, na configuração de palavras com n-gramas de duas a cinco palavras, \texttt{min\_df} igual a dez e $k$ igual a 200. A pontuação composta foi 0,7037. Embora todas as descrições tenham recebido um cluster, o maior agrupamento reuniu 69,425\% da amostra, indicando forte concentração das atribuições.
+Com TF-IDF, a maior silhueta foi 0,2099, com n-gramas de duas a cinco palavras, \texttt{min\_df} igual a dez e $k$ igual a 200. Essa representação deixou 10.796 descrições (54,0\%) sem nenhum atributo, pois seu vocabulário tem apenas 930 atributos e descrições de uma palavra não formam bigramas. Por terem todas as coordenadas iguais a zero, esses vetores foram atribuídos ao mesmo centroide, o que explica a maior parte dos 69,4\% da amostra reunidos no maior cluster. As configurações seguintes, com n-gramas de caracteres, ficaram abaixo de 0,20.
 
-Essa configuração também apresentou 10.796 vetores nulos, equivalentes a 53,98\% das descrições, e um vocabulário de 930 atributos. Portanto, a interpretação do resultado precisa considerar que mais da metade dos textos ficou sem atributos nessa representação. A combinação de n-gramas de pelo menos duas palavras com uma frequência mínima mais restritiva reduziu a informação disponível para distinguir parte das descrições. Como esses vetores são idênticos entre si, todos foram atribuídos ao mesmo centroide, o que explica a maior parte da concentração de 69,425\% observada no maior cluster.
-
-As configurações seguintes do ranking TF-IDF utilizaram n-gramas de caracteres. Com \texttt{char\_wb} na faixa (4,10), \texttt{min\_df} igual a dez e $k$ igual a 200, a silhueta foi 0,1974. Com \texttt{char\_wb} na faixa (5,10), \texttt{min\_df} igual a cinco e o mesmo $k$, foi 0,1931. A maior silhueta, portanto, permaneceu próxima de 0,21 na grade avaliada.
-
-Com os \textit{embeddings}, a maior silhueta foi 0,1165, também com $k$ igual a 200. O maior cluster representou 1,155\% das descrições, mostrando uma distribuição menos concentrada do que a configuração TF-IDF de maior pontuação. Essa distribuição, contudo, não foi acompanhada de maior silhueta. O resultado não sustentou a adoção do K-Means como solução suficiente para o objetivo do trabalho e motivou a continuidade da investigação com métodos baseados em densidade.
-
-As Figuras~\ref{fig:tsne-kmeans-tfidf} e~\ref{fig:tsne-kmeans-mpnet} apresentam as projeções t-SNE das configurações K-Means destacadas. Na representação TF-IDF, os vetores nulos aparecem concentrados em uma única região, em forma de anel, e com a mesma cor, pois foram atribuídos ao mesmo cluster. Com os \textit{embeddings}, as descrições se distribuem de forma mais contínua, com regiões de maior densidade, mas sem separação nítida entre muitos dos grupos.
+Com os \textit{embeddings}, a maior silhueta foi 0,1165, também com $k$ igual a 200, e o maior cluster reuniu 1,2\% das descrições. Os resultados não sustentaram o K-Means como solução suficiente e motivaram a investigação com métodos baseados em densidade. Nas Figuras~\ref{fig:tsne-kmeans-tfidf} e~\ref{fig:tsne-kmeans-mpnet}, os vetores nulos do TF-IDF aparecem como um anel de mesma cor, e os \textit{embeddings} se distribuem de forma contínua, sem separação nítida entre muitos grupos.
 
 % Figuras t-SNE em pares lado a lado; legenda comum descrita na Seção sec:criterios.
-\begin{figure}[htbp]
+\begin{figure}[!htb]
     \centering
-    \begin{minipage}[t]{0.48\linewidth}
+    \begin{minipage}[t]{0.40\linewidth}
         \centering
         \caption{t-SNE de TF-IDF com K-Means (palavras de duas a cinco, $k$ = 200)}
         \label{fig:tsne-kmeans-tfidf}
         \includegraphics[width=\linewidth]{images/tsne-kmeans-tfidf.png}
         \fonte{Elaborado pelo autor.}
-    \end{minipage}\hfill
-    \begin{minipage}[t]{0.48\linewidth}
+    \end{minipage}\hspace{0.04\linewidth}
+    \begin{minipage}[t]{0.40\linewidth}
         \centering
         \caption{t-SNE de MPNet com K-Means ($k$ = 200)}
         \label{fig:tsne-kmeans-mpnet}
@@ -487,26 +524,20 @@ As Figuras~\ref{fig:tsne-kmeans-tfidf} e~\ref{fig:tsne-kmeans-mpnet} apresentam 
 \section{Resultados com DBSCAN}
 \label{sec:res-dbscan}
 
-No TF-IDF com DBSCAN, a primeira posição do ranking utilizou n-gramas de duas a cinco palavras, \texttt{min\_df} igual a dez, \texttt{eps} igual a 0,025 e \texttt{min\_samples} igual a três. Foram formados 734 clusters, com silhueta de 0,9996. Entretanto, 12.783 descrições foram identificadas como ruído, correspondendo a 63,915\% da amostra. A silhueta descreveu somente as 7.217 observações agrupadas.
+No TF-IDF com DBSCAN, a primeira posição do ranking utilizou n-gramas de duas a cinco palavras, \texttt{min\_df} igual a dez, \texttt{eps} igual a 0,025 e \texttt{min\_samples} igual a três. Foram formados 734 clusters, com silhueta de 0,9996, mas 12.783 descrições (63,9\%) foram identificadas como ruído, e a silhueta descreveu somente as 7.217 agrupadas. Com um raio tão pequeno, o DBSCAN com TF-IDF está, na prática, detectando quase-duplicatas, e não categorias: cada cluster reúne variantes de escrita de uma mesma descrição. Os 10.796 vetores nulos dessa representação ficaram como ruído.
 
-A mesma representação apresentou 10.796 vetores nulos. A silhueta elevada, nesse cenário, indica separação dos grupos no espaço dos atributos retidos, mas não demonstra que a representação conseguiu organizar semanticamente toda a diversidade textual. O percentual de ruído e a quantidade de descrições sem atributos limitaram a utilidade desse resultado para uma categorização com maior cobertura.
+Com MPNet e DBSCAN, a primeira configuração do ranking utilizou \texttt{eps} igual a 0,01 e \texttt{min\_samples} igual a cinco. Foram identificados onze clusters, com silhueta de 0,9753, mas apenas 133 descrições receberam cluster, uma cobertura de 0,7\%. Esse caso mostra que atender ao mínimo de dez clusters não basta para tornar uma solução adequada. Nas Figuras~\ref{fig:tsne-dbscan-tfidf} e~\ref{fig:tsne-dbscan-mpnet}, com o ruído em cinza, os clusters TF-IDF aparecem como pequenos conjuntos de pontos sobrepostos, e a projeção dos \textit{embeddings} permanece quase toda em cinza.
 
-Com MPNet e DBSCAN, a primeira configuração do ranking utilizou \texttt{eps} igual a 0,01 e \texttt{min\_samples} igual a cinco. Foram identificados onze clusters e silhueta de 0,9753. Porém, apenas 133 descrições receberam cluster, enquanto 19.867 ficaram como ruído. A cobertura foi de 0,665\%, e a proporção de ruído atingiu 99,335\%.
-
-Assim, o ganho de silhueta em relação ao K-Means foi acompanhado de uma redução importante da cobertura nas configurações destacadas. O caso dos \textit{embeddings} demonstra que atender ao mínimo de dez clusters não basta para tornar uma solução adequada: mesmo com onze grupos e silhueta elevada, quase todas as descrições ficaram sem atribuição. Esses resultados reforçaram a necessidade de considerar os indicadores conjuntamente.
-
-As Figuras~\ref{fig:tsne-dbscan-tfidf} e~\ref{fig:tsne-dbscan-mpnet} mostram as projeções das configurações DBSCAN destacadas, com o ruído representado em cinza. Com TF-IDF, os clusters aparecem como pequenos conjuntos de pontos sobrepostos, compatíveis com grupos de descrições muito semelhantes, enquanto o anel dos vetores nulos permanece como ruído. Com os \textit{embeddings}, quase toda a amostra permanece em cinza, o que ilustra a cobertura de 0,665\%.
-
-\begin{figure}[htbp]
+\begin{figure}[!htb]
     \centering
-    \begin{minipage}[t]{0.48\linewidth}
+    \begin{minipage}[t]{0.40\linewidth}
         \centering
         \caption{t-SNE de TF-IDF com DBSCAN (palavras de duas a cinco, \texttt{eps} = 0,025, \texttt{min\_samples} = 3)}
         \label{fig:tsne-dbscan-tfidf}
         \includegraphics[width=\linewidth]{images/tsne-dbscan-tfidf.png}
         \fonte{Elaborado pelo autor.}
-    \end{minipage}\hfill
-    \begin{minipage}[t]{0.48\linewidth}
+    \end{minipage}\hspace{0.04\linewidth}
+    \begin{minipage}[t]{0.40\linewidth}
         \centering
         \caption{t-SNE de MPNet com DBSCAN (\texttt{eps} = 0,01, \texttt{min\_samples} = 5)}
         \label{fig:tsne-dbscan-mpnet}
@@ -518,17 +549,28 @@ As Figuras~\ref{fig:tsne-dbscan-tfidf} e~\ref{fig:tsne-dbscan-mpnet} mostram as 
 \section{Resultados com HDBSCAN}
 \label{sec:res-hdbscan}
 
-\subsection{TF-IDF e configurações selecionadas para aprofundamento}
+O HDBSCAN foi avaliado com as três representações. Esta seção apresenta primeiro a configuração que liderou o ranking em cada uma delas e, em seguida, duas configurações TF-IDF mais compactas, selecionadas para aprofundamento.
 
-Com TF-IDF, a primeira configuração do ranking HDBSCAN utilizou \texttt{char\_wb} na faixa (5,10), \texttt{min\_df} igual a dez, \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} padrão. Foram obtidos 736 clusters, silhueta de 0,5189 e ruído de 49,085\%. A segunda configuração apresentou os mesmos indicadores ao explicitar \texttt{min\_samples} igual a cinco. Como o valor padrão assume o tamanho mínimo do cluster, as duas linhas correspondem aos mesmos parâmetros efetivos.
+Com TF-IDF, a primeira configuração do ranking HDBSCAN utilizou \texttt{char\_wb} na faixa (5,10), \texttt{min\_df} igual a dez, \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} padrão. Foram obtidos 736 clusters, silhueta de 0,5189 e ruído de 49,1\%. A segunda configuração tem os mesmos parâmetros efetivos, pois explicita \texttt{min\_samples} igual a cinco, valor que o padrão já assume.
 
-Apesar da posição no ranking, a formação de mais de setecentos grupos foi considerada excessivamente fragmentada pelo autor para a continuidade da interpretação. Foram destacadas duas alternativas com menor quantidade de clusters, denominadas A e B nesta apresentação.
+Com MPNet, a primeira configuração do ranking utilizou \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} igual a dez. Foram identificados 123 clusters, com silhueta de 0,4710 e pontuação de 0,5939. A proporção de ruído foi 83,1\%, e 3.381 descrições foram agrupadas, resultando em cobertura de 16,9\%, abaixo da silhueta e da cobertura obtidas com TF-IDF. Na Figura~\ref{fig:tsne-hdbscan-mpnet}, os grupos aparecem como regiões compactas, e a maior parte das descrições permanece como ruído.
 
-A candidata A utilizou n-gramas de palavras na faixa (2,5), \texttt{min\_df} igual a dez, \texttt{min\_cluster\_size} igual a vinte e \texttt{min\_samples} padrão, equivalente a vinte. Essa configuração formou 101 clusters e apresentou silhueta de 0,7127, com pontuação composta de 0,6923. Foram agrupadas 4.001 descrições, correspondendo à cobertura de 20,005\%, enquanto 79,995\% permaneceram como ruído.
+\begin{figure}[!htb]
+    \caption{t-SNE de MPNet com HDBSCAN (\texttt{min\_cluster\_size} = 5, \texttt{min\_samples} = 10)}
+    \label{fig:tsne-hdbscan-mpnet}
+    \centering
+    \includegraphics[width=0.40\linewidth]{images/tsne-hdbscan-mpnet.png}
+    \fonte{Elaborado pelo autor.}
+\end{figure}
 
-A candidata B utilizou \texttt{char\_wb} na faixa (5,10), \texttt{min\_df} igual a dez, \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} igual a dez. Foram identificados 381 clusters, com silhueta de 0,5656 e pontuação de 0,6865. Essa alternativa agrupou 7.947 descrições, alcançando cobertura de 39,735\%, com 60,265\% de ruído. A Tabela~\ref{tab:candidatas} compara as representações das duas candidatas.
+Na representação híbrida com $\alpha$ igual a 0,2, a primeira posição do ranking utilizou TF-IDF de palavras na faixa (2,5), \texttt{min\_df} igual a cinco, \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} igual a dois. Essa configuração formou 982 clusters, com silhueta de 0,3487 e pontuação de 0,6266. Foram agrupadas 9.671 descrições, correspondendo a 48,4\% da amostra; a proporção de ruído foi 51,6\%. Em comparação com a primeira configuração TF-IDF, a híbrida apresentou menor silhueta, menor cobertura e mais clusters, de modo que a combinação não melhorou simultaneamente os indicadores nem reduziu a fragmentação.
 
-\begin{table}[htbp]
+\subsection{Configurações TF-IDF selecionadas para aprofundamento}
+\label{sec:res-hdbscan-candidatas}
+
+Como a taxonomia pretendida tem de 40 a 100 categorias, mais de setecentos clusters exigiriam uma etapa extensa de agregação. Por isso, além da primeira do ranking TF-IDF, foram destacadas duas alternativas mais compactas, denominadas A e B. A candidata A utilizou n-gramas de palavras na faixa (2,5), \texttt{min\_df} igual a dez e \texttt{min\_cluster\_size} igual a vinte, formando 101 clusters, com silhueta de 0,7127 e cobertura de 20,0\%. A candidata B utilizou \texttt{char\_wb} na faixa (5,10), \texttt{min\_df} igual a dez, \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} igual a dez, formando 381 clusters, com silhueta de 0,5656 e cobertura de 39,7\%. A Tabela~\ref{tab:candidatas} compara suas representações.
+
+\begin{table}[!htb]
     \caption{Características das representações das candidatas HDBSCAN}
     \label{tab:candidatas}
     \centering
@@ -537,29 +579,25 @@ A candidata B utilizou \texttt{char\_wb} na faixa (5,10), \texttt{min\_df} igual
         \hline
         \textbf{Candidata} & \textbf{Representação} & \textbf{Atributos} & \textbf{Vetores nulos}\\
         \hline
-        A & Palavras de duas a cinco & 930 & 10.796 (53,98\%)\\
-        B & Caracteres de cinco a dez & 18.111 & 47 (0,235\%)\\
+        A & Palavras de duas a cinco & 930 & 10.796 (54,0\%)\\
+        B & Caracteres de cinco a dez & 18.111 & 47 (0,2\%)\\
         \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor com base nas métricas do notebook 74.}
 \end{table}
 
-As duas candidatas expressam compromissos diferentes. A alternativa A apresentou maior silhueta e menor quantidade de clusters, com cobertura mais restrita. A alternativa B incluiu uma parcela maior das descrições e produziu menos vetores nulos, embora tenha formado mais grupos e apresentado silhueta inferior. A diferença de representação da Tabela~\ref{tab:candidatas} é relevante para avaliar se os grupos encontrados resultam de informação textual suficiente.
+A candidata A tem maior silhueta e menos clusters, mas mais da metade de suas descrições não tem atributos; a B inclui uma parcela maior das descrições e quase não tem vetores nulos. Na revisão manual (Seção~\ref{sec:res-inspecao}), a B teve maior parcela estimada de descrições em clusters coerentes, diferença explicada principalmente pela cobertura. As Figuras~\ref{fig:tsne-hdbscan-a} e~\ref{fig:tsne-hdbscan-b} apresentam as projeções das candidatas A e B. Na candidata A, o anel formado pelos vetores nulos contém pontos atribuídos a clusters. A verificação das atribuições dessa configuração mostrou que 316 descrições sem atributos receberam cluster. No maior desses grupos, 264 dos 337 itens não possuíam atributos e reuniam produtos sem relação entre si, como frutas, fitas adesivas e álcool. Na candidata B, os grupos se distribuem por toda a projeção, e os vetores nulos são raros.
 
-Essas configurações foram consideradas de interesse por produzirem quantidades de agrupamentos mais viáveis para aprofundamento do que as duas primeiras posições do ranking. A maior silhueta da candidata A, contudo, não elimina a limitação de seus vetores nulos e de sua cobertura. A revisão manual apresentada na Seção~\ref{sec:res-inspecao} favoreceu a candidata B, com 19 dos 21 clusters sorteados avaliados como coerentes, contra 17 da A, e maior parcela estimada de descrições em clusters coerentes.
-
-As Figuras~\ref{fig:tsne-hdbscan-a} e~\ref{fig:tsne-hdbscan-b} apresentam as projeções das candidatas A e B. Na candidata A, o anel formado pelos vetores nulos contém pontos atribuídos a clusters. A verificação das atribuições dessa configuração mostrou que 316 descrições sem atributos receberam cluster. No maior desses grupos, 264 dos 337 itens não possuíam atributos e reuniam produtos sem relação entre si, como frutas, fitas adesivas e álcool. Na candidata B, os grupos se distribuem por toda a projeção, e os vetores nulos são raros.
-
-\begin{figure}[htbp]
+\begin{figure}[!htb]
     \centering
-    \begin{minipage}[t]{0.48\linewidth}
+    \begin{minipage}[t]{0.40\linewidth}
         \centering
         \caption{t-SNE da candidata A (TF-IDF de palavras com HDBSCAN)}
         \label{fig:tsne-hdbscan-a}
         \includegraphics[width=\linewidth]{images/tsne-hdbscan-candidata-a.png}
         \fonte{Elaborado pelo autor.}
-    \end{minipage}\hfill
-    \begin{minipage}[t]{0.48\linewidth}
+    \end{minipage}\hspace{0.04\linewidth}
+    \begin{minipage}[t]{0.40\linewidth}
         \centering
         \caption{t-SNE da candidata B (TF-IDF de caracteres com HDBSCAN)}
         \label{fig:tsne-hdbscan-b}
@@ -568,74 +606,50 @@ As Figuras~\ref{fig:tsne-hdbscan-a} e~\ref{fig:tsne-hdbscan-b} apresentam as pro
     \end{minipage}
 \end{figure}
 
-\subsection{Embeddings MPNet}
-\label{sec:res-hdbscan-mpnet}
-
-Com MPNet e HDBSCAN, a primeira configuração do ranking utilizou \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} igual a dez. Foram identificados 123 clusters, com silhueta de 0,4710 e pontuação de 0,5939. A proporção de ruído foi 83,095\%, e 3.381 descrições foram agrupadas, resultando em cobertura de 16,905\%.
-
-Em relação às duas candidatas TF-IDF destacadas, essa configuração apresentou menor silhueta e menor cobertura. Na inspeção exploratória realizada no Excel, entretanto, o autor observou agrupamentos percebidos como semanticamente mais coesos com os \textit{embeddings}. Essa percepção sugere que as métricas geométricas não esgotam a interpretação do conteúdo dos grupos.
-
-Na revisão manual com critérios definidos (Seção~\ref{sec:res-inspecao}), contudo, ela não se confirmou de forma clara: 18 dos 21 clusters sorteados dessa configuração foram avaliados como coerentes, quantidade intermediária entre as candidatas A e B, e a baixa cobertura limitou a 15,2\% a parcela estimada de descrições em clusters coerentes.
-
-A Figura~\ref{fig:tsne-hdbscan-mpnet} apresenta a projeção da configuração MPNet destacada. Os grupos aparecem como regiões compactas, distribuídas por toda a projeção, enquanto a maior parte das descrições permanece como ruído.
-
-\begin{figure}[htbp]
-    \caption{t-SNE de MPNet com HDBSCAN (\texttt{min\_cluster\_size} = 5, \texttt{min\_samples} = 10)}
-    \label{fig:tsne-hdbscan-mpnet}
-    \centering
-    \includegraphics[width=0.48\linewidth]{images/tsne-hdbscan-mpnet.png}
-    \fonte{Elaborado pelo autor.}
-\end{figure}
-
-\subsection{Representação híbrida}
-
-Na representação híbrida com $\alpha$ igual a 0,2, a primeira posição do ranking utilizou TF-IDF de palavras na faixa (2,5), \texttt{min\_df} igual a cinco, \texttt{min\_cluster\_size} igual a cinco e \texttt{min\_samples} igual a dois. Essa configuração formou 982 clusters, com silhueta de 0,3487 e pontuação de 0,6266. Foram agrupadas 9.671 descrições, correspondendo a 48,355\% da amostra; a proporção de ruído foi 51,645\%.
-
-A combinação incluiu uma parcela maior de descrições do que a configuração MPNet destacada, mas apresentou silhueta inferior. Em comparação com a primeira configuração TF-IDF com HDBSCAN, apresentou tanto menor silhueta quanto menor cobertura, além de maior quantidade de clusters. A representação híbrida, portanto, não resultou em melhora simultânea desses indicadores nas configurações que lideraram os respectivos rankings.
-
-O resultado também mostra que a combinação das representações não resolveu automaticamente a fragmentação observada. Na revisão manual, porém, 18 dos 21 clusters sorteados da solução híbrida foram avaliados como coerentes, e a parcela estimada de descrições em clusters coerentes, de 42,7\%, foi a segunda maior entre as configurações avaliadas.
-
-\section{Inspeção dos agrupamentos e testes do protótipo}
+\section{Revisão manual dos agrupamentos e protótipo de consulta}
 \label{sec:res-inspecao}
 
-A inspeção das atribuições em tabelas dinâmicas apoiou a seleção das configurações para aprofundamento e foi sistematizada pela revisão manual descrita na Seção~\ref{sec:criterios}. A Tabela~\ref{tab:revisao} apresenta, para cada configuração, a classificação dos clusters sorteados e a estimativa da parcela das descrições em clusters coerentes.
+A Tabela~\ref{tab:revisao} apresenta, para cada configuração, a classificação dos clusters sorteados e a estimativa da parcela das descrições em clusters coerentes.
 
-\begin{table}[htbp]
+\begin{table}[!htb]
     \caption{Resultado da revisão manual dos clusters}
     \label{tab:revisao}
     \centering
     \small
-    \setlength{\tabcolsep}{4pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrr@{}}
+    \begin{tabularx}{\textwidth}{Xr>{\raggedleft\arraybackslash}p{1.7cm}rrr>{\raggedleft\arraybackslash}p{2.6cm}}
         \hline
-        \textbf{Configuração} & \textbf{Silh.} & \textbf{Cob. (\%)} & \textbf{Coer.} & \textbf{Parc.} & \textbf{Incoer.} & \textbf{Desc. coer. (\%)}\
+        \textbf{Configuração} & \textbf{Silhueta} & \textbf{Cobertura (\%)} & \textbf{Coerentes} & \textbf{Parciais} & \textbf{Incoerentes} & \textbf{Descrições em clusters coerentes (\%)}\\
         \hline
-        TF-IDF + K-Means & 0,210 & 100,0 & 17 & 2 & 2 & 24,4\
-        MPNet + K-Means & 0,117 & 100,0 & 6 & 6 & 9 & 19,5\
-        TF-IDF + DBSCAN & 1,000 & 36,1 & 21 & 0 & 0 & 36,1\
-        MPNet + DBSCAN & 0,975 & 0,7 & 11 & 0 & 0 & 0,7\
-        TF-IDF + HDBSCAN (1.ª do ranking) & 0,519 & 50,9 & 20 & 0 & 1 & 48,8\
-        TF-IDF + HDBSCAN (candidata A) & 0,713 & 20,0 & 17 & 4 & 0 & 17,4\
-        TF-IDF + HDBSCAN (candidata B) & 0,566 & 39,7 & 19 & 2 & 0 & 36,4\
-        MPNet + HDBSCAN & 0,471 & 16,9 & 18 & 1 & 2 & 15,2\
-        Híbrida + HDBSCAN & 0,349 & 48,4 & 18 & 3 & 0 & 42,7\
+        TF-IDF e K-Means & 0,2099 & 100,0 & 17 & 2 & 2 & 24,4\\
+        MPNet e K-Means & 0,1165 & 100,0 & 6 & 6 & 9 & 19,5\\
+        TF-IDF e DBSCAN & 0,9996 & 36,1 & 21 & 0 & 0 & 36,1\\
+        MPNet e DBSCAN & 0,9753 & 0,7 & 11 & 0 & 0 & 0,7\\
+        TF-IDF e HDBSCAN (primeira do ranking) & 0,5189 & 50,9 & 20 & 0 & 1 & 48,8\\
+        TF-IDF e HDBSCAN (candidata A) & 0,7127 & 20,0 & 17 & 4 & 0 & 17,4\\
+        TF-IDF e HDBSCAN (candidata B) & 0,5656 & 39,7 & 19 & 2 & 0 & 36,4\\
+        MPNet e HDBSCAN & 0,4710 & 16,9 & 18 & 1 & 2 & 15,2\\
+        TF-IDF e MPNet com HDBSCAN & 0,3487 & 48,4 & 18 & 3 & 0 & 42,7\\
         \hline
-    \end{tabular*}
-    \fonte{Elaborado pelo autor com base na revisão manual da amostra de clusters e nos dados da Tabela~\ref{tab:indicadores}. Nota: Silh.: silhueta; Cob.: cobertura. As colunas Coer., Parc. e Incoer. indicam quantidades de clusters coerentes, parciais e incoerentes entre os 21 sorteados em cada configuração, ou entre os 11 clusters de MPNet e DBSCAN. A coluna Desc. coer. estima a parcela das 20.000 descrições que pertence a clusters avaliados como coerentes.}
+    \end{tabularx}
+    \fonte{Elaborado pelo autor com base na revisão manual da amostra de clusters e nos dados da Tabela~\ref{tab:indicadores}. Nota: as colunas Coerentes, Parciais e Incoerentes indicam quantidades de clusters entre os 21 sorteados em cada configuração, ou entre os 11 clusters de MPNet e DBSCAN. A última coluna estima a parcela das 20.000 descrições que pertence a clusters avaliados como coerentes.}
 \end{table}
 
-No K-Means com TF-IDF, 17 dos 21 clusters sorteados foram coerentes, mas o maior cluster, fora da amostra, reuniu 13.885 descrições, incluindo todas as 10.796 sem atributos, e foi classificado como incoerente, limitando a estimativa a 24,4\%. Com \textit{embeddings}, apenas 6 dos 21 clusters foram coerentes, e os maiores reuniram produtos variados, resultando em 19,5\%. No DBSCAN, todos os clusters sorteados foram coerentes, o que é compatível com as silhuetas próximas de um, mas a baixa cobertura limitou as estimativas a 36,1\% com TF-IDF e 0,7\% com MPNet; além disso, nove dos onze clusters de MPNet reuniram variações de uma mesma mercadoria, uma coerência pouco informativa para a categorização.
+No K-Means, o maior cluster TF-IDF, com 13.885 descrições e todas as 10.796 sem atributos, foi incoerente, e com \textit{embeddings} apenas 6 dos 21 clusters foram coerentes. No DBSCAN, todos os clusters sorteados foram coerentes, mas a baixa cobertura limitou as estimativas a 36,1\% e 0,7\%; nove dos onze clusters de MPNet reuniram variações de uma mesma mercadoria, coerência pouco informativa para a construção de categorias.
 
-No HDBSCAN, entre 17 e 20 dos 21 clusters sorteados foram coerentes. As maiores parcelas foram observadas na primeira configuração TF-IDF do ranking (48,8\%) e na representação híbrida (42,7\%), justamente as soluções com mais clusters. A candidata B superou a A (36,4\% e 17,4\%), e a configuração MPNet, com 18 clusters coerentes, teve a estimativa limitada a 15,2\% pela cobertura. Assim, a percepção exploratória de maior coesão com \textit{embeddings}, registrada na Seção~\ref{sec:res-hdbscan-mpnet}, não se confirmou de forma clara, e a silhueta isolada não indicou qual configuração organiza mais descrições em grupos coerentes.
+No HDBSCAN, entre 17 e 20 dos 21 clusters sorteados foram coerentes. As maiores parcelas foram observadas na primeira configuração TF-IDF do ranking (48,8\%) e na representação híbrida (42,7\%), justamente as soluções com mais clusters. A candidata B superou a A (36,4\% e 17,4\%), e a configuração MPNet teve a estimativa limitada a 15,2\% pela cobertura: 18 dos 21 clusters sorteados foram coerentes, mas a impressão de maior coesão semântica dos \textit{embeddings}, obtida na inspeção exploratória, não se converteu em uma parcela maior de descrições organizadas. Assim, a silhueta isolada não indicou qual configuração organiza mais descrições em grupos coerentes.
 
-O notebook de consulta indica um cluster existente para uma nova descrição por votação ponderada entre os dez exemplos agrupados mais semelhantes por similaridade cosseno, o que não corresponde a uma predição nativa do HDBSCAN. Os testes com descrições escolhidas manualmente demonstraram seu funcionamento parcial, mas não constituem avaliação da categorização; a entrada ``pao'', por exemplo, não produziu atributos válidos com um vocabulário de n-gramas de pelo menos duas palavras. Ainda não foi estabelecido um mapeamento entre clusters e nomes de categorias.
+O protótipo de consulta (Seção~\ref{sec:prototipo}) foi testado com descrições de itens comuns nas compras de supermercado do autor, digitadas manualmente. Para descrições com termos presentes no vocabulário, ele indica um cluster e seus exemplos mais próximos, o que permite conferir se a descrição foi aproximada de produtos semelhantes; com uma configuração de n-gramas de pelo menos duas palavras, porém, a entrada ``pao'' não produziu nenhum atributo, repetindo para descrições avulsas a limitação dos vetores nulos.
 
 \section{Discussão dos resultados}
 \label{sec:discussao}
 
-Os experimentos mostraram que a escolha do algoritmo precisa considerar mais do que o maior valor de silhueta. O K-Means atribuiu todas as descrições, com silhuetas próximas de 0,21 com TF-IDF e 0,12 com \textit{embeddings}, enquanto o DBSCAN formou grupos bem separados ao custo de deixar grande parte dos dados sem agrupamento. O HDBSCAN ofereceu as alternativas de maior interesse, especialmente as soluções TF-IDF com 101 e 381 clusters, pelo compromisso entre separação, cobertura e quantidade de grupos, embora suas proporções de ruído continuem limitando seu alcance. A presença de vetores nulos é uma limitação relevante do TF-IDF de palavras: na candidata A, mais da metade das descrições ficou sem atributos, e parte delas foi reunida em clusters de produtos sem relação entre si.
+A questão de pesquisa perguntava qual combinação de representação e algoritmo reúne a maior parcela de descrições em grupos coerentes, e com que cobertura. Entre as configurações avaliadas, a resposta é o TF-IDF de n-gramas de caracteres de cinco a dez com HDBSCAN: 48,8\% das descrições em clusters coerentes, com cobertura de 50,9\% e 736 clusters. A representação híbrida ficou em segundo lugar, com 42,7\% e cobertura de 48,4\%. Nenhuma dessas soluções tem a granularidade das 40 a 100 categorias pretendidas; elas fornecem grupos coerentes que ainda precisam ser agregados. As candidatas A e B são mais compactas, mas alcançam parcelas menores, de 17,4\% e 36,4\%.
 
-A revisão manual mostrou que a maioria dos clusters sorteados foi coerente em quase todas as configurações e que a diferença entre elas esteve sobretudo na parcela de descrições alcançada por esses grupos. Os resultados sustentam, portanto, a identificação de configurações capazes de reunir parte relevante das descrições em grupos coerentes, mas não substituem a validação das categorias comerciais nem a avaliação do protótipo. A contribuição demonstrada consiste na preparação reprodutível dos dados, na comparação das estratégias de representação e agrupamento e na identificação, com base em métricas e revisão manual, das configurações mais adequadas para a categorização.
+A revisão manual mostrou que a maioria dos clusters sorteados foi coerente em quase todas as configurações e que a diferença entre elas esteve sobretudo na cobertura. A silhueta, sozinha, apontaria para o DBSCAN, que reúne quase-duplicatas, ou para a candidata A, cuja separação se apoia em uma representação que deixa mais da metade das descrições sem atributos. Os vetores nulos do TF-IDF de palavras foram, assim, a principal fonte de resultados enganosos: concentraram o maior cluster do K-Means e formaram, na candidata A, um cluster de produtos sem relação entre si.
+
+Os resultados convergem com os trabalhos relacionados. Assim como em \citetexto{santos2023classificacao}, as representações TF-IDF superaram a representação neural em descrições fiscais: os \textit{embeddings}, obtidos de um modelo não ajustado a textos abreviados de varejo, tiveram a pior coerência no K-Means e a menor cobertura no HDBSCAN. A necessidade de revisão humana, apontada por \citetexto{martins2025extracao}, também se confirmou, já que as métricas internas não indicaram as configurações mais úteis. Diferentemente de \citetexto{hajyahia2019unsupervised}, que partem de uma taxonomia conhecida, este trabalho produziu grupos que servem de ponto de partida para construí-la, etapa em que a geração de rótulos por modelos de linguagem \cite{murray2025using} pode ser aproveitada.
+
+Algumas ameaças à validade limitam essas conclusões. Quanto à validade interna, a comparação utilizou uma única amostra e semente; a grade foi assimétrica, com quarenta variantes TF-IDF e uma única de \textit{embeddings}, o que deu ao TF-IDF mais oportunidades de liderar os rankings; e valores como $\alpha$, os pesos da pontuação e a faixa de clusters foram definidos pelo autor. Quanto à validade de construto, a silhueta foi calculada apenas sobre as descrições agrupadas; o critério de coerência não avalia a granularidade dos grupos; a revisão foi feita por um único avaliador, apoiado por classificações preliminares de IA e sem medida de concordância; e, com 21 clusters por configuração, diferenças de um ou dois clusters coerentes não são conclusivas. Quanto à validade externa, os dados são NF-e de compras públicas de 2025, selecionadas por um recorte de NCM, e a generalização para compras de consumidores exige avaliação específica.
 
 
 
@@ -643,18 +657,16 @@ A revisão manual mostrou que a maioria dos clusters sorteados foi coerente em q
 %=======================================================================
 % Considerações Finais
 %=======================================================================
-% TODO: rascunho inicial elaborado a partir da Seção de discussão.
-% Revisar após concluir a associação a categorias.
 \chapter{Considerações Finais}
 \label{cap:consideracoes}
 
-Este trabalho investigou a organização automática de descrições de produtos presentes em notas fiscais eletrônicas, textos curtos, abreviados e pouco padronizados que não trazem uma categoria associada a cada item. Para isso, foram utilizados registros de 2025 do Portal da Transparência, restritos por códigos NCM a mercadorias próximas do domínio de supermercados, e as descrições foram normalizadas, tiveram \textit{stopwords} removidas e foram consolidadas em 146.999 textos distintos.
+Este trabalho investigou o agrupamento não supervisionado de descrições de produtos de notas fiscais eletrônicas, textos curtos, abreviados e pouco padronizados que não trazem uma categoria associada a cada item, como apoio à construção de categorias de produtos.
 
-Sobre uma amostra comum de 20.000 descrições, foram comparadas representações TF-IDF de palavras e de caracteres, \textit{embeddings} de sentenças e uma representação híbrida, combinadas com os algoritmos K-Means, DBSCAN e HDBSCAN, em 5.068 configurações. Os resultados mostraram que nenhum indicador isolado foi suficiente para orientar a escolha: o K-Means atribuiu todas as descrições, mas com silhuetas baixas; o DBSCAN formou grupos bem separados ao custo de deixar a maior parte das descrições como ruído; e o HDBSCAN apresentou compromissos intermediários entre separação, cobertura e quantidade de grupos. A revisão manual de uma amostra de clusters indicou que a parcela de descrições reunidas em grupos coerentes depende tanto da coerência dos grupos quanto da cobertura alcançada.
+Os objetivos específicos foram atendidos da seguinte forma. As descrições das NF-e de 2025 do Portal da Transparência foram coletadas, restritas por 241 códigos NCM e preparadas, resultando em 146.999 textos distintos (objetivo a). Representações TF-IDF de palavras e de caracteres, \textit{embeddings} de sentenças e uma representação híbrida foram comparadas (objetivo b) com os algoritmos K-Means, DBSCAN e HDBSCAN, em 5.068 configurações sobre uma amostra de 20.000 descrições (objetivo c). A revisão manual de 179 clusters permitiu estimar, para nove configurações, a parcela de descrições em grupos coerentes (objetivo d). Por fim, um protótipo de consulta passou a indicar o cluster mais próximo de uma descrição avulsa, apoiando a conferência dos agrupamentos (objetivo e).
 
-Entre as limitações, destacam-se a presença de vetores nulos nas representações TF-IDF de palavras e a proporção elevada de ruído nos métodos baseados em densidade. A comparação utilizou uma única amostra e semente, sem estimar a variabilidade dos resultados. Os dados provêm de aquisições públicas, e a generalização para compras de consumidores em supermercados exige avaliação específica. A revisão manual foi realizada por um único avaliador, sem medida de concordância, sobre até 21 clusters por configuração e com classificações preliminares apoiadas por inteligência artificial; além disso, seus critérios não avaliam se o nível de agregação dos grupos é adequado às categorias comerciais pretendidas.
+Em resposta à questão de pesquisa, o TF-IDF de n-gramas de caracteres com HDBSCAN reuniu a maior parcela das descrições em grupos coerentes, 48,8\%, com cobertura de 50,9\%. Nenhum indicador isolado foi suficiente para chegar a esse resultado: o K-Means atribuiu todas as descrições, mas com silhuetas baixas; o DBSCAN reuniu quase-duplicatas e deixou a maior parte das descrições como ruído; e a silhueta mais alta do HDBSCAN foi obtida com uma representação de cobertura restrita. As principais limitações são os vetores nulos do TF-IDF de palavras, o ruído elevado dos métodos de densidade e as ameaças à validade discutidas na Seção~\ref{sec:discussao}.
 
-Como próximos passos, pretende-se associar os clusters a categorias de produtos, avaliar o protótipo de consulta com descrições rotuladas e verificar a estabilidade dos resultados em outras amostras.
+Como próximos passos, pretende-se agregar os clusters em uma taxonomia de 40 a 100 categorias, com apoio de modelos de linguagem na nomeação dos grupos, avaliar o protótipo com descrições rotuladas e verificar a estabilidade dos resultados em outras amostras e em notas emitidas no varejo. Essas etapas aproximam o projeto de sua visão de longo prazo: listas de compras automáticas, cálculo da inflação pessoal de supermercado e análise dos gastos de cada consumidor.
 
 
 
