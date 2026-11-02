@@ -1,0 +1,988 @@
+﻿descricao_id,descricao_normalizada,frequencia,cluster,ruido
+0,10 hot fila adicional,1,-1,True
+1,2 hashis 2 molheiras,1,-1,True
+2,6 shoyu normal cortesia,1,-1,True
+3,abacate kg,1,-1,True
+4,abacaxi perola un,16,107,False
+5,abacaxi terra areia un,3,107,False
+6,abobora italia kg,2,-1,True
+7,abs s livre adapt especial c abas 16un,1,0,False
+8,abs s livre adapt suave c ab c 16 l p un,1,0,False
+9,abs s livre adapt suave c ab l8p7 un,1,0,False
+10,acai 300ml,1,33,False
+11,acai 500ml,1,71,False
+12,acem bov agulha s osso kg,8,128,False
+13,achoc po 3 cor chocolatto lt 350g,1,-1,True
+14,acucar ref guarani 1kg,1,-1,True
+15,acucar ref uniao 1kg,1,-1,True
+16,adocante magro 100ml zero,1,-1,True
+17,ag min agua d pedra s gas 500ml,1,72,False
+18,ag mineral tuttiblu s gas 500ml,2,72,False
+19,agua min 500ml cryst,1,71,False
+20,agua min crystal s gas 500ml,6,72,False
+21,agua min fonte lomba s gas 1 5l,3,72,False
+22,agua min fonte lomba s gas 5l,1,72,False
+23,agua min pedra s gas 1 5l,1,72,False
+24,agua sanit qboa 1l,1,-1,True
+25,album ilustrado brochura copa 2026,1,1,False
+26,alface crespa emb un,9,77,False
+27,alface hidroponica crespa un,13,77,False
+28,alface hidroponica lisa un,1,77,False
+29,alface hidroponica vde mimosa un,1,77,False
+30,alface mimosa vde emb un,1,77,False
+31,alfajor branco odara,1,-1,True
+32,alfajor p ballena cocolate 50g,1,-1,True
+33,algodao nathy caixa 25g,1,-1,True
+34,alho importado kg,6,92,False
+35,alho nacional kg,1,87,False
+36,alho po br spices essencial vd 50g,2,-1,True
+37,alho poro un,2,-1,True
+38,alvej qboa lavanda 2l,2,64,False
+39,amac conc downy intens ref 750ml,1,-1,True
+40,amac downy conc agua fresca 1l,1,-1,True
+41,amac downy conc brisa int sachet 750ml,1,-1,True
+42,ameixa import kg,1,92,False
+43,ameixa nacional kg,8,87,False
+44,ameixa natua emb 500g,2,53,False
+45,amendoim croc nat pettiz 120g,1,-1,True
+46,amendoim feliz croc salsa cebola 150g,1,-1,True
+47,amendoim feliz croc trad 150g,2,-1,True
+48,amido milho cbs 200g,1,86,False
+49,amolecedor cuticulas 110ml sao joao care,1,-1,True
+50,aneis cebola bem brasil cong pct 400g,1,93,False
+51,apar barb bic comfort 3 p norm l4p3 un,1,17,False
+52,apar barb bic comfort 3 p normal c 2 un,1,17,False
+53,apar barb prestob 3 regular l4p3 un,1,17,False
+54,aromat rodabrill 60g gel,1,20,False
+55,arroz branco blue ville tp1 1kg,2,56,False
+56,arroz branco cbs tp1 1kg,2,56,False
+57,arroz branco namorado tp1 1kg,1,56,False
+58,arroz branco num instante tp1 1kg,4,56,False
+59,arroz branco prato fino tp1 1kg,9,56,False
+60,arroz namorado 1kg branco,1,56,False
+61,assad mor cupcake muffin rf8508 un,1,-1,True
+62,atum ped g costa nat 170g,1,51,False
+63,atum ral 88 molho tom 115g,1,51,False
+64,atum ral 88 nat 140g,2,51,False
+65,atum ral g costa nat 170g,1,51,False
+66,atum ral g costa oleo 170g,1,51,False
+67,atum ral g costa tom 170g,1,51,False
+68,atum solido g costa nat 170g,1,51,False
+69,ave natalina bruster,1,-1,True
+70,aveia quaker floc 165g,1,-1,True
+71,bacon castro defumado ev,1,103,False
+72,bacon disner s pele def ped 200g,1,103,False
+73,bacon disner s pele def picado kg,2,103,False
+74,bala bubbaloo azedin gatos mix 82 5g,3,105,False
+75,bala docile azedinhos cub 80g,2,105,False
+76,bala fini beijos morango 35g,1,105,False
+77,bala fini minhocas azedinhas 35g,2,105,False
+78,bala fini tubes azedin mor 80g,1,105,False
+79,bala fruit tella morango 45 g,1,105,False
+80,bala gelat docile piramide azedin 80g,7,105,False
+81,bala gelat fini minhocas brilho 90g,1,-1,True
+82,bala goma dori gomets iogur 32g,1,-1,True
+83,balao confesta feliz aniv 7 sort rf2 un,1,-1,True
+84,balas drageadas mentos fruit,1,-1,True
+85,banana caturra kg,5,109,False
+86,banana prata coopervida organica 800g,4,109,False
+87,banana prata kg,9,109,False
+88,banana prata reser canyons organica 800g,8,109,False
+89,banco dob march 0943 cz 42cm,1,-1,True
+90,baralho esp copag 98473,1,7,False
+91,baralho plastico lata c 2 5 7x8 7cm,1,13,False
+92,batata bca kg,14,96,False
+93,batata bem brasil air fryer cong 700g,1,93,False
+94,batata bem brasil crinkle 1 05kg,3,93,False
+95,batata bem brasil mais batata 2kg,1,93,False
+96,batata bem brasil noisette pct 400g,2,93,False
+97,batata bem brasil palito air fr 700g,12,93,False
+98,batata bem brasil palito trad pct 400g,1,93,False
+99,batata branca granel,1,96,False
+100,batata branca kg,1,96,False
+101,batata deutschips cebola sals,1,60,False
+102,batata doce rosa kg,1,-1,True
+103,batata kids pr,1,-1,True
+104,batata ondul deutschips ceb salsa 225g,1,60,False
+105,batata ondul deutschips churrasco 225g,1,60,False
+106,batata ondul deutschips trad 225g,2,60,False
+107,batata palha deutschips trad 80g,1,60,False
+108,batata palha kreky prem trad 80g,1,97,False
+109,batata palha tutti 140g,1,97,False
+110,batata palha yoki ext fina 100g,1,97,False
+111,batata pringles cr ceb 109g,2,-1,True
+112,batata pringles orig 104g,1,-1,True
+113,batata pringles up steak 100g,1,-1,True
+114,beb energ baly abac hort lt 473ml,1,82,False
+115,beb energ baly maca verde pet 2l,1,80,False
+116,beb energ baly maca verde s acuc 473ml,1,80,False
+117,beb energ baly maca verde s acuc pet 1l,1,80,False
+118,beb energ baly manga lt 473ml,2,82,False
+119,beb energ baly melanc lt 473ml,2,82,False
+120,beb energ baly melanc pet 2l,2,-1,True
+121,beb energ baly mor pessego lt 473ml,1,82,False
+122,beb energ baly mor pessego pet 2l,1,82,False
+123,beb energ baly mor pessego s acuc 473ml,1,82,False
+124,beb energ baly trad s acuc lt 473ml,1,82,False
+125,beb energ baly trad s acuc pet 1l,1,-1,True
+126,beb energ monster absolut zero 473ml,2,83,False
+127,beb energ monster mangoloco 473ml,4,83,False
+128,beb energ monster pacific punch 473ml,1,83,False
+129,beb energ monster pipeline punch 473ml,2,83,False
+130,beb energ monster rio punch 473ml,1,83,False
+131,beb energ monster trad 473ml,1,83,False
+132,beb energ monster ultra 473ml,2,83,False
+133,beb energ monster z sugar 473ml,4,83,False
+134,beb frukito fr citr pet 2l,30,57,False
+135,beb frukito limao z acuc pet 2l,1,57,False
+136,beb frukito uva pet 2l,12,57,False
+137,beb lac pia 900g gf,1,26,False
+138,beb lac pia 900ml sc,1,26,False
+139,beb refrig coca cola 2 5,1,42,False
+140,beijinho,1,-1,True
+141,benegrip 500mg 6 s,1,-1,True
+142,bepantriz 30g cimed,1,20,False
+143,bergamota morgote kg,1,120,False
+144,bergamota ponkan kg,6,120,False
+145,best cup 750ml doce leite,1,101,False
+146,beterraba num instante emb 500g,1,53,False
+147,bife ancho suino dona marta ef,1,-1,True
+148,bife chuleta bov kg,1,127,False
+149,biju acess 14 99,1,7,False
+150,bis lacta xtra bco 45g,1,44,False
+151,bis lacta xtra oreo 45g,5,44,False
+152,bisc 140g nestle moc,1,78,False
+153,bisc 690g germani ma,1,78,False
+154,bisc club social orig 144g,2,-1,True
+155,bisc club social quei 141g,1,-1,True
+156,bisc cook baud maxi gotas choc bco 96g,2,-1,True
+157,bisc crocantissimo quei ceb 40g,1,70,False
+158,bisc crocantissimo salame c limao 40g,1,70,False
+159,bisc eqilibri panetini quei suave 40g,1,70,False
+160,bisc eqilibri panetini tom temp 40g,1,70,False
+161,bisc nutella ferrero b ready 22 6g,1,-1,True
+162,bisc orquidea maria 320g,1,43,False
+163,bisc parati rosca choc 250g,1,79,False
+164,bisc polvilho adams quei 120g,4,70,False
+165,bisc polvilho altkunz trad 70g,11,78,False
+166,bisc polvilho s balardin ceb salsa 60g,1,70,False
+167,bisc polvilho s balardin quei nacho 60g,1,70,False
+168,bisc rech isabela tort due cheese 140g,1,-1,True
+169,bisc rech orquidea xtra mor choc 75g,1,43,False
+170,bisc rech rancheiro mor 90g,1,68,False
+171,biscoito dom ze cookies 300g,1,-1,True
+172,bisteca bov kg,1,127,False
+173,bisteca suina cong kg,4,-1,True
+174,blusa feminina miriam decote quadrado,1,-1,True
+175,blusa manga curta regular tricot listrado verde pp,1,-1,True
+176,blusa mc tricot,1,-1,True
+177,blusa sem manga meia malha liso alca lar,2,21,False
+178,bolinha quei kg,2,129,False
+179,bolinho chuva premium kg,2,-1,True
+180,bolo brigadeiro redondo fp,1,-1,True
+181,bolo cake sabores kg,1,-1,True
+182,bolo cenoura c choc redondo,1,74,False
+183,bolo cenoura c cr choc kg,1,74,False
+184,bolo choc quadrado peq kg,2,-1,True
+185,bolo laranja redondo kg,1,108,False
+186,bombom 168g trento m,1,34,False
+187,bombom arcor bon bon beijin 15g,2,34,False
+188,bombom bon bon beijin 15g,1,34,False
+189,bombom ferrero raffaello t3 30g,1,34,False
+190,bombom ferrero raffaello t9 90g,1,34,False
+191,bombom nestle especialidades 251g,1,34,False
+192,botao plastico avulso,1,13,False
+193,bowl porcelana clean 690ml,2,-1,True
+194,br3 malevola pr,1,-1,True
+195,brinquedo bateria plastico,1,13,False
+196,buscofem 400mg 10cap hypera pharma,1,-1,True
+197,cabo p vassoura un,2,-1,True
+198,cacau po cbs 100 200g,1,86,False
+199,cacetinho,2,112,False
+200,cachorro folhado kg,1,-1,True
+201,cad 10m 200f credeal ess,1,28,False
+202,cafe melitta 250g tradicional,1,38,False
+203,cafe sol melitta cappuc choc avela 200g,1,38,False
+204,cafe sol melitta cappuc doce leit 200g,1,38,False
+205,calamed 120g cimed aloe vera,1,-1,True
+206,calca moletom wi,1,112,False
+207,calcao fut s forro r 101 marinho m,2,-1,True
+208,cam masc retro m c cel 1995 m,1,-1,True
+209,camisa of3 2025 marinho atleta m,1,8,False
+210,camisa umbro of2 fem tor 2025 p,1,8,False
+211,camiseta dry celtics r n1034 verde m,1,-1,True
+212,canivete inox 3,1,-1,True
+213,capa almofada estampada 45x45 flora,2,-1,True
+214,capa almofada textura 45x45 mezzo,1,-1,True
+215,capa chuleta bov ponto vac kg,1,127,False
+216,caqui fuyu kg,7,126,False
+217,carambola kg,1,126,False
+218,carne moida 2,1,131,False
+219,carne moida bov 2 agulha kg,37,131,False
+220,cartela fifa world cup 2026 c 12 envelopes un,4,1,False
+221,carvao briquete zippy 4kg,1,98,False
+222,carvao cardecacia 3kg,1,98,False
+223,carvao ivoti 3kg,3,98,False
+224,carvao ivoti 4kg,1,98,False
+225,carvao ivoti 5kg,1,98,False
+226,cascao 2b,1,-1,True
+227,cebola branca kg,1,91,False
+228,cebola importada kg,9,91,False
+229,cebola nacional kg,18,91,False
+230,cebola roxa kg,2,91,False
+231,cenoura kg,10,74,False
+232,cereal kelloggs sucr orig 700g,10,-1,True
+233,cerv brahma malzbier lt 350ml,1,45,False
+234,cerv spaten puro malte ln 330ml,1,45,False
+235,cesto 2l c tampa azul usual,1,39,False
+236,cesto 2l ctampa verde menta,1,-1,True
+237,cesto 3 6l c tampa cinza 597 usual,1,39,False
+238,cesto c 3 divisorias p cinza escuro,1,39,False
+239,cha misto cbs pessego c maca 15g,1,-1,True
+240,chicle trident melancia 8g,3,12,False
+241,chinelo hav top marinho 39 40 un,1,-1,True
+242,choc alpino leite 85g,1,111,False
+243,choc garoto baton leite 16g,2,-1,True
+244,choc granulado cbs 150g,1,48,False
+245,choc hersheys capibarra ovomaltine 77g,1,68,False
+246,choc hersheys dark cranber 60 85g,4,68,False
+247,choc hersheys dark trad 60 85g,1,68,False
+248,choc kinder ovo azul t1 20g,3,-1,True
+249,choc kinder ovo joy,1,-1,True
+250,choc kitkat 4 finger leite 41 5g,2,-1,True
+251,choc lacta diamante negro laka 80g,1,44,False
+252,choc lacta intense 70 85g,1,44,False
+253,choc lacta intense cafe 60 85g,1,44,False
+254,choc lacta intense mix nuts 60 85g,1,44,False
+255,choc lacta laka 28g,1,44,False
+256,choc lacta laka 80g,1,44,False
+257,choc negresco rech 90g,1,68,False
+258,choc nestle chocotrio baun 90g,1,81,False
+259,choc nestle clas leite 80g,1,111,False
+260,choc nestle classic duo 80g,1,81,False
+261,choc nestle prestigio 33g,1,81,False
+262,choc nestle prestigio fr verm 33g,1,81,False
+263,choc nestle suflair duo 80g,3,81,False
+264,choc neugebauer amend 80g,1,-1,True
+265,choc neugebauer stikadinho mor 70g,1,79,False
+266,choc snickers 45g,7,37,False
+267,choc snickers bco 42g,2,37,False
+268,choc snickers branco 42g,1,37,False
+269,choc snickers caram macch 40g,1,37,False
+270,choc snickers dark 42g,1,37,False
+271,choc snickers mor 42g,1,37,False
+272,choc snickers morango 42g,1,37,False
+273,choc snickers mousse marac 42g,1,37,False
+274,choc snickers mousse marac ed limit 42g,1,37,False
+275,choc stikadinho mor 70g,1,79,False
+276,choc talento 85g,1,68,False
+277,chocottone baud avela 450g,1,-1,True
+278,chopp favorita pilsen 1l,1,-1,True
+279,chuleta bov ripa ponto kg,2,127,False
+280,cinto,1,112,False
+281,cj potes sanremo facil ret 3pc rf190 6c un,1,27,False
+282,clips metal 28mm 3085 rio tijucas,1,6,False
+283,coca cola original 600ml,1,42,False
+284,coca cola s acucar 600ml,2,42,False
+285,coca zero lata,1,42,False
+286,cond neutrox 300ml c,1,33,False
+287,cond seda boom hidrat durad 250ml,1,-1,True
+288,conf m ms brownie 35g,1,-1,True
+289,confei bibs bco 40g,1,-1,True
+290,confei mms cookie pouch 120g,1,-1,True
+291,cont red c rosca 2 0l pp pr,2,-1,True
+292,cont red c rosca 500ml pp br,1,-1,True
+293,cookies c gotas choc kg,2,-1,True
+294,copo 1b,1,-1,True
+295,costela bov kg,1,125,False
+296,costela bov tira vac kg,3,125,False
+297,costela suina tira sul ef,1,-1,True
+298,costela tiras vacuo kg,2,125,False
+299,costelinha suina esp kg,1,129,False
+300,couve molho num instante picada emb 150g,1,53,False
+301,cox asa agrosul 700g resf,2,-1,True
+302,coxa asa fgo carrer resf temp bdj 750g,1,-1,True
+303,coxa fgo nat cong iqf pct 1kg,1,117,False
+304,coxa scx fgo carrer resf pct kg,2,117,False
+305,coxa scx fgo dorso cong pct kg,2,117,False
+306,coxa sobrecoxa fgo empanado,1,-1,True
+307,coxa sobrecoxa resfriada,1,-1,True
+308,coxinha asa fgo lar 1kg,1,130,False
+309,coxinha carne gde kg,1,130,False
+310,coxinha fgo gde kg,1,130,False
+311,coxinha fgo req,1,112,False
+312,cr culinario bravo crem 200g,2,-1,True
+313,cr dent colgate mpa drm 180g,2,2,False
+314,cr dent oral b extra branco 70g,1,2,False
+315,cr dent oral b extra fresh 70g,1,2,False
+316,cr leite italac tp200g,1,115,False
+317,cr leite sta clara 17 gord 200g,7,-1,True
+318,cr ricota president light pt 200g,1,-1,True
+319,cr ricota president light pt 380g,1,-1,True
+320,creme leite 200g ita,1,113,False
+321,cuca trad coco kg,2,-1,True
+322,cuca trad uva kg,1,110,False
+323,cueca virada caseira kg,3,-1,True
+324,cueca virada folhada caseira kg,1,-1,True
+325,curat band aid 30un variados,1,-1,True
+326,cv brahma malzbier lt 350ml,1,45,False
+327,cx term mor 8252 vd pt 18l,1,-1,True
+328,d nivea men 200ml bl,1,29,False
+329,dagostini chips batata 100g,1,-1,True
+330,des aer nivea f inv black white clear 200ml,1,29,False
+331,des aer nivea m inv black white 200ml,2,29,False
+332,des aer nivea m inv black white power 150ml,1,29,False
+333,des aer rexona f invisible 200ml,1,23,False
+334,des aer rexona fifa bamboo c 2 200ml un,1,23,False
+335,des rol nivea m inv black white power 50ml,1,29,False
+336,des rol rexona m invisible 50ml,1,23,False
+337,desinf bak ype eucalipto 500ml,1,-1,True
+338,desinf lysoform lavanda 1l,1,64,False
+339,desinf pinho sol citrus lav l500p450ml un,2,-1,True
+340,desinf ype bak 3 1 floral 500ml,1,-1,True
+341,desod harpic past adesiva lav l5p4 un,1,-1,True
+342,det brilha sul 500ml cristal,1,65,False
+343,deterg ype liq clear 500ml,1,64,False
+344,dipirona 1g 30cp,1,20,False
+345,diversos,1,-1,True
+346,divine trufa choc creme su,1,-1,True
+347,doce leite mumu 350g,2,101,False
+348,doce leite mumu pt 350g,8,101,False
+349,drops mentos stick mint 37 5g,2,-1,True
+350,ed condor lv2 pg1 comf,1,-1,True
+351,elastico meia super com 2 u,3,13,False
+352,embalagem presente 25x37cm m3,1,28,False
+353,embalagem presente 35x54cm g1,1,28,False
+354,embut peito fgo excelsior def fat 180g,1,88,False
+355,embut suino seara leviss lombo fat 180g,1,88,False
+356,energ monster 473ml,2,83,False
+357,entretenimento,1,-1,True
+358,envelope figurinha copa 2026,15,1,False
+359,envelope figurinha fifa world cup 2026 un,1,1,False
+360,erva mate valore trad 1kg,1,-1,True
+361,erva mate ximango 500g t,1,-1,True
+362,ervilha cbs lt 170g,1,86,False
+363,ervilha milho oderich lt 200g,5,86,False
+364,ervilha seara cong 300g,1,86,False
+365,ervilha seara nature cong pct 300g,1,86,False
+366,esc den colgate classic mac d un,1,-1,True
+367,esc den powerdent togo pocket c 2 un,1,-1,True
+368,esc den sorriso orig plus c 2 un,1,40,False
+369,esc dental green pp4,1,2,False
+370,escova cabelo almofadada re,1,-1,True
+371,espatula silicone softta,1,-1,True
+372,espetinho fgo bacon emp fgopuro kg,1,103,False
+373,esponja 3m scotch b lar nao risca c 3 un,2,19,False
+374,esponja bettanin brilhus mult,1,-1,True
+375,esponja esfrebom m uso emb econ c 4 un,1,18,False
+376,esponja esfrebom m uso rf45012 un,1,18,False
+377,esponja esfrebom nao risca emb econ c 3 un,1,18,False
+378,esponja esfrebom sfreg c 2 rf47812 un,1,18,False
+379,esponja scotch b limpa sem riscar c 3 un,2,19,False
+380,esponja scotch brite c 3,1,19,False
+381,espum garibaldi moscatel 750ml,1,30,False
+382,etaniz graxa marrom 300ml,1,33,False
+383,ext tom elefante ceb alho pt 300g,1,-1,True
+384,ext tom elefante so tomate pt 300g,5,-1,True
+385,faca para frutas 5 plenus,1,-1,True
+386,farin mandioca cbs torrada 500g,1,43,False
+387,farin panko orquidea 250g,7,43,False
+388,farin rosca orquidea 500g,1,43,False
+389,farin trigo orquidea tp1 1kg,4,43,False
+390,farinha trigo panfac,1,-1,True
+391,farofa cbs temp c pim 400g,1,-1,True
+392,feijao preto caldo nobre tp1 1kg,10,95,False
+393,feijao preto cbs tp1 1kg,1,95,False
+394,feijao pto namorado 1kg,1,95,False
+395,fermento bio tok inst 10g,3,-1,True
+396,figurinhas copa mundo 2026 7un,3,1,False
+397,file coxa scx fgo lar cong pct kg,1,117,False
+398,file coxa scx nat c pele cong iqf 1kg,2,117,False
+399,file coxa scx nat cong iqf pct 1kg,1,117,False
+400,file peito fgo bife ave serra iqf 1kg,1,-1,True
+401,file peito fgo carrer resf bdj 750g,1,-1,True
+402,file peito fgo cong pct kg,13,116,False
+403,file peito fgo lar cong iqf pct 700g,1,116,False
+404,file peito fgo nat cong iqf pct 1kg,1,116,False
+405,file peito fgo seva cong pct kg,7,116,False
+406,file peito resfriado pct,1,-1,True
+407,file tilapia carlinhos cong 400g,1,-1,True
+408,filet com cheddar un,1,-1,True
+409,filezin sassami ave serra cong iqf 1kg,5,121,False
+410,filezin sassami lar cong iqf pct 700g,1,121,False
+411,filezinho sassami ave serra cong iqf 1kg,1,121,False
+412,filezinho sassami fgo lar cong iqf 700g,1,121,False
+413,filezinho suino kg,4,121,False
+414,filme pvc embalebem 30mx28cm un,1,28,False
+415,filme pvc embalepack 15x28cm un,1,28,False
+416,filtro melitta n2 cafet eletr,1,16,False
+417,filtro p bomba chimarrao c 2 rf3215 un,1,-1,True
+418,filtro papel melitta 102 c 30 un,1,16,False
+419,folha alum wyda 30cmx7 5m,1,-1,True
+420,form afry march qd 307 off 20 5,1,-1,True
+421,fraldinha bov frialto resf vac kg,2,124,False
+422,fraldinha bov friboi kg,3,124,False
+423,fraldinha bov perd montana resf vac kg,2,124,False
+424,fraldinha bov pul cong vac kg,2,124,False
+425,fraldinha bov pul resf vacuo kg,2,124,False
+426,fraldinha bov resf kg,1,124,False
+427,fraldinha bov resf vac kg,3,124,False
+428,fresh combo isolamento 40 pecas,1,-1,True
+429,frigideira tramontina sicilia preto 24cm,1,46,False
+430,frigideira ventura tramontina aco inox 24cm,1,46,False
+431,garrafa termica chimarrita 1l,1,-1,True
+432,gasolina comum bc 7,1,-1,True
+433,gatorade uva 500ml,1,-1,True
+434,gelat dr oetker uva diet 12g,1,-1,True
+435,geleia maribo pim vd 270g,1,-1,True
+436,gelo pop tubinhos 3kg,5,-1,True
+437,goma fini salada fruta 80g,1,-1,True
+438,goma trident melancia 8g,1,12,False
+439,gomets anel frutas acidas 100g,2,-1,True
+440,gramado alfajor unid tradi 55g,1,-1,True
+441,granola naturale cereais passas mel 1kg,4,9,False
+442,granulado 75g sadoro,1,48,False
+443,grill philco pgr21pi 220v,1,-1,True
+444,guarana antarct zero 2l,1,94,False
+445,guarana fruki berga zero 350ml,1,94,False
+446,guarana fruki zero 600ml,2,94,False
+447,guard maxim 23x22 c 50 un,1,27,False
+448,gusman salgadinho bacon 80g,1,103,False
+449,h2oh limao 500ml,1,-1,True
+450,halls uva verde 28g,1,-1,True
+451,haste flex mili c 150 un,1,27,False
+452,haste flex mili c 75 un,1,27,False
+453,hid labial nivea 4 8g lip pessego bridgerton,1,-1,True
+454,impala esmalte branco 7 5ml,1,31,False
+455,impala esmalte lolita 7 5ml,1,31,False
+456,ind frango req,1,-1,True
+457,ind pepperoni,1,-1,True
+458,ingresso,2,7,False
+459,iog batavinho bob espon mor gf 110g,1,79,False
+460,iog batavinho surp patr can mor gf 110g,1,79,False
+461,iog batavinho surpresa mor 110g,1,79,False
+462,iog batavo 450g p zero,2,55,False
+463,iog batavo bob espon mor c cereais 120g,1,79,False
+464,iog batavo bob espon mor c confei 125g,1,79,False
+465,iog batavo bob espon trad c confei 125g,1,79,False
+466,iog batavo grego pense zero bdj 510g,13,55,False
+467,iog batavo grego pense zero marac 100g,4,55,False
+468,iog batavo grego pense zero mor 100g,3,55,False
+469,iog batavo grego pense zero mor 450g,2,55,False
+470,iog batavo grego pense zero mor pt 450g,10,55,False
+471,iog batavo grego pense zero trad 100g,4,55,False
+472,iog batavo grego trad mor bdj 510g,1,55,False
+473,iog batavo ped mor light 450g,2,55,False
+474,iog batavo pense zero batido gf 1 15kg,1,55,False
+475,iog batavo pense zero mor bdj 510g,2,55,False
+476,iog batavo pense zero mor gf 1 15kg,1,55,False
+477,iog batavo pense zero ped coco pt 100g,2,55,False
+478,iog batavo pense zero ped mor pt 450g,2,55,False
+479,iog elege paw patrol sal fr mor bdj 510g,1,-1,True
+480,iogurte coco pia 750ml,1,30,False
+481,isabela tortinhas due choc br,1,-1,True
+482,jaqueta je s st,1,-1,True
+483,jogo cabide adulto preto c 10,1,-1,True
+484,ketchup heinz 1 033kg,1,52,False
+485,ketchup heinz squeeze 397g,3,52,False
+486,ketchup heinz squeeze 743g,3,52,False
+487,kit alicate p cuticula espatula sao joao care,1,-1,True
+488,kit canet esf bic 4p,1,-1,True
+489,kit insetos plastico c 6 pcs,1,13,False
+490,kiwi divertidas 600g,4,-1,True
+491,l rou apyce 800ml liq sh l pr,1,-1,True
+492,la aco bombril c 6 un,2,40,False
+493,lamp min 12w 6500k e27,1,-1,True
+494,laranja 500ml,1,108,False
+495,laranja pera kg,1,108,False
+496,laranja suco,1,108,False
+497,laranja suco kg,10,108,False
+498,laranja umbigo importada s semente kg,1,108,False
+499,lav louca limpol liq cristal 500ml,1,65,False
+500,lav louca limpol liq lavanda 500ml,1,64,False
+501,lav louca liq ype clear 500ml,4,64,False
+502,lav roup liq brilhante lav prof 7l,1,-1,True
+503,lav roup liq brilhante limp total sachet 900ml,1,26,False
+504,lav roup liq omo lavagem perfeita 5l,1,-1,True
+505,leite cond 395g ital,1,115,False
+506,leite cond italac semidesnat 395g,2,115,False
+507,leite cond moca semidesnat 395g,1,115,False
+508,leite ferm chamyto 450g,1,-1,True
+509,leite italac 1l integral,2,-1,True
+510,leite l vida sta clara integ 1l,1,106,False
+511,leite l vida tirol integ 1l,1,106,False
+512,leite po ccgl integ 400g,1,102,False
+513,leite po elege inst integ 400g,2,102,False
+514,leite po elege integ inst 400g,1,102,False
+515,leite tirol 1l integ,1,106,False
+516,leite tirol 1l integral,1,-1,True
+517,leite uht dalia 1l i,1,115,False
+518,leite uht elege integ pet 1l,9,106,False
+519,leite uht elege semidesn pet 1l,9,115,False
+520,leite uht piracanjuba semidesn 1l,1,115,False
+521,leite uht sta clara integ 1l,2,106,False
+522,leite uht sta clara semidesn 1l,4,115,False
+523,leite uht tirol integ 1l,5,106,False
+524,lenco,1,112,False
+525,lentilha can fritz 400g,1,41,False
+526,lentilha cbs tp2 400g,1,41,False
+527,lentilha valore tp2 400g,1,41,False
+528,limao tahiti kg,1,-1,True
+529,limao taiti kg,5,-1,True
+530,limp deseng cif derrete gord gat 500ml,1,71,False
+531,ling fgo ave serra resf bdj 600g,1,-1,True
+532,ling mista seara def fininha 215g,1,-1,True
+533,ling ouro sul carne suina def fina kg,1,-1,True
+534,ling suina aurora churrasco cong 700g,2,-1,True
+535,ling suina borrussia c queijo def kg,2,122,False
+536,ling suina borrussia kg,1,122,False
+537,ling suina borrussia resf pct kg,1,122,False
+538,ling tipo calab perd def 400g,1,35,False
+539,ling tipo calab sadia 400g,1,35,False
+540,ling tipo calab sta clara fininha 195g,1,35,False
+541,linha costuratex,1,-1,True
+542,lombo def dona marta,1,-1,True
+543,lombo suino disner def ped kg,1,121,False
+544,lombo suino sadia bife cong iqf pct 800g,1,-1,True
+545,look recheado morango 55g,1,105,False
+546,luva brilhus m uso m rfbt2081m un,2,4,False
+547,luva tricot leve interativo infantil esq,1,-1,True
+548,mac n cheese sadia chedd calab cong 300g,1,61,False
+549,mac n cheese sadia cheddar calab 300g,1,61,False
+550,maca divertidas 1kg,1,67,False
+551,maca gala kg,2,67,False
+552,maca pink lady kg,3,67,False
+553,macar cbs c ovos pappard bdj 400g,1,76,False
+554,macar isabela c ovos espaguete 500g,1,76,False
+555,macar n miojo galin 85g,1,76,False
+556,macar n miojo legumes 85g,1,76,False
+557,macar n miojo monica galin suave 85g,3,76,False
+558,macar n miojo monica tom suave 85g,3,76,False
+559,macarrao hot bowls sadia brocolis bacon 300g,1,62,False
+560,macarrao hot bowls sadia c mini almondegas 300g,1,62,False
+561,maion heinz squeeze 215g,1,52,False
+562,maion hellmanns emb econ sache 200g,1,-1,True
+563,mamao papaia kg,1,120,False
+564,maminha bov comesul vac kg,1,127,False
+565,mandarina importada kg,1,92,False
+566,mandolate dacolonia colonial c mel 130g,1,-1,True
+567,manga kg,1,-1,True
+568,manga tommy kg,20,-1,True
+569,manteiga elege extra c sal tb 200g,3,-1,True
+570,maracuja azedo kg,1,-1,True
+571,margarina qualy crem c sal 500g,2,-1,True
+572,marmita passoquinha,1,-1,True
+573,marshmallow docile max rech twist 135g,1,9,False
+574,marshmallow docile max uni 135g,1,9,False
+575,massa isabela espaguete 400g,1,-1,True
+576,massa italiany espaguete 500g,1,89,False
+577,massa italiany fresca caseira 1kg,2,89,False
+578,massa lasanha italiany 500g,3,89,False
+579,massa orquidea c ovos cab anjo 500g,1,43,False
+580,massa orquidea c ovos casei pappard 400g,1,43,False
+581,massa orquidea c ovos paraf 500g,4,43,False
+582,massa orquidea c ovos paraf m molhos 400g,1,43,False
+583,massa orquidea g duro penne 500g,1,43,False
+584,massa orquidea paraf 500g,1,43,False
+585,massa paganini tagliatelle 500g,1,84,False
+586,massa pantanella fusilli n58 500g,1,84,False
+587,massa pastel italiany grande 500g,4,89,False
+588,massa pastel italiany lanche 500g,1,89,False
+589,massa seara mac cheese cheddar bacon cong 300g,1,61,False
+590,massa tagliat mercatto 500g,1,84,False
+591,maxi beef un,2,-1,True
+592,mcl feliz hb pr,1,-1,True
+593,medialuna,1,-1,True
+594,medialuna recheada salgada,1,-1,True
+595,melancia baby kg,1,12,False
+596,melao espanhol kg,1,-1,True
+597,mentos mor iogurte,2,-1,True
+598,micanga dr oetker choc 80g,1,-1,True
+599,milho vde oderich lt 200g,2,86,False
+600,milho verde c 3 espiga un,1,-1,True
+601,min pedra 2l c gas,1,73,False
+602,min pedra 5l s gas,2,73,False
+603,min valle vita 5l s gas,1,73,False
+604,mini churros doce leite pad kg,1,-1,True
+605,mini coxinha fgo kg,4,130,False
+606,mini pao frances kg,1,119,False
+607,mini pao quei trad kg,10,129,False
+608,mini pao queijo trad kg,1,132,False
+609,mix pim aromatic 30g,3,-1,True
+610,mix temperos gauer p carnes gerais 18g,1,-1,True
+611,moida bov 2 agulha kg,3,-1,True
+612,molho kenko pim 150ml,1,-1,True
+613,molho oderich prem burguer 220g,2,-1,True
+614,molho tom heinz 240g tra,1,51,False
+615,molho tom heinz trad sache 240g,6,51,False
+616,morango 200g,1,105,False
+617,moranguinho 200g,1,105,False
+618,mortadela excelsior def fat 180g,1,88,False
+619,mostarda heinz yellow 255g,1,51,False
+620,mostarda hemmer americana squeeze 300g,2,-1,True
+621,mostarda hemmer dijon squeeze 200g,1,-1,True
+622,musculo mole bov kg,2,127,False
+623,naridrin alt vol fra,1,-1,True
+624,nata friolack pt 280g,1,-1,True
+625,nata holandes pt 220g,1,-1,True
+626,nata latvida kg,2,-1,True
+627,nestle bombom 251g,1,34,False
+628,neut roupa comfort refresh 320ml,1,-1,True
+629,nhoque italiany batata 500g,4,89,False
+630,nhoque sadia hot bowls bolonhesa 300g,1,62,False
+631,nissin galinha suave 85g,1,-1,True
+632,odoriz glade gel car barc acqua 70g,1,-1,True
+633,oleo soja liza 900ml,1,15,False
+634,oleo soja primor 900ml,1,15,False
+635,oleo soja vitaliv 900ml,3,15,False
+636,oregano aromatic 15g,2,-1,True
+637,organizador aramado metal,1,6,False
+638,orquidea tortissimas lim 130g,1,43,False
+639,ovo ferrero rocher box 137 5g,1,-1,True
+640,ovos bampi brancos c,1,104,False
+641,ovos bco c 20 un,23,104,False
+642,ovos codorna brehm 300g,1,104,False
+643,ovos cremosos,1,104,False
+644,ovos mexidos com bacon,1,103,False
+645,p hig stylus 20m fd 12rol neu,1,8,False
+646,pacoca dacolonia rolha light 170g,3,25,False
+647,pacoca dacolonia rolha trad pt c 40 un,3,25,False
+648,pacoca guimaraes rolha z acuc 145g,1,25,False
+649,painel mdf cru 2750x910x3mm m,1,6,False
+650,painel mdf noce oro raizes 900x300x15mm de4457 por4190,1,6,False
+651,paleta bov c osso kg,9,128,False
+652,paleta bov s osso kg,2,128,False
+653,paleta suina c pele resf kg,1,-1,True
+654,palito dent fiat lux bambu c 240 un,1,-1,True
+655,panela pressao vancouver effect tramontina 6l,1,-1,True
+656,panettone bauducco 4,1,-1,True
+657,pano scott duramax semi desc rolo c 58 un,3,40,False
+658,pao alho italiany trad 350g,1,89,False
+659,pao alho santa massa 400g,1,99,False
+660,pao alho santa massa c pimenta 400g,1,-1,True
+661,pao alho santa massa picante 400g,2,99,False
+662,pao alho santa massa trad 240g,1,99,False
+663,pao alho santa massa trad 400g,6,99,False
+664,pao alho sta massa 400g,2,100,False
+665,pao alho sta massa 400g pican,1,100,False
+666,pao alho sta massa 400g trad,1,100,False
+667,pao brioche c gerg 270g,5,-1,True
+668,pao cebola santa massa 400g,1,-1,True
+669,pao cervejinha,1,-1,True
+670,pao forma pullman trad 480g,1,-1,True
+671,pao forma seven boys 450g,5,5,False
+672,pao forma seven boys leite 450g,6,5,False
+673,pao frances br kg,14,119,False
+674,pao frances kg,2,119,False
+675,pao frances mini kg,3,119,False
+676,pao hamb c gerg 350g,1,-1,True
+677,pao quei calab kg,8,129,False
+678,pao quei parm kg,1,129,False
+679,pao quei trad kg,3,129,False
+680,pao queijo,4,133,False
+681,pao queijo com bacon geleia pimenta,1,103,False
+682,pao queijo forno minas trad 820g,1,132,False
+683,pao queijo marquespa,1,133,False
+684,pao queijo mega lanc,1,133,False
+685,pao queijo parm kg,6,132,False
+686,pao queijo serra mineira 1kg,1,132,False
+687,pao queijo tomate seco com rucula,1,-1,True
+688,pao queijo trad kg,3,132,False
+689,pao seven boys 450g,1,5,False
+690,pao seven boys leite 450g,4,5,False
+691,pap hig mimmo f dup neut 30m l12p11 un,1,11,False
+692,pap hig mimmo f dup neut 30m l16p15 un,4,11,False
+693,pap hig mimmo f dup neut comp 30m l24p21 un,2,11,False
+694,pap pres clube papel estamp folha g un,1,10,False
+695,papel pres grafons pers,1,10,False
+696,papel presente 70x100 teen sortido tilibra,1,10,False
+697,papel report senninha a4 bc c 100fl 75g un,1,10,False
+698,pastel carne kg,2,131,False
+699,peito bov s osso kg,1,128,False
+700,peito fgo ave serra desf temp cong pct 400g,1,-1,True
+701,peito fgo cong pct kg,5,116,False
+702,peito frango empanado,1,-1,True
+703,pepino cbs vd 300g,4,22,False
+704,pepino japones kg,7,22,False
+705,pepino salada kg,3,22,False
+706,pepino serra vd 300g,1,22,False
+707,pepino toscana 300g cons,2,22,False
+708,pessego kg,1,87,False
+709,pessego nacional kg,7,87,False
+710,petitsupr mlf,1,112,False
+711,picanha bov fat vac kg,1,-1,True
+712,picole bombom palito brigadeiro,1,90,False
+713,picole bombom palito skimo,1,90,False
+714,picole creme leite condensado,1,113,False
+715,picole creme morango,1,113,False
+716,picole creme nata,2,113,False
+717,picole diamond cookies bianco,1,-1,True
+718,picole fruta abacaxi,1,107,False
+719,picole fruta limao,1,107,False
+720,picole mais coco,1,-1,True
+721,picole mex morango c leite cond,1,113,False
+722,picole super barrita,1,90,False
+723,pilha duracell alcal peq aa c 4 un,1,40,False
+724,pilha duracell sm alcal peq aa c 2 un,1,40,False
+725,pimenta preta cbs moida sache 30g,1,85,False
+726,pimentao verde kg,10,85,False
+727,pimentao vermelho kg,8,85,False
+728,pinca com ponta reta,1,-1,True
+729,pincel para pintura,1,-1,True
+730,pingo douro chips 120g pica,1,69,False
+731,pinhao emb kg,1,126,False
+732,pinhao kg,1,126,False
+733,pipoca cbs premium 400g,1,-1,True
+734,pipoca gde mista salg doce,1,-1,True
+735,pipoca m ondas yoki bacon 100g,1,103,False
+736,pipoca yoki premium 400g,3,-1,True
+737,pipoqueira loreto tramontina 20cm,1,46,False
+738,pizza calabresa assada,1,24,False
+739,pizza calabresa fl fatia kg,1,24,False
+740,pizza seara calab 460g,1,24,False
+741,polentina quaker inst 500g,1,-1,True
+742,porta filt melitta 102 un,1,16,False
+743,porta trecos ferro pintado,1,-1,True
+744,prend esfrebom emborrachado c 12 un,1,-1,True
+745,prensador para hamburger black burger,1,-1,True
+746,pres excelsior cozido fat 180g,1,88,False
+747,pres seara fat 180g,1,88,False
+748,presunto lebon 180g,1,-1,True
+749,presunto progresso cozido fat 1kg,1,-1,True
+750,presunto sadia cozido fat 180g,1,88,False
+751,prot cerdas powerdent c 4 un,1,-1,True
+752,prot d carefree protecao c perf c 15 un,1,3,False
+753,prot d carefree todo dia s perf c 15 un,2,3,False
+754,prot d intimus s perf c 15 un,1,3,False
+755,prot nivea fps70 200ml protect hidrata,1,-1,True
+756,pudim bretzke baun 50g,1,114,False
+757,pudim bretzke choc 50g,1,114,False
+758,pudim bretzke leite cond 50g,2,115,False
+759,pudim bretzke mor 50g,2,114,False
+760,pulverizador sanremo rosa 580ml rfsr501 1 un,1,-1,True
+761,pure batata,1,96,False
+762,pvv046 sobrecoxa com ervilha pure batata cenoura assada,1,-1,True
+763,pvv047 frango grelhado arroz integral creme milho,1,50,False
+764,pvv056 carne moida arroz integral feijao carioca,1,49,False
+765,pvv086 estrogonofe frango arroz batata assada com alho salsinha,1,50,False
+766,pvv087 file mignon suino acebolado arroz feijao carioca,1,49,False
+767,pvv122 frango desfiado cremoso arroz feijao carioca brocolis vapor,1,49,False
+768,pvv123 almondega carne com fusilli,1,-1,True
+769,pvv127 picadinho carne arroz feijao carioca farofa,1,49,False
+770,pvv128 escondidinho frango com pure batata doce,1,50,False
+771,pvv130 coxa sobrecoxa assadas arroz feijao carioca farofa,1,49,False
+772,pvv133 frango sugo com queijo arroz batata assada,1,50,False
+773,qjo muss casa queijo 300,1,-1,True
+774,quei friolack muss fat 700g,2,123,False
+775,quei kiformaggio coalho palito kg,1,129,False
+776,quei latpassos muss fat 1kg,1,123,False
+777,quei latpassos muss fat 400g,1,123,False
+778,quei latvida muss fat 500g,1,123,False
+779,quei mandaka muss fat 150g,1,123,False
+780,quei mandaka muss fat 400g,1,123,False
+781,quei mandaka muss fat 700g,1,123,False
+782,quei ral cbs 100g,1,118,False
+783,quei ral parmezzo 40g,8,118,False
+784,quei ral parmissimo 50g,2,-1,True
+785,quei ral valore 40g,2,118,False
+786,quei sta clara muss fat 1kg,1,123,False
+787,quei tche milk muss fat 700g,3,123,False
+788,queijo coalho quata 300g,1,132,False
+789,quinta morgado esp mosc,1,112,False
+790,recorte alcatra bov rolha vac kg,1,127,False
+791,recorte coxao dentr bov ponto capa kg,3,-1,True
+792,recorte file mignon bov cordao vac kg,4,127,False
+793,refr antar guar s ac 2l,1,94,False
+794,refresco del valle frut fr citr 450ml,1,63,False
+795,refresco del valle frut uva pet 1 5l,1,63,False
+796,refri antar guarana s acuc lt 350ml,1,94,False
+797,refri antar guarana s acuc pet 1 5l,7,94,False
+798,refri antar guarana s acuc pet 2l,4,94,False
+799,refri antar guarana zero pet 600ml,1,94,False
+800,refri coca cola 2l zero,1,42,False
+801,refri coca cola pet 600ml,1,42,False
+802,refri coca cola s acuc pet 2l,1,42,False
+803,refri coca cola s acuc pet 600ml,5,42,False
+804,refri fanta lar pet 2l,1,66,False
+805,refri fanta lar zero pet 2l,2,66,False
+806,refri fruki guarana zero lt 350ml,1,94,False
+807,refri fruki guarana zero pet 2l,1,94,False
+808,refri fruki guarana zero pet 3l,1,94,False
+809,refri fruki guarana zero pet 600ml,1,94,False
+810,refri h2oh limoneto pet 1 5l,2,63,False
+811,refri pepsi black pet 2l,1,66,False
+812,refri pepsi twist lt 350ml,1,66,False
+813,refri pepsi twist pet 2l,2,66,False
+814,refri schweppes citrus orig pet 1 5l,1,63,False
+815,refri sprite 2l zero,1,66,False
+816,refri sprite orig pet 2l,1,66,False
+817,refri sprite orig s acuc lt 350ml,1,66,False
+818,refri sprite s acuc pet 2l,23,66,False
+819,refrig antarc 600ml guar,1,94,False
+820,regua 30 cm potencia cristal,1,65,False
+821,regua plast 15cm cristal acrimet 511,1,65,False
+822,regua plast 20cm cristal acrimet 512,1,65,False
+823,regua plast geometrica waleu,1,13,False
+824,remov esmalte zulu seduction 90ml,1,31,False
+825,renda guipir,1,112,False
+826,repolho liso vde un,1,85,False
+827,repolho roxo kg,2,85,False
+828,repolho verde emb kg,2,85,False
+829,repolho verde inteiro kg,2,85,False
+830,req porto novo 180g light cr,1,54,False
+831,requeijao elege light 400g,1,54,False
+832,requeijao elege light pt 400g,11,54,False
+833,requeijao sta clara trad pt 180g,1,-1,True
+834,rev pao queijo tradicional 400g,1,-1,True
+835,rissole carne,2,131,False
+836,rolo alum embalebem 30x7 5m un,1,28,False
+837,rucula hidroponica un,2,-1,True
+838,sab inf granado glicerina 90g,1,48,False
+839,sabt flor ype suave flor baun amendoa 85g,1,58,False
+840,sabt flor ype suave flor laraj damasco 85g,1,58,False
+841,sabt flor ype suave flor maca framb 85g,1,58,False
+842,sabt flor ype suave rosas bcas avela 85g,1,58,False
+843,sabt johnsons amendoas 80g,4,36,False
+844,sabt johnsons erva doce 80g,7,36,False
+845,sabt johnsons lavanda 80g,1,36,False
+846,sabt johnsons roma 80g,8,36,False
+847,sabt johnsons rosa sandalo 80g,2,36,False
+848,sabt rexona antibac erva doce 84g,1,14,False
+849,sabt rexona antibac fresh 84g,1,14,False
+850,sabt rexona antibac multivitaminas 84g,1,14,False
+851,saco lixo brilhus 110l gt10 c 50 un,1,4,False
+852,saco lixo brilhus 15l c 40 un,1,4,False
+853,saco lixo brilhus rol 15l c 40 un,1,4,False
+854,saco lixo valore 15l c 20 un,2,4,False
+855,saco p alim embalebem freezer micro 5l c 100 un,1,-1,True
+856,sacola clube papel hs 433 sc g un,1,10,False
+857,saia vestido,1,-1,True
+858,sal amoniaco sabor t,1,-1,True
+859,sal grosso cbs 1k churrasco,1,59,False
+860,sal grosso pirata churrasco 1kg,1,59,False
+861,sal moido cbs 1kg,1,47,False
+862,sal ref cbs 1kg,2,47,False
+863,sal refinado marfim 1kg iodad,1,47,False
+864,salame italiano dalia mini kv,1,-1,True
+865,salg beija flor bacon 100g,2,103,False
+866,salg cheetos onda requei 40g,1,70,False
+867,salg elma chips 120g,1,69,False
+868,salg fandangos presun 250g,1,75,False
+869,salg fandangos presun 35g,1,75,False
+870,salg fandangos presunto 160g,1,75,False
+871,salg italiany 100g,1,89,False
+872,salg panine bolinha trigo bacon 150g,1,103,False
+873,salg pingo d ouro picanha 120g,1,69,False
+874,salg torcida costela c limao 35g,1,-1,True
+875,salg torcida pim mexic 35g,1,-1,True
+876,salg trigo torcida 60g,1,-1,True
+877,sals excelsior hot dog 400g,1,32,False
+878,salsicha empanada,1,32,False
+879,salsicha seara hot dog 500g,1,32,False
+880,salsichao sto andre kg,1,32,False
+881,salsichao suino borrussia resf,1,32,False
+882,saponaceo crem cif orig gt20 250ml,1,-1,True
+883,sard g costa c oleo 125g,1,-1,True
+884,scx fgo nat cong iqf pct 1kg,1,117,False
+885,seara linguica def fininha 21,1,-1,True
+886,seleta mista seara nature cong 300g,2,86,False
+887,servico,2,-1,True
+888,sh neutrox nutre oleos 300ml,1,33,False
+889,sh ox lisos 400ml,1,-1,True
+890,sh palmolive 350ml,1,-1,True
+891,sh pantene molecular 175ml,1,-1,True
+892,sh seda cha verde citrico 325ml,4,-1,True
+893,sh seda toque seda 300ml,1,33,False
+894,short esp slo norton shorts com bermuda,2,-1,True
+895,slider doce leite,1,-1,True
+896,snack cheez it snap pwr qjo 75g,1,-1,True
+897,sobrecoxa fgo nat cong iqf pct 1kg,1,117,False
+898,sopa legumes melhor cong pct 300g,1,-1,True
+899,sopa maggi carne c conchinhas 63g,1,-1,True
+900,sopinha caneca neilar leg 18g,1,-1,True
+901,sorvete artesanal p,1,-1,True
+902,sorvete nestle trad napolitano 1 5l,3,-1,True
+903,sprite limao s acucar 2l,1,66,False
+904,sprite sem acucares 2l,1,66,False
+905,st johnsons 80g lavanda,1,36,False
+906,st johnsons 80g roma,1,36,False
+907,stilgrip 5g antigripal hertz av,1,-1,True
+908,stroopwafels panine 200g,1,-1,True
+909,suco abacaxi com hortela natural,1,108,False
+910,suco integ del grano uva gold 1 35l,2,63,False
+911,suco integ salton uva 1 5l,1,63,False
+912,suco laranja natural,1,108,False
+913,suco panizzon uva integral 1 35l,1,63,False
+914,suco resf petry laranja 450ml,2,108,False
+915,suco resf plenno laranja 900ml,1,108,False
+916,suco salton uva integral 1 5l,1,63,False
+917,sueter chenille,1,112,False
+918,suibom costela defumada kg,1,125,False
+919,suuva300prmcl,1,-1,True
+920,t shirt boxer manga curta decote careca long cropped meia malha algodao interlock amarelo claro pp,1,21,False
+921,tab drms marac 130,1,-1,True
+922,tabdreams avela130,1,-1,True
+923,tablete classic duo 80g nestle,1,-1,True
+924,tablete classic leite 80g nestle,1,111,False
+925,tablete snickers 45g,1,37,False
+926,tabua polipropileno p cozinha,1,-1,True
+927,tecido oxford 100pes 1 40 l 155g m2,1,-1,True
+928,temp arg azei oli molinos ext virg 500ml,1,-1,True
+929,temp temperalle acafrao 20g,1,59,False
+930,temp temperalle alho ceb salsa 15g,3,59,False
+931,temp temperalle arroz 15g,2,59,False
+932,temp temperalle carne panela 15g,1,59,False
+933,temp temperalle carnes 15g,2,59,False
+934,temp temperalle chimichurri 15g,2,59,False
+935,temp temperalle churrasco 15g,1,59,False
+936,temp temperalle feijao 15g,3,59,False
+937,temp temperalle lemom pepper 20g,2,59,False
+938,temp temperalle lemon pepp 20g,1,59,False
+939,temp temperalle lemon pepper 20g,1,59,False
+940,temp temperalle limao ervas 20g,1,59,False
+941,temp temperalle paprica def 20g,5,59,False
+942,temp verde emb un,2,-1,True
+943,tempero verde emb un,2,-1,True
+944,tesoura p tecido circulo,1,-1,True
+945,tesoura para pelos para unhas bebes 4,1,-1,True
+946,tinta tecido fosca 37ml amarelo canario,1,-1,True
+947,tio silvio amendoim japones 2,1,-1,True
+948,tira manchas liq vanish white s cl 200ml,1,-1,True
+949,tira manchas saif 2x500ml 1 limp maq 80g un,1,71,False
+950,toalha pap cbs 20x19 c 2 un,2,10,False
+951,toalha pap mili c 2 110f un,5,10,False
+952,toalha papel cbs 2 rolos,1,10,False
+953,toalha umed mili prime comfort c 50 un,1,10,False
+954,toalha umed natural baby c 100 un,10,10,False
+955,toalha umed natural baby mae filho c 60 un,1,10,False
+956,tomate longa vida kg,24,-1,True
+957,tomate sweet grape 180g,5,-1,True
+958,tomilho gauer 16g,1,-1,True
+959,torta 4 leites avela baby cong kg,1,-1,True
+960,torta ouro branco baby cong kg,2,-1,True
+961,tortilha rap 10 fit 297g,1,-1,True
+962,tortilha rap 10 trad 297g,4,-1,True
+963,triplo calabresa,1,-1,True
+964,triplo salsicha,2,32,False
+965,trouxinha pres quei kg,1,129,False
+966,tshirt boxer suede areia p,1,-1,True
+967,uva bca divertidas s semente 500g,1,-1,True
+968,uva niagara branca kg,2,110,False
+969,uva niagara kg,1,110,False
+970,uva niagara rosa kg,1,110,False
+971,uva preta divertidas s semente 500g,1,-1,True
+972,uva venus kg,1,110,False
+973,vazio bov comesul vac kg,1,127,False
+974,vazio bov kg,1,127,False
+975,vazio kg,1,126,False
+976,vela aniv confesta azul n3 un,1,-1,True
+977,vestido sem manga suede liso midi com re,1,21,False
+978,vin cancao tinto suave 750ml,5,30,False
+979,vin catafesta tinto suave 750ml,1,30,False
+980,vin chil gato negro cab sauv 750ml,1,30,False
+981,vin del grano bco suave pet 1 48l,2,30,False
+982,vin del grano tinto suave pet 1 48l,2,30,False
+983,vin pergola tinto suave 1l,1,30,False
+984,vinagre weinmann alcool 750ml,2,30,False
+985,wafel hol moinho stroop 280g,2,-1,True
+986,xicara cappuccino tramon 200ml paola hs un,1,-1,True

@@ -1,0 +1,540 @@
+config_name,sample_type,description,frequency,rank,term,value
+word_unigram_min_df_2,vocabulary_sample,,,1,10,
+word_unigram_min_df_2,vocabulary_sample,,,2,100,
+word_unigram_min_df_2,vocabulary_sample,,,3,100g,
+word_unigram_min_df_2,vocabulary_sample,,,4,102,
+word_unigram_min_df_2,vocabulary_sample,,,5,110g,
+word_unigram_min_df_2,vocabulary_sample,,,6,12,
+word_unigram_min_df_2,vocabulary_sample,,,7,120g,
+word_unigram_min_df_2,vocabulary_sample,,,8,125g,
+word_unigram_min_df_2,vocabulary_sample,,,9,130g,
+word_unigram_min_df_2,vocabulary_sample,,,10,135g,
+word_unigram_min_df_2,vocabulary_sample,,,11,140g,
+word_unigram_min_df_2,vocabulary_sample,,,12,15,
+word_unigram_min_df_2,vocabulary_sample,,,13,150g,
+word_unigram_min_df_2,vocabulary_sample,,,14,150ml,
+word_unigram_min_df_2,vocabulary_sample,,,15,15g,
+word_unigram_min_df_2,vocabulary_sample,,,16,15kg,
+word_unigram_min_df_2,vocabulary_sample,,,17,15l,
+word_unigram_min_df_2,vocabulary_sample,,,18,16g,
+word_unigram_min_df_2,vocabulary_sample,,,19,170g,
+word_unigram_min_df_2,vocabulary_sample,,,20,180g,
+word_unigram_min_df_2,highest_idf,,,1,102,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,2,2025,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,3,20cm,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,4,215g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,5,220g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,6,24cm,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,7,250ml,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,8,tp2,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,9,tradicional,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,10,trident,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,11,triplo,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,12,usual,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,13,251g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,14,270g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,15,280g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,16,28g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,17,297g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,18,30,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,19,33g,6.797070409079758
+word_unigram_min_df_2,highest_idf,,,20,35l,6.797070409079758
+word_unigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,1,agulha,0.5525886630864677
+word_unigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,2,moida,0.5181683135189127
+word_unigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,3,carne,0.45932633728091316
+word_unigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,4,bov,0.38739835147112317
+word_unigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,5,kg,0.2551258541403304
+word_unigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,1,citr,0.49519723725260945
+word_unigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,2,frukito,0.4742383006944527
+word_unigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,3,fr,0.44469833873241715
+word_unigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,4,2l,0.33786906940814904
+word_unigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,5,beb,0.3351195162881537
+word_unigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,6,pet,0.3250546410074995
+word_unigram_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,1,vida,0.6826655455005055
+word_unigram_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,2,tomate,0.6592635903082382
+word_unigram_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,3,kg,0.3151813311101861
+word_unigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,1,20,0.5961605955659043
+word_unigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,2,bco,0.5449083328077589
+word_unigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,3,ovos,0.4955444819714769
+word_unigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,4,un,0.31953578753998046
+word_unigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,1,sprite,0.5300872493577824
+word_unigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,2,acuc,0.4621853723517926
+word_unigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,3,refri,0.4203110101007859
+word_unigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,4,2l,0.4131797091317871
+word_unigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,5,pet,0.3975089588954744
+word_unigram_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,1,manga,0.8884087364934319
+word_unigram_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,2,kg,0.45905328331485024
+word_unigram_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,1,nacional,0.698379702800567
+word_unigram_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,2,cebola,0.6330786700912611
+word_unigram_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,3,kg,0.33388199740577773
+word_unigram_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,1,abacaxi,0.8743576553259764
+word_unigram_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,2,un,0.4852820732036791
+word_unigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,1,figurinha,0.5182260441697576
+word_unigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,2,envelope,0.5182260441697576
+word_unigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,3,copa,0.4962924266827161
+word_unigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,4,2026,0.4653787291074977
+word_unigram_min_df_2,top_terms_frequent_description,batata bca kg,14.0,1,bca,0.7826043303011161
+word_unigram_min_df_2,top_terms_frequent_description,batata bca kg,14.0,2,batata,0.5174881911102158
+word_unigram_min_df_2,top_terms_frequent_description,batata bca kg,14.0,3,kg,0.3460295280108593
+word_unigram_bigram_min_df_2,vocabulary_sample,,,1,10,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,2,100,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,3,100 un,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,4,100g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,5,102,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,6,110g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,7,12,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,8,120g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,9,125g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,10,130g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,11,135g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,12,140g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,13,15,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,14,15 un,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,15,150g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,16,150ml,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,17,15g,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,18,15kg,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,19,15l,
+word_unigram_bigram_min_df_2,vocabulary_sample,,,20,15l 40,
+word_unigram_bigram_min_df_2,highest_idf,,,1,100 un,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,2,102,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,3,zero ped,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,4,12,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,5,130g,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,6,1l integral,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,7,20 un,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,8,2025,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,9,20cm,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,10,215g,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,11,220g,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,12,24cm,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,13,usual,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,14,uva integral,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,15,uva pet,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,16,vacuo,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,17,vacuo kg,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,18,valle frut,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,19,vazio bov,6.797070409079758
+word_unigram_bigram_min_df_2,highest_idf,,,20,vd 300g,6.797070409079758
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,1,agulha kg,0.3824204656526229
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,2,moida bov,0.3824204656526229
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,3,carne moida,0.3662347407026563
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,4,agulha,0.3662347407026563
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,5,bov agulha,0.3662347407026563
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,6,moida,0.3434222426532786
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,7,carne,0.30442401965393423
+word_unigram_bigram_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,8,bov,0.256752887413947
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,1,fr citr,0.3903391091235384
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,2,citr,0.3903391091235384
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,3,beb frukito,0.3738182321701916
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,4,frukito,0.3738182321701916
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,5,fr,0.3505333639027982
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,6,pet 2l,0.29420674172871114
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,7,2l,0.2663252167658997
+word_unigram_bigram_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,8,beb,0.2641578821472711
+word_unigram_bigram_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,1,vida,0.6826655455005055
+word_unigram_bigram_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,2,tomate,0.6592635903082382
+word_unigram_bigram_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,3,kg,0.3151813311101861
+word_unigram_bigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,1,20 un,0.5284767002104186
+word_unigram_bigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,2,20,0.5061092296372257
+word_unigram_bigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,3,bco,0.46259873361548365
+word_unigram_bigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,4,ovos,0.4206914007516568
+word_unigram_bigram_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,5,un,0.27126920577478175
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,1,refri sprite,0.4198144088784036
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,2,sprite,0.3973437768961528
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,3,acuc pet,0.38056024049969406
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,4,acuc,0.3464457628417011
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,5,pet 2l,0.3421356855178663
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,6,refri,0.315057501244972
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,7,2l,0.30971200752740347
+word_unigram_bigram_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,8,pet,0.2979654976967358
+word_unigram_bigram_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,1,manga,0.8884087364934319
+word_unigram_bigram_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,2,kg,0.45905328331485024
+word_unigram_bigram_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,1,nacional kg,0.5725704547053729
+word_unigram_bigram_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,2,nacional,0.5725704547053729
+word_unigram_bigram_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,3,cebola,0.5190330425481142
+word_unigram_bigram_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,4,kg,0.27373499874917767
+word_unigram_bigram_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,1,abacaxi,0.8743576553259764
+word_unigram_bigram_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,2,un,0.4852820732036791
+word_unigram_bigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,1,envelope figurinha,0.4179899576970508
+word_unigram_bigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,2,figurinha,0.4179899576970508
+word_unigram_bigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,3,envelope,0.4179899576970508
+word_unigram_bigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,4,copa 2026,0.4179899576970508
+word_unigram_bigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,5,copa,0.4002987745759096
+word_unigram_bigram_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,6,2026,0.3753644524068522
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata bca kg,14.0,1,bca,0.7826043303011161
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata bca kg,14.0,2,batata,0.5174881911102158
+word_unigram_bigram_min_df_2,top_terms_frequent_description,batata bca kg,14.0,3,kg,0.3460295280108593
+char_wb_3_5_min_df_2,vocabulary_sample,,,1, 1 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,2, 10,
+char_wb_3_5_min_df_2,vocabulary_sample,,,3, 10 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,4, 100,
+char_wb_3_5_min_df_2,vocabulary_sample,,,5, 100 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,6, 100g,
+char_wb_3_5_min_df_2,vocabulary_sample,,,7, 102,
+char_wb_3_5_min_df_2,vocabulary_sample,,,8, 102 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,9, 11,
+char_wb_3_5_min_df_2,vocabulary_sample,,,10, 110,
+char_wb_3_5_min_df_2,vocabulary_sample,,,11, 110g,
+char_wb_3_5_min_df_2,vocabulary_sample,,,12, 12,
+char_wb_3_5_min_df_2,vocabulary_sample,,,13, 12 ,
+char_wb_3_5_min_df_2,vocabulary_sample,,,14, 120,
+char_wb_3_5_min_df_2,vocabulary_sample,,,15, 120g,
+char_wb_3_5_min_df_2,vocabulary_sample,,,16, 125,
+char_wb_3_5_min_df_2,vocabulary_sample,,,17, 125g,
+char_wb_3_5_min_df_2,vocabulary_sample,,,18, 13,
+char_wb_3_5_min_df_2,vocabulary_sample,,,19, 130,
+char_wb_3_5_min_df_2,vocabulary_sample,,,20, 130g,
+char_wb_3_5_min_df_2,highest_idf,,,1,zo ,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,2,zin ,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,3,zzo ,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,4, 130g,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,5, 135,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,6,ger ,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,7,gelei,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,8,gele,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,9,gel ,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,10,gebau,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,11,geba,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,12,geb,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,13,gauer,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,14,gaue,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,15,gau,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,16, 220g,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,17, 215g,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,18, 215,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,19, 20cm,6.797070409079758
+char_wb_3_5_min_df_2,highest_idf,,,20, 20c,6.797070409079758
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,1,ulha ,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,2,ulh,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,3,agulh,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,4,ulha,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,5,gulh,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,6,agul,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,7, agul,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,8,gulha,0.1782182354409175
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,1,citr ,0.18915060123537789
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,2,itr ,0.18915060123537789
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,3, fr,0.1840732082278282
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,4,rukit,0.18114491147583028
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,5,kito ,0.18114491147583028
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,6,kito,0.18114491147583028
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,7,ukit,0.18114491147583028
+char_wb_3_5_min_df_2,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,8,ukito,0.18114491147583028
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,1, long,0.20724609950424902
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,2,long,0.20724609950424902
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,3, lon,0.20724609950424902
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,4, vida,0.19847452825006773
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,5, vid,0.19847452825006773
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,6, toma,0.19167076900437569
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,7,omate,0.19167076900437569
+char_wb_3_5_min_df_2,top_terms_frequent_description,tomate longa vida kg,24.0,8,tomat,0.19167076900437569
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,1, 20 ,0.27186347750241086
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,2,20 ,0.262543925694269
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,3, bco ,0.2484912209545418
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,4,bco ,0.2484912209545418
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,5, bco,0.2484912209545418
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,6,bco,0.2484912209545418
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,7,vos,0.22598012536875792
+char_wb_3_5_min_df_2,top_terms_frequent_description,ovos bco c 20 un,23.0,8,ovos,0.22598012536875792
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,1,prite,0.18054761011344606
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,2,sprit,0.18054761011344606
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,3, spri,0.18054761011344606
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,4,prit,0.18054761011344606
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,5,spri,0.18054761011344606
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,6, spr,0.18054761011344606
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,7,spr,0.18054761011344606
+char_wb_3_5_min_df_2,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,8,rite ,0.17649556045672837
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,1,manga,0.28117399559979933
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,2,anga ,0.2754800214572678
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,3, mang,0.2754800214572678
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,4,anga,0.2754800214572678
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,5,nga ,0.27038658802301985
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,6,mang,0.27038658802301985
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,7,nga,0.27038658802301985
+char_wb_3_5_min_df_2,top_terms_frequent_description,manga tommy kg,20.0,8, tom,0.25412054254096744
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,1,acion,0.1885811042615561
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,2, naci,0.1885811042615561
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,3,naci,0.1885811042615561
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,4,acio,0.1885811042615561
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,5,nacio,0.1885811042615561
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,6, nac,0.18311163851768056
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,7,nac,0.17448146187773256
+char_wb_3_5_min_df_2,top_terms_frequent_description,cebola nacional kg,18.0,8,ional,0.17448146187773256
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,1,pero,0.21397435448964158
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,2,acaxi,0.21397435448964158
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,3,bacax,0.21397435448964158
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,4,caxi ,0.21397435448964158
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,5,acax,0.21397435448964158
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,6,caxi,0.21397435448964158
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,7,cax,0.21397435448964158
+char_wb_3_5_min_df_2,top_terms_frequent_description,abacaxi perola un,16.0,8,abaca,0.20776840184909615
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,1,lope ,0.14337587652811462
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,2,ope ,0.14337587652811462
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,3,gurin,0.13730757550770736
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,4, figu,0.13730757550770736
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,5,figur,0.13730757550770736
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,6,urin,0.13730757550770736
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,7,urinh,0.13730757550770736
+char_wb_3_5_min_df_2,top_terms_frequent_description,envelope figurinha copa 2026,15.0,8, fig,0.13730757550770736
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,1, bca ,0.3023908566205061
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,2,bca ,0.3023908566205061
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,3, bca,0.28959233856972216
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,4,bca,0.28959233856972216
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,5,ata,0.2814760240389169
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,6, bc,0.240716824404033
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,7,tata ,0.19995250644806095
+char_wb_3_5_min_df_2,top_terms_frequent_description,batata bca kg,14.0,8,atata,0.19995250644806095
+word_unigram_min_df_5,vocabulary_sample,,,1,100g,
+word_unigram_min_df_5,vocabulary_sample,,,2,120g,
+word_unigram_min_df_5,vocabulary_sample,,,3,150g,
+word_unigram_min_df_5,vocabulary_sample,,,4,15g,
+word_unigram_min_df_5,vocabulary_sample,,,5,170g,
+word_unigram_min_df_5,vocabulary_sample,,,6,180g,
+word_unigram_min_df_5,vocabulary_sample,,,7,1kg,
+word_unigram_min_df_5,vocabulary_sample,,,8,1l,
+word_unigram_min_df_5,vocabulary_sample,,,9,200g,
+word_unigram_min_df_5,vocabulary_sample,,,10,200ml,
+word_unigram_min_df_5,vocabulary_sample,,,11,2026,
+word_unigram_min_df_5,vocabulary_sample,,,12,20g,
+word_unigram_min_df_5,vocabulary_sample,,,13,2l,
+word_unigram_min_df_5,vocabulary_sample,,,14,300g,
+word_unigram_min_df_5,vocabulary_sample,,,15,300ml,
+word_unigram_min_df_5,vocabulary_sample,,,16,350g,
+word_unigram_min_df_5,vocabulary_sample,,,17,350ml,
+word_unigram_min_df_5,vocabulary_sample,,,18,35g,
+word_unigram_min_df_5,vocabulary_sample,,,19,40,
+word_unigram_min_df_5,vocabulary_sample,,,20,400g,
+word_unigram_min_df_5,highest_idf,,,1,white,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,2,vd,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,3,saco,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,4,sobrecoxa,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,5,squeeze,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,6,rech,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,7,pres,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,8,prot,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,9,pr,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,10,oleo,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,11,moida,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,12,milho,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,13,pepino,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,14,pim,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,15,deutschips,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,16,gf,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,17,flor,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,18,esfrebom,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,19,fr,6.103923228519813
+word_unigram_min_df_5,highest_idf,,,20,fini,6.103923228519813
+word_unigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,1,moida,0.62171186313916
+word_unigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,2,carne,0.5511117246836046
+word_unigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,3,bov,0.46481065049022985
+word_unigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,4,kg,0.3061066568030604
+word_unigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,1,fr,0.6109106177670872
+word_unigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,2,2l,0.4641524016142602
+word_unigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,3,beb,0.46037516421798896
+word_unigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,4,pet,0.44654839978037103
+word_unigram_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,1,kg,1.0
+word_unigram_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,1,bco,0.6787046275015522
+word_unigram_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,2,ovos,0.6172200217858588
+word_unigram_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,3,un,0.3979943131687224
+word_unigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,1,sprite,0.5300872493577824
+word_unigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,2,acuc,0.4621853723517926
+word_unigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,3,refri,0.4203110101007859
+word_unigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,4,2l,0.4131797091317871
+word_unigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,5,pet,0.3975089588954744
+word_unigram_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,1,manga,0.8884087364934319
+word_unigram_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,2,kg,0.45905328331485024
+word_unigram_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,1,cebola,0.8845247798274343
+word_unigram_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,2,kg,0.46649320881576506
+word_unigram_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,1,un,1.0
+word_unigram_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,1,2026,1.0
+word_unigram_min_df_5,top_terms_frequent_description,batata bca kg,14.0,1,batata,0.8312803614461367
+word_unigram_min_df_5,top_terms_frequent_description,batata bca kg,14.0,2,kg,0.5558533625642471
+word_unigram_bigram_min_df_5,vocabulary_sample,,,1,100g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,2,120g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,3,150g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,4,15g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,5,170g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,6,180g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,7,1kg,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,8,1l,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,9,200g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,10,200ml,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,11,2026,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,12,20g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,13,2l,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,14,300g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,15,300ml,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,16,350g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,17,350ml,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,18,35g,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,19,40,
+word_unigram_bigram_min_df_5,vocabulary_sample,,,20,400g,
+word_unigram_bigram_min_df_5,highest_idf,,,1,zero pet,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,2,zero mor,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,3,60,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,4,ervilha,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,5,5g,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,6,squeeze,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,7,sobrecoxa,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,8,rech,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,9,prot,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,10,baby,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,11,saco,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,12,ave serra,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,13,atum ral,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,14,arroz branco,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,15,antar,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,16,alho santa,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,17,alface,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,18,agua min,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,19,aer,6.103923228519813
+word_unigram_bigram_min_df_5,highest_idf,,,20,sabt johnsons,6.103923228519813
+word_unigram_bigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,1,moida,0.62171186313916
+word_unigram_bigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,2,carne,0.5511117246836046
+word_unigram_bigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,3,bov,0.46481065049022985
+word_unigram_bigram_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,4,kg,0.3061066568030604
+word_unigram_bigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,1,fr,0.543615733340723
+word_unigram_bigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,2,pet 2l,0.4562630269425298
+word_unigram_bigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,3,2l,0.41302367457229616
+word_unigram_bigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,4,beb,0.4096625189180023
+word_unigram_bigram_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,5,pet,0.3973588422902198
+word_unigram_bigram_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,1,kg,1.0
+word_unigram_bigram_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,1,bco,0.6787046275015522
+word_unigram_bigram_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,2,ovos,0.6172200217858588
+word_unigram_bigram_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,3,un,0.3979943131687224
+word_unigram_bigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,1,sprite,0.4377913299275266
+word_unigram_bigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,2,acuc pet,0.4192993158401559
+word_unigram_bigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,3,acuc,0.3817121598002642
+word_unigram_bigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,4,pet 2l,0.376963338770697
+word_unigram_bigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,5,refri,0.347128734596309
+word_unigram_bigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,6,2l,0.3412390971090578
+word_unigram_bigram_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,7,pet,0.3282968529874926
+word_unigram_bigram_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,1,manga,0.8884087364934319
+word_unigram_bigram_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,2,kg,0.45905328331485024
+word_unigram_bigram_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,1,cebola,0.8845247798274343
+word_unigram_bigram_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,2,kg,0.46649320881576506
+word_unigram_bigram_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,1,un,1.0
+word_unigram_bigram_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,1,2026,1.0
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata bca kg,14.0,1,batata,0.8312803614461367
+word_unigram_bigram_min_df_5,top_terms_frequent_description,batata bca kg,14.0,2,kg,0.5558533625642471
+char_wb_3_5_min_df_5,vocabulary_sample,,,1, 1 ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,2, 10,
+char_wb_3_5_min_df_5,vocabulary_sample,,,3, 100,
+char_wb_3_5_min_df_5,vocabulary_sample,,,4, 100g,
+char_wb_3_5_min_df_5,vocabulary_sample,,,5, 11,
+char_wb_3_5_min_df_5,vocabulary_sample,,,6, 110,
+char_wb_3_5_min_df_5,vocabulary_sample,,,7, 12,
+char_wb_3_5_min_df_5,vocabulary_sample,,,8, 120,
+char_wb_3_5_min_df_5,vocabulary_sample,,,9, 120g,
+char_wb_3_5_min_df_5,vocabulary_sample,,,10, 13,
+char_wb_3_5_min_df_5,vocabulary_sample,,,11, 14,
+char_wb_3_5_min_df_5,vocabulary_sample,,,12, 15,
+char_wb_3_5_min_df_5,vocabulary_sample,,,13, 150,
+char_wb_3_5_min_df_5,vocabulary_sample,,,14, 150g,
+char_wb_3_5_min_df_5,vocabulary_sample,,,15, 15g,
+char_wb_3_5_min_df_5,vocabulary_sample,,,16, 15g ,
+char_wb_3_5_min_df_5,vocabulary_sample,,,17, 16,
+char_wb_3_5_min_df_5,vocabulary_sample,,,18, 17,
+char_wb_3_5_min_df_5,vocabulary_sample,,,19, 170,
+char_wb_3_5_min_df_5,vocabulary_sample,,,20, 170g,
+char_wb_3_5_min_df_5,highest_idf,,,1,alfac,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,2, 2026,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,3,zedin,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,4,zedi,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,5,idesn,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,6,ides,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,7,idas ,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,8,ilhus,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,9,ilhu,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,10,ilezi,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,11,ilez,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,12,urras,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,13,vela ,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,14,vd ,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,15,vao ,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,16,vao,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,17,vanda,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,18, pepi,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,19, pipo,6.103923228519813
+char_wb_3_5_min_df_5,highest_idf,,,20, pime,6.103923228519813
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,1,oida ,0.1934990983778169
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,2,moida,0.1934990983778169
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,3,oida,0.1934990983778169
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,4,gul,0.1934990983778169
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,5, moid,0.1886124023228052
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,6,oid,0.1886124023228052
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,7,moid,0.1886124023228052
+char_wb_3_5_min_df_5,top_terms_frequent_description,carne moida bov 2 agulha kg,37.0,8,moi,0.18437935365711203
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,1, fr,0.2105410866462162
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,2,citr,0.19428590668339252
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,3, cit,0.19428590668339252
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,4,tr ,0.19428590668339252
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,5, citr,0.19428590668339252
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,6,itr,0.19428590668339252
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,7,cit,0.19428590668339252
+char_wb_3_5_min_df_5,top_terms_frequent_description,beb frukito fr citr pet 2l,30.0,8, fr ,0.19428590668339252
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,1,lon,0.22581167472351565
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,2,mate ,0.22581167472351565
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,3,mate,0.22581167472351565
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,4,vida ,0.22581167472351565
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,5,vida,0.22581167472351565
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,6,vid,0.22581167472351565
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,7,omat,0.220743758740184
+char_wb_3_5_min_df_5,top_terms_frequent_description,tomate longa vida kg,24.0,8,nga,0.21227479314298867
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,1, bco ,0.26839836418529656
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,2,bco ,0.26839836418529656
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,3, bco,0.26839836418529656
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,4,bco,0.26839836418529656
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,5,ovos,0.24408385839296298
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,6,vos ,0.24408385839296298
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,7, ovos,0.24408385839296298
+char_wb_3_5_min_df_5,top_terms_frequent_description,ovos bco c 20 un,23.0,8,ovos ,0.24408385839296298
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,1,prite,0.18054761011344606
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,2,sprit,0.18054761011344606
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,3, spri,0.18054761011344606
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,4,prit,0.18054761011344606
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,5,spri,0.18054761011344606
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,6, spr,0.18054761011344606
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,7,spr,0.18054761011344606
+char_wb_3_5_min_df_5,top_terms_frequent_description,refri sprite s acuc pet 2l,23.0,8,rite ,0.17649556045672837
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,1,manga,0.28117399559979933
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,2,anga ,0.2754800214572678
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,3, mang,0.2754800214572678
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,4,anga,0.2754800214572678
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,5,nga ,0.27038658802301985
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,6,mang,0.27038658802301985
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,7,nga,0.27038658802301985
+char_wb_3_5_min_df_5,top_terms_frequent_description,manga tommy kg,20.0,8, tom,0.25412054254096744
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,1, nac,0.20194399963771706
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,2,nac,0.19242624095039684
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,3,iona,0.19242624095039684
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,4,ciona,0.19242624095039684
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,5,cio,0.19242624095039684
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,6,cion,0.19242624095039684
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,7,ional,0.19242624095039684
+char_wb_3_5_min_df_5,top_terms_frequent_description,cebola nacional kg,18.0,8,onal ,0.19242624095039684
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,1,abaca,0.2520479824187062
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,2,baca,0.2520479824187062
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,3,xi ,0.24568267171863137
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,4,axi ,0.24568267171863137
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,5,abac,0.24568267171863137
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,6, abac,0.24568267171863137
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,7,axi,0.24016878878784415
+char_wb_3_5_min_df_5,top_terms_frequent_description,abacaxi perola un,16.0,8, aba,0.24016878878784415
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,1,2026 ,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,2,26 ,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,3,2026,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,4,026 ,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,5, 2026,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,6,opa ,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,7, cop,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,envelope figurinha copa 2026,15.0,8,cop,0.21439468232691689
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,1,ata,0.3492914130595512
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,2, bc,0.29871219060443877
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,3,tata ,0.24812661668258434
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,4,atata,0.24812661668258434
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,5,batat,0.24812661668258434
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,6,atat,0.24812661668258434
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,7,tata,0.24812661668258434
+char_wb_3_5_min_df_5,top_terms_frequent_description,batata bca kg,14.0,8,tat,0.24812661668258434

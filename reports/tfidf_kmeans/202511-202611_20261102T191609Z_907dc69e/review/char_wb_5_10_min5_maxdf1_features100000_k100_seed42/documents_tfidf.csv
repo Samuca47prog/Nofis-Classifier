@@ -1,0 +1,11 @@
+﻿descricao_id,descricao_normalizada,frequencia,termos_tfidf,sem_vocabulario
+331,des aer nivea m inv black white 200ml,2, black: 0.234 |  black : 0.234 | black: 0.234 | black : 0.234 |  blac: 0.234 | ivea : 0.228 | nivea: 0.228 | nivea : 0.228 |  des : 0.228 |  nive: 0.228,False
+760,pulverizador sanremo rosa 580ml rfsr501 1 un,1, 1 : 0.817 |  un : 0.577,False
+602,min pedra 5l s gas,2, gas : 0.548 |  min : 0.537 |  5l : 0.501 |  s : 0.401,False
+720,picole mais coco,1, coco: 0.337 | picole: 0.298 | picole : 0.298 | picol: 0.298 | icole : 0.298 | cole : 0.298 | icole: 0.298 |  picole : 0.298 |  picole: 0.298 |  picol: 0.298,False
+696,papel presente 70x100 teen sortido tilibra,1,ente : 0.369 | papel : 0.360 | papel: 0.360 | apel : 0.360 |  papel : 0.360 |  papel: 0.360 |  pape: 0.360 |  pres: 0.295,False
+44,ameixa natua emb 500g,2, natu: 0.512 |  emb : 0.475 | 500g : 0.413 |  500g : 0.413 |  500g: 0.413,False
+595,melancia baby kg,1,melanc: 0.402 | melan: 0.402 | elanc: 0.402 |  melanc: 0.402 |  melan: 0.402 |  mela: 0.391 |  kg : 0.200,False
+654,palito dent fiat lux bambu c 240 un,1,palito : 0.295 | palito: 0.295 | palit: 0.295 | lito : 0.295 | alito : 0.295 |  pali: 0.295 | alito: 0.295 |  palito : 0.295 |  palito: 0.295 |  palit: 0.295,False
+807,refri fruki guarana zero pet 2l,1,ruki : 0.201 | fruki : 0.201 |  fruki : 0.201 | fruki: 0.188 |  fruki: 0.188 |  fruk: 0.188 | guarana: 0.182 | uarana : 0.182 | arana : 0.182 | guarana : 0.182,False
+157,bisc crocantissimo quei ceb 40g,1, croc: 0.389 |  ceb : 0.389 |  40g : 0.370 |  bisc : 0.321 | bisc : 0.321 |  bisc: 0.317 |  quei : 0.301 | quei : 0.299 |  quei: 0.272,False
